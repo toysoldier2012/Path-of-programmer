@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Backend/01 Java/12 Java EE/Java EE.md",
+                "file": "01 Backend/01 Java/13 Framework/01 Maven/Maven.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,7 +141,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -160,15 +161,15 @@
   },
   "active": "69b68538583d6884",
   "lastOpenFiles": [
-    "01 Backend/01 Java/13 Framework/Framework.md",
-    "01 Backend/01 Java/12 Java EE/JDBC.md",
+    "01 Backend/01 Java/13 Framework/01 Maven/Maven.md",
     "01 Backend/01 Java/12 Java EE/Servlet.md",
-    "01 Backend/01 Java/12 Java EE/Java EE.md",
     "01 Backend/03 Tomcat/Tomcat.md",
-    "01 Backend/01 Java/Java.md",
-    "01 Backend/01 Java/基础知识.md",
-    "01 Backend/01 Java/04 常用类/常用类.md",
-    "00 Inbox/Ajax.md",
-    "00 Inbox/未命名.canvas"
+    "01 Backend/01 Java/12 Java EE/Java EE.md",
+    "01 Backend/01 Java/04 常用类/集合/集合.md",
+    "01 Backend/01 Java/02 通用语法/变量.md",
+    "01 Backend/01 Java/14 JVM/Garbage Collected.md",
+    "01 Backend/01 Java/12 Java EE/JDBC.md",
+    "01 Backend/01 Java/03 面向对象/Module.md",
+    "01 Backend/01 Java/反射.md"
   ]
 }

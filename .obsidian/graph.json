@@ -4,25 +4,88 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:important",
+      "query": "path:\"01 Backend/01 Java/02 通用语法\"",
       "color": {
         "a": 1,
         "rgb": 14048348
       }
     },
     {
-      "query": "path:\"01 Backend/01 Java\"",
+      "query": "path:\"01 Backend/01 Java/03 面向对象\"",
       "color": {
         "a": 1,
         "rgb": 14069084
       }
     },
     {
-      "query": "path:\"01 Backend/02 Database\"",
+      "query": "path:\"01 Backend/01 Java/04 常用类\"",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
+    },
+    {
+      "query": "path:\"01 Backend/01 Java/13 Framework\"",
+      "color": {
+        "a": 1,
+        "rgb": 6084188
+      }
+    },
+    {
+      "query": "path:\"01 Backend/01 Java/14 JVM\"",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    },
+    {
+      "query": "path:\"01 Backend/01 Java/12 Java EE\"",
+      "color": {
+        "a": 1,
+        "rgb": 6073814
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 11361494
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14048429
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "",
       "color": {
         "a": 1,
         "rgb": 11392604
@@ -60,27 +123,34 @@
       "query": "",
       "color": {
         "a": 1,
-        "rgb": 11361494
+        "rgb": 6053078
       }
     },
     {
       "query": "",
       "color": {
         "a": 1,
-        "rgb": 14048429
+        "rgb": 6053037
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 6052956
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.88645833333333,
-  "lineSizeMultiplier": 1.30798611111111,
-  "collapse-forces": true,
-  "centerStrength": 0.149305555555556,
-  "repelStrength": 10.2777777777778,
-  "linkStrength": 0.552083333333333,
-  "linkDistance": 156,
-  "scale": 0.362887369301206,
+  "nodeSizeMultiplier": 2.34583333333333,
+  "lineSizeMultiplier": 2.43090277777778,
+  "collapse-forces": false,
+  "centerStrength": 0.170138888888889,
+  "repelStrength": 20,
+  "linkStrength": 0.680555555555556,
+  "linkDistance": 479,
+  "scale": 0.13168724279835256,
   "close": false
 }

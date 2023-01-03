@@ -7,19 +7,17 @@ Servlet容器
 # 基本操作
 
 - 下载，安装，乱码解决，开启，关闭
-- 配置
-
+- 配置pom
 
 ```xml
 <plugin>  
-<groupId>org.apache.tomcat.maven</groupId>  
-<artifactId>tomcat7-maven-plugin</artifactId>  
-<version>2.2</version>  
-<!--<port></port>-->  
-<!--<path></path>-->  
+	<groupId>org.apache.tomcat.maven</groupId>  
+	<artifactId>tomcat7-maven-plugin</artifactId>  
+	<version>2.2</version>  
+	<!--<port></port>-->  
+	<!--<path></path>-->  
 </plugin>
 ```
-
 
 
 ### Filter

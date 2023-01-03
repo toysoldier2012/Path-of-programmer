@@ -30,7 +30,6 @@ default V computeIfAbsent(K key, Function<? super K,? extends V> mappingFunction
 default V computeIfPresent(K key, BiFunction<? super K,? super V,? extends V> remappingFunction)
 default V compute(K key, BiFunction<? super K,? super V,? extends V> remappingFunction)
 ```
-[[Lambda]]
 
 ## 查
 

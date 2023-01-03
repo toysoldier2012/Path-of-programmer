@@ -21,15 +21,15 @@
 - 查询
 - Apache-DBUtils包
 
-## 什么情况下需要[[Transaction]]
+## 什么情况下需要Transaction
 
 当一个完整的事务中有多个操作步骤时，需要多个步骤共进退，就要考虑通过事务解决，并且多个步骤要同时提交
 
 ## 会导致自动提交的步骤
 
-- [[DDL]]操作，一旦执行，就会自动提交，无法通过命令解决
+- DDL操作，一旦执行，就会自动提交，无法通过命令解决
 
-- [[DML]]操作，默认自动提交，需要设置autocommit属性
+- DML操作，默认自动提交，需要设置autocommit属性
 
 ```Java
 connection.setAutoCommit(false)

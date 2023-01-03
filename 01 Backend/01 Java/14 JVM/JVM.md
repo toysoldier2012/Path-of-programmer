@@ -13,7 +13,7 @@
 		- 负责java -classpath或java.class.path目录下的类与jar包的导入工作
 	- 自定义Classloader
 
-# Garbage Collected
+# [[Garbage Collected]]
 
 1. System.gc()
 2. Set object to null
