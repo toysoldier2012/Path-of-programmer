@@ -4,66 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2ce9fce39320740b",
+        "id": "2753f8f75e6d079d",
         "type": "tabs",
         "children": [
           {
-            "id": "a089a68e9d83e1be",
+            "id": "438b2dae30720575",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Backend/Java/Java.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "16d0dbd7f1e1f7e9",
+            "id": "69b68538583d6884",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "7e50df39af582a6e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "7a498cb080ce6185",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "b0412067bdc66ac3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "668da78b17883b6e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "8344c79d5d74cc8c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Servlet.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Servlet.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Servlet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Servlet.md"
+              }
             }
           }
         ]
@@ -175,8 +148,20 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "a089a68e9d83e1be",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false
+    }
+  },
+  "active": "69b68538583d6884",
   "lastOpenFiles": [
+    "Backend/Java/Java.md",
     "后端/Java/面向对象/面向对象.md",
     "后端/Java/面向对象/特性.md",
     "后端/Java/面向对象/封装.md",
@@ -185,7 +170,6 @@
     "后端/Java/Lambda.md",
     "后端/Java/面向对象/类.md",
     "后端/Java/面向对象/方法.md",
-    "00 Inbox/Java mindmap.md",
-    "后端/Java/通用语法.md"
+    "00 Inbox/Java mindmap.md"
   ]
 }
