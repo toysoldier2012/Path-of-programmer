@@ -21,7 +21,7 @@
 
 # 11. [[Lambda]]
 
-# 12. [[JDBC]]
+# 12. [[Java EE]]
 
 # 13. [[Framework]]
 
