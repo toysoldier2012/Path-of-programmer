@@ -1,5 +1,0 @@
-- [[HashMap]]
-- [[TreeMap]]
-- [[Hashtable]]
-- IdentityHashMap
-- WeakHashMap

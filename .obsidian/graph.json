@@ -4,7 +4,7 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -15,14 +15,14 @@
       }
     },
     {
-      "query": "path:后端/Java/集合",
+      "query": "path:\"01 Backend/01 Java\"",
       "color": {
         "a": 1,
         "rgb": 14069084
       }
     },
     {
-      "query": "path:后端/Java/面向对象",
+      "query": "path:\"01 Backend/02 Database\"",
       "color": {
         "a": 1,
         "rgb": 11392604
@@ -73,14 +73,14 @@
   ],
   "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1.49513888888889,
-  "collapse-forces": false,
-  "centerStrength": 0.25,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.9999999999999966,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.88645833333333,
+  "lineSizeMultiplier": 1.30798611111111,
+  "collapse-forces": true,
+  "centerStrength": 0.149305555555556,
+  "repelStrength": 10.2777777777778,
+  "linkStrength": 0.552083333333333,
+  "linkDistance": 156,
+  "scale": 0.362887369301206,
   "close": false
 }

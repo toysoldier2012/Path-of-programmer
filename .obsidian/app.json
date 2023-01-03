@@ -3,5 +3,15 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "00 Inbox",
   "attachmentFolderPath": "Attachment",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheckLanguages": [],
+  "spellcheck": true,
+  "spellcheckDictionary": [
+    "ConcurrentHashMap",
+    "HashMap",
+    "UNCOMMITTED，允许读取**未提交数据",
+    "COMMITTED，只允许读取其他事务**已提交的数据",
+    "SERIALIZABLE，在某事务读取一个表中的字段时，禁止其他事务对**该表的操作",
+    "READ"
+  ]
 }
