@@ -1,5 +1,0 @@
-- [[AbstractList]]
-- [[AbstractSet]]
-	- [[HashSet]]
-		- [[LinkedHashSet]]
-	- [[TreeSet]]

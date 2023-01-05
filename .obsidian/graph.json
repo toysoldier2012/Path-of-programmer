@@ -8,42 +8,42 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"01 Backend/01 Java/02 通用语法\"",
+      "query": "path:\"01 Backend/01 Java/01 通用语法\"",
       "color": {
         "a": 1,
         "rgb": 14048348
       }
     },
     {
-      "query": "path:\"01 Backend/01 Java/03 面向对象\"",
+      "query": "path:\"01 Backend/01 Java/02 面向对象\"",
       "color": {
         "a": 1,
         "rgb": 14069084
       }
     },
     {
-      "query": "path:\"01 Backend/01 Java/04 常用类\"",
+      "query": "path:\"01 Backend/01 Java/03 常用类\"",
       "color": {
         "a": 1,
         "rgb": 11392604
       }
     },
     {
-      "query": "path:\"01 Backend/01 Java/13 Framework\"",
+      "query": "path:\"01 Backend/01 Java/11 Java EE\"",
       "color": {
         "a": 1,
         "rgb": 6084188
       }
     },
     {
-      "query": "path:\"01 Backend/01 Java/14 JVM\"",
+      "query": "path:\"01 Backend/01 Java/12 Framework\"",
       "color": {
         "a": 1,
         "rgb": 6084269
       }
     },
     {
-      "query": "path:\"01 Backend/01 Java/12 Java EE\"",
+      "query": "path:\"01 Backend/01 Java/13 JVM\"",
       "color": {
         "a": 1,
         "rgb": 6073814
@@ -137,7 +137,28 @@
       "query": "",
       "color": {
         "a": 1,
-        "rgb": 6052956
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:\"01 Backend/03 Tomcat\"",
+      "color": {
+        "a": 1,
+        "rgb": 16711914
+      }
+    },
+    {
+      "query": "path:\"01 Backend/02 Database\"",
+      "color": {
+        "a": 1,
+        "rgb": 9175295
+      }
+    },
+    {
+      "query": "path:\"01 Backend/01 Java\"",
+      "color": {
+        "a": 1,
+        "rgb": 19711
       }
     }
   ],
@@ -150,7 +171,7 @@
   "centerStrength": 0.170138888888889,
   "repelStrength": 20,
   "linkStrength": 0.680555555555556,
-  "linkDistance": 479,
-  "scale": 0.13168724279835256,
+  "linkDistance": 30,
+  "scale": 0.36288736930120785,
   "close": false
 }
