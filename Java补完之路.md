@@ -1,36 +1,37 @@
 
 # Backend
 
-## [[Java]]
+## 1. [[Java]]
 
-## [[Database]]
+## 2. [[Database]]
 
-## [[Tomcat]]
+## 3. [[Tomcat]]
+
+***
 
 # Frontend
 
-## Html
+## 1. Html
 
-## CSS
+## 2. CSS
 
-## Javascript
+## 3. Javascript
 
-## [[Ajax]]
+## 4. [[Ajax]]
 
+***
 
-# 中间件
+# 其他语言与协议
 
-## HTTP
+## 1. HTTP
 
-## Json
+## 2. Json
 
-## XML
+## 3. Cookie与session
 
-## Cookie
+## 4. SSL/TLS
 
-## session
-
-## SSL/TLS
+***
 
 # 其他
 
@@ -38,12 +39,12 @@
 
 ### Eclipse
 
-	- 单元测试方法
+- 单元测试方法
 
 ### IDEA
 
-	- 基本设置
-	- 插件
+- 基本设置
+- 插件
 
 ## 操作系统
 
