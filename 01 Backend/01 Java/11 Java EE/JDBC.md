@@ -3,9 +3,6 @@
 
 1. 导入java.sql包
 2. 创建Driver对象
-	- 方式
-		1. JDBC-ODBC桥方式
-		2. 纯Java驱动
 3. 创建Connection对象
 4. 创建PreparedStatement对象
 5. 执行SQL语句
