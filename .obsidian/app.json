@@ -4,7 +4,9 @@
   "newFileFolderPath": "00 Inbox",
   "attachmentFolderPath": "Attachment",
   "alwaysUpdateLinks": true,
-  "spellcheckLanguages": [],
+  "spellcheckLanguages": [
+    "fr-FR"
+  ],
   "spellcheck": true,
   "spellcheckDictionary": [
     "ConcurrentHashMap",

@@ -1,4 +1,11 @@
 
+# Redis
+
+# MangoDB
+
+# [[MySQL]]
+
+
 # 操作类型
 
 ## [[DDL]]
@@ -21,4 +28,3 @@ C'est une concept fait correspondre le monde objet (programmation orientée obje
 
 ![[Pasted image 20230104152938.png]]
 
-# [[MySQL]]
