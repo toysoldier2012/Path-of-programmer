@@ -19,12 +19,12 @@
 
 # 10. [[Lambda]]
 
-# 11. [[Java EE]]
+# 11. [[Jakarta EE]]
 
 # 12. [[Framework]]
 
 # 13. [[JVM]]
 
-# 14. [[模式与思想]]
+# 14. [[Modèle et Concept]]
 
 

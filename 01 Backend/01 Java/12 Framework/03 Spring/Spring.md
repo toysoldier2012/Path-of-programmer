@@ -3,7 +3,7 @@
 
 ## 1. [[Core Container]]
 
-## 2. AOP
+## 2. [[AOP]]
 
 ## 3. Aspects
 
@@ -13,3 +13,4 @@
 
 ## 6. Test
 
+**Q: La différence entre BeanFactory et ApplicationContext** #D2  

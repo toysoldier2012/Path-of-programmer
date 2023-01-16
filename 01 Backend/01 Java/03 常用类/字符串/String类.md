@@ -53,3 +53,6 @@ length()
 	- getBytes()
 	- String(byte[])
 
+**Q: Les différences entre String, StringBuffer, StringBuilder** #D1 
+
+1. String n'est 

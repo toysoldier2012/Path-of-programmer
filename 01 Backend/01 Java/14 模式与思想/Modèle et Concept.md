@@ -3,25 +3,7 @@
 
 # MVC
 
-# 23种设计模式
-
-## Creational pattern
-
-### 单例模式 Singleton
-
-1. 懒汉式
-2. 饿汉式
-
-### 工厂模式 Factory
-
-### 策略模式 Strategy
-
-![[Pasted image 20221219213413.png]]
-
-### 原型模式 Prototype
-
-### 代理模式
-### 迭代器模式
+# [[Design Patterns]]
 
 # 六大设计原则
 
