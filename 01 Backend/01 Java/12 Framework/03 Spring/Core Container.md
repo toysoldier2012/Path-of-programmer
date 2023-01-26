@@ -57,7 +57,7 @@ public class BeanServiceImpl implements BeanService {
 
 4. Récupérer les Beans
 
-```java
+```Java
 public class Test1 {  
    @Test  
    public void test(){  
@@ -69,6 +69,8 @@ public class Test1 {
    }  
 }
 ```
+
+Normalement on récupère le bean par sa classe, tout en permettant à le récupérer par le nom de bean, mais il faut le définir tout d'abord.
 
 ***
 
@@ -178,6 +180,47 @@ public class BeanDaoImpl implements BeanDao, InitializingBean, DisposableBean {
 ***
 
 # Par Annotation
+
+1. Par applicationContext.xml
+
+```java
+<context:component-scan base-package="com.xxx.xxx" />
+```
+
+2. Par Class SpringConfig.java
+
+```Java
+@Configuration  
+@ComponentScan("xxx")
+@PropertySource("xxx")
+```
+
+3. Définir les beans
+
+```Java
+
+@Component("xxx")
+	@Service("xxx")
+	@Repository("xxx")  
+	@Controller("xxx")
+
+@Scope
+
+@Autowired  
+@Qualifier("xxx")
+
+@Value("xxx")
+@Value("${xxx}")
+
+@PostConstruct
+@PreDestroy
+
+@import
+```
+
+4. Définir le bean tier
+
+Créer un méthode qui renvoie le bean, puis ajouter annotation ```@Bean```
 
 ***
 

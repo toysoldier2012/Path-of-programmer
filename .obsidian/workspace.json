@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Inbox/AOP.md",
+                "file": "01 Backend/01 Java/12 Framework/03 Spring/AOP.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Inbox/AOP.md",
+                "file": "01 Backend/01 Java/11 Jakarta EE/Jakarta EE.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Inbox/AOP.md",
+                "file": "01 Backend/01 Java/11 Jakarta EE/Jakarta EE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Inbox/AOP.md"
+                "file": "01 Backend/01 Java/11 Jakarta EE/Jakarta EE.md"
               }
             }
           },
@@ -189,17 +190,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2f6a294c50173e9d",
+  "active": "0cdc4ed60002bbb3",
   "lastOpenFiles": [
-    "01 Backend/01 Java/12 Framework/03 Spring/Spring.md",
+    "01 Backend/01 Java/12 Framework/03 Spring/AOP.md",
     "01 Backend/01 Java/12 Framework/03 Spring/Core Container.md",
+    "01 Backend/01 Java/12 Framework/03 Spring/Spring.md",
     "01 Backend/01 Java/03 常用类/字符串/String类.md",
     "01 Backend/01 Java/03 常用类/集合/集合.md",
     "01 Backend/01 Java/03 常用类/集合/Map/AbstractMap.md",
     "01 Backend/01 Java/03 常用类/集合/Map/HashMap.md",
     "01 Backend/03 Tomcat/Tomcat.md",
     "01 Backend/02 Database/Transaction.md",
-    "01 Backend/02 Database/TCL.md",
-    "01 Backend/02 Database/MVCC.md"
+    "01 Backend/02 Database/TCL.md"
   ]
 }
