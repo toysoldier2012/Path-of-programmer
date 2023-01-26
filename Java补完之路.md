@@ -5,8 +5,6 @@
 
 ## 2. [[Database]]
 
-## 3. [[Tomcat]]
-
 ***
 
 # Frontend
@@ -21,11 +19,17 @@
 
 ***
 
+# Serveur
+
+## 1. [[Tomcat]]
+
+***
+
 # 其他语言与协议
 
 ## 1. HTTP
 
-## 2. Json
+## 2. JSON
 
 ## 3. Cookie与session
 
@@ -63,11 +67,10 @@
 
 ## Git
 
+## SVN
+
 ***
 
 # 其他
 
-### 
-
-
-
+***
