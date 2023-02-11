@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2753f8f75e6d079d",
+        "id": "70d86b23d8ca2cda",
         "type": "tabs",
         "children": [
           {
-            "id": "2f6a294c50173e9d",
+            "id": "e56d113d04ce473e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Backend/01 Java/12 Framework/03 Spring/AOP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0cdc4ed60002bbb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java补完之路.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc5ad2a38a652184",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Backend/01 Java/注解.md",
+                "file": "01 Backend/01 Java/01 通用语法/基础知识.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java补完之路.md",
+                "file": "01 Backend/01 Java/01 通用语法/基础知识.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java补完之路.md",
+                "file": "01 Backend/01 Java/01 通用语法/基础知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java补完之路.md"
+                "file": "01 Backend/01 Java/01 通用语法/基础知识.md"
               }
             }
           },
@@ -163,7 +139,15 @@
             }
           },
           {
-            "id": "1d504e5c1f3202a8",
+            "id": "ffa2e8b740b42548",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "1971b74989c1792b",
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
@@ -171,11 +155,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 340.5
+    "width": 409.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,17 +174,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d26ecad7d712fd84",
+  "active": "4498381019708a55",
   "lastOpenFiles": [
-    "Serveur/Tomcat.md",
-    "Java补完之路.md",
-    "00 Inbox/操作系统.md",
-    "01 Backend/01 Java/11 Jakarta EE/Jakarta EE.md",
-    "01 Backend/01 Java/12 Framework/03 Spring/AOP.md",
-    "01 Backend/01 Java/12 Framework/03 Spring/Core Container.md",
-    "01 Backend/01 Java/12 Framework/03 Spring/Spring.md",
-    "01 Backend/01 Java/03 常用类/字符串/String类.md",
-    "01 Backend/01 Java/03 常用类/集合/集合.md",
-    "01 Backend/01 Java/03 常用类/集合/Map/AbstractMap.md"
+    "01 Backend/01 Java/01 通用语法/变量.md",
+    "00 Inbox/笔记格式.md",
+    "01 Backend/01 Java/01 通用语法/基础知识.md",
+    "Attachment/Recording 20230210105653.webm",
+    "01 Backend/01 Java/02 面向对象/Interface.md",
+    "01 Backend/01 Java/02 面向对象/Class.md",
+    "01 Backend/01 Java/02 面向对象/Abstract.md",
+    "01 Backend/01 Java/02 面向对象/面向对象.md",
+    "01 Backend/01 Java/Java.md",
+    "01 Backend/01 Java/12 Framework/03 Spring/AOP.md"
   ]
 }
