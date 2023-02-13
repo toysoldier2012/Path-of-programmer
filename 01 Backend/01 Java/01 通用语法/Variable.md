@@ -14,21 +14,25 @@
 
 ### 软引用
 
-1. 通过SoftReference类包装，
+1. 通过SoftReference类包装
+
 ```Java
 SoftReference<byte[]> softReference = new SoftReference<>(new byte[1024 * 1024 * 10]);
 softReference.get();
 ```
+
 2. 空间不够时，会被自动回收
 3. 可以用于缓存
 
 ### 弱引用
 
 1. 通过WeakReference类包装
+
 ```Java
 WeakReference<Person> personWeakReference = new WeakReference<>(new Person());  
 System.gc();
 ```
+
 2. 被垃圾回收器发现时，直接回收
 3. [[ThreadLocal]]
 

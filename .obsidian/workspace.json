@@ -6,6 +6,7 @@
       {
         "id": "70d86b23d8ca2cda",
         "type": "tabs",
+        "dimension": 81.83831672203765,
         "children": [
           {
             "id": "e56d113d04ce473e",
@@ -13,10 +14,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Backend/01 Java/01 通用语法/基础知识.md",
+                "file": "01 Backend/01 Java/01 通用语法/Hello Java.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cf24f5dae4928f2c",
+        "type": "tabs",
+        "dimension": 18.161683277962346,
+        "children": [
+          {
+            "id": "1971b74989c1792b",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "c5d81cdc1d9b30bc",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ]
@@ -48,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "exception",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,9 +109,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Backend/01 Java/01 通用语法/基础知识.md",
+                "file": "01 Backend/01 Java/01 通用语法/Hello Java.md",
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -103,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Backend/01 Java/01 通用语法/基础知识.md",
+                "file": "01 Backend/01 Java/01 通用语法/Hello Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,16 +149,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Backend/01 Java/01 通用语法/基础知识.md"
+                "file": "01 Backend/01 Java/01 通用语法/Hello Java.md"
               }
-            }
-          },
-          {
-            "id": "c5d81cdc1d9b30bc",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           },
           {
@@ -145,17 +160,9 @@
               "type": "git-view",
               "state": {}
             }
-          },
-          {
-            "id": "1971b74989c1792b",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -174,17 +181,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4498381019708a55",
+  "active": "ffa2e8b740b42548",
   "lastOpenFiles": [
-    "01 Backend/01 Java/01 通用语法/变量.md",
-    "00 Inbox/笔记格式.md",
-    "01 Backend/01 Java/01 通用语法/基础知识.md",
-    "Attachment/Recording 20230210105653.webm",
-    "01 Backend/01 Java/02 面向对象/Interface.md",
-    "01 Backend/01 Java/02 面向对象/Class.md",
-    "01 Backend/01 Java/02 面向对象/Abstract.md",
-    "01 Backend/01 Java/02 面向对象/面向对象.md",
+    "01 Backend/01 Java/01 通用语法/Variable.md",
+    "01 Backend/01 Java/01 通用语法/Hello Java.md",
     "01 Backend/01 Java/Java.md",
-    "01 Backend/01 Java/12 Framework/03 Spring/AOP.md"
+    "00 Inbox/笔记格式.md",
+    "01 Backend/01 Java/Exception.md",
+    "Java补完之路.md",
+    "01 Backend/01 Java/12 Framework/03 Spring/Core Container.md",
+    "01 Backend/01 Java/13 JVM/内存解析.md",
+    "Attachment/Recording 20230210105653.webm",
+    "01 Backend/01 Java/02 面向对象/Interface.md"
   ]
 }
