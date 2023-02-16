@@ -1,4 +1,9 @@
 
+> [!note] 
+> **Q: Quels sont les propriétés de transaction** #D1 
+> 
+> **Q: Comment assuré ACID** #D2 
+
 ## 属性 ACID
 
 ### 原子性 Atomicity/Atomicité
@@ -33,6 +38,3 @@ Il est assuré par [[MVCC]]
 
 la durabilité garantit que les transactions réussies survivront de façon permanente et ne seront pas affectées par d’éventuelles pannes ou problèmes techniques
 Il est assuré par redolog
-
-**Q: Quels sont les propriétés de transaction** #D1 
-**Q: Comment assuré ACID** #D2

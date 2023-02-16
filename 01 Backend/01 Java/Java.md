@@ -1,7 +1,7 @@
 
 # 1. [[Hello Java]]
 
-# 2. [[面向对象]]
+# 2. [[Programmation orientée objet]]
 
 # 3. [[常用类]]
 

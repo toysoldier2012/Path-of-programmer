@@ -1,4 +1,7 @@
 
+> [!note] 
+> **Q: La différence entre BeanFactory et ApplicationContext** #D2 
+
 # Structure de système
 
 ## 1. [[Core Container]]
@@ -13,4 +16,4 @@
 
 ## 6. Test
 
-**Q: La différence entre BeanFactory et ApplicationContext** #D2  
+

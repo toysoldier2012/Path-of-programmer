@@ -1,4 +1,7 @@
 
+> [!note] 
+> **Q: Les différences entre String, StringBuffer, StringBuilder** #D1 
+
 # 特点
 
 - 类特性
@@ -8,6 +11,8 @@
 
 - 对象特性
 	- 不可变
+
+***
 
 # 常用方法
 
@@ -39,20 +44,36 @@ compareTo()
 length()
 ```
 
+***
+
 # 转换
 
 - 与基本数据类型，包装类的转换
-	- String --> 基本，xxx.parceXxx()
-	- 基本 --> String，String.valueOf()
+	- String --> 基本，`xxx.parceXxx()`
+	- 基本 --> String，`String.valueOf()`
 
 - 与char类型
-	- toCharArray()
-	- String(char[])
+	- `toCharArray()`
+	- `String(char[])`
 
 - 与byte类型
-	- getBytes()
-	- String(byte[])
+	- `getBytes()`
+	- `String(byte[])`
 
-**Q: Les différences entre String, StringBuffer, StringBuilder** #D1 
 
-1. String n'est 
+***
+
+# 特殊情况
+
+``` Java
+String ss1 = "abc";  
+String ss2 = "abc 45";  
+String ss3 = "abc 78";  
+  
+String[] ass1 = ss1.split(" ");  
+String[] ass2 = ss2.split(" ");  
+String[] ass3 = ss3.split(" ");
+
+// 由于ss1 ss2 ss3是不同的字符串，ass1 ass2 ass3数组中的abc也引用不一样，不能用==对比
+System.out.println(ass1[0] == ass2[0]);//false
+```

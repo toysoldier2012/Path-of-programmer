@@ -15,7 +15,7 @@
 ## 增
 
 ```Java
-
+boolean add(E e)
 ```
 
 ## 删
@@ -33,5 +33,5 @@
 ## 查
 
 ```Java
-
+boolean contains(Object o)
 ```

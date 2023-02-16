@@ -1,9 +1,8 @@
 
 #TODO
 
-**Q: A quoi sert Ajax** #D1 
-
-
+> [!note] 
+> **Q: A quoi sert Ajax** #D1 
 
 # Hello Ajax
 
