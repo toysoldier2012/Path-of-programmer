@@ -27,14 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Backend/01 Java/Java.md",
+                "file": "01 Backend/02 Database/Database.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19f7567d2a4293e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Backend/02 Database/基本操作/Hello SQL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Backend/01 Java/Java.md",
+                "file": "01 Backend/02 Database/基本操作/Hello SQL.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Backend/01 Java/Java.md",
+                "file": "01 Backend/02 Database/基本操作/Hello SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Backend/01 Java/Java.md"
+                "file": "01 Backend/02 Database/基本操作/Hello SQL.md"
               }
             }
           },
@@ -196,15 +208,15 @@
   },
   "active": "ffa2e8b740b42548",
   "lastOpenFiles": [
-    "00 Inbox/未命名.canvas",
-    "00 Inbox/笔记格式.md",
-    "Template/CollectionDetail.md",
     "00 Diary/2023-02-16-周四.md",
+    "01 Backend/02 Database/基本操作/Hello SQL.md",
+    "01 Backend/02 Database/Database.md",
+    "00 Inbox/笔记格式.md",
+    "00 Inbox/未命名.canvas",
+    "Template/CollectionDetail.md",
     "00 Diary/2023-02-15-周三.md",
     "01 Backend/01 Java/03 常用类/字符串/String.md",
     "01 Backend/02 Database/MVCC.md",
-    "01 Backend/02 Database/Transaction.md",
-    "01 Backend/02 Database/MySQL.md",
-    "01 Backend/02 Database/Database.md"
+    "01 Backend/02 Database/Transaction.md"
   ]
 }
