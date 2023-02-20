@@ -42,6 +42,8 @@ compareTo()
 // a value less than 0 if this string is lexicographically less than the string argument; 
 // a value greater than 0 if this string is lexicographically greater than the string argument.
 length()
+charAt()
+
 ```
 
 ***

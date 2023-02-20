@@ -17,7 +17,7 @@ where customers.id not in
     select customerid from orders
 );
 ```
-4. `IF( condition, [value_if_true], [value_if_false] )`
+4. `IF( condition, [value_if_true], [value_if_false] )` and `ISNULL([value_if_null], [value_if_not_null])`
 5. `name NOT REGEXP '^M'` = `name not like 'M%'`
 6. 
 ``` SQL
@@ -67,5 +67,22 @@ left(name, 1)
 substring(name, 1, 1)
 ```
 
+12. 
+```mssql
+UNPIVOT 
+```
+
+13. 
+``` sql
+select t.id,
+case
+    when t.p_id is null
+        then 'Root'
+    when t.id in (select at.p_id from tree as at)
+        then 'Inner'
+    else 'Leaf'
+    end as type
+from tree t
+```
 
 

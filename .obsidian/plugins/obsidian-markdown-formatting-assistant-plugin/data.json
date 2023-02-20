@@ -21,27 +21,27 @@
     },
     {
       "name": "tables",
-      "active": true,
+      "active": false,
       "visible": false
     },
     {
       "name": "html",
-      "active": true,
+      "active": false,
       "visible": false
     },
     {
       "name": "latex",
-      "active": true,
+      "active": false,
       "visible": false
     },
     {
       "name": "greekLetters",
-      "active": true,
+      "active": false,
       "visible": false
     },
     {
       "name": "colors",
-      "active": true,
+      "active": false,
       "visible": false
     },
     {
