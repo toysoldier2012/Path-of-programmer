@@ -16,5 +16,7 @@
     "SERIALIZABLE，在某事务读取一个表中的字段时，禁止其他事务对**该表的操作",
     "READ"
   ],
-  "promptDelete": false
+  "promptDelete": false,
+  "showFrontmatter": false,
+  "showIndentGuide": false
 }

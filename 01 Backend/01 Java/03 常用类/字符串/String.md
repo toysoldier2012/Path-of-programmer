@@ -1,6 +1,6 @@
 
 > [!question] 
-> **Q: Les différences entre String, StringBuffer, StringBuilder** #D1 
+> **Q: Les différences entre String, [[StringBuffer]], [[StringBuilder]]** #D1 
 
 # 特点
 
@@ -29,7 +29,8 @@
 ## 改
 
 ```Java
-
+toUpperCase()
+toLowerCase()
 ```
 
 ## 查
@@ -41,10 +42,12 @@ compareTo()
 // a value greater than 0 if this string is lexicographically greater than the string argument.
 length()
 charAt()
-
+substring()
 ```
 
 # 转换
+
+^0e4978
 
 - 与基本数据类型，包装类的转换
 	- String --> 基本，`xxx.parceXxx()`

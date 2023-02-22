@@ -1,9 +1,9 @@
 
 # 类型
 
-## 1. 基本类型
+## 1. Type élémentaire
 
-## 2. String类型
+## 2. String
 
 ## 3. 引用类型
 
@@ -28,23 +28,62 @@ softReference.get();
 
 1. 通过WeakReference类包装
 
-```Java
+```java
 WeakReference<Person> personWeakReference = new WeakReference<>(new Person());  
 System.gc();
 ```
 
 2. 被垃圾回收器发现时，直接回收
-3. [[ThreadLocal]]
+3. ThreadLocal
 
 ### 虚引用
 
 1. 通过PhantomReference包装
 2. 无法获取被包装对象
-3. [[堆外内存]]
+3. 堆外内存
 
-# 类型转换
+## 4. Tableaux
+
+### Déclaration et allocation
+
+``` Java
+int tableau[] = new int[50]; // déclaration et allocation
+int[] tableau = new int[50];
+int tab[];         // déclaration
+tab = new int[50]; // allocation
+
+float tableau[][] = new float[10][10];
+int dim1[][] = new int[3][];
+dim1[0]      = new int[4];
+dim1[1]      = new int[9];
+dim1[2]      = new int[2];
+```
+
+### L'initialisation
+
+```java
+int tableau[5]    = {10, 20, 30, 40, 50};
+int tableau[3][2] = {{5, 1}, {6, 2}, {7, 3}};
+int tableau[] = {10, 20, 30, 40, 50};
+int[][] tabEntiers = {{1, 2, 3, 4, 5, 6}, {1, 2, 3, 4}, {1, 2, 3, 4, 5, 6, 7, 8, 9}};
+```
+
+### Parcours
+
+``` Java
+for()
+while()
+Arrays.stream(arr).forEach(System.out::println)
+```
+
+5. 
+
+# [[String#^0e4978|转换]]
 
 # 其他常见类型
 
-BigDecimal BigInteger
+## `BigDecimal BigInteger`
+
+- La classe `BigDecimal` permet de réaliser de tels calculs du type numérique flottant, en permettant d'avoir le contrôle sur la précision
+- il est préférable d'utiliser le constructeur attendant en paramètre la valeur sous forme de chaîne de caractères.
 

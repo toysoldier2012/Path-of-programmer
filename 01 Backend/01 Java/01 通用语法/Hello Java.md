@@ -1,59 +1,56 @@
 
-## 1. JDK、JRE
+# 1. JDK、JRE
 
-## 2. 环境变量
+# 2. 环境变量
 
-## 3. 注释
+# 3. 注释
 
-## 4. 标识符
+# 4. 标识符
 
-## 5. 命名规范
+# 5. 命名规范
 
 - 类：首字母大写CamelCase
 - 方法：首字母小写camelCase
 - 变量名：小写camelcase
 - 包名：小写com.package.name
 
-## 6. 进制
+# 6. 进制
 
 
-# [[Variable]]
+# 7. [[Variable]]
 
 
-# 数组
+# 8. 数组
 
-- 一维数组
-- 二维数组
-- 属性
-	- length
 
-# 运算符
 
-- 算术运算符
-- 赋值运算符
-- 比较运算符
-- 逻辑运算符
-- 位运算符
-	- & 都是1，则为1，否则为0
-	- | 都是0，则为0，否则为1
-	- ^ 相同，则为1，否则为0
-	- ~ 反转
-	- \>>
-	- <<
-	- \>>>
-- 三元运算符
-- 其他
-- 运算符优先级
+# 9. Opérateur
 
-# 流程控制
+``` java
+expr++  expr--
+++expr  --expr  +expr  -expr  ˜  !
+*  /  %
++  -
+<<  >>  >>>
+<  >  <=  >=  instanceof
+==  !=
+^ & | && ||
+? :
+=  +=  -=  *=  /=  %=  ^=  |=  <<=  >>=  >>>=
+	->
+```
 
-- 判断
+# 10. Les structures de contrôles
+
+1. Les branchements conditionnels
 	- if
 	- switch
-- 循环
+
+2. Les boucles
 	- for
 	- while
 	- foreach
-	- 结束循环
-		- break
-		- continue
+
+3. 结束循环
+	- break
+	- continue
