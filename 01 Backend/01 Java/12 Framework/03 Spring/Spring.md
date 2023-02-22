@@ -1,5 +1,5 @@
 
-> [!note] 
+> [!question] 
 > **Q: La différence entre BeanFactory et ApplicationContext** #D2 
 
 # Structure de système

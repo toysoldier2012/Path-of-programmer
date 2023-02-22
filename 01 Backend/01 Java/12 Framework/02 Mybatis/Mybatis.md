@@ -1,5 +1,5 @@
 
-> [!note] 
+> [!question] 
 > **Q: C'est quoi Mybatis** #D1 
 
 # Hello Mybatis（通过Maven）

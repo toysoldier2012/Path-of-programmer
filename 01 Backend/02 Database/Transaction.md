@@ -1,5 +1,5 @@
 
-> [!note] 
+> [!question] 
 > **Q: Quels sont les propriétés de transaction** #D1 
 > 
 > **Q: Comment assuré ACID** #D2 

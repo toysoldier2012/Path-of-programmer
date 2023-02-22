@@ -1,5 +1,5 @@
 
-> [!note] 
+> [!question] 
 > **Q: Les différences entre String, StringBuffer, StringBuilder** #D1 
 
 # 特点

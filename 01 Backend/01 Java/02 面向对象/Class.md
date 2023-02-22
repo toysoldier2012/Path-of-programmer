@@ -9,7 +9,7 @@
 
 4. block
 
-***
+
 
 # 特殊类
 
@@ -17,13 +17,13 @@
 - [[Interface]]
 - 内部类
 
-***
+
 
 # Objet
 
 - 匿名对象
 
-***
+
 
 # Mot clé
 
@@ -42,4 +42,4 @@
 
 - transient
 - native
-***
+

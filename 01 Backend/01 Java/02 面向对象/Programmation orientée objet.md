@@ -1,11 +1,9 @@
 
-> [!note] 
+> [!question] 
 > **Q: Les caractères de Java POO** #D1 
-> 
-> - Les 3 caractères principaux sont [[Programmation orientée objet#^c61b13|Encapsulation]], [[Programmation orientée objet#^d8a3bb|Héritage]] et [[Programmation orientée objet#^32c4f7|Polymorphisme]].
-> 	- [[Programmation orientée objet#^c61b13|Encapsulation]] est pour cacher les datas et les méthodes sensitives
-> 	- [[Programmation orientée objet#^d8a3bb|Héritage]] évide la duplication de code et augmente la réutilisabilité
-> 	- [[Programmation orientée objet#^32c4f7|Polymorphisme]] est overload et override
+> - [[Programmation orientée objet#^c61b13|Encapsulation]] est pour cacher les datas et les méthodes sensitives
+> - [[Programmation orientée objet#^d8a3bb|Héritage]] évide la duplication de code et augmente la réutilisabilité
+> - [[Programmation orientée objet#^32c4f7|Polymorphisme]] est overload et override
 
 # Les Caractères principaux 
 
@@ -48,10 +46,8 @@ import
 需要注意多态的类型 大转小需要强转，因此在类型转换时需要先通过instanceof做判断
 
 
-***
-
 # [[Class]]
 
-***
+
 
 

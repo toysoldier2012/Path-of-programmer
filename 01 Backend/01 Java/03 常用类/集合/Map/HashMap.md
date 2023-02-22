@@ -1,5 +1,5 @@
 
-> [!note] 
+> [!question] 
 > **Q: Est ce c'es possible de transformer HashMap en synchrone** #D2 
 > 
 > 1. Par la méthode `Collections.synchronizedMap()`

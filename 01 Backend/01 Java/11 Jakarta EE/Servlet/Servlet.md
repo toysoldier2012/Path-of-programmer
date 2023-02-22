@@ -1,5 +1,5 @@
 
-> [!note] 
+> [!question] 
 > **Q: C'est quoi Servlet** #D1 
 > 
 > Une norme de Java pour développer le web dynamique
