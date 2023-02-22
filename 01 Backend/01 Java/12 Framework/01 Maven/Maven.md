@@ -73,10 +73,6 @@ mvn archetype:generate
 </project>
 ```
 
-***
-
 # [[核心概念]]
-
-***
 
 # [[单一架构案例]]

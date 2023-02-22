@@ -3,8 +3,6 @@
 
 **Inversion of Control**, on crée un objet de l'extérieur de programme mais pas de l'intérieur par new. Dans Spring, c'est par container IoC, il gère les objets comme des Beans, réalise **Dependency injection**, comme un relation entre les Beans
 
-***
-
 # Hello Spring
 
 ![[Pasted image 20230111150913.png]]
@@ -72,8 +70,6 @@ public class Test1 {
 
 Normalement on récupère le bean par sa classe, tout en permettant à le récupérer par le nom de bean, mais il faut le définir tout d'abord.
 
-***
-
 # Configuration de ficher applicationContext.xml
 
 1. Alias du bean
@@ -96,8 +92,6 @@ La portée du bean par défaut est singleton, ou on peut le modifié en "prototy
 3. Espace de nommage #TODO 
 
 https://blog.csdn.net/hhx_echo/article/details/76095840
-
-***
 
 # Factory mode
 
@@ -137,8 +131,6 @@ Définir le bean dans applicationContext.xml
 <bean id="beanDao" class="com.xiaoyu.spring.dao.factory.BeanDaoFactory"/>
 ```
 
-***
-
 # Lifecycle de Bean
 
 Implémenter l'interface "InitializingBean" et "DisposableBean" pour l'initialisation et la destruction
@@ -162,8 +154,6 @@ public class BeanDaoImpl implements BeanDao, InitializingBean, DisposableBean {
 }
 ```
 
-***
-
 # Les méthodes de DI
 
 ## 1. Les manières différentes
@@ -176,8 +166,6 @@ public class BeanDaoImpl implements BeanDao, InitializingBean, DisposableBean {
 1. Type primitif
 2. Objet
 3. Ficher .properties
-
-***
 
 # Par Annotation
 
@@ -221,6 +209,4 @@ public class BeanDaoImpl implements BeanDao, InitializingBean, DisposableBean {
 4. Définir le bean tier
 
 Créer un méthode qui renvoie le bean, puis ajouter annotation ```@Bean```
-
-***
 

@@ -12,21 +12,15 @@
 9. 关闭Connection对象
 10. 结束
 
-***
-
 # 通用操作
 
 - 增删改
 - 查询
 - Apache-DBUtils包
 
-***
-
 ## 什么情况下需要Transaction
 
 当一个完整的事务中有多个操作步骤时，需要多个步骤共进退，就要考虑通过事务解决，并且多个步骤要同时提交
-
-***
 
 ## 会导致自动提交的步骤
 
@@ -39,8 +33,6 @@ connection.setAutoCommit(false)
 ```
 
 - 关闭连接会导致自动提交，只创建一个connection
-
-***
 
 ## 其他操作
 
@@ -56,8 +48,6 @@ connection.rollback()
 ```Java
 connection.setAutoCommit(true)
 ```
-
-***
 
 ## 数据库连接池
 

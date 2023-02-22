@@ -10,8 +10,6 @@
 		- `@suppressWarnings()`，必须输入值，如“unused”
 	- 配置文件相关
 
-***
-
 # 自定义注解
 
 ## 1. `@interface`关键字
@@ -33,8 +31,6 @@ String a();
 ```
 
 - 可以使用default声明默认值，如`String value() default "hello"`，随后也可以在使用注解时更改
-
-***
 
 # 元注解
 
