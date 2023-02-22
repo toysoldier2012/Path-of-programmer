@@ -11,11 +11,10 @@
             "id": "15b79d2a8fbe3633",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "01 Backend/01 Java/02 面向对象/Programmation orientée objet.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/app.json",
+                "staged": false
               }
             }
           },
@@ -98,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Backend/01 Java/02 面向对象/Programmation orientée objet.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Backend/01 Java/02 面向对象/Programmation orientée objet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "01 Backend/01 Java/02 面向对象/Programmation orientée objet.md"
-              }
+              "state": {}
             }
           },
           {
@@ -193,11 +188,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ffa2e8b740b42548",
+  "active": "15b79d2a8fbe3633",
   "lastOpenFiles": [
+    "01 Backend/01 Java/02 面向对象/Programmation orientée objet.md",
     "01 Backend/01 Java/02 面向对象/Class.md",
     "01 Backend/01 Java/02 面向对象/Abstract.md",
-    "01 Backend/01 Java/02 面向对象/Programmation orientée objet.md",
     "01 Backend/01 Java/Java.md",
     "01 Backend/01 Java/02 面向对象/Module.md",
     "00 Inbox/笔记格式.md",
