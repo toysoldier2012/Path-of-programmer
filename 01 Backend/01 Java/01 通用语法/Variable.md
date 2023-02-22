@@ -76,8 +76,6 @@ while()
 Arrays.stream(arr).forEach(System.out::println)
 ```
 
-5. 
-
 # [[String#^0e4978|转换]]
 
 # 其他常见类型
