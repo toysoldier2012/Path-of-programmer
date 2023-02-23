@@ -1,7 +1,4 @@
 
-- [[HashSet]]
-- [[TreeSet]]
-
 # 特点
 
 - 
@@ -30,5 +27,7 @@
 ## 查
 
 ```Java
-
+Iterator<E> iterator()
+Spliterator<T> spliterator()
+void forEach(Consumer<? super T> action)
 ```

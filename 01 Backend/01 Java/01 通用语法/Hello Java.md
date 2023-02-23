@@ -30,8 +30,7 @@ expr++  expr--
 ==  !=
 ^ & | && ||
 ? :
-=  +=  -=  *=  /=  %=  ^=  |=  <<=  >>=  >>>=
-	->
+=  +=  -=  *=  /=  %=  ^=  |=  <<=  >>=  >>>= ->
 ```
 
 # Les structures de contrôles
@@ -51,3 +50,6 @@ expr++  expr--
 
 - break
 - continue
+
+# Syntactic sugar
+

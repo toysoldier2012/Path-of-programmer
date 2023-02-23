@@ -9,12 +9,13 @@
   "ITS@@sphd-pre-fs-4": 22,
   "ITS@@slrvb-b": false,
   "ITS@@slrvb-g": false,
-  "ITS@@s-d": true,
+  "ITS@@s-d": false,
   "ITS@@select": "none",
   "ITS@@t-d": false,
   "ITS@@drwn": false,
   "ITS@@nord": false,
   "ITS@@mini": false,
   "ITS@@notion": false,
-  "ITS@@its-d": false
+  "ITS@@its-d": false,
+  "ITS@@dv": false
 }

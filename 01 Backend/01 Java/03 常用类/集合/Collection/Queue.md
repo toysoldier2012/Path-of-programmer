@@ -1,11 +1,6 @@
 
-- [[Vector]]
-- [[ArrayList]]
-- [[AbstractSequentialList]]
-
 # 特点
 
-- 
 - 
 
 # 常用方法
@@ -33,4 +28,3 @@
 ```Java
 
 ```
-

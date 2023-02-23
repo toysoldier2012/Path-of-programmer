@@ -1,6 +1,4 @@
 
-- [[ListIterator]]
-
 # 特点
 
 - 
@@ -17,7 +15,7 @@
 ## 删
 
 ```Java
-remove()
+
 ```
 
 ## 改
@@ -29,6 +27,5 @@ remove()
 ## 查
 
 ```Java
-next()
-hasNext()
+
 ```

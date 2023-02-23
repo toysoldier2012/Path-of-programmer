@@ -1,6 +1,10 @@
 
 > [!question] 
-> **Q: Les différences entre String, [[StringBuffer]], [[StringBuilder]]** #D1 
+> **Q: Les différences entre `String`, [[StringBuffer]], [[StringBuilder]]** #D1 
+> - `String` 是不可变的
+> - `StringBuffer` 对方法加了同步锁或者对调用的方法加了同步锁，所以是线程安全的。
+> - `StringBuilder`更快
+> - 拼接字符最好不要用`String + String`，过程中会创建n个`StringBuilder`
 
 # 特点
 
@@ -17,7 +21,7 @@
 ## 增
 
 ```Java
-
+String.intern()
 ```
 
 ## 删

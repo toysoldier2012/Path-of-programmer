@@ -1,7 +1,4 @@
 
-- [[AbstractList]]
-- [[AbstractSet]]
-
 # 特点
 
 - 

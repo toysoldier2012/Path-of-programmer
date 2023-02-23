@@ -9,13 +9,13 @@
 
 # 5. [[Exception]]
 
-# 6. [[泛型]]
+# 6. [[Generics]]
 
 # 7. [[多线程]]
 
 # 8. [[Annotation]]
 
-# 9. [[反射]]
+# 9. [[Reflection]]
 
 # 10. [[Lambda]]
 

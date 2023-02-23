@@ -38,26 +38,32 @@ String a();
 
 ## 类型
 
-- Retention
-	- 指定Annotation的生命周期
-	- 成员变量RetentionPolicy
-		- SOURCE
-		- CLASS
-		- RUNTIME
+### Retention
 
-- Target
-	- 指定可修饰元素类型
-	- 成员变量ElementType
-		- TYPE
-		- FIELD
-		- METHOD
-		- PARAMETER
-		- CONSTRACTOR
-		- LOCAL_VARIABLE
-		- PACKAGE
+指定Annotation的生命周期
 
-- Documented
-	- 是否出现在文档中
+成员变量RetentionPolicy
+- SOURCE
+- CLASS
+- RUNTIME
 
-- Inherited
-	- 是否继承
+### Target
+
+指定可修饰元素类型
+
+成员变量ElementType
+- TYPE
+- FIELD
+- METHOD
+- PARAMETER
+- CONSTRACTOR
+- LOCAL_VARIABLE
+- PACKAGE
+
+### Documented
+
+是否出现在文档中
+
+### Inherited
+
+是否继承

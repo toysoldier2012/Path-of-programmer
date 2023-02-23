@@ -1,6 +1,7 @@
 
-- [[Set]]
-- [[Queue]]
+[[ArrayList]]
+[[LinkedList]]
+[[Vector]]
 
 # 特点
 
@@ -41,5 +42,7 @@ int lastIndexOf(Object o)
 
 # 两种排序方式
 
+``` java
 Lambda : unsortedList.sort(Comparator.comparing(String::toString))
 stream : unsortedList.stream().sorted((s1, s2) -> 	s1.compareTo(s2)).collect(Collectors.toList())
+```

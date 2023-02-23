@@ -1,6 +1,6 @@
 
-- [[SortedSet]]
-- [[NavigableSet]]
+[[HashSet]]
+[[TreeSet]]
  
 # 特点
 
@@ -32,5 +32,3 @@
 ```Java
 
 ```
-
- 特性：

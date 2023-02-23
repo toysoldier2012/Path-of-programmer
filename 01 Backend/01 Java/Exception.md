@@ -1,4 +1,6 @@
 
+![[Pasted image 20230223222934.png]]
+
 # 分类
 
 - Runtime Exception
@@ -13,7 +15,7 @@
 
 *[原文链接](https://javaguide.cn/java/basis/java-basic-questions-03.html)*
 
-- Compile Exception
+- Checked Exception
 
 # Opération
 
