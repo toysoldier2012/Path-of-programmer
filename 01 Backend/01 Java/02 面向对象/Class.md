@@ -39,6 +39,8 @@ String重写了`equals()`方法
 
 ## `hashCode()`
 
+^c9d876
+
 ``` Java
 public native int hashCode();
 ```
