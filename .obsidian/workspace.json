@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Backend/01 Java/03 常用类/集合/Collection/Collection.md",
+                "file": "01 Backend/01 Java/03 常用类/字符串/String.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lock",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Backend/01 Java/03 常用类/集合/Collection/Collection.md"
+                "file": "01 Backend/01 Java/03 常用类/字符串/String.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Backend/01 Java/03 常用类/集合/Collection/Collection.md",
+                "file": "01 Backend/01 Java/03 常用类/字符串/String.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Backend/01 Java/03 常用类/集合/Collection/Collection.md",
+                "file": "01 Backend/01 Java/03 常用类/字符串/String.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 822.5
+    "width": 379.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,32 +205,32 @@
   },
   "active": "ffa2e8b740b42548",
   "lastOpenFiles": [
-    "01 Backend/01 Java/03 常用类/集合/Collection/List.md",
-    "01 Backend/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
-    "01 Backend/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
-    "01 Backend/01 Java/03 常用类/集合/Collection/List/Vector.md",
-    "01 Backend/01 Java/03 常用类/集合/Collection/Collection.md",
-    "01 Backend/01 Java/03 常用类/集合/集合.md",
-    "01 Backend/01 Java/03 常用类/常用类.md",
+    "01 Backend/01 Java/01 通用语法/Variable.md",
     "01 Backend/01 Java/03 常用类/字符串/StringBuilder.md",
     "01 Backend/01 Java/03 常用类/字符串/StringBuffer.md",
     "01 Backend/01 Java/03 常用类/字符串/String.md",
+    "01 Backend/01 Java/14 模式与思想/Modèle et Concept.md",
+    "01 Backend/01 Java/14 模式与思想/Design Patterns.md",
+    "01 Backend/01 Java/03 常用类/集合/Map/HashMap.md",
+    "01 Backend/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
+    "01 Backend/01 Java/03 常用类/集合/集合.md",
+    "01 Backend/01 Java/03 常用类/集合/Collection/Collection.md",
+    "01 Backend/01 Java/13 JVM/JVM.md",
+    "01 Backend/01 Java/Java.md",
+    "01 Backend/01 Java/多线程.md",
+    "01 Backend/01 Java/11 Jakarta EE/Servlet/Servlet.md",
+    "01 Backend/01 Java/03 常用类/集合/Collection/List.md",
+    "01 Backend/01 Java/03 常用类/集合/Collection/Set.md",
+    "01 Backend/01 Java/03 常用类/集合/Map/Map.md",
+    "01 Backend/01 Java/03 常用类/集合/Collection/Set/TreeSet.md",
+    "01 Backend/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
+    "01 Backend/01 Java/03 常用类/集合/Map/Hashtable.md",
+    "01 Backend/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
+    "01 Backend/01 Java/03 常用类/集合/Collection/List/Vector.md",
+    "01 Backend/01 Java/03 常用类/常用类.md",
     "01 Backend/01 Java/03 常用类/Serilizable.md",
     "01 Backend/01 Java/03 常用类/IO流.md",
-    "01 Backend/01 Java/Java.md",
     "01 Backend/01 Java/12 Framework/03 Spring/AOP.md",
-    "01 Backend/01 Java/01 通用语法/Variable.md",
-    "01 Backend/01 Java/01 通用语法/Hello Java.md",
-    "01 Backend/01 Java/Lambda.md",
-    "01 Backend/01 Java/Reflection.md",
-    "01 Backend/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
-    "01 Backend/01 Java/02 面向对象/Class.md",
-    "01 Backend/01 Java/12 Framework/03 Spring/Spring.md",
-    "01 Backend/01 Java/12 Framework/03 Spring/Core Container.md",
-    "01 Backend/01 Java/12 Framework/Framework.md",
-    "01 Backend/01 Java/03 常用类/集合/Map/Map.md",
-    "01 Backend/01 Java/03 常用类/集合/Collection/Set.md",
-    "01 Backend/01 Java/02 面向对象/Programmation orientée objet.md",
     "Attachment/Pasted image 20230223231641.png",
     "Attachment/Pasted image 20230223231319.png",
     "01 Backend/01 Java/03 常用类/集合/Archive",
