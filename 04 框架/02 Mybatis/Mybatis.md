@@ -6,22 +6,24 @@
 
 详见官网： https://mybatis.org/mybatis-3/zh/getting-started.html
 
-1. 添加依赖
+![[Pasted image 20230304010809.png]]
+
+## 1. 添加依赖
 
 ```xml
 <dependency>  
   <groupId>org.mybatis</groupId>  
   <artifactId>mybatis</artifactId>  
-  <version>3.5.11</version>  
+  <version>3.5.6</version>  
 </dependency>  
 <dependency>  
   <groupId>mysql</groupId>  
   <artifactId>mysql-connector-java</artifactId>  
-  <version>8.0.30</version>  
+  <version>8.0.31</version>  
 </dependency>
 ```
 
-2. 构建SqlSessionFactory
+## 2. 构建SqlSessionFactory
 
 ```Java
 String resource = {PATH_MYBATIS_CONFIG};
@@ -29,7 +31,7 @@ InputStream inputStream = Resources.getResourceAsStream(resource);
 SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 ```
 
-3. 构建XML配置文件
+## 3. 构建Mybatis XML配置文件
 
 ```Xml
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -49,14 +51,38 @@ SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(input
     </environment>
   </environments>
   <mappers>
-    <mapper resource="org/mybatis/example/BlogMapper.xml"/>
+	<mapper resource="mappers/UserMapper.xml"/>
   </mappers>
 </configuration>
 ```
 
-4. 创建Mapper映射文件
+- environments：设置数据库环境，需要保持环境名唯一
 
-com/xiaoyu/mapper/FilmMapper.xml
+- transactionManager
+	- type:
+		- JDBC：通过JDBC原生事务管理方式
+		- MANAGED：通过其他方式管理，如Spring
+
+- dataSource
+	- type:
+		- POOLED：使用数据库连接池
+		- UNPOOLED：不使用数据库连接池
+		- JNDI：表示使用上下文中的数据源
+
+- properties：引入properties文件
+	- resource
+
+- typeAliases：指定特定类的别名
+	- typeAlias
+	- package：指定特定包下所有类的别名
+
+- mappers
+	- mapper
+	- package：保证映射文件与接口的包名与本名一致
+
+## 4. 创建Mapper映射文件
+
+src/main/resources/mappers/UserMapper.xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>  
@@ -71,9 +97,9 @@ com/xiaoyu/mapper/FilmMapper.xml
 ```
 
 
-5. 创建Mapper接口
+## 5. 创建Mapper接口
 
-com/xiaoyu/mapper/FilmMapper.java
+src/main/java/com/xiaoyu/mybatis/mapper/UserMapper.java
 
 ```Java
 public interface FilmMapper {  
@@ -81,7 +107,7 @@ public interface FilmMapper {
 }
 ```
 
-6. 补齐代码
+## 6. 补齐代码
 
 ```Java
 SqlSession sqlSession = sqlSessionFactory.openSession();  

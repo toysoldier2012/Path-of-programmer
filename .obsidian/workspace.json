@@ -18,24 +18,12 @@
             }
           },
           {
-            "id": "97aa87ffdf6e794c",
+            "id": "34ae7929053997a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Backend/01 Java/03 常用类/字符串/String.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f54106d482b418a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Backend/01 Java/12 Framework/03 Spring/AOP.md",
+                "file": "04 框架/02 Mybatis/Mybatis.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,7 +42,6 @@
       {
         "id": "3512081317d42ee4",
         "type": "tabs",
-        "dimension": 60.12931034482759,
         "children": [
           {
             "id": "2aa69c35859db2c5",
@@ -72,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lock",
+                "query": "try",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,29 +77,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "b71e1bbe6bb13a4f",
-        "type": "tabs",
-        "dimension": 39.87068965517241,
-        "children": [
-          {
-            "id": "7d2337cc97b18ef3",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "c5d81cdc1d9b30bc",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -123,6 +87,29 @@
     "type": "split",
     "children": [
       {
+        "id": "88ac83dfd51f6503",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5d81cdc1d9b30bc",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7d2337cc97b18ef3",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
         "id": "a10b3ccc7ec3275d",
         "type": "tabs",
         "children": [
@@ -132,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Backend/01 Java/03 常用类/字符串/String.md"
+                "file": "04 框架/02 Mybatis/Mybatis.md"
               }
             }
           },
@@ -142,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Backend/01 Java/03 常用类/字符串/String.md",
+                "file": "04 框架/02 Mybatis/Mybatis.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -167,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Backend/01 Java/03 常用类/字符串/String.md",
+                "file": "04 框架/02 Mybatis/Mybatis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,35 +192,39 @@
   },
   "active": "ffa2e8b740b42548",
   "lastOpenFiles": [
-    "01 Backend/01 Java/01 通用语法/Variable.md",
-    "01 Backend/01 Java/03 常用类/字符串/StringBuilder.md",
-    "01 Backend/01 Java/03 常用类/字符串/StringBuffer.md",
-    "01 Backend/01 Java/03 常用类/字符串/String.md",
-    "01 Backend/01 Java/14 模式与思想/Modèle et Concept.md",
-    "01 Backend/01 Java/14 模式与思想/Design Patterns.md",
-    "01 Backend/01 Java/03 常用类/集合/Map/HashMap.md",
-    "01 Backend/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
-    "01 Backend/01 Java/03 常用类/集合/集合.md",
-    "01 Backend/01 Java/03 常用类/集合/Collection/Collection.md",
-    "01 Backend/01 Java/13 JVM/JVM.md",
-    "01 Backend/01 Java/Java.md",
-    "01 Backend/01 Java/多线程.md",
-    "01 Backend/01 Java/11 Jakarta EE/Servlet/Servlet.md",
-    "01 Backend/01 Java/03 常用类/集合/Collection/List.md",
-    "01 Backend/01 Java/03 常用类/集合/Collection/Set.md",
-    "01 Backend/01 Java/03 常用类/集合/Map/Map.md",
-    "01 Backend/01 Java/03 常用类/集合/Collection/Set/TreeSet.md",
-    "01 Backend/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
-    "01 Backend/01 Java/03 常用类/集合/Map/Hashtable.md",
-    "01 Backend/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
-    "01 Backend/01 Java/03 常用类/集合/Collection/List/Vector.md",
-    "01 Backend/01 Java/03 常用类/常用类.md",
-    "01 Backend/01 Java/03 常用类/Serilizable.md",
-    "01 Backend/01 Java/03 常用类/IO流.md",
-    "01 Backend/01 Java/12 Framework/03 Spring/AOP.md",
+    "04 框架/01 Maven/Maven.md",
+    "04 框架/02 Mybatis/Mybatis.md",
+    "Attachment/Pasted image 20230304010809.png",
+    "01 后端/02 Database/MySQL.md",
+    "01 后端/02 Database/MVCC.md",
+    "01 后端/01 Java/11 Jakarta EE/Servlet/Listener.md",
+    "01 后端/01 Java/11 Jakarta EE/Servlet/Servlet.md",
+    "04 框架/Framework.md",
+    "01 后端/01 Java/04 进阶/Exception.md",
+    "01 后端/01 Java/05 模式与思想/Modèle et Concept.md",
+    "01 后端/02 Database/Database.md",
+    "04 框架/01 Maven/单一架构案例.md",
+    "04 框架/01 Maven/核心概念.md",
+    "01 后端/01 Java/01 通用语法/Hello Java.md",
+    "01 后端/01 Java/06 JVM/JVM.md",
+    "01 后端/01 Java/05 模式与思想/Design Patterns.md",
+    "01 后端/01 Java/02 面向对象/Module.md",
+    "01 后端/01 Java/02 面向对象/Programmation orientée objet.md",
+    "01 后端/01 Java/03 常用类/常用类.md",
+    "01 后端/01 Java/04 进阶/Annotation.md",
+    "01 后端/01 Java/03 常用类/Serilizable.md",
+    "01 后端/01 Java/03 常用类/IO流.md",
+    "01 后端/01 Java/03 常用类/字符串/String.md",
+    "01 后端/01 Java/01 通用语法/Variable.md",
+    "01 后端/01 Java/03 常用类/集合/集合.md",
+    "01 后端/01 Java/06 JVM/内存解析.md",
+    "07 操作系统",
+    "06 工具",
+    "03 网络技术",
+    "01 后端/01 Java/04 进阶",
     "Attachment/Pasted image 20230223231641.png",
     "Attachment/Pasted image 20230223231319.png",
-    "01 Backend/01 Java/03 常用类/集合/Archive",
+    "01 后端/01 Java/03 常用类/集合/Archive",
     "Attachment/Pasted image 20230223225441.png",
     "Attachment/Pasted image 20230223222934.png",
     "Attachment/Pasted image 20230223220916.png"
