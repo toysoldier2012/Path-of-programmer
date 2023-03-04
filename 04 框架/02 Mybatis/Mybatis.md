@@ -6,7 +6,7 @@
 
 详见官网： https://mybatis.org/mybatis-3/zh/getting-started.html
 
-![[Pasted image 20230304010809.png]]
+![[Pasted image 20230304205719.png]]
 
 ## 1. 添加依赖
 
@@ -23,36 +23,35 @@
 </dependency>
 ```
 
-## 2. 构建SqlSessionFactory
-
-```Java
-String resource = {PATH_MYBATIS_CONFIG};
-InputStream inputStream = Resources.getResourceAsStream(resource);
-SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-```
-
-## 3. 构建Mybatis XML配置文件
+## 2. 构建Mybatis XML配置文件
 
 ```Xml
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE configuration
-  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
-  "https://mybatis.org/dtd/mybatis-3-config.dtd">
-<configuration>
-  <environments default="development">
-    <environment id="development">
-      <transactionManager type="JDBC"/>
-      <dataSource type="POOLED">
-        <property name="driver" value="${driver}"/>
-        <property name="url" value="${url}"/>
-        <property name="username" value="${username}"/>
-        <property name="password" value="${password}"/>
-      </dataSource>
-    </environment>
-  </environments>
-  <mappers>
-	<mapper resource="mappers/UserMapper.xml"/>
-  </mappers>
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE configuration  
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">  
+<configuration>  
+    <properties resource="jdbc.properties"/>  
+  
+    <typeAliases>
+	    <!--<typeAlias type="com.xiaoyu.mybatis.pojo.User"></typeAlias>-->  
+        <package name="com.xiaoyu.mybatis.pojo"/>  
+    </typeAliases>  
+    <environments default="development">  
+        <environment id="development">  
+            <transactionManager type="JDBC"/>  
+            <dataSource type="POOLED">  
+                <property name="driver" value="${jdbc.driver}"/>  
+                <property name="url" value="${jdbc.url}"/>  
+                <property name="username" value="${jdbc.username}"/>  
+                <property name="password" value="${jdbc.password}"/>  
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+	    <!--<mapper resource="mappers/UserMapper.xml"/>-->  
+        <package name="com.xiaoyu.mybatis.mapper"/>  
+    </mappers>
 </configuration>
 ```
 
@@ -80,7 +79,7 @@ SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(input
 	- mapper
 	- package：保证映射文件与接口的包名与本名一致
 
-## 4. 创建Mapper映射文件
+## 3. 创建Mapper映射文件
 
 src/main/resources/mappers/UserMapper.xml
 
@@ -89,29 +88,52 @@ src/main/resources/mappers/UserMapper.xml
 <!DOCTYPE mapper  
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">  
-<mapper namespace="com.xiaoyu.mapper.FilmMapper">  
-    <select id="selectAllFilm" resultType="com.xiaoyu.pojo.Film">  
-        select * from film  
+  
+<mapper namespace="com.xiaoyu.mybatis.mapper.UserMapper">  
+<!--    List<User> selectUsers();-->  
+    <select id="selectUsers" resultType="user">  
+        select * from t_user;  
     </select>  
 </mapper>
 ```
 
 
-## 5. 创建Mapper接口
+## 4. 创建Mapper接口
 
 src/main/java/com/xiaoyu/mybatis/mapper/UserMapper.java
 
 ```Java
-public interface FilmMapper {  
-   List<Film> selectAllFilm();  
+package com.xiaoyu.mybatis.mapper;  
+  
+import com.xiaoyu.mybatis.pojo.User;  
+  
+import java.util.HashMap;  
+import java.util.List;  
+  
+public interface UserMapper {  
+   List<User> selectUsers();  
 }
+```
+
+## 5. 创建jdbc.properties文件
+
+``` properties
+jdbc.driver=com.mysql.cj.jdbc.Driver  
+jdbc.url=jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC  
+jdbc.username=root  
+jdbc.password=evvf8YXEEB
 ```
 
 ## 6. 补齐代码
 
 ```Java
+String resource = {PATH_MYBATIS_CONFIG};
+InputStream inputStream = Resources.getResourceAsStream(resource);
+SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 SqlSession sqlSession = sqlSessionFactory.openSession();  
 FilmMapper mapper = sqlSession.getMapper(FilmMapper.class);  
 List<Film> films = mapper.selectAllFilm();
 ```
+
+# [[传递参数]]
 
