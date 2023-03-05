@@ -6,8 +6,6 @@
 > 
 > **Q: Quel est les avantages et les inconvénients d'ORM** #D2  
 
-# Redis
-
 # MongoDB
 
 # [[MySQL]]
@@ -23,7 +21,7 @@
 
 ## [[TCL]]
 
-## 类型对照表
 
-![[Pasted image 20230104152938.png]]
+
+
 

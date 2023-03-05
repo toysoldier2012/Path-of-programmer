@@ -1,21 +1,12 @@
 {
-  "ITS@@text@@dark": "#FFFFFF",
-  "ITS@@sphd-und-3": true,
-  "ITS@@sphd-und-4": true,
-  "ITS@@sphd-und-5": true,
-  "ITS@@sphd-und-6": true,
-  "ITS@@sphd-pre-fs-2": 28,
-  "ITS@@sphd-pre-fs-3": 24,
-  "ITS@@sphd-pre-fs-4": 22,
   "ITS@@slrvb-b": false,
   "ITS@@slrvb-g": false,
   "ITS@@s-d": false,
-  "ITS@@select": "none",
+  "ITS@@select": "wotc-beyond",
   "ITS@@t-d": false,
   "ITS@@drwn": false,
   "ITS@@nord": false,
   "ITS@@mini": false,
   "ITS@@notion": false,
-  "ITS@@its-d": false,
-  "ITS@@dv": false
+  "ITS@@its-d": false
 }

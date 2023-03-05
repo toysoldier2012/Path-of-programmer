@@ -1,4 +1,7 @@
 
+# 类型对照表
+
+![[Pasted image 20230104152938.png]]
 
 # [[Transaction]]
 
