@@ -8,5 +8,7 @@
   "ITS@@nord": false,
   "ITS@@mini": false,
   "ITS@@notion": false,
-  "ITS@@its-d": false
+  "ITS@@its-d": false,
+  "ITS@@code-text@@light": "#EAD542",
+  "ITS@@code-text@@dark": "#DECB46"
 }

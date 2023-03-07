@@ -74,26 +74,18 @@
 	- mapper
 	- package：保证映射文件与接口的包名与本名一致
 
-# 创建Mapper映射文件
+# 创建jdbc.properties文件
 
-src/main/resources/mappers/UserMapper.xml
-
-```xml
-<?xml version="1.0" encoding="UTF-8" ?>  
-<!DOCTYPE mapper  
-        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
-        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">  
-  
-<mapper namespace="com.xiaoyu.mybatis.mapper.UserMapper">  
-<!--    List<User> selectUsers();-->  
-    <select id="selectUsers" resultType="user">  
-        select * from t_user;  
-    </select>  
-</mapper>
+``` properties
+jdbc.driver=com.mysql.cj.jdbc.Driver  
+jdbc.url=jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC  
+jdbc.username=root  
+jdbc.password=evvf8YXEEB
 ```
 
-
 # 创建Mapper接口
+
+^757291
 
 src/main/java/com/xiaoyu/mybatis/mapper/UserMapper.java
 
@@ -110,13 +102,22 @@ public interface UserMapper {
 }
 ```
 
-# 创建jdbc.properties文件
+# 创建Mapper映射文件
 
-``` properties
-jdbc.driver=com.mysql.cj.jdbc.Driver  
-jdbc.url=jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC  
-jdbc.username=root  
-jdbc.password=evvf8YXEEB
+src/main/resources/mappers/UserMapper.xml
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper  
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+  
+<mapper namespace="com.xiaoyu.mybatis.mapper.UserMapper">  
+<!--    List<User> selectUsers();-->  
+    <select id="selectUsers" resultType="user">  
+        select * from t_user;  
+    </select>  
+</mapper>
 ```
 
 # 补齐代码

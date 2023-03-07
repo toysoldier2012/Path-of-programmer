@@ -7,6 +7,8 @@
 
 # Log4j
 
+- 添加依赖到pow.xml
+
 ``` xml
 <dependency>  
     <groupId>log4j</groupId>  
@@ -14,6 +16,8 @@
     <version>1.2.17</version>  
 </dependency>
 ```
+
+- log4j.xml
 
 ``` xml
 <?xml version="1.0" encoding="UTF-8" ?>  

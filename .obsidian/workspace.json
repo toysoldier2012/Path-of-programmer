@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 框架/02 Mybatis/进阶/动态SQL.md",
+                "file": "04 框架/02 Mybatis/进阶/缓存.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 框架/02 Mybatis/基础操作/处理查询结果.md",
+                "file": "04 框架/Framework.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,6 +113,7 @@
       {
         "id": "88ac83dfd51f6503",
         "type": "tabs",
+        "dimension": 54.166666666666664,
         "children": [
           {
             "id": "c5d81cdc1d9b30bc",
@@ -136,6 +137,7 @@
       {
         "id": "a10b3ccc7ec3275d",
         "type": "tabs",
+        "dimension": 45.83333333333333,
         "children": [
           {
             "id": "d26ecad7d712fd84",
@@ -143,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 框架/02 Mybatis/基础操作/处理查询结果.md"
+                "file": "04 框架/Framework.md"
               }
             }
           },
@@ -153,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 框架/02 Mybatis/基础操作/处理查询结果.md",
+                "file": "04 框架/Framework.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -178,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 框架/02 Mybatis/基础操作/处理查询结果.md",
+                "file": "04 框架/Framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,16 +218,23 @@
   },
   "active": "ffa2e8b740b42548",
   "lastOpenFiles": [
-    "04 框架/02 Mybatis/基础操作/全局变量.md",
-    "04 框架/02 Mybatis/Mybatis.md",
     "04 框架/02 Mybatis/进阶/分页.md",
     "04 框架/02 Mybatis/进阶/缓存.md",
     "04 框架/02 Mybatis/进阶/动态SQL.md",
+    "04 框架/02 Mybatis/进阶/Mybatis Generator.md",
+    "04 框架/Framework.md",
     "04 框架/02 Mybatis/基础操作/处理查询结果.md",
-    "04 框架/02 Mybatis/进阶",
-    "04 框架/02 Mybatis/基础操作",
+    "Java补完之路.md",
+    "Attachment/Pasted image 20230306232237.png",
+    "04 框架/02 Mybatis/Mybatis.md",
+    "04 框架/02 Mybatis/基础操作/全局变量.md",
+    "01 后端/01 Java/01 通用语法/Variable.md",
     "04 框架/02 Mybatis/基础操作/向SQL语句传递参数.md",
     "04 框架/02 Mybatis/基础操作/Hello Mybatis.md",
+    "01 后端/03 服务器/Serveur.md",
+    "01 后端/01 Java/Java.md",
+    "04 框架/02 Mybatis/进阶",
+    "04 框架/02 Mybatis/基础操作",
     "01 后端/02 Database/MySQL.md",
     "01 后端/02 Database/Database.md",
     "01 后端/02 Database/事务/Transaction.md",
@@ -235,18 +244,11 @@
     "01 后端/02 Database/基本操作/DML.md",
     "01 后端/02 Database/基本操作/DDL.md",
     "01 后端/02 Database/基本操作/Hello SQL.md",
-    "01 后端/01 Java/01 通用语法/Variable.md",
     "00 Inbox/笔记格式.md",
     "04 框架/01 Maven/核心概念.md",
     "01 后端/01 Java/04 进阶/Lambda.md",
     "Attachment/Pasted image 20230304205719.png",
-    "04 框架/01 Maven/Maven.md",
     "Attachment/Pasted image 20230304010809.png",
-    "01 后端/02 Database/事务/MVCC.md",
-    "01 后端/01 Java/11 Jakarta EE/Servlet/Listener.md",
-    "01 后端/01 Java/11 Jakarta EE/Servlet/Servlet.md",
-    "04 框架/Framework.md",
-    "01 后端/01 Java/04 进阶/Exception.md",
     "07 操作系统",
     "06 工具",
     "03 网络技术",
