@@ -2,18 +2,20 @@
 > [!question] 
 > **Q: La différence entre BeanFactory et ApplicationContext** #D2 
 
-# Structure de système
+# [[Hello Spring]]
 
-## 1. [[Core Container]]
+# [[IoC]]
 
-## 2. [[AOP]]
+# [[DI]]
 
-## 3. Aspects
+# [[AOP]]
 
-## 4. Data Access/integration
+# Aspects
 
-## 5. Web
+# Data Access/integration
 
-## 6. Test
+
+
+
 
 

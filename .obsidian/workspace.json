@@ -18,43 +18,31 @@
             }
           },
           {
-            "id": "2532c4851e233569",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04 框架/02 Mybatis/进阶/缓存.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d4a0a254e813e7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04 框架/02 Mybatis/进阶/缓存.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d029cdca5dd26bf7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 框架/Framework.md",
+                "file": "04 框架/03 Spring/Spring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f968c1edb52fd66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 框架/03 Spring/DI.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -83,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "try",
+                "query": "tag:#TODO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +101,7 @@
       {
         "id": "88ac83dfd51f6503",
         "type": "tabs",
-        "dimension": 54.166666666666664,
+        "dimension": 54.16666666666666,
         "children": [
           {
             "id": "c5d81cdc1d9b30bc",
@@ -137,7 +125,7 @@
       {
         "id": "a10b3ccc7ec3275d",
         "type": "tabs",
-        "dimension": 45.83333333333333,
+        "dimension": 45.83333333333334,
         "children": [
           {
             "id": "d26ecad7d712fd84",
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 框架/Framework.md"
+                "file": "04 框架/03 Spring/DI.md"
               }
             }
           },
@@ -155,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 框架/Framework.md",
+                "file": "04 框架/03 Spring/DI.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -180,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 框架/Framework.md",
+                "file": "04 框架/03 Spring/DI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,21 +206,28 @@
   },
   "active": "ffa2e8b740b42548",
   "lastOpenFiles": [
-    "04 框架/02 Mybatis/进阶/分页.md",
-    "04 框架/02 Mybatis/进阶/缓存.md",
+    "04 框架/03 Spring/IoC.md",
+    "04 框架/03 Spring/DI.md",
     "04 框架/02 Mybatis/进阶/动态SQL.md",
+    "04 框架/02 Mybatis/进阶/分页.md",
     "04 框架/02 Mybatis/进阶/Mybatis Generator.md",
-    "04 框架/Framework.md",
+    "04 框架/02 Mybatis/基础操作/全局变量.md",
     "04 框架/02 Mybatis/基础操作/处理查询结果.md",
+    "04 框架/02 Mybatis/基础操作/向SQL语句传递参数.md",
+    "04 框架/02 Mybatis/基础操作/Hello Mybatis.md",
+    "04 框架/03 Spring/Spring.md",
+    "04 框架/03 Spring/Hello Spring.md",
+    "04 框架/03 Spring/AOP.md",
+    "01 后端/01 Java/01 通用语法/Hello Java.md",
+    "01 后端/01 Java/01 通用语法/Variable.md",
+    "01 后端/01 Java/04 进阶/Reflection.md",
+    "01 后端/01 Java/Java.md",
+    "04 框架/Framework.md",
+    "04 框架/02 Mybatis/进阶/缓存.md",
     "Java补完之路.md",
     "Attachment/Pasted image 20230306232237.png",
     "04 框架/02 Mybatis/Mybatis.md",
-    "04 框架/02 Mybatis/基础操作/全局变量.md",
-    "01 后端/01 Java/01 通用语法/Variable.md",
-    "04 框架/02 Mybatis/基础操作/向SQL语句传递参数.md",
-    "04 框架/02 Mybatis/基础操作/Hello Mybatis.md",
     "01 后端/03 服务器/Serveur.md",
-    "01 后端/01 Java/Java.md",
     "04 框架/02 Mybatis/进阶",
     "04 框架/02 Mybatis/基础操作",
     "01 后端/02 Database/MySQL.md",
@@ -241,12 +236,6 @@
     "01 后端/02 Database/基本操作/TCL.md",
     "01 后端/02 Database/事务",
     "01 后端/02 Database/基本操作/DCL.md",
-    "01 后端/02 Database/基本操作/DML.md",
-    "01 后端/02 Database/基本操作/DDL.md",
-    "01 后端/02 Database/基本操作/Hello SQL.md",
-    "00 Inbox/笔记格式.md",
-    "04 框架/01 Maven/核心概念.md",
-    "01 后端/01 Java/04 进阶/Lambda.md",
     "Attachment/Pasted image 20230304205719.png",
     "Attachment/Pasted image 20230304010809.png",
     "07 操作系统",
