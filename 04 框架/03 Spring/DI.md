@@ -64,6 +64,30 @@
 
 ## 5. Array
 
+``` xml
+<property name="hobby">  
+	<array>
+		<value>a</value>  
+		<value>b</value>  
+		<value>c</value>
+		<!--<ref></ref>-->
+		<!--<ref></ref>-->
+	</array>
+</property>
+```
+
+## 6. Collection
+
+``` xml
+<property name="helloSprings">  
+    <list>        
+	    <ref bean="helloSpring"></ref>  
+        <ref bean="helloSpring"></ref>  
+        <ref bean="helloSpring"></ref>  
+    </list>
+</property>
+```
+
 
 
 ## 5. Ficher `.properties`
