@@ -3,9 +3,7 @@
 
 # Dans `applicationContext.xml`
 
-## 1. Par les balises `bean`
-
-### Manières
+##  1. Les manières
 
 ``` xml
 <!-- setter -->
@@ -36,11 +34,11 @@
 />
 ```
 
-### Type de variable
+## 2. Type de variable
 
-#### 1. Type primitif
+### Type primitif
 
-#### 2. null
+### null
 
 ``` xml
 <property name="name" value="xiaoyu">  
@@ -48,7 +46,7 @@
 </property>
 ```
 
-#### 3. 复杂字符
+### 复杂字符
 
 ``` xml
 <property name="gender">  
@@ -56,7 +54,7 @@
 </property>
 ```
 
-#### 4. Objet
+### Objet
 
 ``` xml
 <!-- 普通方式 -->
@@ -79,7 +77,7 @@
 </property>
 ```
 
-#### 5. Array
+### Array
 
 ``` xml
 <property name="hobby">  
@@ -93,7 +91,7 @@
 </property>
 ```
 
-#### 6. List
+### List
 
 - 通过`list`标签配置
 
@@ -135,7 +133,7 @@ Ajouter les balises `util:` dans [[IoC#^e4c41f|namespace]]
 </util:list>
 ```
 
-#### 7. Map
+### Map
 
 ``` xml
 <property name="testMaps">  
@@ -159,7 +157,7 @@ Dans les balises `entry`, on a 5 paramètres:
 - `value-ref`
 - `value-type`
 
-#### 8. `.properties`文件
+### `.properties`文件
 
 ``` xml
 <?xml version="1.0" encoding="UTF-8"?>  
@@ -186,16 +184,62 @@ Dans les balises `entry`, on a 5 paramètres:
 </beans>
 ```
 
+# Autowiring
+
+## 1. Dans les balises bean par `autowire`
+
+- `no/default`
+- `byType`
+- `byName`
+- `constructor`
+
+```xml
+<bean class="com.xiaoyu.spring.controller.UserController" autowire="byType"/>  
+<bean class="com.xiaoyu.spring.service.impl.UserServiceImpl" autowire="byType"/>  
+<bean class="com.xiaoyu.spring.dao.impl.UserDaoImpl"/>
+```
 
 ## 2. Par Annotation
 
-1. Par applicationContext.xml
+### Scanner
 
-```java
-<context:component-scan base-package="com.xxx.xxx" />
+#### Dans .xml
+
+1. Analyser les composants
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+       xmlns:context="http://www.springframework.org/schema/context"  
+       xsi:schemaLocation="  
+		http://www.springframework.org/schema/beans        
+		http://www.springframework.org/schema/beans/spring-beans.xsd        
+		http://www.springframework.org/schema/context        
+		http://www.springframework.org/schema/context/spring-context.xsd">  
+  
+        <context:component-scan base-package="com.xiaoyu.spring" />  
+</beans>
 ```
 
-2. Par Class SpringConfig.java
+- Filtre d'exclusion
+
+``` xml
+<context:component-scan base-package="com.xiaoyu.spring">  
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>  
+</context:component-scan>
+```
+
+- Filtre d'inclusion, nécessité d'ajouter la paramètre `use-default-filters`
+
+``` xml
+<context:component-scan base-package="com.xiaoyu.spring" use-default-filters="false">  
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>  
+</context:component-scan>
+```
+
+
+#### Par Class SpringConfig.java
 
 ```Java
 @Configuration  
@@ -203,29 +247,39 @@ Dans les balises `entry`, on a 5 paramètres:
 @PropertySource("xxx")
 ```
 
-3. Définir les beans
+### Définir les beans
 
-```Java
+#### Pour IoC
 
+``` java
 @Component("xxx")
+	@Controller("xxx")
 	@Service("xxx")
 	@Repository("xxx")  
-	@Controller("xxx")
-
+	
 @Scope
+```
 
-@Autowired  
+#### Pour DI
+
+``` java
+@Autowired
+
 @Qualifier("xxx")
 
 @Value("xxx")
 @Value("${xxx}")
-
-@PostConstruct
-@PreDestroy
-
-@import
 ```
+	
+-  `("xxx")` est pour définir l'id
+-  `Autowired` réalise DI par `byType`
+- `Qualifier` utilise l'ID d'un Bean spécifique pour DI dans le Bean actuel
 
-4. Définir le bean tier
+> [!todo] 
+> @PostConstruct
+@PreDestroy
+@import 
+>```@Bean```
+>- Définir le bean tier
+Créer un méthode qui renvoie le bean, puis ajouter annotation 
 
-Créer un méthode qui renvoie le bean, puis ajouter annotation ```@Bean```

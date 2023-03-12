@@ -120,21 +120,7 @@ public class BeanProcessor implements BeanPostProcessor {
 
 # Factory mode
 
-1. Static Factory
-
-```java
-<bean 
-	id="beanDaoFactory" 
-	name="bean" 
-	scope="singleton" 
-	class="com.xiaoyu.spring.dao.impl.BeanDaoImplFactory"
-	factory-method="getBeanDao"
-/>
-```
-
-2. FactoryBean
-
-Créer un "BeanFactory" implémente FactoryBean<>
+Créer un `BeanFactory` par l'interface `FactoryBean<>`
 
 ```java
 public class BeanDaoFactory implements FactoryBean<BeanDao> {  
@@ -150,7 +136,7 @@ public class BeanDaoFactory implements FactoryBean<BeanDao> {
 }
 ```
 
-Définir le bean dans applicationContext. Xml
+Définir le bean dans applicationContext.xml
 
 ```xml
 <bean id="beanDao" class="com.xiaoyu.spring.dao.factory.BeanDaoFactory"/>
