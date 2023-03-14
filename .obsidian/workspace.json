@@ -28,9 +28,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f49a4b3da17b052e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -120,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Map/HashMap.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Map/HashMap.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Map/HashMap.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,8 +194,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2c861a3a14fe4f9d",
+  "active": "f49a4b3da17b052e",
   "lastOpenFiles": [
+    "01 后端/01 Java/03 常用类/集合/Map/HashMap.md",
+    "conflict-files-obsidian-git.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
     "04 框架/03 Spring/Spring.md",
     "04 框架/03 Spring/DI.md",
@@ -224,8 +238,6 @@
     "04 框架/02 Mybatis/进阶",
     "04 框架/02 Mybatis/基础操作",
     "04 框架/02 Mybatis/Mybatis.md",
-    "04 框架/01 Maven/核心概念.md",
-    "04 框架/01 Maven/单一架构案例.md",
     "04 框架/03 Spring",
     "04 框架/02 Mybatis",
     "04 框架/01 Maven",

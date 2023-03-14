@@ -44,3 +44,13 @@
 ```
 
 FATAL > ERROR > WARN > INFO > DEBUG
+
+# Druid
+
+``` xml
+<dependency>  
+    <groupId>com.alibaba</groupId>  
+    <artifactId>druid</artifactId>  
+    <version>1.2.16</version>  
+</dependency>
+```
