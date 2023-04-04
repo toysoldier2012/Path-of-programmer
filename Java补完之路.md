@@ -20,6 +20,11 @@
 
 # 数据结构与算法
 
+
+# [[Modèle et Concept]]
+
+# [[操作系统]]
+
 # 工具
 
 1. Eclipse
@@ -32,12 +37,11 @@
 	- git
 
 > [!attention] 
-> **.gitignore只能忽略未被track的文件，**而git本地缓存。**如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的**
+> **.gitignore 只能忽略未被 track 的文件，**而 git 本地缓存。**如果某些文件已经被纳入了版本管理中，则修改.gitignore 是无效的**
 >  git rm -r --cached .
 git add .
 git commit -m 'update .gitignore'
 
-# [[操作系统]]
 
 # 其他
 

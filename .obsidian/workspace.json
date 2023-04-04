@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 框架/03 Spring/DI.md",
+                "file": "Java补完之路.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,31 +80,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 329.5
   },
   "right": {
     "id": "ef5f3f3cfbd40054",
     "type": "split",
     "children": [
       {
-        "id": "e97acedfbd257932",
-        "type": "tabs",
-        "dimension": 50.19230769230769,
-        "children": [
-          {
-            "id": "85c280c2eb473598",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "2bbe0a8ab3625de1",
         "type": "tabs",
-        "dimension": 49.80769230769231,
+        "dimension": 50,
         "children": [
           {
             "id": "f3c3386f218d6c07",
@@ -120,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 框架/03 Spring/DI.md"
+                "file": "Java补完之路.md"
               }
             }
           },
@@ -130,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 框架/03 Spring/DI.md",
+                "file": "Java补完之路.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 框架/03 Spring/DI.md",
+                "file": "Java补完之路.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,6 +147,29 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3e50caf85260c4f",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "85c280c2eb473598",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "9049aa00bd4b44f9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ]
@@ -184,16 +192,27 @@
   },
   "active": "f3c3386f218d6c07",
   "lastOpenFiles": [
-    "04 框架/03 Spring/DI.md",
-    "04 框架/03 Spring/IoC.md",
-    "04 框架/03 Spring/Spring.md",
-    "04 框架/03 Spring/AOP.md",
+    "01 后端/01 Java/Java.md",
+    "Java补完之路.md",
+    "06 模式与思想/Modèle et Concept.md",
+    "06 模式与思想/Design Patterns.md",
+    "04 框架/Vuejs/Vuejs.md",
     "04 框架/03 Spring/Hello Spring.md",
+    "04 框架/03 Spring/Spring.md",
     "04 框架/Framework.md",
     "02 前端/Ajax.md",
+    "04 框架/Vuejs",
+    "01 后端/01 Java/04 进阶/Generics.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/Vector.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
+    "01 后端/01 Java/03 常用类/集合/Archive/AbstractCollection.md",
+    "04 框架/03 Spring/DI.md",
+    "04 框架/03 Spring/IoC.md",
+    "04 框架/03 Spring/AOP.md",
     "04 框架/02 Mybatis/Mybatis.md",
     "07 操作系统/操作系统.md",
-    "Java补完之路.md",
     "Template/CollectionDetail.md",
     "Template",
     "README.md",
@@ -214,21 +233,10 @@
     "05 数据结构与算法",
     "04 框架/02 Mybatis/进阶/缓存.md",
     "04 框架/02 Mybatis/进阶/动态SQL.md",
-    "04 框架/02 Mybatis/进阶/分页.md",
-    "04 框架/02 Mybatis/进阶/Mybatis Generator.md",
-    "04 框架/02 Mybatis/基础操作/处理查询结果.md",
-    "04 框架/02 Mybatis/基础操作/向SQL语句传递参数.md",
-    "04 框架/02 Mybatis/基础操作/全局变量.md",
-    "04 框架/02 Mybatis/基础操作/Hello Mybatis.md",
     "04 框架/02 Mybatis/进阶",
     "04 框架/02 Mybatis/基础操作",
-    "04 框架/01 Maven/核心概念.md",
-    "04 框架/01 Maven/单一架构案例.md",
-    "04 框架/01 Maven/Maven.md",
     "04 框架/03 Spring",
     "04 框架/02 Mybatis",
-    "04 框架/01 Maven",
-    "04 框架",
-    "01 后端/01 Java/03 常用类/集合/Collection/Set/TreeSet.md"
+    "04 框架/01 Maven"
   ]
 }

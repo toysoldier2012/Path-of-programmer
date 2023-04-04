@@ -1,17 +1,15 @@
 
-# 1. [[Hello Java]]
+# [[Hello Java]]
 
-# 2. [[Programmation orientée objet]]
+# [[Programmation orientée objet]]
 
-# 3. [[常用类]]
+# [[常用类]]
 
-# 4. [[进阶]]
+# [[进阶]]
 
-# 5. [[Modèle et Concept]]
+# [[JVM]]
 
-# 6. [[JVM]]
-
-# 7. [[Jakarta EE]]
+# [[Jakarta EE]]
 
 
 
