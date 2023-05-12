@@ -16,22 +16,22 @@
 ## 接口
 
 ``` Java
-public Class\<?>[] getInterfaces()
+public Class<?>[] getInterfaces()
 ```
 
 ## 父类
 
 ``` Java
-public Class\<? Super T> getSuperclass()
+public Class<? Super T> getSuperclass()
 ```
 
 ## 构造器
 
 ``` Java
-public Constructor\<T>[] getConstructors()
-public Constructor\<T>[] getDeclaredConstructors()
-public Constructor\<T> getConstructor(@Nullable  Class\<?>... parameterTypes)
-public Constructor\<T> getDeclaredConstructor(@Nullable  Class\<?>... parameterTypes)
+public Constructor<T>[] getConstructors()
+public Constructor<T>[] getDeclaredConstructors()
+public Constructor<T> getConstructor(@Nullable  Class<?>... parameterTypes)
+public Constructor<T> getDeclaredConstructor(@Nullable  Class<?>... parameterTypes)
 ```
 
 ## 方法
@@ -42,11 +42,11 @@ public Method[] getDeclaredMethods()
 public java.lang.reflect.Method getEnclosingMethod()
 public Method getMethod(     
 	@NonNls  @NotNull  String name,
-	@Nullable  Class\<?>... parameterTypes 
+	@Nullable  Class<?>... parameterTypes 
 )
 public Method getDeclaredMethod(
     @NonNls  @NotNull  String name,
-    @Nullable  Class\<?>... parameterTypes
+    @Nullable  Class<?>... parameterTypes
 )
 ```
 

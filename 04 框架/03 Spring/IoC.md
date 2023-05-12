@@ -6,7 +6,6 @@
 # Fichier de configuration `applicationContext.xml`
 
 ## 1. Namespace
-
 ^e4c41f
 
 ```xml

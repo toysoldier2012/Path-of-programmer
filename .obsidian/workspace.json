@@ -18,13 +18,28 @@
             }
           },
           {
-            "id": "86b4f4086fa41971",
+            "id": "d67619f63aadf17b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 后端/01 Java/JAVA Quizzes.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "a334970f197dfc03",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/graph.json",
-                "staged": false
+                "file": "01 后端/01 Java/01 通用语法/Variable.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -58,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#array",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,6 +87,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "458439cc2f0a2fea",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -103,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "01 后端/01 Java/JAVA Quizzes.md"
+              }
             }
           },
           {
@@ -112,6 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01 后端/01 Java/JAVA Quizzes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,6 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01 后端/01 Java/JAVA Quizzes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,33 +212,39 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "86b4f4086fa41971",
+  "active": "f3c3386f218d6c07",
   "lastOpenFiles": [
-    "Java补完之路.md",
-    "conflict-files-obsidian-git.md",
+    "01 后端/01 Java/01 通用语法/Variable.md",
+    "01 后端/01 Java/JAVA Quizzes.md",
+    "01 后端/01 Java/04 进阶/Enum.md",
+    "01 后端/01 Java/02 面向对象/Module.md",
+    "01 后端/01 Java/04 进阶/Exception.md",
+    "01 后端/01 Java/04 进阶/Error.md",
+    "01 后端/01 Java/02 面向对象/Classe.md",
+    "01 后端/01 Java/03 常用类/常用类.md",
+    "01 后端/01 Java/02 面向对象/Programmation orientée objet.md",
     "01 后端/01 Java/Java.md",
-    "06 模式与思想/Modèle et Concept.md",
-    "06 模式与思想/Design Patterns.md",
-    "04 框架/Vuejs/Vuejs.md",
-    "04 框架/03 Spring/Hello Spring.md",
-    "04 框架/03 Spring/Spring.md",
-    "04 框架/Framework.md",
-    "02 前端/Ajax.md",
-    "04 框架/Vuejs",
-    "01 后端/01 Java/04 进阶/Generics.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/Vector.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List.md",
+    "01 后端/01 Java/01 通用语法/Hello Java.md",
+    "01 后端/01 Java/02 面向对象/Interface.md",
+    "04 框架/JUnit/JUnit.md",
+    "01 后端/01 Java/03 常用类/字符串/StringBuilder.md",
+    "01 后端/01 Java/03 常用类/字符串/StringBuffer.md",
+    "01 后端/01 Java/03 常用类/字符串/String.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
-    "01 后端/01 Java/03 常用类/集合/Archive/AbstractCollection.md",
-    "04 框架/03 Spring/DI.md",
-    "04 框架/03 Spring/IoC.md",
+    "04 框架/Framework.md",
+    "04 框架/JUnit",
+    "04 框架/TestNG/TestNG.md",
+    "04 框架/TestNG",
+    "06 模式与思想/需求处理模板.md",
+    "06 模式与思想/TDD.md",
+    "01 后端/01 Java/04 进阶/Lambda.md",
     "04 框架/03 Spring/AOP.md",
-    "04 框架/02 Mybatis/Mybatis.md",
-    "07 操作系统/操作系统.md",
-    "Template/CollectionDetail.md",
+    "01 后端/01 Java/04 进阶/Reflection.md",
+    "Attachment/Pasted image 20230419214403.png",
+    "04 框架/Vuejs",
     "Template",
-    "README.md",
     "Attachment/Pasted image 20230306232237.png",
     "Attachment/Pasted image 20230304205719.png",
     "Attachment/Pasted image 20230304010809.png",
@@ -221,17 +254,11 @@
     "Attachment/Pasted image 20230223222934.png",
     "Attachment/Pasted image 20230223220916.png",
     "Attachment/Pasted image 20230220224859.png",
-    "Attachment/Pasted image 20230220224159.png",
     "Attachment",
     "07 操作系统",
-    "05 数据结构与算法/Kadane's Algorithm.md",
-    "05 数据结构与算法/Algorithm.md",
     "05 数据结构与算法",
-    "04 框架/02 Mybatis/进阶/缓存.md",
     "04 框架/02 Mybatis/进阶",
     "04 框架/02 Mybatis/基础操作",
-    "04 框架/03 Spring",
-    "04 框架/02 Mybatis",
-    "04 框架/01 Maven"
+    "04 框架/03 Spring"
   ]
 }

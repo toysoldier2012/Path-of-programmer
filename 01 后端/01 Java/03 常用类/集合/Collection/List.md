@@ -1,3 +1,4 @@
+#list 
 
 [[ArrayList]]
 [[LinkedList]]

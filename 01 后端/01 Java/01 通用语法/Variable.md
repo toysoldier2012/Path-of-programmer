@@ -53,6 +53,7 @@ System.gc();
 ![[Pasted image 20230223220916.png]]
 
 ## 4. Tableaux
+#array 
 
 ### Déclaration et allocation
 
@@ -76,6 +77,7 @@ int tableau[5]    = {10, 20, 30, 40, 50};
 int tableau[3][2] = {{5, 1}, {6, 2}, {7, 3}};
 int tableau[] = {10, 20, 30, 40, 50};
 int[][] tabEntiers = {{1, 2, 3, 4, 5, 6}, {1, 2, 3, 4}, {1, 2, 3, 4, 5, 6, 7, 8, 9}};
+int[] i1 = new int[]{1,2,3,4,5,7,8};
 ```
 
 ### Parcours
@@ -90,6 +92,13 @@ Arrays.stream(arr).forEach(System.out::println)
 
 - [[String#^0e4978|基本类型与String的转换]]
 - [[AbstractList#^c1c20b|数组与List的转换]]
+
+# 包装类
+
+## Integer 
+#integer 
+
+ -2147483648 to 2147483647
 
 # 其他常见类型
 

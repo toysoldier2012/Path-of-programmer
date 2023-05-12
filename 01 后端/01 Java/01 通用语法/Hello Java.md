@@ -19,18 +19,32 @@
 # [[Variable]]
 
 # Opérateur
+#operator 
 
 ``` java
-expr++  expr--
-++expr  --expr  +expr  -expr  ˜  !
+expr++//incrément
+expr--//Decrement
+++expr  --expr  +expr  -expr !
 *  /  %
-+  -
-<<  >>  >>>
++ 
+-//Substraction
 <  >  <=  >=  instanceof
-==  !=
-^ & | && ||
+== !=
+!//Negation
+
+//位运算符 opérateur de bits
+^ //异或 opérateur ou exclusif
+& //opérateur et
+| //opérateur ou
+<< //opérateur décalage à gauche
+>> //opérateur décalage à droit
+>>> //opérateur décalage à droit non signe
+~ //opérateur non
+
+&& ||
 ? :
 =  +=  -=  *=  /=  %=  ^=  |=  <<=  >>=  >>>= ->
+
 ```
 
 # Les structures de contrôles
@@ -50,6 +64,14 @@ expr++  expr--
 
 - break
 - continue
+
+# Compiler
+#compiler
+
+``` shell
+javac MyProgram.java
+java MyProgram 1 "2" "2" 5
+```
 
 # Syntactic sugar
 

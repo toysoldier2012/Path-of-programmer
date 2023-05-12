@@ -1,7 +1,7 @@
 
 - 简化函数接口
 - (parameters) -> expression 
-或 (parameters) ->{ statements; }
+或 (parameters) -> { statements; }
 
 - 最多只能有两个参数
 
