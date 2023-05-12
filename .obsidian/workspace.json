@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 后端/01 Java/01 通用语法/Variable.md",
+                "file": "01 后端/01 Java/Quizze 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 后端/01 Java/JAVA Quizzes.md"
+                "file": "01 后端/01 Java/Quizze 2.md"
               }
             }
           },
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 后端/01 Java/JAVA Quizzes.md",
+                "file": "01 后端/01 Java/Quizze 2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 后端/01 Java/JAVA Quizzes.md",
+                "file": "01 后端/01 Java/Quizze 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,10 +212,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f3c3386f218d6c07",
+  "active": "a334970f197dfc03",
   "lastOpenFiles": [
-    "01 后端/01 Java/01 通用语法/Variable.md",
+    "01 后端/01 Java/Quizze 5.md",
+    "01 后端/01 Java/Quizze 4.md",
+    "01 后端/01 Java/Quizze 3.md",
+    "01 后端/01 Java/Quizze 2.md",
+    "01 后端/01 Java/Quizze 1.md",
     "01 后端/01 Java/JAVA Quizzes.md",
+    "01 后端/01 Java/01 通用语法/Variable.md",
     "01 后端/01 Java/04 进阶/Enum.md",
     "01 后端/01 Java/02 面向对象/Module.md",
     "01 后端/01 Java/04 进阶/Exception.md",
@@ -237,11 +242,6 @@
     "04 框架/JUnit",
     "04 框架/TestNG/TestNG.md",
     "04 框架/TestNG",
-    "06 模式与思想/需求处理模板.md",
-    "06 模式与思想/TDD.md",
-    "01 后端/01 Java/04 进阶/Lambda.md",
-    "04 框架/03 Spring/AOP.md",
-    "01 后端/01 Java/04 进阶/Reflection.md",
     "Attachment/Pasted image 20230419214403.png",
     "04 框架/Vuejs",
     "Template",
