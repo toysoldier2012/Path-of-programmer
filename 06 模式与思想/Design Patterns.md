@@ -1,4 +1,4 @@
-
+#pattern 
 # Creational pattern
 
 ## 1. 单例模式 Singleton
@@ -18,10 +18,11 @@
 
 ![[Pasted image 20230220224859.png]]
 
-## 5. 代理模式
+## 5. 代理模式 Proxy
+#proxy 
 
 作用
 1. 控制访问
 2. 功能增强
 
-## 6. 迭代器模式
+## 6. 迭代器模式 

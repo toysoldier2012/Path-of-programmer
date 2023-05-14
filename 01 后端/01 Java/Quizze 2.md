@@ -55,7 +55,10 @@ https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/j
 - [ ] 1234
 
 > [!note] 
->  array.size() is invalid, to get size or length of array array.length can be used.
+> `array.length` can be used.
+> `string.length`
+> `collection.size()` is used in collection and map in Java
+>  
 
 #### Q5. Which of the following can replace the CODE SNIPPET to make the code below print "Hello World"? #interface
 
@@ -136,91 +139,58 @@ class Main {
 #### Q8. Which class can compile given these declarations? #interface 
 
 ```java
-
 interface One {
-
     default void method() {
-
         System.out.println("One");
-
     }
-
 }
-
-  
 
 interface Two {
-
     default void method () {
-
         System.out.println("One");
-
     }
-
 }
-
 ```
 
 - [ ] A
 
 ```java
-
 class Three implements One, Two {
-
     public void method() {
-
         super.One.method();
-
     }
-
 }
-
 ```
 
 - [ ] B
 
 ```java
-
 class Three implements One, Two {
-
     public void method() {
-
         One.method();
-
     }
-
 }
-
 ```
 
 - [ ] C
 
 ```java
-
 class Three implements One, Two {
-
 }
-
 ```
 
 - [x] D
 
 ```java
-
 class Three implements One, Two {
-
   public void method() {
-
     One.super.method();
-
   }
-
 }
-
 ```
 
 > [!note] 
->  Interface.super.method()
+>  interface.super.method()
 
 #### Q9. What is the output of this code? #arraylist 
 
@@ -437,7 +407,7 @@ System.out.print("apple".compareTo("banana"));
 - [ ] `names.sort(Comparator.comparing(String::toString))`
 - [ ] `Collections.sort(names)`
 - [x] `names.sort(List.DESCENDING)`
-- [ ] `names.stream().sorted((s 1, s 2) -> s 1.compareTo(s 2)).collect(Collectors.toList())`
+- [ ] `names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())`
 
 > [!note] 
 >  
@@ -536,7 +506,7 @@ public class Jedi {
 - [ ] An anonymous class may specify both an abstract class and interface as base types.
 
 > [!note] 
->  
+>  ????????
 
 #### Q 25. What will this program print out to the console when executed?
 
@@ -903,7 +873,7 @@ theList.forEach(System.out::println);
 - [ ] private String isHealthy(String food)
 
 
-#### Q 40. Which are valid keywords in a Java module descriptor (module-info.java)?
+#### Q 40. Which are valid keywords in a Java module descriptor (module-info.java)? #module 
 
 - [ ] provides, employs
 - [ ] imports, exports
@@ -921,7 +891,7 @@ theList.forEach(System.out::println);
 - [ ] private
 
 
-#### Q 42. How does the keyword `volatile` affect how a variable is handled?
+#### Q 42. How does the keyword `volatile` affect how a variable is handled? #keyword
 
 - [ ] It will be read by only one thread at a time.
 - [ ] It will be stored on the hard drive.
@@ -1008,6 +978,7 @@ public class Duck {
 
 
 #### Q 48. Given this class, how would you make the code compile?
+#keyword
 
 ```java
 
@@ -1122,8 +1093,5 @@ public class Solution {
 
 - [ ] 1, 2, and 3
 - [ ] only 3
-- [ ] 2 and 3
-- [x] only 2
-
-> [!note] 
->  
+- [x] 2 and 3
+- [ ] only 2

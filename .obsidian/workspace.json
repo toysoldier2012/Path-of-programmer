@@ -18,13 +18,13 @@
             }
           },
           {
-            "id": "d67619f63aadf17b",
+            "id": "32e1d4b58b6e8067",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 后端/01 Java/JAVA Quizzes.md",
+                "file": "01 后端/01 Java/Quizze 4.md",
                 "mode": "source",
                 "source": false
               },
@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "a334970f197dfc03",
+            "id": "70a7c24758c98e9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 后端/02 Database/Quizzes.md",
+                "file": "01 后端/01 Java/04 进阶/Lambda.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#array",
+                "query": "tag:#enum",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 后端/02 Database/Quizzes.md"
+                "file": "01 后端/01 Java/04 进阶/Lambda.md"
               }
             }
           },
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 后端/02 Database/Quizzes.md",
+                "file": "01 后端/01 Java/04 进阶/Lambda.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 后端/02 Database/Quizzes.md",
+                "file": "01 后端/01 Java/04 进阶/Lambda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,34 +212,34 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a334970f197dfc03",
+  "active": "70a7c24758c98e9b",
   "lastOpenFiles": [
-    "01 后端/01 Java/Quizze 2.md",
-    "01 后端/02 Database/Quizzes.md",
+    "01 后端/01 Java/04 进阶/Exception.md",
     "01 后端/01 Java/Quizze 5.md",
     "01 后端/01 Java/Quizze 4.md",
-    "01 后端/01 Java/Quizze 3.md",
-    "01 后端/01 Java/Quizze 1.md",
-    "01 后端/01 Java/JAVA Quizzes.md",
-    "01 后端/01 Java/01 通用语法/Variable.md",
     "01 后端/01 Java/04 进阶/Enum.md",
-    "01 后端/01 Java/02 面向对象/Module.md",
-    "01 后端/01 Java/04 进阶/Exception.md",
-    "01 后端/01 Java/04 进阶/Error.md",
-    "01 后端/01 Java/02 面向对象/Classe.md",
-    "01 后端/01 Java/03 常用类/常用类.md",
-    "01 后端/01 Java/02 面向对象/Programmation orientée objet.md",
-    "01 后端/01 Java/Java.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List.md",
     "01 后端/01 Java/01 通用语法/Hello Java.md",
-    "01 后端/01 Java/02 面向对象/Interface.md",
-    "04 框架/JUnit/JUnit.md",
-    "01 后端/01 Java/03 常用类/字符串/StringBuilder.md",
-    "01 后端/01 Java/03 常用类/字符串/StringBuffer.md",
+    "01 后端/01 Java/02 面向对象/Programmation orientée objet.md",
+    "01 后端/01 Java/Quizze 3.md",
+    "01 后端/01 Java/03 常用类/集合/Map/HashMap.md",
+    "01 后端/01 Java/JAVA Quizzes.md",
+    "01 后端/01 Java/04 进阶/Lambda.md",
+    "06 模式与思想/Design Patterns.md",
+    "04 框架/03 Spring/AOP.md",
+    "04 框架/03 Spring/DI.md",
+    "04 框架/03 Spring/Hello Spring.md",
+    "04 框架/03 Spring/IoC.md",
+    "04 框架/03 Spring/Spring.md",
+    "01 后端/01 Java/04 进阶/进阶.md",
+    "01 后端/01 Java/01 通用语法/Variable.md",
     "01 后端/01 Java/03 常用类/字符串/String.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
-    "04 框架/Framework.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Queue.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set.md",
+    "01 后端/01 Java/Quizze 2.md",
+    "01 后端/01 Java/02 面向对象/Classe.md",
+    "01 后端/01 Java/02 面向对象/Module.md",
+    "01 后端/01 Java/02 面向对象/Interface.md",
     "04 框架/JUnit",
     "04 框架/TestNG",
     "Attachment/Pasted image 20230419214403.png",

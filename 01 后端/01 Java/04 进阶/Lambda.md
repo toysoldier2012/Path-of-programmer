@@ -1,3 +1,4 @@
+#lambda 
 
 - 简化函数接口
 - (parameters) -> expression 

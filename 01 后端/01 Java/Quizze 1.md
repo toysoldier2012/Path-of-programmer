@@ -22,9 +22,6 @@ What will this code do ?
 - [ ] It compiles and displays 5.
 - [ ] It compiles and displays 15.
 
-> [!note] 
-> 非静态变量无法被静态方法调取
-
 #### By convention, how should a package be named? #package
 
 - [ ] All uppercase

@@ -68,18 +68,22 @@ public class Main {
 ```
 
 # Mot clé
+#keyword
 
 - [[Programmation orientée objet#^683229|Règles de visibilité]]
 - static ^a56f3a
 - final
+	只能在构造器，初始化块，声明是赋值
 - abstract
 - native
 	使用 native 关键字说明这个方法是原生函数，也就是这个方法是用 C/C++语言实现的，并且被编译成了 DLL，由 java 去调用
 
 - synchronized
 - volatile
+	共享变量
 
 - transient
+	不需要序列化
 
 - this
 - super

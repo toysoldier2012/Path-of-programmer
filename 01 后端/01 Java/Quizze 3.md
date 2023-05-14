@@ -147,8 +147,8 @@ static void swapsies(int a, int b) {
 ```
 
 - [ ] 10 10
-- [ ] 5 10
-- [x] 10 5
+- [x] 5 10
+- [ ] 10 5
 - [ ] 5 5
 
 > [!note] 
@@ -192,9 +192,6 @@ try {
 - [ ] interface
 - [x] unsigned
 
-> [!note] 
-> **Explanation:** `native` is a part of JNI interface. 
-
 
 #### Q 62. Which operator would you use to find the remainder after division?
 
@@ -215,9 +212,6 @@ try {
 - [ ] The internal state of the parent class is accessible to its children.
 
 [Reference](http://erpbasic.blogspot.com/2012/01/inheritance-advantages-and.html#:~:text=Main%20disadvantage%20of%20using%20inheritance,used%20independent%20of%20each%20other.&text=4.,case%20of%20using%20that%20method.)
-
-> [!note] 
->  
 
 #### Q 64. How would you declare and initialize an array of 10 ints?
 
@@ -275,7 +269,7 @@ groucyButton.addActionListener(new ActionListener() {
  
 [Reference](https://www.baeldung.com/java-hashcode)
 > [!note] 
->  
+>  ?????????
 
 #### Q 68. What kind of relationship does "extends" denote?
 
@@ -299,7 +293,7 @@ groucyButton.addActionListener(new ActionListener() {
 [Reference](https://sematext.com/blog/java-garbage-collection/)
 
 
-#### Q 70. Java programmers commonly use design patterns. Some examples are the **\_**, which helps create instances of a class, the **\_**, which ensures that only one instance of a class can be created; and the **\_**, which allows for a group of algorithms to be interchangeable.
+#### Q 70. Java programmers commonly use design patterns. Some examples are the **\_**, which helps create instances of a class, the **\_**, which ensures that only one instance of a class can be created; and the **\_**, which allows for a group of algorithms to be interchangeable. #pattern
 
 - [x] static factory method; singleton; strategy pattern
 - [ ] strategy pattern; static factory method; singleton
@@ -319,12 +313,12 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] Reflection.getClass(this).getName(); Reflection.getClass(this).getMethods()
 
 
-#### Q 72. Which is not a valid lambda expression?
+#### Q 72. Which is not a valid lambda expression? #lambda
 
 - [ ] `a -> false;`
 - [ ] `(a) -> false;`
 - [x] `String a -> false;`
-- [x] `(String a) -> false;`
+- [ ] `(String a) -> false;`
 
 > [!note] 
 >  
@@ -340,11 +334,9 @@ groucyButton.addActionListener(new ActionListener() {
 
 - [ ] private
 - [ ] non-static
-- [ ] final
-- [x] static
+- [x] final
+- [ ] static
 
-> [!note] 
->  
 #### Q 75. How would you convert a String to an Int?
 
 - [ ] `"21".intValue()`
@@ -496,7 +488,7 @@ public class Main {
 - [x] Remove the body of the `print` method.
 
 
-#### Q 85. What is the output of this code?
+#### Q 85. What is the output of this code? #list 
 
 
 ```java
@@ -526,8 +518,8 @@ class Main {
 ```
 
 - [ ] falsefalse
-- [ ] truetrue
-- [x] falsetrue
+- [x] truetrue
+- [ ] falsetrue
 - [ ] truefalse
 
 > [!note] 
@@ -599,7 +591,7 @@ class TaxCalculator {
 - [x] contains sorted elements
 
 
-#### Q 90. What is the output?
+#### Q 90. What is the output? #queue
 
 ```java
 
@@ -637,11 +629,11 @@ public class Main {
 
 - [ ] 1 3 2 4
 - [ ] 4 2 3 1
-- [ ] 1 2 3 4
-- [x] 4 3 2 1
+- [x] 1 2 3 4
+- [ ] 4 3 2 1
 
 > [!note] 
->  
+>  PriorityQueue 按照大小重排了数字
 
 #### Q 91. What will this code print, assuming it is inside the main method of a class?
 
@@ -668,8 +660,7 @@ public class Main {
 - [x] Throwable
 - [ ] Object
 - [ ] Serializable
-> [!note] 
->  
+
 
 #### Q 94. Which class does not implement the java.util.Collection interface?
 
@@ -724,9 +715,6 @@ public enum Direction {
 - [ ] All enums need to be defined on a single line of code.
 - [ ] Add a setter method for the field `shortCode`.
 
-> [!note] 
-> 
-
 
 #### Q97. Which language feature ensures that objects implementing the `AutoCloseable` interface are closed when it completes?
 
@@ -768,7 +756,7 @@ public enum Direction {
 - [ ] `int[][] array = [][];`
 
 
-#### Q 99. Is this an example of method overloading or overriding?
+#### Q 99. Is this an example of method overloading or overriding? #override
 
 
 ```java

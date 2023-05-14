@@ -1,4 +1,4 @@
 #interface 
 
-实现接口中方法的特殊方式Interface.super.method()
+实现接口中方法的特殊方式 interface.super.method()
 1.8之后，接口中可以有default方法，可以包含具体实现

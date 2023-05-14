@@ -122,7 +122,7 @@ class Main {
 - [ ] ArrayList does not implement the List interface.
 
 > [!note] 
->  
+>  foreach 不能删除
 
 #### Q 106. How do you convert this method into a lambda expression?
 
@@ -301,7 +301,7 @@ System.out.println(false || false && true);
 - [ ] false </br> false
 
 
-#### Q 111. What will this code print?
+#### Q 111. What will this code print? #list 
 
 
 ```java
@@ -351,7 +351,6 @@ System.out.println(list1);
 
 #### Q 114. Which keyword would not be allowed here?
 
-
 ```java
 
 class Unicorn {
@@ -366,8 +365,7 @@ class Unicorn {
 - [ ] protected
 - [ ] public
 - [ ] void
-> [!note] 
->  
+
 
 #### Q 115. Which OOP concept is this code an example of?
 
@@ -438,11 +436,9 @@ System.out.println(b == c);
 - [x] synchronized
 - [ ] lock
 
-> [!note] 
-> 
-
 [Reference](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html)
-
+> [!note] 
+> lock 不是关键字，是个接口 
 
 #### Q 118. Which is a valid type for this lambda function?
 
@@ -461,8 +457,6 @@ _____ oddOrEven = x -> {
 - [ ] `Function<String>`
 - [x] `Function<Integer, String>`
 - [ ] `Function<Integer>`
-> [!note] 
->  
 
 [Explaination](https://github.com/0nyr/java/tree/main/examples/lambda_function), [Reference](https://www.geeksforgeeks.org/function-interface-in-java-with-examples/)
 
@@ -527,9 +521,6 @@ songTitles.stream().map(capitalize).forEach(System.out::println);
 - [ ] `String<String, String>`
 - [ ] `Map<String, String>`
 
-> [!note] 
-> 
-
 [Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/what_variable_type_0), [Reference](https://www.geeksforgeeks.org/function-interface-in-java-with-examples/)
 
 
@@ -550,9 +541,6 @@ _____ processFunction(Integer number, Function<Integer, String> lambda) {
 - [x] `String`
 - [ ] `Consumer`
 - [ ] `Function<Integer, String>`
-
-> [!note] 
->  
 
 [Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/which_return_type_0)
 
@@ -576,9 +564,9 @@ dates.replaceAll(replaceSlashes);
 - [ ] `Consumer<Date> replaceSlashes = date -> date.replace("/", "-");`
 
 > [!note] 
-> 
+> **Explanation:** `replaceAll` method for any `List<T>` only accepts `UnaryOperator<T>` to pass every single element into it then put the result into the `List<T>` again.
 
-**Explanation:** `replaceAll` method for any `List<T>` only accepts `UnaryOperator<T>` to pass every single element into it then put the result into the `List<T>` again.
+
 
 
 #### Q 123. From which class do all other classes implicitly extend?
@@ -787,7 +775,7 @@ for(int i=0; i<30; i+=x) {}
 [Reference](https://stackoverflow.com/questions/1906445/what-is-the-difference-between-jdk-and-jre)
 
 
-#### Q 130. Which packages are part of Java Standard Edition
+#### Q 130. Which packages are part of Java Standard Edition #package 
 
 - [ ] java.net
 - [ ] java.util
@@ -834,9 +822,6 @@ System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
 - [ ] Add the keyword default to the weight variable.
 - [ ] Override the equals method inside the Bunny class.
 - [ ] Implement Sortable and override the sortBy method.
-
-> [!note] 
->  
 
 [Reference](https://www.geeksforgeeks.org/how-to-override-compareto-method-in-java/)
 
@@ -923,15 +908,13 @@ Doggie::fetch
 [Reference](https://docs.oracle.com/javase/tutorial/essential/concurrency/notify.html)
 
 
-#### Q 138. Which is the right way to declare an enumeration of cats?
+#### Q 138. Which is the right way to declare an enumeration of cats? #enum 
 
 - [ ] enum Cats (SPHYNX, SIAMESE, BENGAL);
-- [x] enum Cats ("sphynx", "siamese", "bengal");
-- [ ] enum Cats {SPHYNX, SIAMESE, BENGAL}
+- [ ] enum Cats ("sphynx", "siamese", "bengal");
+- [x] enum Cats {SPHYNX, SIAMESE, BENGAL}
 - [ ] enum Cats {"sphynx","siamese","bengal}
 
-> [!note] 
->  
 #### Q 139. What happens when this code is run?
 
 
@@ -997,7 +980,12 @@ Queue<Rainfall>
 - [ ] java.sql.time
 
 > [!note] 
->  
+>  -   java.sql timestamp: This option is correct. It is a class in the java.sql package that represents a SQL timestamp value, which includes both date and time information.
+>  -   java.io time: This option is incorrect. There is no class called java.io time in Java.
+>  -   java.io.timestamp: This option is incorrect. There is no class called java.io.timestamp in Java.
+>  -   java.sql.time: This option is incorrect. It is a class in the java.sql package that represents a SQL time value, which includes only time information, not date information.
+
+
 #### Q 142. What is the size of float and double in java?
 
 - [x] 32 and 64
@@ -1006,7 +994,7 @@ Queue<Rainfall>
 - [ ] 64 and 32
 
 > [!note] 
->  
+>  int 也是 32 位
 
 #### Q 143. When you pass an object reference as an argument to a method call what gets passed?
 
@@ -1044,7 +1032,7 @@ Queue<Rainfall>
 - [ ] None of these
 
 > [!note] 
->  
+>  daemon thread 是守护线程，java 中另一个重要线程是用户线程 User thread
 
 #### Q 147. What is HashMap and Map?
 
@@ -1052,9 +1040,6 @@ Queue<Rainfall>
 - [ ] HashMap is class and map is interface that implements that
 - [ ] Map is class and Hashmap is interface that implements that
 - [x] Map is Interface and Hashmap is class that implements that
-
-> [!note] 
->  
 
 #### Q 148. What invokes a thread's run() method?
 

@@ -46,4 +46,9 @@ int lastIndexOf(Object o)
 ``` java
 Lambda : unsortedList.sort(Comparator.comparing(String::toString))
 stream : unsortedList.stream().sorted((s1, s2) -> 	s1.compareTo(s2)).collect(Collectors.toList())
+Collection静态方法 : Collection.sort(unsortedList)
 ```
+
+# 比较
+
+只比较每个元素是否相同
