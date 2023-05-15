@@ -98,7 +98,7 @@ Arrays.stream(arr).forEach(System.out::println)
 ## Integer 
 #integer 
 
- -2147483648 to 2147483647
+ -2147483648 to 2147483647, 32 位
 
 # 其他常见类型
 

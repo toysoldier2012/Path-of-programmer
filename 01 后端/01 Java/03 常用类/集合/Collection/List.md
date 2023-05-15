@@ -41,12 +41,25 @@ int indexOf(Object o)
 int lastIndexOf(Object o)
 ```
 
-# 两种排序方式
+# 排序
+
+1. 可以使用 `Collections` 类的 `sort()` 方法对 `List` 进行排序。如果要对自定义对象的列表进行排序，需要确保对象实现了 `Comparable` 接口，并实现了 `compareTo()` 方法，以指定对象之间的比较规则。
+
+```java
+Collection.sort(unsortedList)
+```
+
+2. 从 Java 8开始，`List` 接口提供了一个默认方法 `sort()`，可以直接在列表上进行排序。这种方法要求列表的元素类型实现了 `Comparable` 接口或传入一个自定义的 `Comparator` 对象来定义排序规则。
+
+```java
+unsortedList.sort(null)
+unsortedList.sort(Comparator.comparing(String::toString))
+```
+
+3. 通过 stream 处理排序
 
 ``` java
-Lambda : unsortedList.sort(Comparator.comparing(String::toString))
 stream : unsortedList.stream().sorted((s1, s2) -> 	s1.compareTo(s2)).collect(Collectors.toList())
-Collection静态方法 : Collection.sort(unsortedList)
 ```
 
 # 比较

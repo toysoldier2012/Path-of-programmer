@@ -8,6 +8,7 @@ https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/j
 - [ ] awb
 - [ ] traw
 
+
 #### Q2. How can you achieve runtime polymorphism in Java? #polymorphism
 
 
@@ -15,6 +16,7 @@ https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/j
 - [ ] method overrunning
 - [x] method overriding
 - [ ] method calling
+
 
 #### Q3. Given the following definitions, which of these expression will **NOT** evaluate to true? #operator 
 
@@ -24,8 +26,6 @@ https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/j
 - [ ] `b1 || !b2`
 - [ ] `(i1 ^ i2) < 4`
 
-> [!note] 
-> Opérateur de bits 
 
 #### Q4. What is the output of this code? #array 
 
@@ -60,6 +60,7 @@ https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/j
 > `collection.size()` is used in collection and map in Java
 >  
 
+
 #### Q5. Which of the following can replace the CODE SNIPPET to make the code below print "Hello World"? #interface
 
 ```java
@@ -93,6 +94,7 @@ interface Interface2 {
 - [ ] `super.print();`
 - [x] `Interface1.print(); Interface2.print();`
 
+
 #### Q6. What does the following code print? #string 
 
 ```java
@@ -113,6 +115,7 @@ System.out.println(str);
 - [ ] CDE
 - [ ] D
 - [x] abcde
+
 
 #### Q7. What is the result of this code? #exception 
 
@@ -135,6 +138,7 @@ class Main {
 - [x] "java.lang.Exception"
 - [ ] It will run and throw an exception.
 - [ ] It will not compile.
+
 
 #### Q8. Which class can compile given these declarations? #interface 
 
@@ -192,6 +196,7 @@ class Three implements One, Two {
 > [!note] 
 >  interface.super.method()
 
+
 #### Q9. What is the output of this code? #arraylist 
 
 ```java
@@ -210,6 +215,7 @@ class Main {
 - [ ] truefalse
 - [x] truetrue
 - [ ] falsetrue
+
 
 #### Q10. Given the following two classes, what will be the output of the Main class #package 
 
@@ -296,6 +302,7 @@ class Main {
 - [ ] It will not compile because of line 2.
 - [ ] "World!"
 
+
 #### Q 12. Given this code, which command will output "2"? #compiler 
 
 
@@ -319,7 +326,9 @@ class Main {
 - [ ] `java Main 1 "2" "3 4" 5`
 
 > [!note] 
->  
+>  javac MyProgram.java
+java MyProgram 1 "2" "2" 5
+
 
 #### Q13. What is the output of this code? #integer 
 
@@ -410,7 +419,8 @@ System.out.print("apple".compareTo("banana"));
 - [ ] `names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())`
 
 > [!note] 
->  
+>  详见 list 比较方式
+
 
 #### Q 18. By implementing encapsulation, you cannot directly access the class's \_ properties unless you are writing code inside the class itself. #encapsulation
 
@@ -420,12 +430,13 @@ System.out.print("apple".compareTo("banana"));
 - [ ] public
 
 
-#### Q 19. Which is the most up-to-date way to instantiate the current date?
+#### Q 19. Which is the most up-to-date way to instantiate the current date? #date
 
 - [ ] `new SimpleDateFormat("yyyy-MM-dd").format(new Date())`
 - [ ] `new Date(System.currentTimeMillis())`
 - [x] `LocalDate.now()`
 - [ ] `Calendar.getInstance().getTime()`
+
 
 #### Q 20. Fill in the blank to create a piece of code that will tell whether `int 0` is divisible by `5`:
 
@@ -436,7 +447,7 @@ System.out.print("apple".compareTo("banana"));
 - [ ] `int0 % 5 != 5`
 - [ ] `Math.isDivisible(int0, 5)`
 
-#### Q 21. How many times will this code print "Hello World!"?
+#### Q 21. How many times will this code print "Hello World!"? #operator 
 
 ```java
 
@@ -463,15 +474,14 @@ class Main {
 - [ ] 5 times
 - [ ] infinite number of times
 
-> [!note] 
-> i=i++，不会自增
 
-#### Q 22. The runtime system starts your program by calling which function first?
+#### Q 22. The runtime system starts your program by calling which function first? 
 
 - [ ] print
 - [ ] iterative
 - [ ] hello
 - [x] main
+
 
 #### Q 23. What code would you use in Constructor A to call Constructor B?
 
