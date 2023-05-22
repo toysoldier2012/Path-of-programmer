@@ -1,772 +1,1109 @@
 
-https://welovedevs.com/app/fr/test-session/-NNxW7D1t9leA1jctqCd/results
+https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/java-quiz.md
 
-#### Given this code : #static
+#### Q1. Given the string "strawberries" saved in a variable called fruit, what would `fruit.substring(2, 5)` return? #string 
+
+- [ ] rawb
+- [x] raw
+- [ ] awb
+- [ ] traw
+
+
+#### Q2. How can you achieve runtime polymorphism in Java? #polymorphism
+
+- [ ] method overloading
+- [ ] method overrunning
+- [x] method overriding
+- [ ] method calling
+
+
+#### Q3. Given the following definitions, which of these expression will **NOT** evaluate to true? #operator 
+
+`boolean b 1 = true, b 2 = false; int i 1 = 1, i 2 = 2;`
+- [ ] `(i1 | i2) == 3`
+- [x] `i2 && b1`
+- [ ] `b1 || !b2`
+- [ ] `(i1 ^ i2) < 4`
+
+
+#### Q4. What is the output of this code? #array 
 
 ```java
-public class QuestionJava {
-     
-    String var = "we";
-     
-    public static void main(String[] data) {
-        String var2 = "lovedev";
-        System.out.print(var + var2);
-    }
+
+1: class Main {
+
+2:   public static void main (String[] args) {
+
+3:     int array[] = {1, 2, 3, 4};
+
+4:     for (int i = 0; i < array.size(); i++) {
+
+5:        System.out.print(array[i]);
+
+6:     }
+
+7:   }
+
+8: }
+
+```
+
+- [x] It will not compile because of line 4.
+- [ ] It will not compile because of line 3.
+- [ ] 123
+- [ ] 1234
+
+> [!note] 
+> `array.length`
+> `string.length()`
+> `collection.size()`
+
+
+#### Q5. Which of the following can replace the CODE SNIPPET to make the code below print "Hello World"? #interface
+
+```java
+
+interface Interface1 {
+
+    static void print() {
+
+        System.out.print("Hello");
+
+    }
+
+}
+
+  
+
+interface Interface2 {
+
+    static void print() {
+
+        System.out.print("World!");
+
+    }
+
+}
+
+```
+
+- [ ] `super1.print(); super2.print();`
+- [ ] `this.print();`
+- [ ] `super.print();`
+- [x] `Interface1.print(); Interface2.print();`
+
+
+#### Q6. What does the following code print? #string 
+
+```java
+
+String str = "abcde";
+
+str.trim();
+
+str.toUpperCase();
+
+str.substring(3, 4);
+
+System.out.println(str);
+
+```
+
+- [ ] CD
+- [ ] CDE
+- [ ] D
+- [x] abcde
+
+
+#### Q7. What is the result of this code? #exception 
+
+```java
+class Main {
+    public static void main (String[] args){
+        System.out.println(print(1));
+    }
+    static Exception print(int i){
+        if (i>0) {
+            return new Exception();
+        } else {
+            throw new RuntimeException();
+        }
+    }
 }
 ```
 
-What will this code do ?
+- [ ] It will show a stack trace with a runtime exception.
+- [x] "java.lang.Exception"
+- [ ] It will run and throw an exception.
+- [ ] It will not compile.
 
-- [x] It doesn't compile.
-- [ ] It compiles but throws an exception at runtime.
-- [ ] It compiles and displays 5.
-- [ ] It compiles and displays 15.
 
-#### By convention, how should a package be named? #package
-
-- [ ] All uppercase
-- [ ] 1 st letter uppercase
-- [ ] 1 st letter in lowercase and the first letter of a new word in uppercase
-- [x] All lowercase
-
-#### @BeforeTest is executed before each test? #TestNG #BeforeTest
-
-- [x] True
-- [ ] False
-
-> [!note] 
->  
-
-#### Are arrays primitives types in Java? #type
-
-- [ ] Yes
-- [x] No
-
-#### Given this code, What will be displayed in the console? #operator
+#### Q8. Which class can compile given these declarations? #interface 
 
 ```java
-public static void main(String[] args){
-    int a = 2;
-    a + = 2;
-    System.out.println(a% 2);
+interface One {
+    default void method() {
+        System.out.println("One");
+    }
+}
+
+interface Two {
+    default void method () {
+        System.out.println("One");
+    }
 }
 ```
 
-
-- [ ] "4"
-- [ ] "2"
-- [x] "0"
-- [ ] An error
-
-> [!note] 
->  %求余 /除法，向下取整
-
-#### Given this code, What will be displayed ? #array
+- [ ] A
 
 ```java
-import java.util.ArrayList;
-import java.util.List;
-public class ArrayListQuestion {
-public static void main(String[] args)
-{
-   List<String> list = new ArrayList<String>();
-    list.add("Dhanbad");
-    list.add(0, "New York");
-    list.add("Mumbai");
-    list.add(2, "Sydney");
-    System.out.println(list);
-  }
+class Three implements One, Two {
+    public void method() {
+        super.One.method();
+    }
 }
 ```
 
-- [x] [New York, Dhanbad, Sydney, Mumbai]
-- [ ] [Dhanbad, New York, Sydney, Mumbai]
-- [ ] [Dhanbad, New York, Mumbai, Sydney]
-- [ ] [New York, Dhanbad, Mumbai, Sydney]
-
-#### How to handle an exception in JAVA? #exception
-
-- [x] try{} catch{} throws{}
-- [ ] new Exception()
-- [ ] try{} get{}
-- [ ] Object.exception()
-
-#### Which of the following is/are a valid code comment in Java? #comment
-
-- [x] `// this is a comment`
-- [x] `/* this is a comment****/`
-- [x] `/*** this is a comment***/`
-- [ ] `# this is a comment`
-
-> [!note] 
->  多写几个星号……也不是不行
-
-#### What term should we use to call an interface in our java class? #interface
-
-- [ ] Abstract
-- [ ] Call
-- [x] Implements
-- [ ] Extends
-
-#### Given this code, What should we modify at line 7 to display corretly the array and its elements? #array #arrays
+- [ ] B
 
 ```java
-public class QuestionJava {
-    public static void main(String[] args) {
-        Integer[] tab = new Integer[3];
-        tab[0] = 2;
-        tab[1] = 5;
-        tab[2] = 8;
-        System.out.println(tab);
-    }
+class Three implements One, Two {
+    public void method() {
+        One.method();
+    }
 }
 ```
 
+- [ ] C
 
-- [ ] Array.toString(tab)
-- [x] Arrays.toString(tab)
-- [ ] "Tab.toString()"
+```java
+class Three implements One, Two {
+}
+```
+
+- [x] D
+
+```java
+class Three implements One, Two {
+  public void method() {
+    One.super.method();
+  }
+}
+```
 
 > [!note] 
-> Array 是数组，Arrays 是那个类
+>  interface.super.method()
 
-#### Which of the following operators is used to allocate memory for an object? #objet
 
-- [ ] Give
-- [x] New
-- [ ] Alloc
-- [ ] Malloc
+#### Q9. What is the output of this code? #arraylist 
 
-#### What is java?
+```java
+class Main {
+  public static void main (String[] args) {
+	    List list = new ArrayList();
+	    list.add("hello");
+	    list.add(2);
+		System.out.print(list.get(0) instanceof Object);
+	    System.out.print(list.get(1) instanceof Integer);
+    }
+}
+```
 
-- [ ] A scripting programming language
-- [x] An object-oriented programming language
-- [ ] A variable oriented programming language
+- [ ] The code does not compile.
+- [ ] truefalse
+- [x] truetrue
+- [ ] falsetrue
 
-#### Enums cannot be declared: #enum 
 
-- [ ] private
+#### Q10. Given the following two classes, what will be the output of the Main class #package 
+
+```java
+
+package mypackage;
+
+public class Math {
+
+    public static int abs(int num){
+
+        return num < 0 ? -num : num;
+
+    }
+
+}
+
+package mypackage.elementary;
+
+public class Math {
+
+    public static int abs (int num) {
+
+        return -num;
+
+    }
+
+}
+
+```
+
+```java
+
+import mypackage.Math;
+
+import mypackage.elementary.*;
+
+  
+
+class Main {
+
+    public static void main (String args[]){
+
+        System.out.println(Math.abs(123));
+
+    }
+
+}
+
+```
+
+- [ ] Lines 1 and 2 generate compiler errors due to class name conflicts.
+- [ ] "-123"
+- [ ] It will throw an exception on line 5.
+- [x] "123"
+
+> [!note] 
+> **Explanation:** The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class, because the import statements of the form: 
+
+
+#### Q 11. What is the result of this code?
+
+```java
+
+1: class MainClass {
+2:     final String message() {
+3:         return "Hello!";
+4:     }
+5: }
+
+6: class Main extends MainClass {
+7:     public static void main(String[] args) {
+8:         System.out.println(message());
+9:     }
+
+10:     String message() {
+11:         return "World!";
+12:     }
+13: }
+```
+
+- [x] It will not compile because of line 10.
+- [ ] "Hello!"
+- [ ] It will not compile because of line 2.
+- [ ] "World!"
+
+
+#### Q 12. Given this code, which command will output "2"? #compiler 
+
+```java
+
+class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println(args[2]);
+
+    }
+
+}
+
+```
+
+- [ ] `java Main 1 2 "3 4" 5`
+- [x] `java Main 1 "2" "2" 5`
+- [ ] `java Main.class 1 "2" 2 5`
+- [ ] `java Main 1 "2" "3 4" 5`
+
+> [!note] 
+>  javac MyProgram.java
+java MyProgram 1 "2" "2" 5
+
+
+#### Q13. What is the output of this code? #primitivedatatype  
+
+```java
+
+class Main {
+
+    public static void main(String[] args){
+
+        int a = 123451234512345;
+
+        System.out.println(a);
+
+    }
+
+}
+
+```
+
+- [ ] "123451234512345"
+- [x] Nothing - this will not compile.
+- [ ] a negative integer value
+- [ ] "12345100000"
+
+> [!note] 
+> int 32 位，大概 10 位数
+
+
+#### Q 14. What is the output of this code? #string 
+
+```java
+
+class Main {
+
+    public static void main (String[] args) {
+
+        String message = "Hello world!";
+
+        String newMessage = message.substring(6, 12)
+
+            + message.substring(12, 6);
+
+        System.out.println(newMessage);
+
+    }
+
+}
+
+```
+
+- [ ] The code does not compile.
+- [x] A runtime exception is thrown.
+- [ ] "world!!world"
+- [ ] "world!world!"
+
+
+#### Q15. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase? #arraylist 
+
+- [x] `for (Pencil pencil : pencilCase) {}`
+- [ ] `for (pencilCase.next()) {}`
+- [ ] `for (Pencil pencil : pencilCase.iterator()) {}`
+- [ ] `for (pencil in pencilCase) {}`
+
+
+#### Q 16. What does this code print? #comparable
+
+```java
+
+System.out.print("apple".compareTo("banana"));
+
+```
+
+- [ ] `0`
+- [ ] positive number
+- [x] negative number
+- [ ] compilation error
+
+
+#### Q 17. You have an ArrayList of names that you want to sort alphabetically. Which approach would **NOT** work? #list
+
+- [ ] `names.sort(Comparator.comparing(String::toString))`
+- [ ] `Collections.sort(names)`
+- [x] `names.sort(List.DESCENDING)`
+- [ ] `names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())`
+
+> [!note] 
+>  详见 list 比较方式
+
+
+#### Q 18. By implementing encapsulation, you cannot directly access the class's \_ properties unless you are writing code inside the class itself. #encapsulation
+
+- [x] private
+- [ ] protected
+- [ ] no-modifier
 - [ ] public
+
+
+#### Q 19. Which is the most up-to-date way to instantiate the current date? #date
+
+- [ ] `new SimpleDateFormat("yyyy-MM-dd").format(new Date())`
+- [ ] `new Date(System.currentTimeMillis())`
+- [x] `LocalDate.now()`
+- [ ] `Calendar.getInstance().getTime()`
+
+
+#### Q 20. Fill in the blank to create a piece of code that will tell whether `int 0` is divisible by `5`:
+
+`boolean isDivisibleBy5 = _____`
+
+- [ ] `int0 / 5 ? true: false`
+- [x] `int0 % 5 == 0`
+- [ ] `int0 % 5 != 5`
+- [ ] `Math.isDivisible(int0, 5)`
+
+
+#### Q 21. How many times will this code print "Hello World!"? #operator 
+
+```java
+
+class Main {
+
+    public static void main(String[] args){
+
+        for (int i=0; i<10; i=i++){
+
+            i+=1;
+
+            System.out.println("Hello World!");
+
+        }
+
+    }
+
+}
+
+```
+
+- [x] 10 times
+- [ ] 9 times
+- [ ] 5 times
+- [ ] infinite number of times
+
+
+#### Q 22. The runtime system starts your program by calling which function first? #class  
+
+- [ ] print
+- [ ] iterative
+- [ ] hello
+- [x] main
+
+
+#### Q 23. What code would you use in Constructor A to call Constructor B? #class
+
+```java
+
+public class Jedi {
+
+  /* Constructor A */
+
+  Jedi(String name, String species){}
+
+
+  /* Constructor B */
+
+  Jedi(String name, String species, boolean followsTheDarkSide){}
+
+}
+
+```
+
+- [ ] Jedi(name, species, false)
+- [ ] new Jedi(name, species, false)
+- [x] this(name, species, false)
+- [ ] super(name, species, false)
+
+
+#### Q 24. Which statement is **NOT** true? #anonymousclass
+
+- [ ] An anonymous class may specify an abstract base class as its base type.
+- [ ] An anonymous class does not require a zero-argument constructor.
+- [ ] An anonymous class may specify an interface as its base type.
+- [ ] An anonymous class may specify both an abstract class and interface as base types.
+
+> [!note] 
+>  An anonymous class does not require a zero-argument constructor. is true
+
+
+#### Q 25. What will this program print out to the console when executed? #linkedlist
+
+```java
+
+import java.util.LinkedList;
+
+
+public class Main {
+
+    public static void main(String[] args){
+
+        LinkedList<Integer> list = new LinkedList<>();
+
+        list.add(5);
+
+        list.add(1);
+
+        list.add(10);
+
+        System.out.println(list);
+
+    }
+
+}
+
+```
+
+- [x] [5, 1, 10]
+- [ ] [10, 5, 1]
+- [ ] [1, 5, 10]
+- [ ] [10, 1, 5]
+
+
+#### Q 26. What is the output of this code? #exception 
+
+```java
+
+class Main {
+
+    public static void main(String[] args){
+
+       String message = "Hello";
+
+       for (int i = 0; i<message.length(); i++){
+
+          System.out.print(message.charAt(i+1));
+
+       }
+
+    }
+
+}
+
+```
+
+- [ ] "Hello"
+- [x] A runtime exception is thrown.
+- [ ] The code does not compile.
+- [ ] "ello"
+
+
+#### Q 27. Object-oriented programming is a style of programming where you organize your program around \_ and data, rather than \_ and logic. #oop 
+
+- [ ] functions; actions
+- [x] objects; actions
+- [ ] actions; functions
+- [ ] actions; objects
+
+
+#### Q 28. What statement returns true if "nifty" is of type String? #string 
+
+- [ ] `"nifty".getType().equals("String")`
+- [ ] `"nifty".getType() == String`
+- [ ] `"nifty".getClass().getSimpleName() == "String"`
+- [x] `"nifty" instanceof String`
+
+
+#### Q 29. What is the output of this code? #list #primitivedatatype 
+
+```java
+
+import java.util.*;
+
+class Main {
+
+    public static void main(String[] args) {
+
+        List<Boolean> list = new ArrayList<>();
+
+        list.add(true);
+
+        list.add(Boolean.parseBoolean("FalSe"));
+
+        list.add(Boolean.TRUE);
+
+        System.out.print(list.size());
+
+        System.out.print(list.get(1) instanceof Boolean);
+
+    }
+
+}
+
+```
+
+- [ ] A runtime exception is thrown.
+- [ ] 3 false
+- [ ] 2 true
+- [x] 3 true
+
+
+#### Q 30. What is the result of this code? #class 
+
+```java
+
+1: class Main {
+
+2:     Object message() {
+
+3:         return "Hello!";
+
+4:     }
+
+5:     public static void main(String[] args) {
+
+6:         System.out.print(new Main().message());
+
+7:         System.out.print(new Main2().message());
+
+8:     }
+
+9: }
+
+10: class Main2 extends Main {
+
+11:     String message() {
+
+12:         return "World!";
+
+13:     }
+
+14: }
+
+```
+
+- [ ] It will not compile because of line 7.
+- [ ] Hello!Hello!
+- [x] Hello!World!
+- [ ] It will not compile because of line 11.
+
+
+#### Q 31. What method can be used to create a new instance of an object? #class 
+
+- [ ] another instance
+- [ ] field
+- [x] constructor
+- [ ] private method
+
+
+#### Q 32. Which is the most reliable expression for testing whether the values of two string variables are the same? #string 
+
+- [ ] string 1 == string 2
+- [ ] string 1 = string 2
+- [ ] string 1.matches(string 2)
+- [x] string 1.equals(string 2)
+
+
+#### Q 33. Which letters will print when this code is run? #error
+
+```java
+
+public static void main(String[] args) {
+
+    try {
+
+        System.out.println("A");
+
+        badMethod();
+
+        System.out.println("B");
+
+    } catch (Exception ex) {
+
+        System.out.println("C");
+
+    } finally {
+
+        System.out.println("D");
+
+    }
+
+}
+
+public static void badMethod() {
+
+    throw new Error();
+
+}
+
+```
+
+- [ ] A, B, and D
+- [ ] A, C, and D
+- [ ] C and D
+- [x] A and D
+
+> [!note] 
+>  Error 不继承 Exception，二者共同继承于 Throwable 
+
+
+#### Q 34. What is the output of this code? #class 
+
+```java
+
+class Main {
+
+    static int count = 0;
+
+    public static void main(String[] args) {
+
+        if (count < 3) {
+
+            count++;
+
+            main(null);
+
+        } else {
+
+            return;
+
+        }
+
+        System.out.println("Hello World!");
+
+    }
+
+}
+
+```
+
+- [ ] It will throw a runtime exception.
+- [ ] It will not compile.
+- [x] It will print "Hello World!" three times.
+- [ ] It will run forever.
+
+
+#### Q 35. What is the output of this code? #list 
+
+```java
+
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        String[] array = {"abc", "2", "10", "0"};
+        List<String> list = Arrays.asList(array);
+        Collections.sort(list);
+        System.out.println(Arrays.toString(array));
+    }
+}
+
+```
+
+- [ ] `[abc, 0, 2, 10]`
+- [ ] The code does not compile.
+- [ ] `[abc, 2, 10, 0]`
+- [x] `[0, 10, 2, abc]`
+
+> [!note] 
+> 不同类型不能排序，字符串排序先数字再字母，一位一位相比较
+
+
+#### Q 36. What is the output of this code? #class 
+
+```java
+
+class Main {
+
+    public static void main(String[] args) {
+
+        String message = "Hello";
+
+        print(message);
+
+        message += "World!";
+
+        print(message);
+
+    }
+
+    static void print(String message) {
+
+        System.out.print(message);
+
+        message += " ";
+
+    }
+
+}
+
+```
+
+- [ ] Hello World!
+- [x] HelloHelloWorld!
+- [ ] Hello Hello World!
+- [ ] Hello HelloWorld!
+
+
+#### Q 37. What is displayed when this code is compiled and executed? #class 
+
+```java
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int x = 5;
+
+        x = 10;
+
+        System.out.println(x);
+
+    }
+
+}
+
+```
+
+- [ ] x
+- [ ] null
+- [x] 10
+- [ ] 5
+
+
+#### Q 38. Which approach ====cannot==== be used to iterate over a List named _theList_? #loop
+
+
+- [ ] A
+
+```java
+for (int i = 0; i < theList.size(); i++) {
+    System.out.println(theList.get(i));
+}
+```
+
+- [ ] B
+
+```java
+for (Object object : theList) {
+    System.out.println(object);
+}
+```
+
+- [x] C
+
+```java
+Iterator it = theList.iterator();
+for (it.hasNext()) {
+    System.out.println(it.next());
+}
+```
+
+- [ ] D
+
+```java
+theList.forEach(System.out::println);
+```
+
+> [!note] 
+> **Explanation:** `for (it.hasNext())` should be `while (it.hasNext())`. 
+
+
+#### Q 39. What method signature will work with this code? #class 
+
+``` java
+boolean healthyOrNot = isHealthy("avocado");
+```
+
+- [ ] public void isHealthy(String avocado)
+- [x] boolean isHealthy(String string)
+- [ ] public isHealthy("avocado")
+- [ ] private String isHealthy(String food)
+
+
+#### Q 40. Which are valid keywords in a Java module descriptor (module-info.java)? #module 
+
+- [ ] provides, employs
+- [ ] imports, exports
+- [ ] consumes, supplies
+- [x] requires, exports
+
+> [!note] 
+>  module 常见关键字
+
+#### Q 41. Which type of variable keeps a constant value once it is assigned? #class 
+
+- [ ] non-static
 - [ ] static
 - [x] final
+- [ ] private
 
-> [!note] 
->  枚举类作为内部类时，可以用 private 和 static 修饰
 
-#### What is an IDE ?
+#### Q 42. How does the keyword `volatile` affect how a variable is handled? #keyword
 
-- [ ] A tool for writing and running programs written in Java
-- [x] An environment for developing programs
-- [ ] A Java language instruction
-- [ ] A website that allows you to reference the functionalities of a programming language
+- [ ] It will be read by only one thread at a time.
+- [ ] It will be stored on the hard drive.
+- [x] It will never be cached by the CPU.
+- [ ] It will be preferentially garbage collected.
 
-#### What keyword should be added so that the "nb_questions" attribute can be called without having to getter or instantiate a new class? #class
+
+#### Q 43. What is the result of this code? #variable
 
 ```java
-private int nb_questions;
+char smooch = 'x';
+System.out.println((int) smooch);
 ```
 
-- [ ] final
-- [ ] extends
-- [x] static
-- [ ] call
-
-#### By convention, how should a new class be named? #class 
-
-- [ ] javaQuizz
-- [ ] JAVAQUIZZ
-- [x] JavaQuizz
-
-#### Which answer(s) declare a "string"array? #array 
-
-- [x] String[] s
-- [ ] string[] s
-- [ ] String s[]
-- [ ] String[s]
-
-#### When we create a class without specifying the name of the package, its scope is : #class #visibility
-
-- [x] Default
-- [ ] Protected
-- [ ] Public
-- [ ] Private
-
-#### How in a class, do we access its variables? #this
-
-- [ ] the operator `:`
-- [ ] the keyword `new`
-- [x] the keyword `this`
-- [ ] the operator `.`
-
-#### How to concatenate two strings of characters? #string
-
-- [x] "string 1"+"string 2"
-- [ ] "string 1".."string 2"
-- [x] "string 1"&&"string 2"
-- [ ] "string 1"."string 2"
-
-> [!note] 
-> &&也可以连接字符串 
-
-#### Which class should your unit test extend to make it a JUnit test? #junite
-
-- [x] JUnitTest
-- [ ] UnitTest
-- [ ] JUnitCase
-- [ ] TestCase
-
-#### `--` is used for #operator 
-
-- [ ] Remark
-- [x] Decrement
-- [ ] Substraction
-- [ ] Negation
-
-> [!note] 
->  Decrement -- Substraction - Negation !
-
-#### What is “AssertEquals” used for in a Java Unit test? #junite 
-
-- [x] It allows you to compare two objects
-- [ ] It allows to differentiate two objects of the same type
-- [ ] It allows you to check that an object as a parameter is equal to the second parameter
-
-#### Which of the following annotations can you use in your JUnit test class? #junite 
-
-- [ ] @Before, @After, @Test
-- [x] @BeforeTest, @AfterTest
-- [ ] @TestTest, @TestThis
-- [ ] @TestClass, @TestMethod
-
-#### What is the order of the variables in Enum? #enum 
-
-- [ ] Descending order
-- [ ] Ascending
-- [ ] Random order
-- [x] Depends on sort() method
-
-#### Which of the following statements applies to methods of an interface in Java? #interface 
-
-- [ ] An interface can only contain abstract methods.
-- [x] You can define a method in an interface
-- [ ] The private and protected access modifiers can also be used to declare methods in an interface
-- [ ] Neither of the above is true.
-
-> [!note] 
-> 不能有 protected 方法 
-
-#### Is a "HashMap" ordered? #hashmap 
-
-- [ ] Yes
-- [x] No
-
-#### How to instantiate a new variable of type "integer"? #integer
-
-- [x] int a = new Integer(3);
-- [ ] int a = new int();
-- [ ] int a = 4;
-- [ ] Integer a = new int(5);
-
-> [!note] 
->  int a = new Integer(3);过期了
->  int a = 4; 没有自动装箱，Integer i = 1 才是自动装箱
-
-#### Does an ArrayList allow you to insert duplicate elements? #arraylist
+- [ ] an alphanumeric character
+- [ ] a negative number
+- [x] a positive number
+- [ ] a ClassCastException
 
 
-- [x] Yes
-- [ ] No
+#### Q 44. You get a `NullPointerException`. What is the most likely cause? #exception 
 
-#### Given this code, What is displayed by the console? #string #stringbuilder
+- [ ] A file that needs to be opened cannot be found. `FileNotFoundException`
+- [ ] A network connection has been lost in the middle of communications. `IOException`
+- [ ] Your code has used up all available memory. `OutOfMemoryError`
+- [x] The object you are using has not been instantiated. 
+
+
+#### Q 45. How would you fix this code so that it compiles? #class 
 
 ```java
-public static void main(String[] args) {
-          String str = "Automation";
-          StringBuilder str2 = new StringBuilder();
-          str2.append(str);
-          str2 = str2.reverse();
-         System.out.println(str2);
-}
-```
 
-- [ ] Automating
-- [x] noitamotuA
-- [ ] the memory address of "str 2"
-- [ ] A mistake
+public class Nosey {
 
+    int age;
 
-https://welovedevs.com/app/fr/test-session/-NTnpbl2tiF-EC_poSYQ/results
+    public static void main(String[] args) {
 
-Au vu de cette interface, choisissez un nom plus approprié que "InterfaceANommer" :
+        System.out.println("Your age is: " + age);
 
-![](https://process.filestackapi.com/output=quality:100/no_metadata/auto_image/compress/ZjMwUXIJSGiks6Vtsfn8)
+    }
 
-TemperatureChangedBeanInfo
-
-TemperatureChangedHelper
-
-TemperatureChangedListener
-
-TemperatureChangedFactory
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1832 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6N-YKp5Y_j4Zwb4/)
-
-0
-
-Aucun commentaire de la communauté, évaluez la question pour être le premier !
-
-5
-
-.
-
-Parmi ces classes, laquelle est la plus appropriée pour composer une chaîne de caractère à partir de plusieurs éléments concaténés les uns aux autres ?
-
-char[]
-
-StringTokenizer
-
-byte[]
-
-StringBuilder
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1842 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6NFTG2D8FlyCYuy/)
-
-1
-
-Evaluations de la communauté
-
-8
-
-.
-
-Regardez la méthode suivante :
-
-```java
-private static Integer[] myCompute(int a) {  int i = 0;  Integer[] result = new Integer[2];  result[i++] = new Integer(a);  result[i] = new Integer(-a);  result[1 - i] = result[i];  return result;
 }
 
 ```
 
-Après l'appel:
+- [x] Make age static.
+- [ ] Make age global.
+- [ ] Make age public.
+- [ ] Initialize age to a number.
+
+
+#### Q 46. Add a Duck called "Waddles" to the `ArrayList` **ducks**. #arraylist 
 
 ```java
-Integer[] call = myCompute(3);
-```
 
-Combien d'instances d'Integer ne peuvent pas être libérées de la mémoire ?
+public class Duck {
 
-0
+    private String name;
 
-1
+    Duck(String name) {}
 
-2
-
-3
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1775 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6NIo53nR94h8sek/)
-
-1
-
-Evaluations de la communauté
-
-9
-
-.
-
-Au sujet des Thread, qu'est-il usuel de faire ?
-
-Etendre la classe Thread et implémenter sa méthode run.
-
-Etendre la classe Thread et implémenter sa méthode start.
-
-Lancer le Thread en appelant sa méthode start.
-
-Lancer le Thread en appelant sa méthode run.
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1854 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6NLj6aBMMNghhLo/)
-
-0
-
-Aucun commentaire de la communauté, évaluez la question pour être le premier !
-
-10
-
-.
-
-![](https://process.filestackapi.com/output=quality:100/no_metadata/auto_image/compress/GlP1uVqVS8eWHKbYhBmZ)
-
-java.io.Readable
-
-java.net.SocketReader
-
-java.lang.Cloneable
-
-java.io.Serializable
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1822 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6NMhFiCD4jnFcRs/)
-
-1
-
-Evaluations de la communauté
-
-14
-
-.
-
-Une ClassNotFoundException survient
-
-Quand le ClassLoader ne trouve pas la classe demandée
-
-Quand la définition de la classe demandée n’est pas trouvée
-
-Quand une classe dépendante de la classe demandée n’est pas trouvée
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1873 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6_Mm0AsbX8ENQCa/)
-
-0
-
-Aucun commentaire de la communauté, évaluez la question pour être le premier !
-
-15
-
-.
-
-La visibilité d’une méthode peut être
-
-private
-
-override
-
-protected
-
-final
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1857 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6_RgnCbFWlb8ZWE/)
-
-2
-
-Evaluations de la communauté
-
-18
-
-.
-
-Une “garbage collection”
-
-Alloue de la memoire aux objets créés
-
-Supprime les objets non référencés
-
-Peut être demandé par System.gc()
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1848 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6_bFUQiI4F95QLH/)
-
-0
-
-Aucun commentaire de la communauté, évaluez la question pour être le premier !
-
-19
-
-.
-
-En Java 11, le garbage collector par défaut est
-
-G 1
-
-Parallel GC
-
-Serial GC
-
-G 1 sauf pour les machines de petites tailles (1 CPU par exemple) où c'est le Serial GC
-
-Auteur·ice: LoïcStatut : PubliéeQuestion passée 195 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/6e92a693-6a26-4835-b178-cc7d30eb5e9c/)
-
-0
-
-Aucun commentaire de la communauté, évaluez la question pour être le premier !
-
-20
-
-.
-
-Si deux threads exécutent la méthode increment, après l'exécution par les 2 threads, la valeur de i sera
-
-```java
-private volatile int i;
-
-public void increment() {  i++;
 }
+
 ```
 
-non prédictible
+- [ ] `Duck waddles = new Duck();`
+      `ducks.add(waddles);`
+- [ ] `Duck duck = new Duck("Waddles");`
+      `ducks.add(waddles);`
+- [x] `ducks.add(new Duck("Waddles"));`
+- [ ] `ducks.add(new Waddles());`
 
-0
 
-1
+#### Q 47. If you encounter `UnsupportedClassVersionError` it means the code was `___` on a newer version of Java than the JRE `___` it. #exception 
 
-2
+- [ ] executed; interpreting
+- [ ] executed; compiling
+- [x] compiled; executing
+- [ ] compiled, translating
 
-Auteur·ice: LoïcStatut : PubliéeQuestion passée 196 fois
 
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/d7e318ef-7fb2-434e-92a1-b3fc2e1e51e4/)
+#### Q 48. Given this class, how would you make the code compile? #keyword
 
-0
+```java
 
-Aucun commentaire de la communauté, évaluez la question pour être le premier !
+public class TheClass {
 
-#### Réponses incorrectes
+    private final int x;
 
-1
+}
 
-.
-
-A part java.lang.Object, y a-t-il une superclasse commune à Integer, Long, Byte, BigDecimal et Short ?
-
-Oui, c'est java.lang.NumericValue.
-
-Non, car BigDecimal n'est pas un type java standard.
-
-Oui, c'est java.lang.Number.
-
-Byte hérite de Short qui hérite de Integer qui hérite de Long, mais BigDecimal ne partage pas de superclasses communes avec ces types.
-
-VOIR LA CORRECTION ![🔐](https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f510.svg)
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1795 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6MaHeqPj2doF_OR/)
-
-3
-
-Evaluations de la communauté
-
-3
-
-.
-
-Quel "design pattern" permet d'offrir un moyen de traiter les éléments d'un arbre sans se soucier du parcours ?
-
-Decorator
-
-TreeParser
-
-Visitor
-
-Observer
-
-VOIR LA CORRECTION ![🔐](https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f510.svg)
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1811 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6N8ZiPK5JLEFrni/)
-
-2
-
-Evaluations de la communauté
-
-4
-
-.
-
-En ce qui concerne "InputStream", quelles propositions sont vraies parmi les suivantes :
-
-Elle est définie dans java.io.
-
-C'est une interface.
-
-Elle est définie dans java.lang.
-
-C'est une classe abstraite.
-
-VOIR LA CORRECTION ![🔐](https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f510.svg)
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1784 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6NBBuY0Pdrt_nUj/)
-
-1
-
-Evaluations de la communauté
-
-6
-
-.
-
-Regardez le code suivant:
-
-```java  int a = 3;  do {      if ((a++ % 5) == 0)          break;  } while (a++ < 15);
 ```
 
-Combien de fois le test `"(a++ < 15)"` est-il évalué ?
+- [ ] A
 
-1
+```java
 
-2
+public TheClass() {
 
-3
+    x += 77;
 
-15
+}
 
-VOIR LA CORRECTION ![🔐](https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f510.svg)
+```
 
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1908 fois
+- [ ] B
 
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6NGGEWdZ1WMD1Cn/)
+```java
 
-2
+public TheClass() {
 
-Evaluations de la communauté
+    x = null;
 
-7
+}
 
-.
+```
 
-Parmi ces affirmations correspondant au langage Java, lesquelles sont vraies ?
+- [x] C
 
-Une classe Java doit être compilée pour être exécutée.
+```java
 
-Une classe Java est interprétée lorsqu'elle est exécutée.
+public TheClass() {
 
-Le temps d'exécution d'une méthode Java est toujours prédictible à la milliseconde près.
+    x = 77;
 
-La taille maximum d'une classe Java est de 4 Ko.
+}
 
-VOIR LA CORRECTION ![🔐](https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f510.svg)
+```
 
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1847 fois
+- [ ] D
 
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6NHvgxp8rSck7b-/)
+```java
 
-1
+private void setX(int x) {
 
-Evaluations de la communauté
+    this.x = x;
 
-11
+}
 
-.
+public TheClass() {
 
-![](https://process.filestackapi.com/output=quality:100/no_metadata/auto_image/compress/38OACUuQ16VobIE064aW)
+    setX(77);
 
-C'est une mauvaise idée de transformer UnknownHostException en IllegalArgumentException.
+}
 
-Il manque une méthode readObject().
+```
 
-Il manque une méthode hashCode().
 
-Il ne faut pas utiliser "transient".
+#### Q 49. How many times f will be printed? #loop 
 
-VOIR LA CORRECTION ![🔐](https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f510.svg)
+```java
 
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1853 fois
+public class Solution {
 
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6NShV8P6xN_lXh_/)
+    public static void main(String[] args) {
 
-0
+        for (int i = 44; i > 40; i--) {
 
-Aucun commentaire de la communauté, évaluez la question pour être le premier !
+            System.out.println("f");
 
-12
+        }
 
-.
+    }
 
-Java est un langage
+}
 
-compilé
+```
 
-typé
+- [x] 4
+- [ ] 3
+- [ ] 5
+- [ ] A Runtime exception will be thrown
 
-script
 
-impératif
+#### Q 50. Which statements about `abstract` classes are true? #class 
 
-VOIR LA CORRECTION ![🔐](https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f510.svg)
+```
 
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1807 fois
+1. They can be instantiated.
 
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6_Kj_0piBxCvPdw/)
+2. They allow member variables and methods to be inherited by subclasses.
 
-0
+3. They can contain constructors.
 
-Aucun commentaire de la communauté, évaluez la question pour être le premier !
+```
 
-13
-
-.
-
-A quoi sert le classpath ?
-
-A indiquer l’emplacement de l’exécutable javac
-
-A spécifier où la jvm retrouvera les .class
-
-VOIR LA CORRECTION ![🔐](https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f510.svg)
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1876 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6_LusqMrqAYHY9L/)
-
-0
-
-Aucun commentaire de la communauté, évaluez la question pour être le premier !
-
-16
-
-.
-
-Une instance d’ArrayList
-
-Est thread safe
-
-Implémente java.util.List
-
-Refuse null
-
-A une taille fixe non dépassable
-
-VOIR LA CORRECTION ![🔐](https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f510.svg)
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1875 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6_XDy-ehb00WbYV/)
-
-0
-
-Aucun commentaire de la communauté, évaluez la question pour être le premier !
-
-17
-
-.
-
-Une instance de HashMap
-
-Garantit l’ordre des pairs clé-valeur
-
-Implémente java.util.Map
-
-Est thread safe
-
-Autorise les valeurs null
-
-VOIR LA CORRECTION ![🔐](https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f510.svg)
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1856 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6_YTuhllx6HkbG2/)
+- [ ] 1, 2, and 3
+- [ ] only 3
+- [x] 2 and 3
+- [ ] only 2

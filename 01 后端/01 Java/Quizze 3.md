@@ -1,369 +1,44 @@
 
 https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/java-quiz.md
 
-#### Q 51. Which keyword lets you call the constructor of a parent class?
+#### Q 101. Which statement about constructors is not true?
 
-- [ ] parent
-- [x] super
-- [ ] this
-- [ ] new
+- [ ] A class can have multiple constructors with a different parameter list.
+- [ ] You can call another constructor with `this` or `super`.
+- [ ] A constructor does not define a return value.
+- [x] Every class must explicitly define a constructor without parameters.
 
 
-#### Q 52. What is the result of this code?
+#### Q 102. What language feature allows types to be parameters on classes, interfaces, and methods in order to reuse the same code for different data types?
+
+- [ ] Regular Expressions
+- [ ] Reflection
+- [x] Generics
+- [ ] Concurrency
+
+
+#### Q 103. What will be printed?
 
 
 ```java
 
-  1: int a = 1;
+public class Berries{
 
-  2: int b = 0;
 
-  3: int c = a/b;
-
-  4: System.out.println(c);
-
-```
-
-- [x] It will throw an ArithmeticException.
-- [ ] It will run and output 0.
-- [ ] It will not compile because of line 3.
-- [ ] It will run and output infinity.
-
-
-#### Q 53. Normally, to access a static member of a class such as Math.PI, you would need to specify the class "Math". What would be the best way to allow you to use simply "PI" in your code?
-
-- [x] Add a static import.
-- [ ] Declare local copies of the constant in your code.
-- [ ] This cannot be done. You must always qualify references to static members with the class form which they came from.
-- [ ] Put the static members in an interface and inherit from that interface.
-
-
-#### Q 54. Which keyword lets you use an interface?
-
-- [ ] extends
-- [x] implements
-- [ ] inherits
-- [ ] import
-
-
-#### Q 55. Why are ArrayLists better than arrays?
-
-- [x] You don't have to decide the size of an ArrayList when you first make it.
-- [ ] You can put more items into an ArrayList than into an array.
-- [ ] ArrayLists can hold more kinds of objects than arrays.
-- [ ] You don't have to decide the type of an ArrayList when you first make it.
-
-
-#### Q 56. Declare a variable that holds the first four digits of Π
-
-- [ ] int pi = 3.141;
-- [ ] decimal pi = 3.141;
-- [x] double pi = 3.141;
-- [ ] float pi = 3.141;
-
-> [!note] 
-> **Reasoning:**
-> 
-The default Java type which Java will be using for a float variable will be double.
-So, even if you declare any variable as float, what the compiler has to actually do is to assign a double value to a float variable,
-which is not possible. So, to tell the compiler to treat this value as a float, that 'F' is used. 
-
-```java
-
-public class TestReal {
-
-    public static void main (String[] argv)
-
-    {
-
-      double pi = 3.14159265;       //accuracy up to 15 digits
-
-      float pi 2 = 3.141 F;           //accuracy up to 6-7 digits
-
-
-      System.out.println ("Pi=" + pi);
-
-      System.out.println ("Pi 2=" + pi 2);
-
-    }
-
-  }
-
-```
-
-
-#### Q 57. Use the magic power to cast a spell
-
-```java
-
-public class MagicPower {
-
-    void castSpell(String spell) {}
-
-}
-
-```
-
-- [x] `new MagicPower().castSpell("expecto patronum");`
-- [ ] `MagicPower magicPower = new MagicPower();`
-      `magicPower.castSpell();`
-- [ ] `MagicPower.castSpell("expelliarmus");`
-- [ ] `new MagicPower.castSpell();`
-
-
-#### Q 58. What language construct serves as a blueprint containing an object's properties and functionality?
-
-- [ ] constructor
-- [ ] instance
-- [x] class
-- [ ] method
-
-
-#### Q 59. What does this code print?
-
-```java
-
-public static void main(String[] args) {
-
-    int x=5,y=10;
-
-    swapsies(x,y);
-
-    System.out.println(x+" "+y);
-
-}
-
-
-static void swapsies(int a, int b) {
-
-    int temp=a;
-
-    a=b;
-
-    b=temp;
-
-}
-
-```
-
-- [ ] 10 10
-- [x] 5 10
-- [ ] 10 5
-- [ ] 5 5
-
-> [!note] 
->  
-
-#### Q 60. What is the result of this code?
-
-
-```java
-
-try {
-
-    System.out.println("Hello World");
-
-} catch (Exception e) {
-
-    System.out.println("e");
-
-} catch (ArithmeticException e) {
-
-    System.out.println("e");
-
-} finally {
-
-    System.out.println("!");
-
-}
-
-```
-
-- [ ] Hello World
-- [x] It will not compile because the second catch statement is unreachable
-- [ ] Hello World!
-- [ ] It will throw runtime exception
-
-
-#### Q 61. Which is not a java keyword
-
-- [ ] finally
-- [ ] native
-- [ ] interface
-- [x] unsigned
-
-
-#### Q 62. Which operator would you use to find the remainder after division?
-
-- [x] `%`
-- [ ] `//`
-- [ ] `/`
-- [ ] `DIV`
-
-
-[Reference](http://www.cs.ukzn.ac.za/~hughm/java/intro/week2/21.html)
-
-
-#### Q 63. Which choice is a disadvantage of inheritance?
-
-- [ ] Overridden methods of the parent class cannot be reused.
-- [x] Responsibilities are not evenly distributed between parent and child classes.
-- [ ] Classes related by inheritance are tightly coupled to each other.
-- [ ] The internal state of the parent class is accessible to its children.
-
-[Reference](http://erpbasic.blogspot.com/2012/01/inheritance-advantages-and.html#:~:text=Main%20disadvantage%20of%20using%20inheritance,used%20independent%20of%20each%20other.&text=4.,case%20of%20using%20that%20method.)
-
-#### Q 64. How would you declare and initialize an array of 10 ints?
-
-- [ ] `Array<Integer> numbers = new Array<Integer>(10);`
-- [ ] `Array[int] numbers = new Array [int](10);`
-- [x] `int[] numbers = new int[10];`
-- [ ] `int numbers[] = int[10];`
-
-
-#### Q 65. Refactor this event handler to a lambda expression:
-
-
-```java
-
-groucyButton.addActionListener(new ActionListener() {
-
-    @Override
-
-    public void actionPerformed(ActionEvent e) {
-
-        System.out.println("Press me one more time..");
-
-    }
-
-});
-
-```
-
-- [ ] `groucyButton.addActionListener(ActionListener listener -> System.out.println("Press me one more time..."));`
-- [x] `groucyButton.addActionListener((event) -> System.out.println("Press me one more time..."));`
-- [ ] `groucyButton.addActionListener(new ActionListener(ActionEvent e) {() -> System.out.println("Press me one more time...");});`
-- [ ] `groucyButton.addActionListener(() -> System.out.println("Press me one more time..."));`
-
-
-[Reference](https://www.codejava.net/java-core/the-java-language/java-8-lambda-listener-example)
-
-
-#### Q 66. Which functional interfaces does Java provide to serve as data types for lambda expressions?
-
-- [ ] Observer, Observable
-- [ ] Collector, Builder
-- [ ] Filter, Map, Reduce
-- [x] Consumer, Predicate, Supplier
-
-[Reference](https://www.baeldung.com/java-8-functional-interfaces)
-
-
-#### Q 67. What is a valid use of the hashCode() method?
-
-- [ ] encrypting user passwords
-- [x] deciding if two instances of a class are equal
-- [ ] enabling HashMap to find matches faster
-- [ ] moving objects from a List to a HashMap
-
- 
-[Reference](https://www.baeldung.com/java-hashcode)
-> [!note] 
->  ?????????
-
-#### Q 68. What kind of relationship does "extends" denote?
-
-- [ ] uses-a
-- [x] is-a
-- [ ] has-a
-- [ ] was-a
-
-
-[Reference](https://www.c-sharpcorner.com/UploadFile/3614a6/is-a-and-has-a-relationship-in-java/)
-
-
-#### Q 69. How do you force an object to be garbage collected?
-
-- [ ] Set object to null and call Runtime.gc()
-- [x] Set object to null and call System.gc()
-- [ ] Set object to null and call Runtime.getRuntime().runFinalization()
-- [ ] There is no way to force an object to be garbage collected
-
-
-[Reference](https://sematext.com/blog/java-garbage-collection/)
-
-
-#### Q 70. Java programmers commonly use design patterns. Some examples are the **\_**, which helps create instances of a class, the **\_**, which ensures that only one instance of a class can be created; and the **\_**, which allows for a group of algorithms to be interchangeable. #pattern
-
-- [x] static factory method; singleton; strategy pattern
-- [ ] strategy pattern; static factory method; singleton
-- [ ] creation pattern; singleton; prototype pattern
-- [ ] singleton; strategy pattern; static factory method
-
-> [!note] 
-> 复习一下其他设计模式
-> 
-
-
-#### Q 71. Using Java's Reflection API, you can use \_ to get the name of a class and \_ to retrieve an array of its methods.
-
-- [x] this.getClass().getSimpleName(); this.getClass().getDeclaredMethods()
-- [ ] this.getName(); this.getMethods()
-- [ ] Reflection.getName(this); Reflection.getMethods(this)
-- [ ] Reflection.getClass(this).getName(); Reflection.getClass(this).getMethods()
-
-
-#### Q 72. Which is not a valid lambda expression? #lambda
-
-- [ ] `a -> false;`
-- [ ] `(a) -> false;`
-- [x] `String a -> false;`
-- [ ] `(String a) -> false;`
-
-> [!note] 
->  
-#### Q 73. Which access modifier makes variables and methods visible only in the class where they are declared?
-
-- [ ] public
-- [ ] protected
-- [ ] nonmodifier
-- [x] private
-
-
-#### Q 74. What type of variable can be assigned to only once?
-
-- [ ] private
-- [ ] non-static
-- [x] final
-- [ ] static
-
-#### Q 75. How would you convert a String to an Int?
-
-- [ ] `"21".intValue()`
-- [ ] `String.toInt("21")`
-- [x] `Integer.parseInt("21")`
-- [ ] `String.valueOf("21")`
-
-
-#### Q 76. What method should be added to the Duck class to print the name Moby?
-
-```java
-
-public class Duck {
-
-    private String name;
-
-
-    Duck(String name) {
-
-        this.name = name;
-
-    }
+    String berry = "blue";
 
 
     public static void main(String[] args) {
 
-        System.out.println(new Duck("Moby"));
+        new Berries().juicy("straw");
+
+    }
+
+    void juicy(String berry){
+
+        this.berry = "rasp";
+
+        System.out.println(berry + "berry");
 
     }
 
@@ -371,253 +46,568 @@ public class Duck {
 
 ```
 
-- [x] `public String toString() { return name; } `
-- [ ] `public void println() { System.out.println(name); } `
-- [ ] `String toString() { return this.name; } `
-- [ ] `public void toString() { System.out.println(this.name); } `
+- [ ] raspberry
+- [x] strawberry
+- [ ] blueberry
+- [ ] rasp
 
 
-#### Q 77. Which operator is used to concatenate Strings in Java
-
-- [x] `+`
-- [ ] `&`
-- [ ] `.`
-- [ ] `-`
-
-
-[Reference](https://www.techiedelight.com/concatenate-two-strings-java/)
-
-
-#### Q 79. What is the value of myCharacter after line 3 is run?
+#### Q104. What is the value of `forestCount` after this code executes?
 
 
 ```java
 
-1: public class Main {
-
-2:   public static void main (String[] args) {
-
-3:     char myCharacter = "piper".charAt(3);
-
-4:   }
-
-5: }
-
-```
-
-- [ ] p
-- [ ] r
-- [x] e
-- [ ] i
-
-#### Q 80. When should you use a static method?
-
-- [ ] when your method is related to the object's characteristics
-- [x] when you want your method to be available independently of class instances
-- [ ] when your method uses an object's instance variable
-- [ ] when your method is dependent on the specific instance that calls it
+Map<String, Integer> forestSpecies = new HashMap<>();
 
 
-#### Q 81. What phrase indicates that a function receives a copy of each argument passed to it rather than a reference to the objects themselves?
+forestSpecies.put("Amazon", 30000);
 
-- [ ] pass by reference
-- [ ] pass by occurrence
-- [x] pass by value
-- [ ] API call
+forestSpecies.put("Congo", 10000);
 
-> [!note] 
->  
+forestSpecies.put("Daintree", 15000);
 
-#### Q 82. In Java, what is the scope of a method's argument or parameter?
-
-- [x] inside the method
-- [ ] both inside and outside the method
-- [ ] neither inside nor outside the method
-- [ ] outside the method
+forestSpecies.put("Amazon", 40000);
 
 
-#### Q 83. What is the output of this code?
-
-
-```java
-
-public class Main {
-
-  public static void main (String[] args) {
-
-    int[] sampleNumbers = {8, 5, 3, 1};
-
-    System.out.println(sampleNumbers[2]);
-
-  }
-
-}
+int forestCount = forestSpecies.size();
 
 ```
 
-- [ ] 5
-- [ ] 8
-- [ ] 1
 - [x] 3
+- [ ] 4
+- [ ] 2
+- [ ] When calling the put method, Java will throw an exception
 
 
-#### Q 84. Which change will make this code compile successfully?
-
-
-```java
-
-1: public class Main {
-
-2:   String MESSAGE ="Hello!";
-
-3:   static void print(){
-
-4:     System.out.println(message);
-
-5:   }
-
-6:   void print2(){}
-
-7: }
-
-```
-
-- [ ] Change line 2 to `public static final String message`
-- [ ] Change line 6 to `public void print2(){}`
-- [ ] Remove the body of the `print2` method and add a semicolon.
-- [x] Remove the body of the `print` method.
-
-
-#### Q 85. What is the output of this code? #list 
+#### Q 105. What is a problem with this code?
 
 
 ```java
 
-import java.util.*;
+import java.util.ArrayList;
+
+import java.util.Arrays;
+
+import java.util.List;
+
 
 class Main {
 
-  public static void main(String[] args) {
 
-    String[] array = new String[]{"A", "B", "C"};
+    public static void main(String[] args) {
 
-    List<String> list1 = Arrays.asList(array);
+        List<String> list = new ArrayList<String>(Arrays.asList("a", "b", "c"));
 
-    List<String> list2 = new ArrayList<>(Arrays.asList(array));
+        for(String value :list) {
 
-    List<String> list3 = new ArrayList<>(Arrays.asList("A", new String("B"), "C"));
+            if(value.equals("a")) {
 
-    System.out.print(list1.equals(list2));
+                list.remove(value);
 
-    System.out.print(list1.equals(list3));
+            }
 
-  }
+        }
+
+        System.out.println(list); // outputs [b,c]
+
+    }
 
 }
 
 ```
 
-- [ ] falsefalse
-- [x] truetrue
-- [ ] falsetrue
-- [ ] truefalse
+- [ ] String should be compared using == method instead of equals.
+- [x] Modifying a collection while iterating through it can throw a ConcurrentModificationException.
+- [ ] The List interface does not allow an argument of type String to be passed to the remove method.
+- [ ] ArrayList does not implement the List interface.
 
+> [!note] 
+>  foreach 不能删除
+
+#### Q 106. How do you convert this method into a lambda expression?
+
+
+```java
+
+public int square(int x) {
+
+    return x * x;
+
+}
+
+```
+
+- [ ] `Function<Integer, Integer> squareLambda = (int x) -> { x * x };`
+- [ ] `Function<Integer, Integer> squareLambda = () -> { return x * x };`
+- [x] `Function<Integer, Integer> squareLambda = x -> x * x;`
+- [ ] `Function<Integer, Integer> squareLambda = x -> return x * x;`
+
+
+#### Q 107. Which choice is a valid implementation of this interface?
+
+
+```java
+
+interface MyInterface {
+
+    int foo(int x);
+
+}
+
+```
+
+- [ ] A
+
+
+```java
+
+public class MyClass implements MyInterface {
+
+    // ....
+
+    public void foo(int x){
+
+        System.out.println(x);
+
+    }
+
+}
+
+```
+
+- [ ] B
+
+
+```java
+
+public class MyClass implements MyInterface {
+
+    // ....
+
+    public double foo(int x){
+
+        return x * 100;
+
+    }
+
+}
+
+```
+
+- [x] C
+
+
+```java
+
+public class MyClass implements MyInterface {
+
+    // ....
+
+    public int foo(int x){
+
+        return x * 100;
+
+    }
+
+}
+
+```
+
+- [ ] D
+
+
+```java
+
+public class MyClass implements MyInterface {
+
+    // ....
+
+    public int foo(){
+
+        return 100;
+
+    }
+
+}
+
+```
+
+
+#### Q 108. What is the result of this program?
+
+```java
+
+interface Foo {
+
+    int x = 10;
+
+}
+
+
+public class Main{
+
+
+    public static void main(String[] args) {
+
+        Foo.x = 20;
+
+        System.out.println(Foo.x);
+
+    }
+
+}
+
+```
+
+- [ ] 10
+- [ ] 20
+- [ ] null
+- [x] An error will occur when compiling.
+
+
+#### Q 109. Which statement must be inserted on line 1 to print the value true?
+
+
+```java
+
+1:
+
+2: Optional<String> opt = Optional.of(val);
+
+3: System.out.println(opt.isPresent());
+
+```
+
+- [ ] `Integer val = 15;`
+- [x] `String val = "Sam";`
+- [ ] `String val = null;`
+- [ ] `Optional<String> val = Optional.empty();`
+
+
+#### Q 110. What will this code print, assuming it is inside the main method of a class?
+
+
+```java
+
+System.out.println(true && false || true);
+
+System.out.println(false || false && true);
+
+```
+
+- [ ] false </br> true
+- [ ] true </br> true
+- [x] true </br> false
+- [ ] false </br> false
+
+
+#### Q 111. What will this code print? #list 
+
+
+```java
+
+List<String> list1 = new ArrayList<>();
+
+list1.add("One");
+
+list1.add("Two");
+
+list1.add("Three");
+
+
+List<String> list2 = new ArrayList<>();
+
+list2.add("Two");
+
+
+list1.remove(list2);
+
+System.out.println(list1);
+
+```
+
+- [ ] `[Two]`
+- [x] `[One, Two, Three]`
+- [ ] `[One, Three]`
+- [ ] `Two`
 > [!note] 
 >  
 
-#### Q 86. Which code snippet is valid?
+#### Q112. Which code checks whether the characters in two Strings,named `time` and `money`, are the same?
 
-- [ ] `ArrayList<String> words = new ArrayList<String>(){"Hello", "World"};`
-- [ ] `ArrayList words = Arrays.asList("Hello", "World");`
-- [ ] `ArrayList<String> words = {"Hello", "World"};`
-- [x] `ArrayList<String> words = new ArrayList<>(Arrays.asList("Hello", "World"));`
+- [ ] `if(time <> money){}`
+- [x] `if(time.equals(money)){}`
+- [ ] `if(time == money){}`
+- [ ] `if(time = money){}`
 
 
-#### Q 87. What is the output of this code?
+#### Q 113. An **\_** is a serious issue thrown by the JVM that the JVM is unlikely to recover from. An **\_** is an unexpected event that an application may be able to deal with in order to continue execution.
 
+- [ ] exception,assertion
+- [ ] AbnormalException, AccidentalException
+- [x] error, exception
+- [ ] exception, error
+
+
+#### Q 114. Which keyword would not be allowed here?
 
 ```java
 
-class Main {
+class Unicorn {
 
-  public static void main(String[] args) {
-
-    StringBuilder sb = new StringBuilder("hello");
-
-    sb.deleteCharAt(0).insert(0, "H")." World!";
-
-    System.out.println(sb);
-
-  }
+    _____ Unicorn(){}
 
 }
 
 ```
 
-- [x] It will not compile.
-- [ ] "HelloWorld!"
-- [ ] "hello"
-- [ ] ????
+- [x] static
+- [ ] protected
+- [ ] public
+- [ ] void
 
 
-#### Q 88. How would you use the TaxCalculator to determine the amount of tax on $50?
+#### Q 115. Which OOP concept is this code an example of?
 
 
 ```java
 
-class TaxCalculator {
+List[] myLists = {
 
-  static double calculate(total) {
+    new ArrayList<>(),
 
-    return total * .05;
+    new LinkedList<>(),
 
-  }
+    new Stack<>(),
+
+    new Vector<>(),
+
+};
+
+
+for (List list : myLists){
+
+    list.clear();
 
 }
 
 ```
 
-- [x] TaxCalculator.calculate(50);
-- [ ] new TaxCalculator.calculate(50);
-- [ ] calculate(50);
-- [ ] new TaxCalculator.calculate($50);
+- [ ] composition
+- [ ] generics
+- [x] polymorphism
+- [ ] encapsulation
 
 
-#### Q 89. Which characteristic does not apply to instances of java.util.HashSet?
-
-- [ ] uses hashcode of objects when inserted
-- [ ] contains unordred elements
-- [ ] contains unique elements
-- [x] contains sorted elements
+**Explanation:** switch between different implementations of the `List` interface.
 
 
-#### Q 90. What is the output? #queue
+#### Q 116. What does this code print?
+
 
 ```java
 
-import java.util.*;
+String a = "bikini";
+
+String b = new String("bikini");
+
+String c = new String("bikini");
+
+
+System.out.println(a == b);
+
+System.out.println(b == c);
+
+```
+
+- [ ] true; false
+- [x] false; false
+- [ ] false; true
+- [ ] true; true
+
+
+**Explanation:** `== operator` compares the object reference. `String a = "bikini"; String b = "bikini";` would result in True. Here new creates a new object, so false. Use `equals() method` to compare the content.
+
+
+#### Q 117. What keyword is added to a method declaration to ensure that two threads do not simultaneously execute it on the same object instance?
+
+- [ ] native
+- [ ] volatile
+- [x] synchronized
+- [ ] lock
+
+[Reference](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html)
+> [!note] 
+> lock 不是关键字，是个接口 
+
+#### Q 118. Which is a valid type for this lambda function?
+
+
+```java
+
+_____ oddOrEven = x -> {
+
+    return x % 2 == 0 ? "even" : "odd";
+
+};
+
+```
+
+- [ ] `Function<Integer, Boolean>`
+- [ ] `Function<String>`
+- [x] `Function<Integer, String>`
+- [ ] `Function<Integer>`
+
+[Explaination](https://github.com/0nyr/java/tree/main/examples/lambda_function), [Reference](https://www.geeksforgeeks.org/function-interface-in-java-with-examples/)
+
+
+#### Q 119. What is displayed when this code is compiled and executed?
+
+
+```java
+
+import java.util.HashMap;
 
 
 public class Main {
 
-    public static void main(String[] args)
+    public static void main(String[] args) {
 
-    {
-
-        PriorityQueue<Integer> queue = new PriorityQueue<>();
-
-        queue.add(4);
-
-        queue.add(3);
-
-        queue.add(2);
-
-        queue.add(1);
+        HashMap<String, Integer> pantry = new HashMap<>();
 
 
-        while (queue.isEmpty() == false) {
+        pantry.put("Apples", 3);
 
-            System.out.printf("%d", queue.remove());
+        pantry.put("Oranges", 2);
+
+
+        int currentApples = pantry.get("Apples");
+
+        pantry.put("Apples", currentApples + 4);
+
+
+        System.out.println(pantry.get("Apples"));
+
+    }
+
+}
+
+```
+
+- [ ] 6
+- [ ] 3
+- [ ] 4
+- [x] 7
+
+
+[Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/what_is_displayed_0)
+
+
+#### Q 120. What variable type should be declared for capitalize?
+
+
+```shell
+
+List<String> songTitles = Arrays.asList("humble", "element", "dna");
+
+_______ capitalize = (str) -> str.toUpperCase();
+
+songTitles.stream().map(capitalize).forEach(System.out::println);
+
+```
+
+- [x] `Function<String, String>`
+- [ ] `Stream<String>`
+- [ ] `String<String, String>`
+- [ ] `Map<String, String>`
+
+[Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/what_variable_type_0), [Reference](https://www.geeksforgeeks.org/function-interface-in-java-with-examples/)
+
+
+#### Q 121. Which is the correct return type for the processFunction method?
+
+
+```java
+
+_____ processFunction(Integer number, Function<Integer, String> lambda) {
+
+    return lambda.apply(number);
+
+}
+
+```
+
+- [ ] `Integer`
+- [x] `String`
+- [ ] `Consumer`
+- [ ] `Function<Integer, String>`
+
+[Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/which_return_type_0)
+
+
+#### Q 122. What function could you use to replace slashes for dashes in a list of dates?
+
+
+```java
+
+List<String> dates = new ArrayList<String>();
+
+// missing code
+
+dates.replaceAll(replaceSlashes);
+
+```
+
+- [x] `UnaryOperator<String> replaceSlashes = date -> date.replace("/", "-");`
+- [ ] `Function<String, String> replaceSlashes = dates -> dates.replace("-", "/");`
+- [ ] `Map<String, String> replaceSlashes = dates.replace("/", "-");`
+- [ ] `Consumer<Date> replaceSlashes = date -> date.replace("/", "-");`
+
+> [!note] 
+> **Explanation:** `replaceAll` method for any `List<T>` only accepts `UnaryOperator<T>` to pass every single element into it then put the result into the `List<T>` again.
+
+
+
+
+#### Q 123. From which class do all other classes implicitly extend?
+
+- [x] `Object`
+- [ ] `Main`
+- [ ] `Java`
+- [ ] `Class`
+
+
+[Explanation](https://stackoverflow.com/questions/17187218/default-class-that-is-extended-by-all-classes-in-java)
+
+
+#### Q 124. How do you create and run a Thread for this class?
+
+
+```java
+
+import java.util.date;
+
+
+public class CurrentDateRunnable implements Runnable {
+
+    @Override
+
+    public void run () {
+
+        while (true) {
+
+            System.out.println("Current date: " + new Date());
+
+
+            try {
+
+                Thread.sleep(5000);
+
+            } catch (InterruptedException e) {
+
+                throw new RuntimeException(e);
+
+            }
 
         }
 
@@ -627,169 +617,457 @@ public class Main {
 
 ```
 
-- [ ] 1 3 2 4
-- [ ] 4 2 3 1
-- [x] 1 2 3 4
-- [ ] 4 3 2 1
-
-> [!note] 
->  PriorityQueue 按照大小重排了数字
-
-#### Q 91. What will this code print, assuming it is inside the main method of a class?
+- [x] `Thread thread = new Thread(new CurrentDateRunnable()); thread.start();`
+- [ ] `new Thread(new CurrentDateRunnable()).join();`
+- [ ] `new CurrentDateRunnable().run();`
+- [ ] `new CurrentDateRunnable().start();`
 
 
-`System.out.println("hello my friends".split(" ")[0]);`
-
-- [ ] my
-- [ ] hellomyfriends
-- [x] hello
-- [ ] friends
+[Reference](https://www.w3schools.com/java/java_threads.asp)
 
 
-#### Q92. You have an instance of type Map<String, Integer> named instruments containing the following key-value pairs: guitar=1200, cello=3000, and drum=2000. If you add the new key-value pair cello=4500 to the Map using the put method, how many elements do you have in the Map when you call instruments.size()?
+#### Q 125. Which expression is a functional equivalent?
 
-- [ ] 2
-- [ ] When calling the put method, Java will throw an exception
-- [ ] 4
+
+```java
+
+List<Integer> numbers = List.of(1,2,3,4);
+
+int total = 0;
+
+
+for (Integer x : numbers) {
+
+    if (x % 2 == 0)
+
+    total += x * x;
+
+}
+
+```
+
+- [ ] A
+
+
+```java
+
+int total = numbers.stream()
+
+                        .transform(x -> x * x)
+
+                        .filter(x -> x % 2 == 0)
+
+                        .sum ();
+
+```
+
+- [ ] B
+
+
+```java
+
+int total = numbers.stream()
+
+                        .filter(x -> x % 2 == 0)
+
+                        .collect(Collectors.toInt());
+
+```
+
+- [ ] C
+
+
+```java
+
+int total = numbers.stream()
+
+                        .mapToInt (x -> {if (x % 2 == 0) return x * x;})
+
+                        .sum();
+
+```
+
+- [x] D
+
+
+```java
+
+int total = numbers.stream()
+
+                        .filter(x -> x % 2 == 0)
+
+                        .mapToInt(x -> x * x)
+
+                        .sum();
+
+```
+
+
+**Explanation:** The given code in the question will give you the output 20 as total:
+
+
+```java
+
+numbers                         // Input `List<Integer>` > [1, 2, 3, 4]
+
+    .stream()                   // Converts input into `Stream<Integer>`
+
+    .filter(x -> x % 2 == 0)    // Filter even numbers and return `Stream<Integer>` > [2, 4]
+
+    .mapToInt(x -> x * x)       // Square the number, converts `Integer` to an `int`, and returns `IntStream` > [4, 16]
+
+    .sum()                      // Returns the sum as `int` > 20
+
+```
+
+
+#### Q 126. Which is not one of the standard input/output streams provided by java.lang.System?
+
+- [x] print
+- [ ] out
+- [ ] err
+- [ ] in
+
+
+#### Q 127. The compiler is complaining about this assignment of the variable pickle to the variable jar. How woulld you fix this?
+
+
+```java
+
+double pickle = 2;
+
+int jar = pickle;
+
+```
+
+- [ ] Use the method toInt() to convert pickle before assigning it to jar.
+- [x] Cast pickle to an int before assigning it to jar.
+- [ ] Make pickle into a double by adding + ".0"
+- [ ] Use the new keyword to create a new Integer from pickle before assigning it to jar.
+
+
+[Reference](https://www.w3schools.com/java/java_type_casting.asp)
+
+
+#### Q 128. What value should x have to make this loop execute 10 times?
+
+
+```java
+
+for(int i=0; i<30; i+=x) {}
+
+```
+
+- [ ] 10
 - [x] 3
+- [ ] 1
+- [ ] 0
 
 
-#### Q 93. Which class acts as root class for Java Exception hierarchy?
+#### Q 129. The **\_** runs compiled Java code, while the **\_** compiles Java files.
 
-- [ ] Clonable
-- [x] Throwable
-- [ ] Object
-- [ ] Serializable
-
-
-#### Q 94. Which class does not implement the java.util.Collection interface?
-
-- [ ] java.util.Vector
-- [ ] java.util.ArrayList
-- [ ] java.util.HashSet
-- [x] java.util.HashMap
+- [ ] IDE; JRE
+- [ ] JDK; IDE
+- [x] JRE; JDK
+- [ ] JDK; JRE
 
 
-#### Q95. You have a variable of named `employees` of type `List<Employee>` containing multiple entries. The `Employee` type has a method `getName()` that returns the employee name. Which statement properly extracts a list of employee names?
-
-- [ ] `employees.collect(employee -> employee.getName());`
-- [ ] `employees.filter(Employee::getName).collect(Collectors.toUnmodifiableList());`
-- [x] `employees.stream().map(Employee::getName).collect(Collectors.toList());`
-- [ ] `employees.stream().collect((e) -> e.getName());`
-
-> [!note] 
-> 
+[Reference](https://stackoverflow.com/questions/1906445/what-is-the-difference-between-jdk-and-jre)
 
 
-#### Q 96. This code does not compile. What needs to be changed so that it does?
+#### Q 130. Which packages are part of Java Standard Edition #package 
 
+- [ ] java.net
+- [ ] java.util
+- [ ] java.lang
+- [x] All above
 
-```java
-
-public enum Direction {
-
-    EAST("E"),
-
-    WEST("W"),
-
-    NORTH("N"),
-
-    SOUTH("S");
-
-
-    private final String shortCode;
-
-
-    public String getShortCode() {
-
-        return shortCode;
-
-    }
-
-}
-
-```
-
-- [x] Add a constructor that accepts a `String` parameter and assigns it to the field `shortCode`.
-- [ ] Remove the `final` keyword for the field `shortCode`.
-- [ ] All enums need to be defined on a single line of code.
-- [ ] Add a setter method for the field `shortCode`.
-
-
-#### Q97. Which language feature ensures that objects implementing the `AutoCloseable` interface are closed when it completes?
-
-- [ ] try-catch-finally
-- [ ] try-finally-close
-- [x] try-with-resources
-- [ ] try-catch-close
-
-
-#### Q 98. What code should go in line 3?
-
-```java
-
-1: class Main {
-
-2:     public static void main(String[] args) {
-
-3:
-
-4:         array[0] = new int[]{1, 2, 3};
-
-5:         array[1] = new int[]{4, 5, 6};
-
-6:         array[2] = new int[]{7, 8, 9};
-
-7:         for (int i = 0; i < 3; i++)
-
-8:             System.out.print(array[i][1]); //prints 258
-
-9:     }
-
-10: }
-
-```
-
-- [ ] `int[][] array = new int[][];`
-- [x] `int[][] array = new int[3][3];`
-- [ ] `int[][] array = new int[2][2];`
-- [ ] `int[][] array = [][];`
-
-
-#### Q 99. Is this an example of method overloading or overriding? #override
-
-
-```java
-
-class Car {
-
-    public void accelerate() {}
-
-}
-
-class Lambo extends Car {
-
-    public void accelerate(int speedLimit) {}
-
-    public void accelerate() {}
-
-}
-
-```
-
-- [ ] neither
-- [x] both
-- [ ] overloading
-- [ ] overriding
 > [!note] 
 >  
 
-#### Q 100. Which choice is the best data type for working with money in Java?
+[Reference](https://docs.oracle.com/en/java/javase/11/docs/api/allpackages-index.html)
 
-- [ ] float
+
+#### Q 131. What values for x and y will cause this code to print "btc"?
+
+
+```java
+
+String buy = "bitcoin";
+
+System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
+
+```
+
+- [x] int x = 0; int y = 2;
+- [ ] int x = 1; int y = 3;
+- [ ] int x = 0; int y = 3;
+- [ ] int x = 1; int y = 3;
+
+
+#### Q 132. Which keyword would you add to make this method the entry point of the program?
+
+- [ ] exception
+- [ ] args
+- [x] static
 - [ ] String
-- [ ] double
-- [x] BigDecimal
 
 
-[Reference](https://www.scaler.com/topics/java/primitive-data-types/#types-of-primitive-data-types-in-java)
+[Reference](https://www.geeksforgeeks.org/java-main-method-public-static-void-main-string-args/)
+
+
+#### Q 133. You have a list of Bunny objects that you want to sort by weight using Collections.sort. What modification would you make to the Bunny class?
+
+- [x] Implement the comparable interface by overriding the compareTo method.
+- [ ] Add the keyword default to the weight variable.
+- [ ] Override the equals method inside the Bunny class.
+- [ ] Implement Sortable and override the sortBy method.
+
+[Reference](https://www.geeksforgeeks.org/how-to-override-compareto-method-in-java/)
+
+
+#### Q 134. Identify the incorrect Java feature.
+
+- [ ] Object oriented
+- [x] Use of pointers
+- [ ] Dynamic
+- [ ] Architectural neural
+
+
+[Reference](https://www.interviewbit.com/blog/features-of-java/)
+
+
+#### Q 135. What is the output of this code?
+
+
+```java
+
+int yearsMarried = 2;
+
+switch (yearsMarried) {
+
+   case 1:
+
+      System.out.println("paper");
+
+   case 2:
+
+      System.out.println("cotton");
+
+   case 3:
+
+      System.out.println("leather");
+
+   default:
+
+      System.out.println("I don't gotta buy gifts for nobody!");
+
+}
+
+```
+
+- [ ] cotton
+- [ ] cotton <br> leather
+- [x] cotton <br> leather <br> I don't gotta buy gifts for nobody!
+- [ ] cotton <br> I don't gotta buy gifts for nobody!
+
+> [!note] 
+>  
+
+[Reference](https://stackoverflow.com/a/8564008)
+
+
+#### Q 136. What language feature do these expressions demonstrate?
+
+
+```
+
+System.out::println
+
+Doggie::fetch
+
+```
+
+- [ ] condensed invocation
+- [ ] static references
+- [x] method references
+- [ ] bad code
+
+
+[Reference](https://stackoverflow.com/questions/31020269/what-is-the-use-of-system-outprintln-in-java-8)
+
+
+#### Q 137. What is the difference between the wait() and sleep methods?
+
+- [ ] Only Threads can wait, but any Object can be put to sleep.
+- [ ] A wait can be woken up by another Thread calling notify whereas a sleep cannot.
+- [ ] When things go wrong, sleep throws an IllegalMonitorStateException whereas wait throws an InterruptedException.
+- [ ] Sleep allows for multi-threading whereas wait does not.
+
+
+[Reference](https://docs.oracle.com/javase/tutorial/essential/concurrency/notify.html)
+
+
+#### Q 138. Which is the right way to declare an enumeration of cats? #enum 
+
+- [ ] enum Cats (SPHYNX, SIAMESE, BENGAL);
+- [ ] enum Cats ("sphynx", "siamese", "bengal");
+- [x] enum Cats {SPHYNX, SIAMESE, BENGAL}
+- [ ] enum Cats {"sphynx","siamese","bengal}
+
+#### Q 139. What happens when this code is run?
+
+
+```java
+
+List<String> horses = new ArrayList<String>();
+
+horses.add (" Sea Biscuit ");
+
+System.out.println(horses.get(1).trim());
+
+```
+
+- [ ] "Sea Biscuit" will be printed.
+- [ ] " Sea Biscuit " will be printed.
+- [x] An IndexOutOfBoundsException will be thrown.
+- [ ] A NullPointerException will be thrown.
+
+
+#### Q 140. Which data structure would you choose to associate the amount of rainfall with each month?
+
+- [ ] Vector
+- [ ] LinkedList
+- [x] Map
+- [ ] Queue
+
+
+**Explanation:**
+
+
+> from @yktsang01 in #3915 thread
+
+
+Map because map is a key/value pair without creating new classes/objects. So can store the rainfall per month like `Map<java.time.Month, Double>`.
+
+The other options will most likely need some new class to be meaningful:
+
+
+```java
+
+public class Rainfall {
+
+    private java.time.Month month;
+
+    private double rainfall;
+
+}
+
+Vector<Rainfall>
+
+LinkedList<Rainfall>
+
+Queue<Rainfall>
+
+```
+
+
+#### Q 141. Among the following which contains date information?
+
+- [ ] java.sql timestamp
+- [ ] java.io time
+- [ ] java.io.timestamp
+- [ ] java.sql.time
+
+> [!note] 
+>  -   java.sql timestamp: This option is correct. It is a class in the java.sql package that represents a SQL timestamp value, which includes both date and time information.
+>  -   java.io time: This option is incorrect. There is no class called java.io time in Java.
+>  -   java.io.timestamp: This option is incorrect. There is no class called java.io.timestamp in Java.
+>  -   java.sql.time: This option is incorrect. It is a class in the java.sql package that represents a SQL time value, which includes only time information, not date information.
+
+
+#### Q 142. What is the size of float and double in java?
+
+- [x] 32 and 64
+- [ ] 32 and 32
+- [ ] 64 and 64
+- [ ] 64 and 32
+
+> [!note] 
+>  int 也是 32 位
+
+#### Q 143. When you pass an object reference as an argument to a method call what gets passed?
+
+- [ ] a reference to a copy
+- [x] a copy of the reference
+- [ ] the object itself
+- [ ] the original reference
+
+> [!note] 
+>  
+
+#### Q 144. Which choice demonstrates a valid way to create a reference to a static function of another class?
+
+- [x] Function<Integer, Integer> funcReference = MyClass::myFunction;
+- [ ] Function<Integer, Integer> funcReference = MyClass.myFunction;
+- [ ] Function<Integer, Integer> funcReference = MyClass().myFunction();
+- [ ] Function<Integer, Integer> funcReference = MyClass::myFunction();
+
+
+#### Q 145. What is UNICODE?
+
+- [ ] Unicode is used for external representation of words and strings
+- [ ] Unicode is used for internal representation of characters and strings
+- [x] Unicode is used for external representation of characters and strings
+- [ ] Unicode is used for internal representation of words and strings
+
+> [!note] 
+>  
+
+#### Q 146. What kind of thread is the Garbage collector thread?
+
+- [ ] User thread
+- [x] Daemon thread
+- [ ] Both
+- [ ] None of these
+
+> [!note] 
+>  daemon thread 是守护线程，java 中另一个重要线程是用户线程 User thread
+
+#### Q 147. What is HashMap and Map?
+
+- [ ] HashMap is Interface and map is class that implements that
+- [ ] HashMap is class and map is interface that implements that
+- [ ] Map is class and Hashmap is interface that implements that
+- [x] Map is Interface and Hashmap is class that implements that
+
+#### Q 148. What invokes a thread's run() method?
+
+- [ ] JVM invokes the thread's run() method when the thread is initially executed.
+- [ ] Main application running the thread.
+- [x] start() method of the thread class.
+- [ ] None of the above.
+
+
+**Explanation:** After a thread is started, via its `start()` method of the Thread class, the JVM invokes the thread's `run()` method when the thread is initially executed.
+
+
+#### Q 149. What is true about a final class?
+
+- [ ] class declared final is a final class.
+- [ ] Final classes are created so the methods implemented by that class cannot be overriddden.
+- [ ] It can't be inherited.
+- [x] All of the above.
+
+> [!note] 
+>  
+
+**Explanation:** Final classes are created so the methods implemented by that class cannot be overridden. It can't be inherited. These classes are declared `final`.
+
+
+#### Q 150. Which method can be used to find the highest value of x and y?
+
+- [ ] Math.largest(x,y)
+- [ ] Math.maxNum(x,y)
+- [x] Math.max(x,y)
+- [ ] Math.maximum(x,y)

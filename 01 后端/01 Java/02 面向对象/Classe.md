@@ -16,18 +16,10 @@
 # Classe spécifique
 
 - Classe abstract
+#abstract 
 
 - [[Interface]]
-
-> [!question] 
->  Q: Quelles sont les différences entre abstract class et interface #D1 
->  1. Les classes abstracts ne peuvent avoir que simple héritage, et les interface peuvent avoir multi héritage
->  2. Les classes abstracts peuvent avoir les constructeurs
->  3. Les classes abstracts peuvent avoir les attributs
->  4. Dans les interfaces, tous les méthodes sont abstracts, après Java 8, les méthodes défault et les méthodes statiques sont acceptés, après Java 9, elles peuvent avoir les méthodes privates et private statique
->  5. Dans les interfaces, avant Java 8, la visibilité de méthode est que public, maintenant il peut être aussi private
->  6. L'interface est une abstraction d'un comportement spécifique.
->  7. La classe abstract est une abstraction d'un type de chose.
+#interface 
 
 - 内部类
 
@@ -71,16 +63,31 @@ public class Main {
 #keyword
 
 - [[Programmation orientée objet#^683229|Règles de visibilité]]
-- static ^a56f3a
+- static
 - final
 	只能在构造器，初始化块，声明是赋值
+
 - abstract
 - native
 	使用 native 关键字说明这个方法是原生函数，也就是这个方法是用 C/C++语言实现的，并且被编译成了 DLL，由 java 去调用
 
 - synchronized
-- volatile
-	共享变量
+## volatile
+
+共享变量
+  
+在Java中，关键字`volatile`用于声明一个变量，表示该变量可能被多个线程修改。它确保变量的值始终从主内存中读取和写入，而不是缓存在线程的本地缓存中。这保证了一个线程对变量所做的更改立即对其他线程可见。
+
+当一个变量被声明为`volatile`时，会强制执行以下行为：
+
+1.  可见性：一个线程对`volatile`变量的更改立即对其他线程可见。当一个线程读取一个`volatile`变量时，它总是从主内存中读取最新的值。
+    
+2.  原子性：对`volatile`变量的读取和写入是原子操作，意味着该变量的访问被视为一个单一、不可分割的操作。但是，涉及多个变量的复合操作并不是原子的，可能需要额外的同步机制。
+    
+
+`volatile`关键字在多个线程访问共享变量的场景中非常有用，它确保一个线程对变量的更改对其他线程立即可见。常见的应用场景包括标志位或状态指示器，需要一个线程对其进行更新，并被其他线程观察。
+
+需要注意的是，`volatile`关键字并不能提供与锁或`synchronized`块相同级别的同步和线程安全性。它不适用于复杂的操作或维护多个变量之间的不变性。对于更复杂的并发场景，应使用其他同步机制，如锁或`java.util.concurrent`库中的类。
 
 - transient
 	不需要序列化

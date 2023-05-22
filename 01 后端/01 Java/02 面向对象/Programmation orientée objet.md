@@ -1,9 +1,4 @@
-
-> [!question] 
-> **Q: Les caractères de Java POO** #D1 
-> - [[Programmation orientée objet#^c61b13|Encapsulation]] est pour cacher les datas et les méthodes sensitives
-> - [[Programmation orientée objet#^d8a3bb|Héritage]] évide la duplication de code et augmente la réutilisabilité
-> - [[Programmation orientée objet#^32c4f7|Polymorphisme]] est override
+#oop
 
 # Les Caractères principaux 
 
