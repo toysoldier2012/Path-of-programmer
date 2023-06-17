@@ -83,4 +83,4 @@ System.out.println(ass1[0] == ass2[0]);//false
 
 # 比较
 
-正常来说只要 new 了，就不是一个对象，equals 就返回 false，但是 String 重写了 equals 方法，只比较内容
+正常来说只要 new 了，就不是一个对象，equals 就返回 false，但是 String 重写了 equals 方法，只比较内容 #equals

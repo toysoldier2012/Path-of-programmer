@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 后端/01 Java/Quizze 2.md",
+                "file": "04 框架/03 Spring/DI.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 后端/01 Java/Quizze 2.md"
+                "file": "04 框架/03 Spring/DI.md"
               }
             }
           },
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 后端/01 Java/Quizze 2.md",
+                "file": "04 框架/03 Spring/DI.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 后端/01 Java/Quizze 2.md",
+                "file": "04 框架/03 Spring/DI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,8 +212,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f3c3386f218d6c07",
+  "active": "bb20d35993694110",
   "lastOpenFiles": [
+    "04 框架/03 Spring/IoC.md",
+    "04 框架/03 Spring/DI.md",
+    "04 框架/03 Spring/AOP.md",
+    "04 框架/03 Spring/Hello Spring.md",
+    "面试/SG.md",
+    "面试/面试.md",
+    "01 后端/01 Java/Quizze ？.md",
+    "06 模式与思想/SOLID.md",
+    "08 HTTP/JWT.md",
+    "08 HTTP/HTTP.md",
+    "08 HTTP/Cookie.md",
+    "08 HTTP/Session.md",
+    "面试",
+    "08 HTTP",
+    "01 后端/01 Java/Quizze 2.md",
     "01 后端/01 Java/Quizze 1.md",
     "01 后端/01 Java/02 面向对象/Classe.md",
     "01 后端/01 Java/04 进阶/Exception.md",
@@ -227,19 +242,6 @@
     "01 后端/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
-    "01 后端/01 Java/03 常用类/常用类.md",
-    "01 后端/01 Java/Quizze ？.md",
-    "01 后端/01 Java/Quizze 4.md",
-    "01 后端/01 Java/Quizze 3.md",
-    "01 后端/01 Java/Quizze 2.md",
-    "01 后端/01 Java/04 进阶/Lambda.md",
-    "01 后端/01 Java/04 进阶/Enum.md",
-    "01 后端/01 Java/03 常用类/集合/Map/HashMap.md",
-    "01 后端/01 Java/JAVA Quizzes.md",
-    "06 模式与思想/Design Patterns.md",
-    "04 框架/03 Spring/AOP.md",
-    "04 框架/03 Spring/DI.md",
-    "04 框架/03 Spring/Hello Spring.md",
     "04 框架/JUnit",
     "04 框架/TestNG",
     "Attachment/Pasted image 20230419214403.png",
@@ -257,8 +259,6 @@
     "Attachment",
     "07 操作系统",
     "05 数据结构与算法",
-    "04 框架/02 Mybatis/进阶",
-    "04 框架/02 Mybatis/基础操作",
-    "04 框架/03 Spring"
+    "04 框架/02 Mybatis/进阶"
   ]
 }

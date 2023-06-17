@@ -1,20 +1,25 @@
-#pattern 
+#pattern
+
 # Creational pattern
 
 ## 1. 单例模式 Singleton
+#singleton
 
 1. 懒汉式
 2. 饿汉式
 
 ## 2. 工厂模式 Factory
+#factory
 
 ![[Pasted image 20230220224159.png]]
 
 ## 3. 策略模式 Strategy
+#strategy
 
 ![[Pasted image 20221219213413.png]]
 
 ## 4. 原型模式 Prototype
+#prototype
 
 ![[Pasted image 20230220224859.png]]
 

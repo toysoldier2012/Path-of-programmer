@@ -1,4 +1,4 @@
-#### **Q: Les caractères de Java POO** #oop 
+#### Q: Les caractères de Java POO #oop 
  
 - Encapsulation est pour cacher les datas et les méthodes sensitives
 - Héritage évide la duplication de code et augmente la réutilisabilité

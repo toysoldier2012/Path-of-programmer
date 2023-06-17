@@ -171,7 +171,7 @@ Dans les balises `entry`, on a 5 paramètres:
 		http://www.springframework.org/schema/beans/spring-beans.xsd        
 		
 		http://www.springframework.org/schema/context        
-		http://www.springframework.org/schema/context/spring-context-4.2.xsd">  
+		http://www.springframework.org/schema/context/spring-context.xsd">  
   
     <context:property-placeholder location="jdbc.properties"/>  
   
@@ -225,8 +225,8 @@ Dans les balises `entry`, on a 5 paramètres:
 - Filtre d'exclusion
 
 ``` xml
-<context:component-scan base-package="com.xiaoyu.spring">  
-        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>  
+<context:component-scan base-package="com.xiaoyu.spring">
+	<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>  
 </context:component-scan>
 ```
 
@@ -234,17 +234,21 @@ Dans les balises `entry`, on a 5 paramètres:
 
 ``` xml
 <context:component-scan base-package="com.xiaoyu.spring" use-default-filters="false">  
-        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>  
+	<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>  
 </context:component-scan>
 ```
 
-
-#### Par Class SpringConfig.java
+#### Par ficher SpringConfig.java
 
 ```Java
 @Configuration  
 @ComponentScan("xxx")
 @PropertySource("xxx")
+```
+
+```java
+ApplicationContext context = 
+	new AnnotationConfigApplicationContext(SpringConfig.java);
 ```
 
 ### Définir les beans
@@ -264,16 +268,25 @@ Dans les balises `entry`, on a 5 paramètres:
 
 ``` java
 @Autowired
-
 @Qualifier("xxx")
 
 @Value("xxx")
 @Value("${xxx}")
 ```
-	
--  `("xxx")` est pour définir l'id
--  `Autowired` réalise DI par `byType`
-- `Qualifier` utilise l'ID d'un Bean spécifique pour DI dans le Bean actuel
+
+- `@Autowired` réalise DI par `byType
+- `@Autowired` peut être sur paramètres, setter, constructeur, 形参
+- 如果只有一个有参构造函数，可以不加 `@Autowired`
+- `@Qualifier` utilise l'ID d'un Bean spécifique pour DI dans le Bean actuel
+
+```java
+@Reasouce
+@Reasouce(name="")
+```
+
+- 默认 byName 注入
+- 没有指定“name”时，将属性名当成 name
+- byName 找不到时，切换为 byType，此时同类型 Bean 只能有一个
 
 > [!todo] 
 > @PostConstruct

@@ -29,7 +29,6 @@ https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/j
 #### Q4. What is the output of this code? #array 
 
 ```java
-
 1: class Main {
 
 2:   public static void main (String[] args) {
@@ -45,7 +44,6 @@ https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/j
 7:   }
 
 8: }
-
 ```
 
 - [x] It will not compile because of line 4.
@@ -271,13 +269,12 @@ class Main {
 - [x] "123"
 
 > [!note] 
-> **Explanation:** The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class, because the import statements of the form: 
+> **Explanation:** The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class, because the import statements of the form
 
 
 #### Q 11. What is the result of this code?
 
 ```java
-
 1: class MainClass {
 2:     final String message() {
 3:         return "Hello!";
@@ -330,19 +327,17 @@ java MyProgram 1 "2" "2" 5
 #### Q13. What is the output of this code? #primitivedatatype  
 
 ```java
-
 class Main {
 
     public static void main(String[] args){
 
         int a = 123451234512345;
-
+        
         System.out.println(a);
 
     }
 
 }
-
 ```
 
 - [ ] "123451234512345"

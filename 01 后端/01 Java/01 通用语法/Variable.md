@@ -100,11 +100,12 @@ for()
 while()
 Arrays.stream(arr).forEach(System.out::println)
 ```
+#stream
 
 # 转换
 
 - [[String#^0e4978|基本类型与String的转换]]
-- [[AbstractList#^c1c20b|数组与List的转换]]
+- [[List#^d57335|数组与List的转换]]
 - char 与 int 之间的转换
 需要注意的是，当将一个较大的整数赋值给`char`时，可能会发生截断。因为`char`是16位的，它只能表示0到65535范围内的整数值。如果赋值的整数超出了这个范围，将会发生截断，只保留低16位的值。
 
@@ -116,7 +117,7 @@ Arrays.stream(arr).forEach(System.out::println)
 
 # 其他常见类型
 
-## `BigDecimal BigInteger`
+## `BigDecimal` / `BigInteger`
 
 - La classe `BigDecimal` permet de réaliser de tels calculs du type numérique flottant, en permettant d'avoir le contrôle sur la précision
 - il est préférable d'utiliser le constructeur attendant en paramètre la valeur sous forme de chaîne de caractères.
