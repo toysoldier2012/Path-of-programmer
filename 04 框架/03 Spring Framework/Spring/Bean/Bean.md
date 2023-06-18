@@ -1,57 +1,16 @@
+#ioc #di
 
 # IoC, DI et Spring
 
 **Inversion of Control**, on crée un objet de l'extérieur de programme mais pas de l'intérieur par new. Dans Spring, c'est par container IoC, il gère les objets comme des Beans, réalise **Dependency injection**, comme un relation entre les Beans
 
-# Fichier de configuration `applicationContext.xml`
+**Dependency injection**, c'est un relation entre les Beans
 
-## 1. Namespace
-^e4c41f
+# [[DI par XML]]
 
-```xml
-<beans xmlns="http://www.springframework.org/schema/beans"  
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
-       xsi:schemaLocation="  
-        http://www.springframework.org/schema/beans        
-        http://www.springframework.org/schema/beans/spring-beans.xsd">
-</beans>
-```
+# [[Autowiring]]
 
-> [!todo] 
-> https://blog.csdn.net/hhx_echo/article/details/76095840 
-
-## 2. Bean
-
-### bean的组成部分
-
-```xml
-<bean 
-	id="beanDao" 
-	name="bean beanBase" 
-	scope="prototype" 
-	class="com.xiaoyu.spring.dao.impl.BeanDaoImpl"
-/>
-```
-
-1. **id**
-2. **Alias du bean**: On peut ajouter les alias de bean dans le paramètre "name"
-3. **Portée du Bean**: La portée du bean par défaut est singleton, ou on peut le modifié en "prototype", dans `WebApplicationContext`, il y a deux autre portées, request et session
-
-### 如何获取 Bean
-
-``` java
-ApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");  
-Actor actor = (Actor) classPathXmlApplicationContext.getBean("actorB");  
-actor.test();  
-System.out.println(actor);
-```
-
-1. 通过 id
-2. 通过 Class
-3. 通过 id 以及 Class
-4. 通过 bean 的父类或者接口
-
-### Lifecycle de Bean
+# Lifecycle
 
 Implémenter l'interface `InitializingBean` et `DisposableBean` pour l'initialisation et la destruction.
 Ordre est suivante:
@@ -119,7 +78,10 @@ public class BeanProcessor implements BeanPostProcessor {
 
 # Factory mode
 
-Créer un `BeanFactory` par l'interface `FactoryBean<>`
+> [!todo] 
+>  
+
+Créer un `BeanFactory` par l'implément de l'interface `FactoryBean<>`
 
 ```java
 public class BeanDaoFactory implements FactoryBean<BeanDao> {  

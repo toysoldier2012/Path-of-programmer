@@ -59,7 +59,7 @@ public class Main {
 # Mot clé
 #keyword
 
-- [[Programmation orientée objet#^683229|Règles de visibilité]]
+- Règles de visibilité #visibility 
 - static
 - final
 	只能在构造器，初始化块，声明时赋值

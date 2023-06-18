@@ -1,18 +1,39 @@
 
 # JDK、JRE
+#jdk #jre
 
 # 环境变量
 
-# 注释
+# La Commentaire
+#comment 
 
-# 标识符
+# Les identifiants
+#identifier
 
-# 命名规范
+> [!todo] 
+> #signature 
+
+## 命名规范
 
 - 类：首字母大写CamelCase
 - 方法：首字母小写camelCase
 - 变量名：小写camelcase
-- 包名：小写com.package.name
+- 包名：小写 com.package.name
+
+## Les mots réservés
+#keyword #modifier
+
+|  |  |  |  |  |  |
+| -------- | ------ | -------------------------------------------------------------- | ----- | ---- | ---- |
+| abstract | assert | [boolean](https://www.thoughtco.com/definition-of-bool-958287) | break | byte | case |
+| catch | char | class | const | continue  | default   |
+| double | do | else | enum     | extends   | false     |
+| final      | finally      | float | for      | goto      | if        |
+| implements | import       | instanceof | int      | interface | long      |
+| native     | new          | null | package  | private   | protected |
+| public     | return       | short | static   | strictfp  | super     |
+| switch     | synchronized | this | throw    | throws    | transient |
+| true       | try          | void | volatile | while     |           |
 
 # 进制
 
@@ -22,15 +43,15 @@
 #operator 
 
 ``` java
-expr++//incrément
-expr--//Decrement
-++expr  --expr  +expr  -expr !
+expr++ //incrément
+expr-- //Decrement
+++expr --expr +expr -expr !expr
 *  /  %
 + 
--//Substraction
+- //Substraction
 <  >  <=  >=  instanceof
 == !=
-!//Negation
+
 
 //位运算符 opérateur de bits
 ^ //异或 opérateur ou exclusif
@@ -59,8 +80,6 @@ expr--//Decrement
 - for
 - while
 - foreach
-
-## 结束循环
 
 - break
 - continue

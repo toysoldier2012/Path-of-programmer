@@ -1,7 +1,10 @@
+#spring
+
+# 项目结构
 
 ![[Pasted image 20230111150913.png]]
 
-1. pom.xml
+## 1. Dépendance dans `pom.xml`
 
 ```xml
 <dependency>  
@@ -11,7 +14,7 @@
 </dependency>
 ```
 
-2. applicationContext.xml
+## 2. Fichier de configuration `applicationContext.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>  
@@ -30,7 +33,39 @@
 </beans>
 ```
 
-3. Dans `beanService`, déclarer la variable `beanDao` et créer `setBeanDao`
+### Namespace
+#namespace
+
+```xml
+<beans xmlns="http://www.springframework.org/schema/beans"  
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+       xsi:schemaLocation="  
+        http://www.springframework.org/schema/beans        
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+</beans>
+```
+
+> [!todo] 
+> https://blog.csdn.net/hhx_echo/article/details/76095840 
+
+### Bean
+
+```xml
+<bean 
+	id="beanDao" 
+	name="bean beanBase" 
+	scope="prototype" 
+	class="com.xiaoyu.spring.dao.impl.BeanDaoImpl"
+/>
+```
+
+1. **id**
+2. **Alias du bean**: On peut ajouter les alias de bean dans le paramètre "name"
+3. **Portée du Bean**: La portée du bean par défaut est singleton, ou on peut le modifié en "prototype", dans `WebApplicationContext`, il y a deux autre portées, request et session
+
+## 3. DI
+
+Dans `beanService`, déclarer la variable `beanDao` et créer `setBeanDao`
 
 ```Java
 public class BeanServiceImpl implements BeanService {  
@@ -48,7 +83,7 @@ public class BeanServiceImpl implements BeanService {
 }
 ```
 
-4. Récupérer les Beans
+## 4. Récupérer les Beans
 
 ```Java
 public class Test1 {  
@@ -57,7 +92,8 @@ public class Test1 {
       ClassPathXmlApplicationContext classPathXmlApplicationContext 
 	      = new ClassPathXmlApplicationContext("applicationContext.xml");  
   
-      BeanService beanService = (BeanService) classPathXmlApplicationContext.getBean("beanService");  
+      BeanService beanService =
+	      (BeanService) classPathXmlApplicationContext.getBean("beanService");  
       beanService.test();  
    }  
 }

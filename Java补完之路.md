@@ -1,35 +1,40 @@
 
 # Backend
 
+[[Java]]
+[[Database]]
+[[Serveur]]
+
 # Frontend
+
+[[Ajax]]
 
 > [!todo] 
 > 1. Html
 > 2. CSS
 > 3. Javascript 
 
-# 网络技术
-
-> [!todo] 
->  1. HTTP
->  2. JSON
->  3. Cookie与session
->  4. SSL/TLS
-
 # [[Framework]]
 
 # 数据结构与算法
-
 
 # [[Modèle et Concept]]
 
 # [[操作系统]]
 
+# [[Web]]
+
+[[HTTP]]
+[[Cookie, session 与 token]]
+
+> [!todo] 
+>  2. JSON
+>  4. SSL/TLS
+
 # 工具
 
 1. Eclipse
 	- 单元测试方法
-
 
 2. IDEA
 	- 基本设置
