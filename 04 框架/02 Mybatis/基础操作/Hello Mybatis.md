@@ -85,8 +85,6 @@ jdbc.password=evvf8YXEEB
 
 # 创建Mapper接口
 
-^757291
-
 src/main/java/com/xiaoyu/mybatis/mapper/UserMapper.java
 
 ```Java

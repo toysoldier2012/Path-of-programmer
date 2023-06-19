@@ -18,19 +18,31 @@
             }
           },
           {
-            "id": "39a6176b3cd80a24",
+            "id": "956094e371031764",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 框架/03 Spring Framework/Spring/AOP/Hello AOP.md",
+                "file": "面试/面试.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c913853c3f515e1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/SG.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -59,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#proxy",
+                "query": "stream",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 263.5
   },
   "right": {
     "id": "ef5f3f3cfbd40054",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 框架/03 Spring Framework/Spring/AOP/Hello AOP.md"
+                "file": "面试/SG.md"
               }
             }
           },
@@ -123,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 框架/03 Spring Framework/Spring/AOP/Hello AOP.md",
+                "file": "面试/SG.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 框架/03 Spring Framework/Spring/AOP/Hello AOP.md",
+                "file": "面试/SG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,42 +212,43 @@
   },
   "active": "f3c3386f218d6c07",
   "lastOpenFiles": [
+    "面试/面试.md",
+    "面试/SG.md",
+    "08 Web/Cookie, session 与 token.md",
+    "08 Web/HTTP.md",
+    "04 框架/03 Spring Framework/Spring Boot/Hello Spring.md",
+    "06 模式与思想/需求处理模板.md",
+    "06 模式与思想/Design Patterns.md",
+    "06 模式与思想/Modèle et Concept.md",
+    "01 后端/01 Java/01 通用语法/Hello Java.md",
+    "01 后端/01 Java/Quiz/Quizze ？.md",
+    "01 后端/01 Java/01 通用语法/Variable.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
+    "01 后端/01 Java/02 面向对象/Programmation orientée objet.md",
+    "04 框架/Questions ouvertes.md",
+    "06 模式与思想/TDD.md",
+    "00 Inbox/Yaml.md",
+    "01 后端/01 Java/04 进阶/Reflection.md",
+    "01 后端/01 Java/新特性/Java 8.md",
+    "01 后端/01 Java/新特性/新特性.md",
+    "01 后端/01 Java/Java.md",
+    "01 后端/01 Java/新特性/未命名.md",
+    "01 后端/01 Java/新特性",
+    "01 后端/01 Java/Quiz/Quizze 3.md",
+    "04 框架/02 Mybatis/基础操作/Hello Mybatis.md",
+    "04 框架/02 Mybatis/基础操作/处理查询结果.md",
+    "04 框架/03 Spring Framework/Spring/Bean/DI par XML.md",
     "Attachment/Pasted image 20230618224915.png",
     "00 Inbox/笔记格式.md",
-    "04 框架/03 Spring Framework/Spring/AOP/Hello AOP.md",
-    "06 模式与思想/Design Patterns.md",
-    "面试/SG.md",
-    "面试/面试.md",
-    "04 框架/03 Spring Framework/Spring/Hello Spring.md",
-    "04 框架/03 Spring Framework/Spring/Spring.md",
     "04 框架/03 Spring Framework/Spring/AOP",
-    "04 框架/03 Spring Framework/Spring/Bean/Autowiring.md",
-    "04 框架/03 Spring Framework/Spring/Bean/Bean.md",
-    "04 框架/03 Spring Framework/Spring/Bean/DI par XML.md",
-    "04 框架/Questions ouvertes.md",
-    "01 后端/01 Java/07 Jakarta EE/Jakarta EE.md",
-    "04 框架/03 Spring Framework/Spring/基础/IoC.md",
-    "Java补完之路.md",
     "04 框架/03 Spring Framework/Spring/Bean",
-    "01 后端/01 Java/Quiz/JAVA Quizzes.md",
-    "01 后端/01 Java/Quiz/Questions ouvertes.md",
-    "01 后端/01 Java/Quiz/Quizze ？.md",
-    "01 后端/01 Java/Java.md",
     "01 后端/01 Java/Quiz",
     "04 框架/03 Spring Framework/Spring Boot",
     "04 框架/03 Spring Framework/Spring",
-    "01 后端/01 Java/02 面向对象/Programmation orientée objet.md",
-    "01 后端/01 Java/02 面向对象/Module.md",
-    "01 后端/01 Java/02 面向对象/Classe.md",
-    "08 Web/HTTP.md",
-    "01 后端/01 Java/01 通用语法/Hello Java.md",
-    "01 后端/01 Java/Quiz/Quizze 1.md",
-    "08 Web/Cookie, session 与 token.md",
     "images",
     "面试",
     "08 Web",
     "04 框架/JUnit",
-    "04 框架/TestNG",
     "Attachment/Pasted image 20230419214403.png",
     "Attachment/Pasted image 20230306232237.png",
     "Attachment/Pasted image 20230304205719.png",
@@ -244,7 +257,6 @@
     "Attachment/Pasted image 20230223231319.png",
     "Attachment/Pasted image 20230223225441.png",
     "Attachment/Pasted image 20230223222934.png",
-    "Attachment/Pasted image 20230223220916.png",
-    "Attachment/Pasted image 20230220224859.png"
+    "Attachment/Pasted image 20230223220916.png"
   ]
 }
