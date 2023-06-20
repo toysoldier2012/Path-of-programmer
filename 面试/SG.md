@@ -18,6 +18,7 @@ Possible travail  a Luxembourg / 2 jour par semaine
 
 Spring très important
 
+---
 
 Mercredi
 
@@ -46,7 +47,6 @@ protobuf
 proto buffer
 
 important de hashcode
-
 
 LinkedHashSet
 TreeHashSet

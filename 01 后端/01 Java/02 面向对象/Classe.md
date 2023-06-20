@@ -15,11 +15,18 @@
 
 # Classe spécifique
 
-- Classe abstract #abstract 
+## Classe abstract 
+#abstract 
 
-- Interface #interface 
+## Interface 
+#interface 
 
-- 内部类
+- L'interface est une abstraction d'un comportement spécifique.
+- Java 8 之后，接口中可以有 `default` 方法，可以包含具体实现，以便解决必须在每个实现类重写所有方法的问题
+- Java 9 之后，方法可以为 `private` 或者 `private static`
+- 调用接口中 default 方法的特殊方式 `interface.Super.Method()
+
+## 内部类 `
 
 - 匿名内部类 #anonymousclass 
 

@@ -1,3 +1,4 @@
+#serilizable
 
 ![[Pasted image 20230223225441.png]]
 
@@ -5,4 +6,7 @@
 
 用于将对象转换成二进制信息，用于网络传输
 
-transient关键字用于标识不需要序列化的数据
+# transient
+#transient
+
+用于标识不需要序列化的数据

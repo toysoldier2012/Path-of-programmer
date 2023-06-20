@@ -1,12 +1,5 @@
 #string 
 
-> [!question] 
-> **Q: Les différences entre `String`, [[StringBuffer]], [[StringBuilder]]** #D1 
-> - `String` 是不可变的
-> - `StringBuffer` 对方法加了同步锁或者对调用的方法加了同步锁，所以是线程安全的。
-> - `StringBuilder` 更快，线程不安全
-> - 拼接字符最好不要用 `String + String` 或者  `"chaine1"&&"chaine2"`，过程中会创建 n 个 `StringBuilder`
-
 # 特点
 
 - 类特性
