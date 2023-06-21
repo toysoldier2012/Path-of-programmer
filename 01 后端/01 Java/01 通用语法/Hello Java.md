@@ -25,7 +25,7 @@
 
 |  |  |  |  |  |  |
 | -------- | ------ | -------------------------------------------------------------- | ----- | ---- | ---- |
-| abstract | assert | [boolean](https://www.thoughtco.com/definition-of-bool-958287) | break | byte | case |
+| abstract | assert | boolean | break | byte | case |
 | catch | char | class | const | continue  | default   |
 | double | do | else | enum     | extends   | false     |
 | final      | finally      | float | for      | goto      | if        |

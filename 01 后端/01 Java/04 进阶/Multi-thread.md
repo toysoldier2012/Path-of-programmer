@@ -83,4 +83,15 @@
 		- 线程安全单例模式
 - 线程通信
 	- wait()与notify/notifyAll()方法
-		- 通过monitor控制阻塞/释放
+		- 通过 monitor 控制阻塞/释放
+
+`   Thread`, `Runnable`, 和 `Callable` 是 Java 中用于多线程编程的三个关键接口，它们有以下区别：
+
+1. **Thread**：`Thread` 类是 Java 提供的一个线程类，通过继承 `Thread` 类，可以创建一个线程对象。这个线程对象可以直接调用 `start()` 方法启动线程，但是 Java 不支持多继承，因此如果已经继承了其他类，则无法使用 `Thread` 类创建线程。另外，`Thread` 类也实现了 `Runnable` 接口，因此可以将 `Thread` 对象作为 `Runnable` 参数传递给 `Thread` 构造函数来创建线程。
+    
+2. **Runnable**：`Runnable` 接口是 Java 提供的一个用于多线程编程的标准接口。通过实现 `Runnable` 接口，可以将一个类定义为一个可以由线程执行的任务。需要创建线程时，可以创建 `Thread` 对象，将实现了 `Runnable` 接口的任务对象作为参数传递给 `Thread` 构造函数，然后调用 `start()` 方法启动线程。
+    
+3. **Callable**：`Callable` 接口也是 Java 提供的一个用于多线程编程的标准接口。与 `Runnable` 不同的是，`Callable` 接口的 `call()` 方法可以返回一个结果，并且可以抛出异常。`Callable` 接口是通过 `ExecutorService` 的 `submit()` 方法提交给线程池执行的，`submit()` 方法返回一个 `Future` 对象，可以通过它获取任务的执行结果。
+    
+
+总结来说，`Thread` 是一个线程类，可以直接创建并启动线程；`Runnable` 是一个任务接口，定义了需要在线程中执行的任务，需要将其作为参数传递给 `Thread` 对象创建线程；`Callable` 是一个带有返回结果的任务接口，类似于 `Runnable`，但可以返回结果，并且可以抛出异常。`Callable` 任务通过 `submit()` 方法提交给线程池执行，并返回一个 `Future` 对象，用于获取任务的执行结果。
