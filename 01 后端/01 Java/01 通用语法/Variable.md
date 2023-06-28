@@ -2,19 +2,38 @@
 
 # 类型
 
-## 1. Type élémentaire
+## 1. Type élémentaire/primitif
 #primitivedatatype
 
-1.  `byte`：1字节（8位），范围：-128 到 127
-2.  `short`：2字节（16位）， 范围：-32,768 到 32,767
-3.  `int`：4字节（32位）， 范围：-2,147,483,648 到 2,147,483,647
-4.  `long`：8字节（64位），范围：-9,223,372,036,854,775,808 到 9,223,372,036,854,775,807
-5.  `float`：4字节（32位），范围：IEEE 754单精度浮点数格式，可表示大约 ±1.4 x 10^-45 到 ±3.4 x 10^38 的值
-6.  `double`：8字节（64位）， 范围：IEEE 754双精度浮点数格式，可表示大约 ±4.9 x 10^-324 到 ±1.8 x 10^308 的值
-7.  `char`：2字节（16位），范围：Unicode 字符（0 到 65,535）
-8.  `boolean`：不定，通常被映射为1字节，可以表示 `true` 或 `false` 值
+-  `byte`：1字节（8位），范围：-128 到 127 valeur par défaut 0
+-  `short`：2字节（16位），范围：-32,768 到 32,767 valeur par défaut 0
+-  `int`：4字节（32位），范围：-2,147,483,648 到 2,147,483,647, valeur par défaut 0
+-  `long`：8字节（64位），范围：-9,223,372,036,854,775,808 到 9,223,372,036,854,775,807, valeur par défaut 0
+-  `float`：4字节（32位），范围：IEEE 754单精度浮点数格式，可表示大约 ±1.4 x 10^-45 到 ±3.4 x 10^38 的值, valeur par défaut 0.0
+- `double`：8字节（64位），范围：IEEE 754双精度浮点数格式，可表示大约 ±4.9 x 10^-324 到 ±1.8 x 10^308 的值, valeur par défaut 0.0
+-  `char`：2字节（16位），范围：Unicode 字符（0 到 65,535）, valeur par défaut  `\u000`
+- `boolean`：不定，通常被映射为1字节，可以表示 `true` 或 `false` 值，valeur par défaut `false`
 
-请注意，这些长度是Java规范中定义的标准长度，但具体的实现可能会有所不同。此外，还有其他与平台相关的整数类型（如`char`的无符号版本`char`）和大数字类型（如`BigInteger`和`BigDecimal`），它们的长度可以根据具体的库和需求而变化。
+> [!question] 
+> 请注意，这些长度是 Java 规范中定义的标准长度，但具体的实现可能会有所不同。此外，还有其他与平台相关的整数类型（如 `char` 的无符号版本 `char`）和大数字类型（如 `BigInteger` 和 `BigDecimal`），它们的长度可以根据具体的库和需求而变化。 
+
+### Java 7
+
+- La valeur des types entiers peut être exprimée dans le système binaire en utilisant le préfixe `0b` ou `0B`
+
+``` java
+byte valeurByte = (byte) 0 b 00010001;
+short valeurShort = (short) 0 b 1001110111101;
+int valeurInt = 0 b 1000;
+long valeurLong = 0 b 010000101000101101000010100010110100001010001011010000101000101 L;
+```
+
+- Il est possible d'utiliser un ou plusieurs caractères tiret bas entre les chiffres qui composent un entier littéral
+
+```java
+int maValeur = 0b1001110_10001011_01001101_01000101;
+long maxLong = 0x7fff_ffff_ffff_ffffL;
+```
 
 ## 2. [[String]]
 
@@ -110,7 +129,7 @@ Arrays.stream(arr).forEach(System.out::println)
 需要注意的是，当将一个较大的整数赋值给`char`时，可能会发生截断。因为`char`是16位的，它只能表示0到65535范围内的整数值。如果赋值的整数超出了这个范围，将会发生截断，只保留低16位的值。
 
 
-# 包装类
+# Autoboxing/unboxing
 
 ## Integer 
 #integer 

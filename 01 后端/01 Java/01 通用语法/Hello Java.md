@@ -1,19 +1,24 @@
 
-# JDK、JRE
-#jdk #jre
+# La compilation et l'exécution
+#compiler
 
-# 环境变量
+![[Pasted image 20230622161652.png]]
 
-# La Commentaire
-#comment 
+> [!todo] 
+>  1. La processus de la compilation
+>  2. La compilation de la classe anonyme
+>  3. Le déploiement sous la forme d'un jar
+>  4. classpath
+
+# JDK, JRE, JVM
+#jdk #jre #jvm
 
 # Les identifiants
 #identifier
 
-> [!todo] 
-> #signature 
+Les identifiants sont utilisés pour nommer des éléments du code source de Java, notamment les variables, les classes, les méthodes, les paramètres, les packages, les interfaces, les modules, les énumérations, les étiquettes. Ils sont sensibles à la casse.
 
-## 命名规范
+## Des normes de nommage
 
 - 类：首字母大写CamelCase
 - 方法：首字母小写camelCase
@@ -21,26 +26,63 @@
 - 包名：小写 com.package.name
 
 ## Les mots réservés
-#keyword #modifier
+#keyword 
 
-|  |  |  |  |  |  |
-| -------- | ------ | -------------------------------------------------------------- | ----- | ---- | ---- |
-| abstract | assert | boolean | break | byte | case |
-| catch | char | class | const | continue  | default   |
-| double | do | else | enum     | extends   | false     |
-| final      | finally      | float | for      | goto      | if        |
+- 51 mots clés (keywords) dont 2 ne sont pas utilisés(const et goto)
+- 3 valeurs littérales (literals) : true, false et null
+
+|  |              |            |          |           |           |
+| ---------- | ------------ | ---------- | -------- | --------- | --------- |
+| abstract   | assert       | boolean    | break    | byte      | case      |
+| catch      | char         | class      | const(x) | continue  | default   |
+| double     | do           | else       | enum     | extends   | false     |
+| final      | finally      | float      | for      | goto(x)   | if        |
 | implements | import       | instanceof | int      | interface | long      |
-| native     | new          | null | package  | private   | protected |
-| public     | return       | short | static   | strictfp  | super     |
-| switch     | synchronized | this | throw    | throws    | transient |
-| true       | try          | void | volatile | while     |           |
+| native     | new          | null       | package  | private   | protected |
+| public     | return       | short      | static   | strictfp  | super     |
+| switch     | synchronized | this       | throw    | throws    | transient |
+| true       | try          | void       | volatile | while     |           |
 
-# 进制
+| Java 9(les mots réservés dans ficher module) | Java 10 | Java 13 | Java 16 |
+| -------------------------------------------- | ------- | ------- | ------- |
+| exports                                      | var     | yield   | record  |
+| module                                       |         |         |         |
+| open                                         |         |         |         |
+| opens                                        |         |         |         |
+| provides                                     |         |         |         |
+| requires                                     |         |         |         |
+| to                                           |         |         |         |
+| transitive                                   |         |         |         |
+| uses                                         |         |         |         |
+| with                                         |         |         |         |
+
+## Les identifiants restreints
+
+| Java 9     | Java 10 | Java 13 | Java 16 |
+| ---------- | ------- | ------- | ------- |
+| exports    | var     | yield   | record  | 
+| module     |         |         |         |
+| open       |         |         |         |
+| opens      |         |         |         |
+| provides   |         |         |         |
+| requires   |         |         |         |
+| to         |         |         |         |
+| transitive |         |         |         |
+| uses       |         |         |         |
+| with       |         |         |        
+
+# Les commentaires
+
+- Le commentaire abrégé
+- Le commentaire multiligne
+- Le commentaire de documentation automatique
 
 # [[Variable]]
 
 # Opérateur
 #operator 
+
+- Les opérateurs arithmétiques
 
 ``` java
 expr++ //incrément
@@ -49,10 +91,13 @@ expr-- //Decrement
 *  /  %
 + 
 - //Substraction
-<  >  <=  >=  instanceof
-== !=
 
+=  +=  -=  *=  /=  %=  ^=  |=  <<=  >>=  >>>= ->
+```
 
+- Les opérateurs de bits
+
+```java
 //位运算符 opérateur de bits
 ^ //异或 opérateur ou exclusif
 & //opérateur et
@@ -62,11 +107,19 @@ expr-- //Decrement
 >>> //opérateur décalage à droit non signe
 ~ //opérateur non
 
+```
+
+- Les comparaisons
+
+```java
+<  >  <=  >=  instanceof == !=
 && ||
 ? :
-=  +=  -=  *=  /=  %=  ^=  |=  <<=  >>=  >>>= ->
-
 ```
+
+> [!attention] 
+> Lors d'une opération sur les opérandes de type différents, le compilateur détermine le type du résultat en prenant le type le plus précis des opérands.
+> 
 
 # Les structures de contrôles
 
@@ -84,13 +137,6 @@ expr-- //Decrement
 - break
 - continue
 
-# Compiler
-#compiler
-
-``` shell
-javac MyProgram.java
-java MyProgram 1 "2" "2" 5
-```
-
 # Syntactic sugar
 
+# 进制
