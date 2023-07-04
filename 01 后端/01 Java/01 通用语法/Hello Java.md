@@ -127,13 +127,17 @@ expr-- //Decrement
 
 - if
 - switch
+	- la chaine de caractère ne soit pas null
+	- Si une instruction case ne contient pas de break, alors les traitements associées au case suivant sont exécutés
+- l'opération ternaire
 
 ## Les boucles
 
 - for
 - while
-- foreach
+- foreach (for évoluée)
 
+Les débranchement
 - break
 - continue
 
