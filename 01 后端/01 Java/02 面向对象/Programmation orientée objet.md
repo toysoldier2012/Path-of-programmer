@@ -54,7 +54,7 @@
 - Complie-time polymorphism/Overload/Surchargé #overload
 - Runtime polymorphism or Dynamic Method Dispatch/Override/Redéfinition #override 
 
-需要注意多态的类型大转小需要强转，因此在类型转换时需要先通过 instanceof 做判断
+需要注意多态的类型大转小需要强转，因此在类型转换时需要先通过 instanceof 做判断 #instanceof
 
 ## 3. Polymorphism
 #polymorphism 

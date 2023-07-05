@@ -37,7 +37,44 @@ long maxLong = 0x7fff_ffff_ffff_ffffL;
 
 ## 2. [[String]]
 
-## 3. 引用类型
+## 3. Tableaux
+#array 
+
+### Déclaration et allocation
+
+``` Java
+int tableau[] = new int[50]; // déclaration et allocation
+int[] tableau = new int[50];
+int tab[];         // déclaration
+tab = new int[50]; // allocation
+
+float tableau[][] = new float[10][10];
+int dim1[][] = new int[3][];
+dim1[0]      = new int[4];
+dim1[1]      = new int[9];
+dim1[2]      = new int[2];
+```
+
+### L'initialisation
+
+```java
+int tableau[5]    = {10, 20, 30, 40, 50};
+int tableau[3][2] = {{5, 1}, {6, 2}, {7, 3}};
+int tableau[] = {10, 20, 30, 40, 50};
+int[][] tabEntiers = {{1, 2, 3, 4, 5, 6}, {1, 2, 3, 4}, {1, 2, 3, 4, 5, 6, 7, 8, 9}};
+int[] i1 = new int[]{1,2,3,4,5,7,8};
+```
+
+### Parcours
+
+``` Java
+for()
+while()
+Arrays.stream(arr).forEach(System.out::println)
+```
+#stream
+
+## 4. Objet
 
 ### 引用类别
 
@@ -84,50 +121,12 @@ System.gc();
 
 ![[Pasted image 20230223220916.png]]
 
-## 4. Tableaux
-#array 
-
-### Déclaration et allocation
-
-``` Java
-int tableau[] = new int[50]; // déclaration et allocation
-int[] tableau = new int[50];
-int tab[];         // déclaration
-tab = new int[50]; // allocation
-
-float tableau[][] = new float[10][10];
-int dim1[][] = new int[3][];
-dim1[0]      = new int[4];
-dim1[1]      = new int[9];
-dim1[2]      = new int[2];
-```
-
-### L'initialisation
-
-```java
-int tableau[5]    = {10, 20, 30, 40, 50};
-int tableau[3][2] = {{5, 1}, {6, 2}, {7, 3}};
-int tableau[] = {10, 20, 30, 40, 50};
-int[][] tabEntiers = {{1, 2, 3, 4, 5, 6}, {1, 2, 3, 4}, {1, 2, 3, 4, 5, 6, 7, 8, 9}};
-int[] i1 = new int[]{1,2,3,4,5,7,8};
-```
-
-### Parcours
-
-``` Java
-for()
-while()
-Arrays.stream(arr).forEach(System.out::println)
-```
-#stream
-
 # 转换
 
 - [[String#^0e4978|基本类型与String的转换]]
 - [[List#^d57335|数组与List的转换]]
 - char 与 int 之间的转换
 需要注意的是，当将一个较大的整数赋值给`char`时，可能会发生截断。因为`char`是16位的，它只能表示0到65535范围内的整数值。如果赋值的整数超出了这个范围，将会发生截断，只保留低16位的值。
-
 
 # Autoboxing/unboxing
 
