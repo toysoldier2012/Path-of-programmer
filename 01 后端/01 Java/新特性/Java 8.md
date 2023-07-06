@@ -1,38 +1,26 @@
 
-## **[[Lambda]] 表达式**
-#lambda 
+1. **[[Lambda]] 表达式** #lambda 
 
-Lambda 允许把函数作为一个方法的参数（函数作为参数传递到方法中）。 
+	Lambda 允许把函数作为一个方法的参数（函数作为参数传递到方法中）。 
     
-## **方法引用**
+2. **方法引用**
 
-方法引用提供了非常有用的语法，可以直接引用已有Java类或对象（实例）的方法或构造器。与lambda联合使用，方法引用可以使语言的构造更紧凑简洁，减少冗余代码。
+	方法引用提供了非常有用的语法，可以直接引用已有 Java 类或对象（实例）的方法或构造器。与 lambda 联合使用，方法引用可以使语言的构造更紧凑简洁，减少冗余代码。
     
-# **默认方法**
-#default
+3. **默认方法** #default
 
-默认方法就是一个在接口里面有了一个实现的方法。  
-Pour évider de override une méthode dans tous les classes d'implémentation
+4. **新工具**
 
-## **新工具**
+	新的编译工具，如：Nashorn 引擎 jjs、类依赖分析器 jdeps。
 
-新的编译工具，如：Nashorn 引擎 jjs、类依赖分析器 jdeps。
+5. **[[Stream]] API** #stream 
 
-## **[[Stream]] API**
-#stream 
-
-新添加的 Stream API（`java.util.stream`） 把真正的函数式编程风格引入到 Java 中。 
+	新添加的 Stream API（`java.util.stream`） 把真正的函数式编程风格引入到 Java 中。 
     
-## **Date Time API**
-#date #time 
+6. **Date Time API** #date #time 
 
-加强对日期与时间的处理。 
-    
-## **Optional 类**
-#optionnal 
+	加强对日期与时间的处理。 
 
-Optional 类已经成为 Java 8 类库的一部分，用来解决空指针异常。 
-    
-## **Nashorn, JavaScript 引擎**
+7. **Optional 类** 类已经成为 Java 8 类库的一部分，用来解决空指针异常。
 
-Java 8提供了一个新的Nashorn javascript引擎，它允许我们在JVM上运行特定的javascript应用。
+8. Java 8提供了一个新的 Nashorn javascript 引擎，它允许我们在 JVM 上运行特定的 javascript 应用。

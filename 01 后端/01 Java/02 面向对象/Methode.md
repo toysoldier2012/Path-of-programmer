@@ -12,6 +12,13 @@ modificateurs type_retourné nom_méthode ( arg1, ... ) {... }
 
 Elle utilise un notation `...` pour préciser une répétition d'un type d'argument, permet le passage d'un nombre indéfini de paramètres du type précisé, tous les paramètres passés sont traités comme un tableau
 
-- 可以与构造器同名
+# Constructeur
+#constructor
+
+# Accesseur et mutateur
+#accessor #mutator 
+
+
+
 - 递归 récursion
 - 迭代 itération

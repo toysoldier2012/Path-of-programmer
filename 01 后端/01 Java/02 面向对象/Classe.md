@@ -15,16 +15,31 @@
 
 # Classe spécifique
 
-## Classe abstract 
+## 1. Classe abstract 
 #abstract 
 
-## Interface 
+## 2. Interface 
 #interface 
 
 - L'interface est une abstraction d'un comportement spécifique.
-- Java 8 之后，接口中可以有 `default` 方法，可以包含具体实现，以便解决必须在每个实现类重写所有方法的问题
+- Les seules variables que l'on peut définir dans une interface sont des variables de la classe qui doivent être constantes 
+- Toute classe qui implémente cette interface, doit au moins posséder les méthodes qui sont déclarées dans l'interface
+
 - Java 9 之后，方法可以为 `private` 或者 `private static`
+
+### La `default` méthode
+#default 
+
+- Après Java 8, la méthode `default` permet de définir le comportement dans l'interface auquel elle est définie, elle évide de la redéfinir dans tous les classes d'implémentation 
+
+- Il est possible de créer directement une instance d'une interface si tous les méthodes sont méthodes par défaut
+- Une interface fille peut redéfinir la méthode par défaut sans le déclarer par défaut, dans ce cas elle redéfinir comme étant abstraite
+
 - 调用接口中 default 方法的特殊方式 `interface.Super.Method()
+
+### L'interface local
+
+- L'interface local ne capture que les variables statics du context englobant
 
 ## 内部类 `
 
@@ -63,10 +78,17 @@ public class Main {
 }
 ```
 
-# Les autres Mots clés
+# Les Mots clés
 #keyword
 
-- Les modificateurs d'accès  #visibility 
+- [[Programmation orientée objet#^5d1a4f|Les modificateurs d'accès]]  #visibility 
+
+| Modifier           | Visibility                                       |
+| ------------------ | ------------------------------------------------ |
+| `private`          | None                                             |
+| Sans modificateurs | Classes dans la même package                     |
+| `protected`        | Classes dans la même package et les sous-classes |
+| `public`           | Partout                                          | 
 
 - `static` #static 
 	Elle ne sont définies qu'une seule fois, quel que soit le nombre d'objet instanciés de la class

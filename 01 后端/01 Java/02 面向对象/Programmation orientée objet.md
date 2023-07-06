@@ -5,15 +5,8 @@
 ## 1. Encapsulation
 #encapsulation 
 
-### 1.1 Règles de visibilité
+### 1.1 Les modificateurs d'accès
 #visibility
-
-|Modifier|Visibility|
-|---|---|
-|`private`|None|
-|No modifier (default)|Classes in the package|
-|`protected`|Classes in package and subclasses inside or outside the package|
-|`public`|All classes|
 
 ### 1.2 [[Module]]
 
@@ -51,13 +44,20 @@
 ## 2. Héritage
 #heritage
 
+需要注意多态的类型大转小需要强转，因此在类型转换时需要先通过 `instanceof` 做判断 #instanceof
+
+## 3. Polymorphisme
+#polymorphism 
+
+Le polymorphisme est la capacité, pour un même message de correspondre à plusieurs formes de traitement selon l'objet auquel ce message est adressé
+
+On peut affecter à une référence d'une classe n'import quel objet d'une de ses sous-classe
+
+
+
+
 - Complie-time polymorphism/Overload/Surchargé #overload
 - Runtime polymorphism or Dynamic Method Dispatch/Override/Redéfinition #override 
-
-需要注意多态的类型大转小需要强转，因此在类型转换时需要先通过 instanceof 做判断 #instanceof
-
-## 3. Polymorphism
-#polymorphism 
 
 Le polymorphisme est un concept clé de la programmation orientée objet (POO) qui permet à un objet de prendre différentes formes ou comportements. Il permet à un objet d'être traité comme une instance de sa propre classe ou comme une instance d'une de ses classes dérivées.
 
