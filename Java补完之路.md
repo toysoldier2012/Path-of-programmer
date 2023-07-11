@@ -61,7 +61,6 @@ C'est une concept fait correspondre le monde objet (programmation orientée obje
 
 1. Eclipse
 	- 单元测试方法
-
 2. IDEA
 	- 基本设置
 	- 插件
@@ -73,10 +72,9 @@ C'est une concept fait correspondre le monde objet (programmation orientée obje
 git add .
 git commit -m 'update .gitignore'
 
-
 # 其他
 
-## [[Gestion de Projet]]
+## Gestion de Projet
 
 ### Analyser les besoins
 
@@ -84,7 +82,6 @@ git commit -m 'update .gitignore'
 2. Besoin peut être inutile ou impossible dans certains cas
 	- Proposer mon idée
 	- cherche un compromis
-
 3. design technique
 4. analyse base de données
 5. Document d'api
