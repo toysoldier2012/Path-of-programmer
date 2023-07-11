@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "88db930c0ead1ff6",
+        "id": "26b6b50b6408216f",
         "type": "tabs",
         "children": [
           {
-            "id": "eb1311658e49ebad",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "a72d0e4deb723cad",
+            "id": "063cf61f95c5f4b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 后端/01 Java/02 面向对象/Classe.md",
+                "file": "Java补完之路.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#default",
+                "query": "mvc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +86,7 @@
       {
         "id": "2bbe0a8ab3625de1",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 70.63953488372093,
         "children": [
           {
             "id": "f3c3386f218d6c07",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 后端/01 Java/02 面向对象/Classe.md"
+                "file": "Java补完之路.md"
               }
             }
           },
@@ -124,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 后端/01 Java/02 面向对象/Classe.md",
+                "file": "Java补完之路.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 后端/01 Java/02 面向对象/Classe.md",
+                "file": "Java补完之路.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,21 +151,21 @@
       {
         "id": "c3e50caf85260c4f",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 29.360465116279073,
         "children": [
-          {
-            "id": "85c280c2eb473598",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
-          },
           {
             "id": "9049aa00bd4b44f9",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "85c280c2eb473598",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
               "state": {}
             }
           }
@@ -196,48 +184,49 @@
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "a72d0e4deb723cad",
+  "active": "f3c3386f218d6c07",
   "lastOpenFiles": [
+    "04 模式与思想/Gestion de Projet.md",
+    "Java补完之路.md",
+    "04 模式与思想/Analyser les besoins.md",
+    "04 模式与思想/Design Patterns.md",
+    "04 模式与思想/MVC.md",
+    "04 模式与思想/Modèle et Concept.md",
+    "04 模式与思想/SOLID.md",
+    "03 数据结构与算法/Kadane's Algorithm.md",
+    "03 数据结构与算法/Algorithm.md",
+    "面试/SG.md",
+    "01 后端/04 框架/Framework.md",
+    "01 后端/02 Database/基本操作/Hello SQL.md",
+    "04 模式与思想/TDD.md",
+    "01 后端/04 框架/Vuejs/Vuejs.md",
+    "06 模式与思想/SOLID.md",
+    "01 后端/01 Java/Quiz/Questions ouvertes.md",
+    "01 后端/01 Java/04 进阶/Exception.md",
+    "01 后端/01 Java/02 面向对象/Classe.md",
     "01 后端/01 Java/新特性/Java 8.md",
     "01 后端/01 Java/02 面向对象/Programmation orientée objet.md",
     "01 后端/01 Java/04 进阶/Stream/Lambda.md",
-    "01 后端/01 Java/02 面向对象/Classe.md",
-    "01 后端/01 Java/Quiz/Questions ouvertes.md",
     "01 后端/01 Java/Quiz/Quizze ？.md",
     "01 后端/01 Java/Quiz/Quizze 1.md",
     "01 后端/01 Java/04 进阶/Annotation.md",
     "01 后端/01 Java/02 面向对象/Module.md",
     "01 后端/01 Java/02 面向对象/Methode.md",
-    "00 Inbox/Sans titre.md",
-    "01 后端/01 Java/01 通用语法/Variable.md",
-    "01 后端/01 Java/01 通用语法/Hello Java.md",
-    "04 框架/01 Maven/Maven.md",
-    "00 Inbox/笔记格式.md",
-    "01 后端/01 Java/03 常用类/Serilizable.md",
-    "01 后端/01 Java/04 进阶/Multi-thread.md",
     "Attachment/Pasted image 20230622161652.png",
-    "面试/面试.md",
-    "面试/SG.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
-    "01 后端/01 Java/03 常用类/IO流.md",
-    "01 后端/01 Java/03 常用类/常用类.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
-    "01 后端/01 Java/03 常用类/集合/Map/HashMap.md",
-    "01 后端/01 Java/03 常用类/集合/Map/LinkedHashMap.md",
     "01 后端/01 Java/04 进阶/Stream",
     "Attachment/Pasted image 20230105002447.png",
     "01 后端.zip",
     "01 后端/01 Java/新特性",
     "Attachment/Pasted image 20230618224915.png",
-    "04 框架/03 Spring Framework/Spring/AOP",
-    "04 框架/03 Spring Framework/Spring/Bean",
+    "01 后端/04 框架/03 Spring Framework/Spring/AOP",
+    "01 后端/04 框架/03 Spring Framework/Spring/Bean",
     "01 后端/01 Java/Quiz",
-    "04 框架/03 Spring Framework/Spring Boot",
-    "04 框架/03 Spring Framework/Spring",
+    "01 后端/04 框架/03 Spring Framework/Spring Boot",
+    "01 后端/04 框架/03 Spring Framework/Spring",
     "images",
     "面试",
     "Attachment/Pasted image 20230419214403.png",

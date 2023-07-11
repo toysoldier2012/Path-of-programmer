@@ -5,8 +5,8 @@
   "attachmentFolderPath": "Attachment",
   "alwaysUpdateLinks": true,
   "spellcheckLanguages": [
-    "en",
-    "fr"
+    "fr",
+    "en"
   ],
   "spellcheck": true,
   "spellcheckDictionary": [

@@ -1,23 +1,21 @@
+#solid
 
-Design principles
-
-- Single Responsibility Principle
+## 1. Single Responsibility Principle
 
 Une classe, une fonction ou une méthode doit avoir une et une seule responsabilité
 
-- Open Closed Principle
+## 2. Open Closed Principle
 
 Une entité applicative (classe, fonction, module …) doit être fermée à la modification directe mais ouverte à l'extension
 
-- Liskov Substitution Principle
+## 3. Liskov Substitution Principle
 
 Une instance de type T doit pouvoir être remplacée par une instance de type G, tel que G sous-type de T, sans que cela ne modifie la cohérence du programme
 
-- Interface Segregation Principle
+## 4. Interface Segregation Principle
 
 Préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une seule interface générale
 
-- Dependence Inversion Principle
+## 5. Dependence Inversion Principle
 
 Il faut dépendre des abstractions, pas des implémentations
-

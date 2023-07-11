@@ -4,45 +4,9 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
-  "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:\"01 Backend/01 Java/01 通用语法\"",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "path:\"01 Backend/01 Java/02 面向对象\"",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "path:\"01 Backend/01 Java/03 常用类\"",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    },
-    {
-      "query": "",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    }
-  ],
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -3,
@@ -53,6 +17,6 @@
   "repelStrength": 15.1649204501358,
   "linkStrength": 1,
   "linkDistance": 160,
-  "scale": 0.3064788394464891,
-  "close": true
+  "scale": 0.111217299793225,
+  "close": false
 }

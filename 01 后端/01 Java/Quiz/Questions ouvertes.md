@@ -1,18 +1,41 @@
-#### Q: Les caractères de Java POO #oop 
+# Les fondamentaux du langue objet 
+
+## Q: Pk langage objet plutôt que langage procédurale ? #oop 
+
+- Certains caractères permet de faciliter le développement.
+- C'est une modélisation du monde réel, qui permet d'une représentation de concept complexe de manière plus naturelle
+
+## Q: Les caractères de POO #oop 
  
 - Encapsulation est pour cacher les datas et les méthodes sensitives
 - Héritage évide la duplication de code et augmente la réutilisabilité
 - Polymorphisme est override
 
-#### Q: Quelles sont les différences entre abstract class et interface #interface #abstract
+## Q: Quelles sont les différences entre class abstraite et interface #interface #abstract
 
 1.  Les classes abstracts ne peuvent avoir que simple héritage, et les interface peuvent avoir multi héritage
 2.  Les classes abstracts peuvent avoir les constructeurs
 3.  Les classes abstracts peuvent avoir les attributs
 4.  Dans les interfaces, tous les méthodes sont abstracts, après Java 8, les méthodes défaut et les méthodes statiques sont acceptés
 5.  Dans les interfaces, avant Java 9, la visibilité de méthode est que public, maintenant il peut être aussi privates et private statique
-6.  L'interface est une abstraction d'un comportement spécifique.
-7.  La classe abstract est une abstraction d'un type de chose.
+====6.  L'interface est une abstraction d'un comportement spécifique.====
+====7.  La classe abstract est une abstraction d'un type de chose.====
+
+## Couplage entre les objets? #oop #coupler
+
+- Un couplage fort signifie que les classes et les objets dépendent les uns des autres. 
+- En général, le couplage fort n’est pas bon car il réduit la flexibilité et la réutilisation du code
+
+Différence héritage et composition ?
+
+C'est quoi une énumération ?
+
+Peut-on Faire un overide sur une methode static ?
+
+
+
+
+
 
 #### Q : Les différences entre `String`, `StringBuffer`, `StringBuilder` #string #stringbuffer #stringbuilder 
 
@@ -23,11 +46,13 @@
 
 
 
+Injection de dépendance?
 
 
 
 
-+Les fondamentaux du langue objet (notamment Java)
+
+
 
 +Les structures de données (list, set, map…). Map et list en priorité, implantation arrawlist, linkedlist avantage/ inconvénient, complexité algorithmique en recherche. Map, Hmap, concurrent hmpap …
 
@@ -39,37 +64,14 @@
 
 Exemple de questions :
 
-Pk langage objet plutôt que langage procédurale ?
 
-Principe du langage orienté objet (héritage, polymorphisme, encapsulation)
 
-Couplage entre les objets?
-
-Différence héritage et composition ?
-
-Injection de dépendance?
-
-Interface ?
-
-Différence entre Classe abstraite et interface ?
-
-A quoi sert les class abstraite à partir de java 8 ?
-
-C'est quoi une énumération ?
-
-Overide et overloop
-
-@overide pour que ça marche?
-
-Mot cles final?
-
-Static?
 
 Hmap ? Comment ça fonctionne ?
 
 Une implémentation de Map treadsafe ?
 
-Peut-on Faire un overide sur une methode static ?
+
 
 Pour implémenter une arrawlist de quoi tu as besoin?
 
@@ -91,24 +93,19 @@ Comment elle fait pour pas qu'il y ai de doublon.
 
 2 exemples de check exception
 
+
+
+
 **Exemple de live coding :**
 
 Input : Collection de String
-
-  
-
 output : La String la plus longue commune à tous les inputs
 
   
 
 AAA, AAB, AAC -> AA
-
 ABC, ABD, ACF -> A
-
-  
-
 ABC, BCD -> BC
-
 AZE, QSD -> ""
 
 **Autre exo**
@@ -116,11 +113,5 @@ AZE, QSD -> ""
 Sortir les occurrences redondantes :
 
 A,B,C,A -> A
-
-  
-
 A,X,A,X,B -> A,X
-
-  
-
 C,B,C,C,C,B,N -> C,B

@@ -3,5 +3,7 @@
   "table-editor-obsidian",
   "obsidian-git",
   "obsidian-style-settings",
-  "easy-typing-obsidian"
+  "easy-typing-obsidian",
+  "obsidian-file-cleaner",
+  "obsidian-linter"
 ]

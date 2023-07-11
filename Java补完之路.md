@@ -4,6 +4,7 @@
 [[Java]]
 [[Database]]
 [[Serveur]]
+[[Framework]]
 
 # Frontend
 
@@ -14,15 +15,38 @@
 > 2. CSS
 > 3. Javascript 
 
-# [[Framework]]
-
 # 数据结构与算法
 
-# [[Modèle et Concept]]
+## Structure des données
 
-# [[操作系统]]
+## Algorithm
 
-# [[Web]]
+[[Kadane's Algorithm]]
+二分法查找
+冒泡排序
+
+# Modèle et Concept
+
+## 1. AOP
+
+## 2. [[MVC]]
+
+## 3. [[Design Patterns]]
+
+## 4. [[SOLID]] 
+
+## 5. LoD
+
+- Law of Demeter
+
+Ne parlez qu'à vos amis immédiats
+
+## 6. ORM
+#ORM 
+
+C'est une concept fait correspondre le monde objet (programmation orientée objet) et le monde relationnel (les bases de données). En gros, une classe est une tableau, un objet est une entrée, une attribut est un champ.
+
+# Web
 
 [[HTTP]]
 [[Cookie, session 与 token]]
@@ -30,6 +54,8 @@
 > [!todo] 
 >  2. JSON
 >  4. SSL/TLS
+
+# [[操作系统]]
 
 # 工具
 
@@ -50,7 +76,24 @@ git commit -m 'update .gitignore'
 
 # 其他
 
-## 项目管理
+## [[Gestion de Projet]]
+
+### Analyser les besoins
+
+1. Besoin en attente de clarification: Ecoute
+2. Besoin peut être inutile ou impossible dans certains cas
+	- Proposer mon idée
+	- cherche un compromis
+
+3. design technique
+4. analyse base de données
+5. Document d'api
+6. Analyser la charge, le complexité, la difficulté de tache
+7. TDD
+8. programmation
+9. Code review
+10. test BDD
+11. retro
 
 ### Git
 
