@@ -1,5 +1,15 @@
 #queue 
 
+| Utilisation générale | Utilisation spécifique | Gestion des accès concurrents |
+| -------------------- | ---------------------- | ----------------------------- |
+| LinkedList           |                        | ConcurrentLinkedQueue         |
+| ArrayDeque           |                        | LinkedBlockingQueue           |
+| PriorityQueue        |                        | ArrayBlockingQueue            |
+|                      |                        | PriorityBlockingQueue         |
+|                      |                        | DelayQueue                    |
+|                      |                        | SynchronousQueue              |
+|                      |                        | LinkedBlockingDeque           |
+
 # 特点
 
 - 

@@ -6,7 +6,7 @@ Enums中的每个元素都是一个常量，通常表示一组相关的常量。
 
 # 创建
 
-1. 在 Java 中定义一个 enum 类型，需要使用 enum 关键字，例如：
+1. 在 Java 中定义一个 `enum` 类型，需要使用 `enum` 关键字，例如：
 
 ``` java
 public enum Color {
@@ -14,7 +14,7 @@ public enum Color {
 }
 ```
 
-2. Enums 还可以包含方法，这些方法可以为每个枚举值提供自定义行为。例如：
+2. `enum` 还可以包含方法，这些方法可以为每个枚举值提供自定义行为。例如：
 
 ``` java
 public enum Direction {
@@ -93,8 +93,7 @@ Color c = Color.RED;
 public enum Color {
     RED,
     GREEN,
-    BLUE,
-    YELLOW
+    BLUE
 }
 ```
 

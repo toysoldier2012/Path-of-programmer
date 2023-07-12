@@ -5,3 +5,7 @@
 4. Lancer le test et vérifier qu’il fonctionne
 5. Finir le code complet de la classe
 6. Vérifier que le test fonctionne toujours (non-régression)
+
+# Outside-in double loop TDD
+
+![[Pasted image 20230712152402.png]]

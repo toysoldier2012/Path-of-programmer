@@ -1,3 +1,4 @@
+#hashmap 
 
 > [!question] 
 > **Q: Est ce c'es possible de transformer HashMap en synchrone** #D2 
