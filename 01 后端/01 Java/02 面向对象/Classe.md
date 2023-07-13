@@ -35,11 +35,15 @@
 - Il est possible de créer directement une instance d'une interface si tous les méthodes sont méthodes par défaut
 - Une interface fille peut redéfinir la méthode par défaut sans le déclarer par défaut, dans ce cas elle redéfinir comme étant abstraite
 
-- 调用接口中 default 方法的特殊方式 `interface.Super.Method()
+- Dans la classe d'implémentation, on rappelle la méthode défaut dans l'interface par `Interface.super.method()
 
-### L'interface local
+### L'interface locale
 
-- L'interface local ne capture que les variables statics du context englobant
+Elle ne capture que les variables statics du context englobant
+
+### L'interface fonctionnelle
+
+Elle a qu'une seule méthode abstraite
 
 ## 内部类 `
 

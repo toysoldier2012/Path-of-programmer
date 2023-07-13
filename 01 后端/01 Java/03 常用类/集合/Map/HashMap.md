@@ -1,17 +1,5 @@
 #hashmap 
 
-> [!question] 
-> **Q: Est ce c'es possible de transformer HashMap en synchrone** #D2 
-> 
-> 1. Par la méthode `Collections.synchronizedMap()`
-> 2. Utiliser directement `ConcurrentHashMap`
-> 
-> **Q: Quel est l'évolution de l'agrandissement de HashMap depuis 1.8** #D2 
-> 
-> **Q: Pourquoi l'agrandissement de HashMap est deux fois la capacité de l'original.** #D2  
-> 
-> Chaque élément est ajouté dans HashMap, le position d’élément est déterminé par hashcode et l’opération ET bit-à-bit avec la capacité en binaire. Si la capacité est toujours multipliée par 2, on ne compare que les 4 5 6 derniers chiffres.
-
 - [[LinkedHashMap]]
 
 # 特点

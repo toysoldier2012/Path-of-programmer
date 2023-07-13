@@ -1,7 +1,5 @@
 #hashset
 
-- [[LinkedHashSet]]
-
 # 特点
 
 - 按照添加内容的hash值排序
