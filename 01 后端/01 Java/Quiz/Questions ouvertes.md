@@ -31,7 +31,15 @@ Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dern
 
 # Base de Java
 
-hashcode
+#todo hashcode
+
+> [!question] Les différences entre `String`, `StringBuffer`, `StringBuilder` #string #stringbuffer #stringbuilder 
+> - `String` est immuable
+> - `StringBuffer` est thread safe
+> - `StringBuilder` est pas thread safe
+> - Réunir les strings par `StringBuilder` sera plus efficacement 
+
+> [!question] C'est quoi une énumération ? #enum 
 
 ## Exception
 
@@ -51,40 +59,11 @@ hashcode
 > Runtime exception: `ClassCastException`, `NullPointerException`, `IndexOutOfBoundsException`
 > Checked exception `ClassNotFoundException`, `FileNotFoundException`
 
-## Stream
-#todo
-
-> [!question] C’est quoi les différentes opérations qu’on peut faire sur les streams ? #stream 
-
-> [!question] C’est quoi map et flapmap ? #stream 
-
-## Thread
-#todo 
-
-Connaissance du **multithreading**, (deadlock, création de thread, synchronisation des thread (mot clés synchronized ou mutex ou semaphore) , thread pool (à quoi ça sert…), mot clé volatile…
-
-## JVM
-#todo 
-
-Gestion de la mémoire (les différents espaces mémoire …) le fonctionnement du GC..
-
-# Les APIs de base
-
-> [!question] Les différences entre `String`, `StringBuffer`, `StringBuilder` #string #stringbuffer #stringbuilder 
-> - `String` 是不可变的
-> - `StringBuffer` 对方法加了同步锁或者对调用的方法加了同步锁，所以是线程安全的。
-> - `StringBuilder` 更快，线程不安全
-> - 拼接字符最好不要用 `String + String` 或者  `"chaine1"&&"chaine2"`，过程中会创建 n 个 `StringBuilder` 
-
-> [!question] C'est quoi une énumération ? #enum 
-
 ## Les collections 
 
 - Les structures de données (`List`, `Set`, `Map`…). 
 - `Map` et `List` en priorité, implantation `ArrayList`, `LinkedList` avantage/ inconvénient, complexité algorithmique en recherche. 
 - `Map`, `HashMap`, `ConcurrentHashMap` 
-
-> [!question] Complexité Algo en recherche ? #collection
 
 > [!question] 如何选用集合? #collection 
 > - 需要根据键值获取到元素值时就选用 `Map` 接口下的集合，需要排序时选择 `TreeMap`,不需要排序时就选择 `HashMap`,需要保证线程安全就选用 `ConcurrentHashMap`。
@@ -98,33 +77,38 @@ Gestion de la mémoire (les différents espaces mémoire …) le fonctionnement 
 
 > [!question] Plus facile de retrouver un élément sur une list ou sur un set ? #list #set 
 
-## List
+> [!question] Complexité Algo en recherche ? #collection
 
-> [!question] Est-ce qu’une list c’est ordonné ? #list 
+### List
 
-> [!question]  Pour implémenter une `ArrayList` de quoi tu as besoin? #arraylist 
-
-> [!question] Différence `ArrayList` et `LinkedList` ? #arraylist #linkedlist 
+> [!question] 
+> Quelle sont les classes d'implémentation principaux dans `List` et ses caractères principaux #list 
+> / Différence `ArrayList` et `LinkedList` ? #arraylist #linkedlist 
 > 
+`ArrayList`, il est réalisé par un array d'objet, plus efficace pour la recherche
+>  `LinkedList`, réalisé par la liste doublement chainée, plus efficace pour l'insertion et la suppression
+>  `Vector`, thread-safe
+>  Ils sont ordonnés, accepte les éléments doublons et null
 
-## Set
+### Set
 
-> [!question] Est-ce qu’un set c’est ordonné ? #set 
+> [!question] 
+> Quelle sont les classes d'implémentation principaux dans `Set` et ses caractères principaux #set 
+> / Les différences entre `HashSet`, `LinkedHashSet`et `TreeSet` #hashset #linkedhashset #treeset 
+> / `HashSet` vous voyez a quoi ça sert ? #hashset 
+> 
+> `HashSet`, réalisé par xxxx, accepte null,
+> `LinkedHashSet`, réalisé par xxxx, il est ordonné en FIFO
+> `TreeSet`, réalisé par black red tree, il est aussi ordonné, il est en tri naturel par défaut, ou on définit le tri personnalisé, accepte que les éléments dans la même classe
+> Ils acceptent pas la valeur doublons
 
-> [!question] `HashSet` et `TreeSet` #hashset  #treeset 
+#todo 各个set的底层实现
 
-> [!question] Comment `HashSet` gère les doublons/Comment `HashSet` fait pour pas qu'il y a de doublon. #hashset 
+> [!question] 
+> Comment `HashSet` gère les doublons/Comment `HashSet` fait pour pas qu'il y a de doublon.
+> / Quand on veut rajouter un élément dans une `HashSet` que fait le code java? #hashset 
 
-> [!question] Hset vous voyez a quoi ca sert ? #hashset 
-
-> [!question] 比较 `HashSet`、`LinkedHashSet` 和 `TreeSet` 三者的异同 #hashset #linkedhashset #treeset 
-> -   `HashSet`、`LinkedHashSet` 和 `TreeSet` 都是 `Set` 接口的实现类，都能保证元素唯一，并且都不是线程安全的。
-> -  `HashSet`、`LinkedHashSet` 和 `TreeSet` 的主要区别在于底层数据结构不同。`HashSet` 的底层数据结构是哈希表（基于 `HashMap` 实现）。`LinkedHashSet` 的底层数据结构是链表和哈希表，元素的插入和取出顺序满足 FIFO。`TreeSet` 底层数据结构是红黑树，元素是有序的，排序的方式有自然排序和定制排序。
-> - 底层数据结构不同又导致这三者的应用场景不同。`HashSet` 用于不需要保证元素插入和取出顺序的场景，`LinkedHashSet` 用于保证元素的插入和取出顺序满足 FIFO 的场景，`TreeSet` 用于支持对元素自定义排序规则的场景
-
-> [!question] Quand on veut rajouter un élément dans une `HashSet` que fait le code java? #hashset 
-
-## Map
+### Map
 
 > [!question] Une implémentation de `Map` thread-safe ? #map 
 
@@ -145,7 +129,30 @@ Gestion de la mémoire (les différents espaces mémoire …) le fonctionnement 
 > [!question] Pourquoi l'agrandissement de `HashMap` est deux fois la capacité de l'original. #hashmap 
 > Chaque élément est ajouté dans `HashMap`, le position d’élément est déterminé par `hashcode` et l’opération ET bit-à-bit avec la capacité en binaire. Si la capacité est toujours multipliée par 2, on ne compare que les 4 5 6 derniers chiffres.
 
-> [!question] A quoi doit-on faire attention quand on utilise une clé en Hmap ? #hashmap 
+> [!question] A quoi doit-on faire attention quand on utilise une clé en `HashMap` ? #hashmap 
+
+# Avancé
+
+## Stream
+#todo
+
+> [!question] C’est quoi les différentes opérations qu’on peut faire sur les streams ? #stream 
+
+> [!question] C’est quoi map et flapmap ? #stream 
+
+## Thread
+#todo 
+
+Connaissance du **multithreading**, (deadlock, création de thread, synchronisation des thread (mot clés synchronized ou mutex ou semaphore) , thread pool (à quoi ça sert…), mot clé volatile…
+
+## JVM
+#todo 
+
+Gestion de la mémoire (les différents espaces mémoire …) le fonctionnement du GC..
+
+
+
+
 
 Injection de dépendance?
 
