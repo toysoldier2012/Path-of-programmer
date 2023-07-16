@@ -27,14 +27,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 后端/01 Java/Quiz/Questions ouvertes.md",
+                "file": "01 后端/01 Java/04 进阶/Stream/Stream.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "tag:#stream",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,12 +204,25 @@
       "obsidian-file-cleaner:清理文件": false
     }
   },
-  "active": "de25684b297de1b0",
+  "active": "10b1fcb139336107",
   "lastOpenFiles": [
-    "01 后端/01 Java/03 常用类/集合/Map/HashMap.md",
+    "01 后端/01 Java/04 进阶/Stream/Stream.md",
+    "01 后端/01 Java/04 进阶/Stream/Functional interface.md",
     "01 后端/01 Java/Quiz/Questions ouvertes.md",
-    "01 后端/01 Java/03 常用类/集合/Map/Map.md",
+    "01 后端/01 Java/新特性/Java 8.md",
+    "01 后端/04 框架/Questions ouvertes.md",
+    "01 后端/04 框架/01 Maven/单一架构案例.md",
+    "01 后端/04 框架/TestNG/TestNG.md",
+    "04 模式与思想/SOLID.md",
+    "04 模式与思想/TDD.md",
+    "面试/SG.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Queue.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
     "01 后端/01 Java/03 常用类/集合/Map/HashTable.md",
+    "01 后端/01 Java/03 常用类/集合/Map/HashMap.md",
+    "01 后端/01 Java/03 常用类/集合/集合.md",
+    "01 后端/01 Java/03 常用类/集合/Map/Map.md",
     "01 后端/01 Java/Quiz/Quizze ？.md",
     "01 后端/01 Java/03 常用类/集合/Collection/Set/TreeSet.md",
     "01 后端/04 框架/01 Maven/Maven.md",
@@ -220,21 +232,8 @@
     "01 后端/01 Java/03 常用类/集合/Collection/Set/LinkedHashSet.md",
     "01 后端/01 Java/03 常用类/集合/Collection/Set/Set.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/List.md",
-    "00 Inbox/笔记格式.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/Vector.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
-    "01 后端/01 Java/03 常用类/集合/集合.md",
-    "面试/BNP.md",
-    "04 模式与思想/TDD.md",
-    "04 模式与思想/SOLID.md",
-    "04 模式与思想/MVC.md",
-    "04 模式与思想/Design Patterns.md",
     "04 模式与思想",
-    "03 数据结构与算法/Kadane's Algorithm.md",
     "03 数据结构与算法",
-    "01 后端/04 框架/03 Spring Framework/Spring/AOP/Hello AOP.md",
-    "01 后端/04 框架/03 Spring Framework/Spring/Bean/DI par XML.md",
     "01 后端/04 框架/03 Spring Framework/Spring/AOP",
     "01 后端/04 框架/03 Spring Framework/Spring/Bean",
     "01 后端/04 框架/03 Spring Framework/Spring Boot",

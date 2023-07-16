@@ -71,9 +71,7 @@ Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dern
 > -   `List`(对付顺序的好帮手): 存储的元素是有序的、可重复的。
 > -   `Set`(注重独一无二的性质): 存储的元素是无序的、不可重复的。
 > -   `Queue`(实现排队功能的叫号机): 按**特定的排队规则**来确定先后顺序，存储的元素是有序的、可重复的。
-> -   `Map`(用 key 来搜索的专家): 使用键值对（key-value）存储，类似于数学上的函数 y=f(x)，"x" 代表 key，"y" 代表 value，key 是无序的、不可重复的，value 是无序的、可重复的，每个键最多映射到一个值。
-
-#todo 整合所有集合类
+> -   `Map`(用 key 来搜索的专家): 使用键值对（key-value）存储
 
 > [!question] Plus facile de retrouver un élément sur une list ou sur un set ? #list #set 
 > Set
@@ -145,16 +143,22 @@ Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dern
 # Avancé
 
 ## Stream
-#todo
+
 
 > [!question] C’est quoi les différentes opérations qu’on peut faire sur les streams ? #stream 
+
+#todo relire
 
 > [!question] C’est quoi map et flapmap ? #stream 
 
 ## Thread
 #todo 
 
-Connaissance du **multithreading**, (deadlock, création de thread, synchronisation des thread (mot clés synchronized ou mutex ou semaphore) , thread pool (à quoi ça sert…), mot clé volatile…
+> [!question] 
+> Connaissance du multithreading #thread , (deadlock #deadlock, création de thread, synchronisation des thread)
+> mot clés synchronized ou mutex ou semaphore
+> thread pool (à quoi ça sert…)
+> mot clé volatile… 
 
 ## JVM
 #todo 
