@@ -147,8 +147,6 @@ Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dern
 
 > [!question] C’est quoi les différentes opérations qu’on peut faire sur les streams ? #stream 
 
-#todo relire
-
 > [!question] C’est quoi map et flapmap ? #stream 
 
 ## Thread
@@ -161,30 +159,26 @@ Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dern
 > mot clé volatile… 
 
 ## JVM
-#todo 
+#jvm 
 
 Gestion de la mémoire (les différents espaces mémoire …) le fonctionnement du GC..
 
+La mémoire est géré automatiquement par JVM, l'allocation, l'utilisation et la libération par garbage collector. Il a plusieurs zone de mémoire, stack, heap, et method area
 
+### Stack
 
+- Chaque thread a un stack
+- Stack est pour sauvegarder les références, les variables locales, les valeurs retour, les paramètres de type primitif
+- Si le taille de stack est trop petit pour le besoin de traitement, alors une exception de type `StackOverflowError` apparait, comme qu'on a dans le N factoriel avec récursion.
+- Si JVM ne permet pas l'allocation de stack, alors une exception de type `OutOfMemoryError` apparait
 
+### Heap
 
-Injection de dépendance?
+- Cette zone partage entre tous les threads
+- Elle stocke toutes les instances des objets, ainsi que les tableaux
+- Le garbage collector travaille dans cette zone, lors d'une objet avec aucune référence, GC va libérer son mémoire
 
-live coding
+### Method area
 
-Input : Collection de String
-output : La String la plus longue commune à tous les inputs
-
-AAA, AAB, AAC -> AA
-ABC, ABD, ACF -> A
-ABC, BCD -> BC
-AZE, QSD -> ""
-
-**Autre exo**
-
-Sortir les occurrences redondantes :
-
-A,B,C,A -> A
-A,X,A,X,B -> A,X
-C,B,C,C,C,B,N -> C,B
+- Cette zone partage entre tous les threads
+- Elle stocke tous les éléments appartient à la classe.
