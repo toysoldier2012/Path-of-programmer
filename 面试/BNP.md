@@ -1,13 +1,3 @@
-11h mercredi pro 
 
-entretien physique
-
-question classique
-
-
-Q:
-
-la list de question
-
-il y a plus de dig days?
-comment je présente à client 
+Q: C'est quoi BNP CIB
+CIB c'est à dire Corporate and institutional Banking, Banque d'investissement

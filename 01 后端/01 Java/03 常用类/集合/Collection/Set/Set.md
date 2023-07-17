@@ -1,6 +1,5 @@
 #set
 
-
 | Utilisation générale | Utilisation spécifique | Gestion des accès concurrents |
 | -------------------- | ---------------------- | ----------------------------- |
 | [[HashSet]]              | CopyOnWriteArraySet    | CopyOnWriteArraySet           |
