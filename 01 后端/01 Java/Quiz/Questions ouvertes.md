@@ -5,20 +5,20 @@
 > - C'est une modélisation du monde réel, qui permet d'une représentation de concept complexe de manière plus naturelle 
 
 > [!question] Les caractères de POO #oop 
-> - Encapsulation est pour cacher les datas et les contenus sensitifs
+> Il y en a trois principaux
+> - Encapsulation est pour cacher les datas et les contenus sensitifs et aussi pour faciliter le développement.
 > - Héritage et Polymorphisme augmente la réutilisabilité
 > - On a deux type de polymorphisme, override et overload
+> - Polymorphisme c'est à dire, Un instance peut avoir plusieurs forme, et pareil pour une méthode
 
 > [!question] Couplage entre les objets? #oop #coupler 
 > - Un couplage fort signifie que les classes et les objets dépendent les uns des autres. 
-> - En général, le couplage fort n’est pas bon car il réduit la flexibilité et la réutilisation du code 
+> - En général, le couplage fort n’est pas bon car il réduit la flexibilité et la stabilité du code 
 
 > [!question] Quelles sont les différences entre class abstraite et interface #interface #abstract 
 > - Les classes abstracts ne peuvent avoir que simple héritage, et les interface peuvent avoir multi héritage
-> - Les classes abstracts peuvent avoir les constructeurs
-> - Les classes abstracts peuvent avoir les attributs
-> - Dans les interfaces, tous les méthodes sont abstracts, après Java 8, les méthodes défaut et les méthodes statiques sont acceptés
-> - Dans les interfaces, avant Java 9, la visibilité de méthode est que public, maintenant il peut être aussi privates et private statique
+> - Les classes abstracts peuvent avoir les constructeurs et les attributs
+> - Dans les interfaces, tous les méthodes sont abstracts, après Java 8, les méthodes défaut et les méthodes statiques sont acceptés, après Java 9, privates et private statique sont acceptés
 > - ==L'interface est une abstraction d'un comportement spécifique.==
 > - ==La classe abstract est une abstraction d'un type de chose.== 
 
@@ -31,8 +31,6 @@ Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dern
 
 # Base de Java
 
-#todo hashcode
-
 > [!question] Les différences entre `String`, `StringBuffer`, `StringBuilder` #string #stringbuffer #stringbuilder 
 > - `String` est immuable
 > - `StringBuffer` est thread safe
@@ -40,6 +38,7 @@ Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dern
 > - Réunir les strings par `StringBuilder` sera plus efficacement 
 
 > [!question] C'est quoi une énumération ? #enum 
+> C'est une variable spécifique, elle contient un ou plusieurs valeurs constantes
 
 ## Exception
 
@@ -107,6 +106,10 @@ Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dern
 > [!question] 
 > Comment `HashSet` gère les doublons/Comment `HashSet` fait pour pas qu'il y a de doublon.
 > / Quand on veut rajouter un élément dans une `HashSet` que fait le code java? #hashset 
+> 
+> Il compare tout d'abord les hash-codes de deux éléments
+> - S'ils sont différents, la nouvelle élément va être enregistrée selon son hash-codes
+> - S'ils sont pareil, il compare ensuite les objets par la fonction equals, si c'est différente, on garde aussi la nouvelle élément, sinon, on va le perdre.
 
 | Set           | add     | contains | insert/remove |
 | ------------- | ------- | -------- | ------------- |
@@ -144,19 +147,21 @@ Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dern
 
 ## Stream
 
-
 > [!question] C’est quoi les différentes opérations qu’on peut faire sur les streams ? #stream 
 
 > [!question] C’est quoi map et flapmap ? #stream 
 
 ## Thread
-#todo 
 
-> [!question] 
-> Connaissance du multithreading #thread , (deadlock #deadlock, création de thread, synchronisation des thread)
-> mot clés synchronized ou mutex ou semaphore
-> thread pool (à quoi ça sert…)
-> mot clé volatile… 
+> [!question] Connaissance du multithreading #thread , (deadlock #deadlock, création de thread, synchronisation des thread)
+
+> [!question] `Thread`, `Runnable`, 和`Callable`的区别：
+
+> [!question] mot clés synchronized ou mutex ou semaphore> 
+
+> [!question] thread pool (à quoi ça sert…)
+
+> [!question] mot clé volatile… 
 
 ## JVM
 #jvm 
