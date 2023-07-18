@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 模式与思想/TDD.md",
+                "file": "01 后端/01 Java/04 进阶/Stream/Functional interface.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#stream",
+                "query": "tag:#functionalinterface",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 模式与思想/TDD.md"
+                "file": "01 后端/01 Java/04 进阶/Stream/Functional interface.md"
               }
             }
           },
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 模式与思想/TDD.md",
+                "file": "01 后端/01 Java/04 进阶/Stream/Functional interface.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 模式与思想/TDD.md",
+                "file": "01 后端/01 Java/04 进阶/Stream/Functional interface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,34 +190,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a8786d130201e27c",
+  "active": "f3c3386f218d6c07",
   "lastOpenFiles": [
+    "01 后端/01 Java/04 进阶/Stream/Stream.md",
+    "01 后端/01 Java/02 面向对象/Programmation orientée objet.md",
+    "01 后端/01 Java/05 JVM/内存解析.md",
     "01 后端/01 Java/Quiz/Questions ouvertes.md",
-    "04 模式与思想/TDD.md",
+    "01 后端/01 Java/Quiz/Quizze ？.md",
+    "01 后端/01 Java/05 JVM/JVM.md",
+    "01 后端/01 Java/04 进阶/Exception.md",
+    "01 后端/01 Java/04 进阶/进阶.md",
+    "01 后端/01 Java/04 进阶/Error.md",
+    "01 后端/01 Java/04 进阶/Enum.md",
+    "面试/面试.md",
+    "01 后端/01 Java/04 进阶/Multi-thread.md",
+    "01 后端/01 Java/02 面向对象/Classe.md",
+    "00 Inbox/Garbage Collected.md",
+    "03 数据结构与算法/Kadane's Algorithm.md",
     "04 模式与思想/SOLID.md",
+    "04 模式与思想/TDD.md",
+    "04 模式与思想/MVC.md",
+    "01 后端/01 Java/02 面向对象/Methode.md",
+    "01 后端/01 Java/02 面向对象/Module.md",
     "01 后端/01 Java/新特性/Java 8.md",
     "01 后端/01 Java/新特性/新特性.md",
-    "面试/面试.md",
     "面试/SG.md",
     "04 模式与思想/Design Patterns.md",
-    "01 后端/01 Java/04 进阶/Multi-thread.md",
     "01 后端/01 Java/04 进阶/Reflection.md",
-    "01 后端/01 Java/05 JVM/JVM.md",
-    "01 后端/01 Java/05 JVM/内存解析.md",
-    "01 后端/01 Java/04 进阶/Stream/Stream.md",
     "01 后端/01 Java/04 进阶/Stream/Lambda.md",
-    "01 后端/01 Java/04 进阶/Stream/Functional interface.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
-    "面试/BNP.md",
-    "04 模式与思想/MVC.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Set/Set.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
-    "01 后端/01 Java/03 常用类/集合/Map/Map.md",
-    "01 后端/01 Java/02 面向对象/Classe.md",
-    "01 后端/04 框架/Questions ouvertes.md",
-    "01 后端/04 框架/01 Maven/单一架构案例.md",
-    "01 后端/04 框架/TestNG/TestNG.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Queue.md",
     "04 模式与思想",
     "03 数据结构与算法",
     "01 后端/04 框架/03 Spring Framework/Spring/AOP",

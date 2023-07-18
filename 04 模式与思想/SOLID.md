@@ -18,4 +18,4 @@ Préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une s
 
 ## 5. Dependence Inversion Principle
 
-Il faut dépendre des abstractions, pas des implémentations
+Les modules de haut-niveau ne doivent pas dépendre des modules de bas-niveau. es deux doivent dépendre d'abstraction

@@ -152,13 +152,16 @@ Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dern
 > [!question] C’est quoi map et flapmap ? #stream 
 
 ## Thread
-#todo 
 
-> [!question] 
-> Connaissance du multithreading #thread , (deadlock #deadlock, création de thread, synchronisation des thread)
-> mot clés synchronized ou mutex ou semaphore
-> thread pool (à quoi ça sert…)
-> mot clé volatile… 
+> [!question] Connaissance du multithreading #thread , (deadlock #deadlock, création de thread, synchronisation des thread)
+
+> [!question] `Thread`, `Runnable`, 和`Callable`的区别：
+
+> [!question] mot clés synchronized ou mutex ou semaphore> 
+
+> [!question] thread pool (à quoi ça sert…)
+
+> [!question] mot clé volatile… 
 
 ## JVM
 #todo 
@@ -170,21 +173,3 @@ Gestion de la mémoire (les différents espaces mémoire …) le fonctionnement 
 
 
 Injection de dépendance?
-
-live coding
-
-Input : Collection de String
-output : La String la plus longue commune à tous les inputs
-
-AAA, AAB, AAC -> AA
-ABC, ABD, ACF -> A
-ABC, BCD -> BC
-AZE, QSD -> ""
-
-**Autre exo**
-
-Sortir les occurrences redondantes :
-
-A,B,C,A -> A
-A,X,A,X,B -> A,X
-C,B,C,C,C,B,N -> C,B
