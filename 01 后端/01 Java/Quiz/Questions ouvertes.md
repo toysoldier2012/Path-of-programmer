@@ -161,7 +161,7 @@ Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dern
 
 > [!question] thread pool (à quoi ça sert…)
 
-> [!question] mot clé volatile… 
+> [!question] mot clé volatile… #volatile 
 
 ## JVM
 #jvm 

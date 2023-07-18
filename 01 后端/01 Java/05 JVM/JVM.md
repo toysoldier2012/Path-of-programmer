@@ -6,6 +6,10 @@
 1. `System.gc()`
 2. Set object to null
 
+Mark-and-Sweep
+Copying
+Mark-and-Compact
+
 # Class Loader
 
 用于把类装载到内存
