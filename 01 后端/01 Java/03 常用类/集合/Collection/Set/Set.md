@@ -8,8 +8,8 @@
 
 # 特点
 
-- 无序性（但不等于随机性）
-- 元素不可重复的列表
+- Collection d'élément non ordonnés par défaut
+- n'accepte pas doublons
 
 # 常用方法
 

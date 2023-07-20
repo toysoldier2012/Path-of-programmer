@@ -4,30 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "5c8d2d1f98b59f68",
+        "id": "e7aee52eb4bc4a5e",
         "type": "tabs",
         "children": [
           {
-            "id": "10b1fcb139336107",
+            "id": "13d1c2df322e4606",
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 后端/01 Java/Quiz/Questions ouvertes.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "graph",
+              "state": {},
               "pinned": true
             }
           },
           {
-            "id": "8b0f137dfe7a0aed",
+            "id": "4f5212f5737801f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 后端/01 Java/04 进阶/Stream/Stream.md",
+                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/List.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#stream",
+                "query": "tag:#functionalinterface",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 263.5,
+    "collapsed": true
   },
   "right": {
     "id": "ef5f3f3cfbd40054",
@@ -117,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 后端/01 Java/04 进阶/Stream/Stream.md"
+                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/List.md"
               }
             }
           },
@@ -127,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 后端/01 Java/04 进阶/Stream/Stream.md",
+                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/List.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 后端/01 Java/04 进阶/Stream/Stream.md",
+                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,49 +186,50 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 327.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-file-cleaner:Clean files": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-file-cleaner:清理文件": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8b0f137dfe7a0aed",
+  "active": "4f5212f5737801f8",
   "lastOpenFiles": [
-    "01 后端/04 框架/02 Mybatis/进阶/动态SQL.md",
-    "01 后端/04 框架/02 Mybatis/进阶/Mybatis Generator.md",
-    "01 后端/04 框架/02 Mybatis/进阶/缓存.md",
-    "01 后端/04 框架/02 Mybatis/进阶/分页.md",
-    "01 后端/01 Java/Quiz/Questions ouvertes.md",
-    "01 后端/01 Java/04 进阶/Stream/Stream.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Queue.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/Set.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/TreeSet.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/LinkedHashSet.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/List.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/Vector.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
+    "00 Inbox/ListIterator.md",
+    "01 后端/01 Java/03 常用类/集合/Iterator.md",
+    "Attachment/Pasted image 20230720170411.png",
+    "01 后端/01 Java/03 常用类/集合/Collections.md",
+    "01 后端/01 Java/03 常用类/集合/Map/Map.md",
     "01 后端/01 Java/01 通用语法/Variable.md",
-    "01 后端/01 Java/01 通用语法/Hello Java.md",
-    "01 后端/01 Java/04 进阶/Exception.md",
-    "01 后端/01 Java/03 常用类/IO流.md",
-    "01 后端/01 Java/02 面向对象/Classe.md",
+    "01 后端/01 Java/03 常用类/字符串/String.md",
     "01 后端/01 Java/05 JVM/JVM.md",
-    "01 后端/01 Java/05 JVM/内存解析.md",
-    "01 后端/01 Java/04 进阶/Multi-thread.md",
-    "面试/BNP.md",
-    "面试/SG.md",
-    "面试/面试.md",
-    "06 操作系统/操作系统.md",
-    "03 数据结构与算法/Kadane's Algorithm.md",
-    "04 模式与思想/Design Patterns.md",
-    "04 模式与思想/MVC.md",
-    "05 Web/Cookie, session 与 token.md",
-    "01 后端/01 Java/Quiz/Quizze ？.md",
+    "01 后端/01 Java/04 进阶/Stream/Functional interface.md",
     "04 模式与思想/Microservice.md",
-    "conflict-files-obsidian-git.md",
-    "01 后端/01 Java/04 进阶/Reflection.md",
+    "01 后端/01 Java/04 进阶/Stream/Stream.md",
+    "01 后端/01 Java/02 面向对象/Programmation orientée objet.md",
+    "01 后端/01 Java/05 JVM/内存解析.md",
+    "01 后端/01 Java/Quiz/Questions ouvertes.md",
+    "01 后端/01 Java/Quiz/Quizze ？.md",
+    "01 后端/01 Java/04 进阶/Exception.md",
+    "01 后端/01 Java/04 进阶/进阶.md",
     "04 模式与思想",
     "03 数据结构与算法",
     "01 后端/04 框架/03 Spring Framework/Spring/AOP",
@@ -250,7 +248,6 @@
     "Attachment/Pasted image 20230306232237.png",
     "Attachment/Pasted image 20230304205719.png",
     "Attachment/Pasted image 20230304010809.png",
-    "Attachment/Pasted image 20230223231641.png",
-    "Attachment/Pasted image 20230223231319.png"
+    "Attachment/Pasted image 20230223231641.png"
   ]
 }

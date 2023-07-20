@@ -10,6 +10,8 @@
 
 # 概览
 
+Collection sous la forme d'association de paire clé/valeur
+
 -   `HashMap`： JDK1.8 之前 `HashMap` 由数组+链表组成的。当链表长度大于阈值时，将链表转化为红黑树，以减少搜索时间 
 
 -   `LinkedHashMap`： `LinkedHashMap` 继承自 `HashMap`，在上面结构的基础上，增加了一条双向链表，使得上面的结构可以保持键值对的插入顺序。同时通过对链表进行相应的操作，实现了访问顺序相关逻辑。
