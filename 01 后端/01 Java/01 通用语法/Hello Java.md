@@ -28,7 +28,7 @@ Les identifiants sont utilisés pour nommer des éléments du code source de Jav
 ## Les mots réservés
 #keyword 
 
-- 51 mots clés (keywords) dont 2 ne sont pas utilisés(const et goto)
+- 51 mots clés (keywords) dont 2 ne sont pas utilisés(`const` et `goto`)
 - 3 valeurs littérales (literals) : true, false et null
 
 |  |              |            |          |           |           |
@@ -72,6 +72,7 @@ Les identifiants sont utilisés pour nommer des éléments du code source de Jav
 | with       |         |         |        
 
 # Les commentaires
+#comment 
 
 - Le commentaire abrégé
 - Le commentaire multiligne
@@ -106,7 +107,6 @@ expr-- //Decrement
 >> //opérateur décalage à droit
 >>> //opérateur décalage à droit non signe
 ~ //opérateur non
-
 ```
 
 - Les comparaisons
@@ -124,6 +124,7 @@ expr-- //Decrement
 # Les structures de contrôles
 
 ## Les branchements conditionnels
+#branche
 
 - if
 - switch
@@ -132,6 +133,7 @@ expr-- //Decrement
 - l'opération ternaire
 
 ## Les boucles
+#circle
 
 - for
 - while

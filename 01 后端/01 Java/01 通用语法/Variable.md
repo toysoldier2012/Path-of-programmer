@@ -22,10 +22,10 @@
 - La valeur des types entiers peut être exprimée dans le système binaire en utilisant le préfixe `0b` ou `0B`
 
 ``` java
-byte valeurByte = (byte) 0 b 00010001;
-short valeurShort = (short) 0 b 1001110111101;
-int valeurInt = 0 b 1000;
-long valeurLong = 0 b 010000101000101101000010100010110100001010001011010000101000101 L;
+byte valeurByte = (byte) 0b00010001;
+short valeurShort = (short) 0b1001110111101;
+int valeurInt = 0b1000;
+long valeurLong = 0b010000101000101101000010100010110100001010001011010000101000101 L;
 ```
 
 - Il est possible d'utiliser un ou plusieurs caractères tiret bas entre les chiffres qui composent un entier littéral
