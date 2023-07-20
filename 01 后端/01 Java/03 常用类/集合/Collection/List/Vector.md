@@ -2,33 +2,16 @@
 
 # 特点
 
-- `Object[]` 数组
-- 线程安全
-- 底层初始为长度10的数组
-- 扩容为2倍
+- `Object[]`, 
+- thread safe
+- Il est possible de préciser une capacité initiale(10 par défaut) et aussi une taille d'incrémentation(2 fois par défaut)
 
 # 常用方法
+
+Il y a de ce fait plusieurs méthodes redondantes
 
 ## 增
 
 ```Java
-
-```
-
-## 删
-
-```Java
-
-```
-
-## 改
-
-```Java
-
-```
-
-## 查
-
-```Java
-
+addElement() //La méthode redondante de add()
 ```
