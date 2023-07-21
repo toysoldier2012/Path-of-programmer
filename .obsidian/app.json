@@ -19,5 +19,6 @@
   ],
   "promptDelete": false,
   "showFrontmatter": false,
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "showLineNumber": true
 }

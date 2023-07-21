@@ -71,21 +71,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#iterator",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "3cb32b66926e78ca",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
             }
           },
           {
@@ -96,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -201,21 +194,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-file-cleaner:Clean files": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-file-cleaner:清理文件": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "824a7bbf03687dd1",
+  "active": "f3c3386f218d6c07",
   "lastOpenFiles": [
-    "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/List.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/Vector.md",
     "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
     "01 后端/01 Java/03 常用类/集合/Collections.md",
