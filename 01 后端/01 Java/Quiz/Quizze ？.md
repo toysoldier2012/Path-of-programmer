@@ -196,7 +196,7 @@ private int nb_questions;
 
 - [x] "string 1"+"string 2"
 - [ ] "string 1".."string 2"
-- [x] "string 1"&&"string 2"
+- [ ] "string 1"&&"string 2"
 - [ ] "string 1"."string 2"
 
 > [!note] 
@@ -221,9 +221,9 @@ private int nb_questions;
 
 ### What is “AssertEquals” used for in a Java Unit test? #junite 
 
-- [x] It allows you to compare two objects
+- [ ] It allows you to compare two objects
 - [ ] It allows to differentiate two objects of the same type
-- [ ] It allows you to check that an object as a parameter is equal to the second parameter
+- [x] It allows you to check that an object as a parameter is equal to the second parameter
 
 ### Which of the following annotations can you use in your JUnit test class? #junite 
 
@@ -256,17 +256,16 @@ private int nb_questions;
 
 ### How to instantiate a new variable of type "integer"? #integer
 
-- [x] int a = new Integer(3);
+- [ ] int a = new Integer(3);
 - [ ] int a = new int();
 - [ ] int a = 4;
-- [ ] Integer a = new int(5);
+- [x] Integer a = new int(5);
 
 > [!note] 
 >  int a = new Integer(3);过期了
 >  int a = 4; 没有自动装箱，Integer i = 1 才是自动装箱
 
 ### Does an ArrayList allow you to insert duplicate elements? #arraylist
-
 
 - [x] Yes
 - [ ] No
@@ -288,59 +287,32 @@ public static void main(String[] args) {
 - [ ] the memory address of "str 2"
 - [ ] A mistake
 
-
-https://welovedevs.com/app/fr/test-session/-NTnpbl2tiF-EC_poSYQ/results
-
-Au vu de cette interface, choisissez un nom plus approprié que "InterfaceANommer" :
+### Au vu de cette interface, choisissez un nom plus approprié que "InterfaceANommer" :
 
 ![](https://process.filestackapi.com/output=quality:100/no_metadata/auto_image/compress/ZjMwUXIJSGiks6Vtsfn8)
 
-TemperatureChangedBeanInfo
+- [ ] TemperatureChangedBeanInfo
+- [ ] TemperatureChangedHelper
+- [x] TemperatureChangedListener
+- [ ] TemperatureChangedFactory
 
-TemperatureChangedHelper
+### Parmi ces classes, laquelle est la plus appropriée pour composer une chaîne de caractère à partir de plusieurs éléments concaténés les uns aux autres ?
 
-TemperatureChangedListener
+- [ ] char[]
+- [ ] StringTokenizer
+- [ ] byte[]
+- [x] StringBuilder
 
-TemperatureChangedFactory
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1832 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6N-YKp5Y_j4Zwb4/)
-
-0
-
-Aucun commentaire de la communauté, évaluez la question pour être le premier !
-
-5
-
-.
-
-Parmi ces classes, laquelle est la plus appropriée pour composer une chaîne de caractère à partir de plusieurs éléments concaténés les uns aux autres ?
-
-char[]
-
-StringTokenizer
-
-byte[]
-
-StringBuilder
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1842 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6NFTG2D8FlyCYuy/)
-
-1
-
-Evaluations de la communauté
-
-8
-
-.
-
-Regardez la méthode suivante :
+### Regardez la méthode suivante, Combien d'instances d'Integer ne peuvent pas être libérées de la mémoire ?
 
 ```java
-private static Integer[] myCompute(int a) {  int i = 0;  Integer[] result = new Integer[2];  result[i++] = new Integer(a);  result[i] = new Integer(-a);  result[1 - i] = result[i];  return result;
+private static Integer[] myCompute(int a) {
+	int i = 0;  
+	Integer[] result = new Integer[2];  
+	result[i++] = new Integer(a);  
+	result[i] = new Integer(-a);  
+	result[1 - i] = result[i];  
+	return result;
 }
 
 ```
@@ -351,27 +323,10 @@ Après l'appel:
 Integer[] call = myCompute(3);
 ```
 
-Combien d'instances d'Integer ne peuvent pas être libérées de la mémoire ?
-
-0
-
-1
-
-2
-
-3
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1775 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6NIo53nR94h8sek/)
-
-1
-
-Evaluations de la communauté
-
-9
-
-.
+- [ ] 0
+- [ ] 1
+- [ ] 2
+- [ ] 3
 
 Au sujet des Thread, qu'est-il usuel de faire ?
 
