@@ -1,5 +1,7 @@
 #variable 
 
+#todo 翻译
+
 # 类型
 
 ## 1. Type élémentaire/primitif
@@ -67,12 +69,13 @@ int[] i1 = new int[]{1,2,3,4,5,7,8};
 
 ### Parcours
 
-``` Java
-for()
-while()
+- [[Stream]]
+
+```java
 Arrays.stream(arr).forEach(System.out::println)
 ```
-#stream
+
+- [[Hello Java#^6c83db|Boucle]]
 
 ## 4. Objet
 
@@ -80,38 +83,38 @@ Arrays.stream(arr).forEach(System.out::println)
 
 #### 强引用
 
-1. 平时创建的引用类型皆为强引用
-2. 回收方式：当没有任何引用指向对象时，Garbage Collected（System.gc）会调用finalize方法
+平时创建的引用类型皆为强引用
+回收方式：当没有任何引用指向对象时，Garbage Collected（System.gc）会调用finalize方法
 
 #### 软引用
 
-1. 通过SoftReference类包装
+通过SoftReference类包装
 
 ```Java
 SoftReference<byte[]> softReference = new SoftReference<>(new byte[1024 * 1024 * 10]);
 softReference.get();
 ```
 
-2. 空间不够时，会被自动回收
-3. 可以用于缓存
+空间不够时，会被自动回收
+可以用于缓存
 
 #### 弱引用
 
-1. 通过WeakReference类包装
+通过WeakReference类包装
 
 ```java
 WeakReference<Person> personWeakReference = new WeakReference<>(new Person());  
 System.gc();
 ```
 
-2. 被垃圾回收器发现时，直接回收
-3. ThreadLocal
+被垃圾回收器发现时，直接回收
+`ThreadLocal`
 
 #### 虚引用
 
-1. 通过PhantomReference包装
-2. 无法获取被包装对象
-3. 堆外内存
+通过PhantomReference包装
+无法获取被包装对象
+堆外内存
 
 ### 拷贝类型
 

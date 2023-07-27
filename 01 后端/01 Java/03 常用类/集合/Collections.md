@@ -1,3 +1,4 @@
+#collections
 
 ``` Java
 package java.util;
@@ -5,7 +6,7 @@ package java.util;
 
 # Introduction
 
-- Il n'est pas possible de stocker directement des types primitifs
+Il n'est pas possible de stocker directement des types primitifs
 
 # Type
 

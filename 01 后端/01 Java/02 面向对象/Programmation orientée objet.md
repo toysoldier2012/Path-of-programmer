@@ -8,6 +8,15 @@
 ### 1.1 Les modificateurs d'accès
 #visibility
 
+| Modifier           | Visibility                                       |
+| ------------------ | ------------------------------------------------ |
+| `private`          | None                                             |
+| Sans modificateurs | Classes dans la même package                     |
+| `protected`        | Classes dans la même package et les sous-classes |
+| `public`           | Partout                                          | 
+
+^a41d5a
+
 ### 1.2 [[Module]]
 
 ![[Pasted image 20221211225959.png]]
@@ -47,7 +56,7 @@
 需要注意多态的类型大转小需要强转，因此在类型转换时需要先通过 `instanceof` 做判断 #instanceof
 
 ## 3. Polymorphisme
-#polymorphism 
+#Polymorphism 
 
 Le polymorphisme est la capacité, pour un même message de correspondre à plusieurs formes de traitement selon l'objet auquel ce message est adressé
 

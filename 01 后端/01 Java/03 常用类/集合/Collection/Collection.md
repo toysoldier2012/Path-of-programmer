@@ -8,18 +8,30 @@
 2. [[Set]]
 3. [[Queue]]
 
-# 常用方法
+# Les méthodes courants
 
-Certains méthodes lèvent `UnsupportedOperationException` car leur implémentation est optionnelle
+Certains méthodes des sous types lèvent `UnsupportedOperationException` car leur implémentation est optionnelle
 
-## 增
+## Create
 
 ```Java
 boolean add(E e)
 boolean addAll(Collection<? extends E> c)
 ```
 
-## 删
+## Research
+
+```Java
+boolean contains(Object o)
+boolean containsAll(Collection<?> c)
+boolean isEmpty()
+
+Iterator<E> iterator()
+
+int size()
+```
+
+## Delete
 
 ```Java
 void clear()
@@ -31,24 +43,12 @@ default boolean removeIf(Predicate<? super E> filter)
 boolean retainAll(Collection<?> c)
 ```
 
-## 查
-
-```Java
-boolean contains(Object o)
-boolean containsAll(Collection<?> c)
-boolean isEmpty()
-
-int size()
-```
-
-## 其他
+## Transformer
 
 ```java
-Iterator<E> iterator()
-
 Object[] toArray()
 <T> T[] toArray(T[] a)
 
-default Stream<E> stream() // 高级版的.iterator()
-default Stream<E> parallelStream() // 并发Stream
+default Stream<E> stream()
+default Stream<E> parallelStream()
 ```

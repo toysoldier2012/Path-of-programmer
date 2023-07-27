@@ -1,5 +1,7 @@
 #class 
 
+#todo 翻译
+
 # Sections
 
 1. Déclaration
@@ -28,7 +30,7 @@
 - Java 9 之后，方法可以为 `private` 或者 `private static`
 
 ### La `default` méthode
-#default 
+#default
 
 - Après Java 8, la méthode `default` permet de définir le comportement dans l'interface auquel elle est définie, elle évide de la redéfinir dans tous les classes d'implémentation 
 
@@ -85,14 +87,7 @@ public class Main {
 # Les Mots clés
 #keyword
 
-- [[Programmation orientée objet#^5d1a4f|Les modificateurs d'accès]]  #visibility 
-
-| Modifier           | Visibility                                       |
-| ------------------ | ------------------------------------------------ |
-| `private`          | None                                             |
-| Sans modificateurs | Classes dans la même package                     |
-| `protected`        | Classes dans la même package et les sous-classes |
-| `public`           | Partout                                          | 
+- [[Programmation orientée objet#^a41d5a|Les modificateurs d'accès]] 
 
 - `static` #static 
 	Elle ne sont définies qu'une seule fois, quel que soit le nombre d'objet instanciés de la class
@@ -108,10 +103,10 @@ public class Main {
 - super
 
 - `synchronized` #synchronized
-	Il permet de gérer l'accès concurrent aux variables et méthodes lors de traitements de threads #thread 
+	Il permet de gérer l'accès concurrent aux variables et méthodes lors de traitements de [[Multi-thread]]
 
 - `volatile` #volatile
-	Il précise que la variable peut être changé par un périphérique ou de manière asynchrone
+	Il précise que la variable peut être changé par un périphérique ou de manière asynchrone  lors de traitements de [[Multi-thread]]
 	
 	共享变量
 	在 Java 中，关键字 `volatile` 用于声明一个变量，表示该变量可能被多个线程修改。它确保变量的值始终从主内存中读取和写入，而不是缓存在线程的本地缓存中。这保证了一个线程对变量所做的更改立即对其他线程可见。
@@ -150,5 +145,3 @@ public native int hashCode();
 相同的对象`hashCode`一定相同，反之不然，所以在将对象加入`hashSet`中时，先对比`hashCode`，如果一致，再调用`equals()` ，以确定对象是否真的一致
 
 如果重写 `equals()` 时没有重写 `hashCode()` 方法的话就可能会导致 `equals` 方法判断是相等的两个对象，`hashCode` 值却不相等。
-
-
