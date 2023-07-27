@@ -1,13 +1,13 @@
 
 https://welovedevs.com/app/fr/test-session/-NNxW7D1t9leA1jctqCd/results
 
-#### Given this code : #static
+### Given this code, what will this code do ? : #static
 
 ```java
 public class QuestionJava {
      
     String var = "we";
-     
+
     public static void main(String[] data) {
         String var2 = "lovedev";
         System.out.print(var + var2);
@@ -15,34 +15,32 @@ public class QuestionJava {
 }
 ```
 
-What will this code do ?
-
 - [x] It doesn't compile.
 - [ ] It compiles but throws an exception at runtime.
 - [ ] It compiles and displays 5.
 - [ ] It compiles and displays 15.
 
-#### By convention, how should a package be named? #package
+> [!info] 
+>  non static value ne peut pas être utiliser dans static méthode
+
+### By convention, how should a package be named? #package
 
 - [ ] All uppercase
 - [ ] 1 st letter uppercase
 - [ ] 1 st letter in lowercase and the first letter of a new word in uppercase
 - [x] All lowercase
 
-#### @BeforeTest is executed before each test? #TestNG #BeforeTest
+### `@BeforeTest` is executed before each test? #BeforeTest #junite
 
 - [x] True
 - [ ] False
 
-> [!note] 
->  
-
-#### Are arrays primitives types in Java? #type
+### Are arrays primitives types in Java? #array
 
 - [ ] Yes
 - [x] No
 
-#### Given this code, What will be displayed in the console? #operator
+### Given this code, What will be displayed in the console? #operator
 
 ```java
 public static void main(String[] args){
@@ -52,16 +50,12 @@ public static void main(String[] args){
 }
 ```
 
-
 - [ ] "4"
 - [ ] "2"
 - [x] "0"
 - [ ] An error
 
-> [!note] 
->  %求余 /除法，向下取整
-
-#### Given this code, What will be displayed ? #array
+### Given this code, What will be displayed ? #array
 
 ```java
 import java.util.ArrayList;
@@ -84,14 +78,14 @@ public static void main(String[] args)
 - [ ] [Dhanbad, New York, Mumbai, Sydney]
 - [ ] [New York, Dhanbad, Mumbai, Sydney]
 
-#### How to handle an exception in JAVA? #exception
+### How to handle an exception in JAVA? #exception
 
 - [x] try{} catch{} throws{}
 - [ ] new Exception()
 - [ ] try{} get{}
 - [ ] Object.exception()
 
-#### Which of the following is/are a valid code comment in Java? #comment
+### Which of the following is/are a valid code comment in Java? #comment
 
 - [x] `// this is a comment`
 - [x] `/* this is a comment****/`
@@ -101,23 +95,23 @@ public static void main(String[] args)
 > [!note] 
 >  多写几个星号……也不是不行
 
-#### What term should we use to call an interface in our java class? #interface
+### What term should we use to call an interface in our java class? #interface
 
 - [ ] Abstract
 - [ ] Call
 - [x] Implements
 - [ ] Extends
 
-#### Given this code, What should we modify at line 7 to display corretly the array and its elements? #array #arrays
+### Given this code, What should we modify at line 7 to display corretly the array and its elements? #array #arrays
 
 ```java
 public class QuestionJava {
     public static void main(String[] args) {
-        Integer[] tab = new Integer[3];
-        tab[0] = 2;
-        tab[1] = 5;
-        tab[2] = 8;
-        System.out.println(tab);
+		Integer[] tab = new Integer[3];
+		tab[0] = 2;
+		tab[1] = 5;
+		tab[2] = 8;
+		System.out.println(tab);
     }
 }
 ```
@@ -130,20 +124,20 @@ public class QuestionJava {
 > [!note] 
 > Array 是数组，Arrays 是数组工具类
 
-#### Which of the following operators is used to allocate memory for an object? #objet
+### Which of the following operators is used to allocate memory for an object? #objet
 
 - [ ] Give
 - [x] New
 - [ ] Alloc
 - [ ] Malloc
 
-#### What is java?
+### What is java?
 
 - [ ] A scripting programming language
 - [x] An object-oriented programming language
 - [ ] A variable oriented programming language
 
-#### Enums cannot be declared: #enum 
+### `Enum` cannot be declared: #enum 
 
 - [ ] private
 - [ ] public
@@ -153,14 +147,14 @@ public class QuestionJava {
 > [!note] 
 >  枚举类作为内部类时，可以用 private 和 static 修饰
 
-#### What is an IDE ?
+### What is an IDE ?
 
 - [ ] A tool for writing and running programs written in Java
 - [x] An environment for developing programs
 - [ ] A Java language instruction
 - [ ] A website that allows you to reference the functionalities of a programming language
 
-#### What keyword should be added so that the "nb_questions" attribute can be called without having to getter or instantiate a new class? #class
+### What keyword should be added so that the "nb_questions" attribute can be called without having to getter or instantiate a new class? #class
 
 ```java
 private int nb_questions;
@@ -171,51 +165,51 @@ private int nb_questions;
 - [x] static
 - [ ] call
 
-#### By convention, how should a new class be named? #class 
+### By convention, how should a new class be named? #class 
 
 - [ ] javaQuizz
 - [ ] JAVAQUIZZ
 - [x] JavaQuizz
 
-#### Which answer(s) declare a "string"array? #array 
+### Which answer(s) declare a "string"array? #array 
 
 - [x] String[] s
 - [ ] string[] s
 - [ ] String s[]
 - [ ] String[s]
 
-#### When we create a class without specifying the name of the package, its scope is : #class #visibility
+### When we create a class without specifying the name of the package, its scope is : #class #visibility
 
 - [x] Default
 - [ ] Protected
 - [ ] Public
 - [ ] Private
 
-#### How in a class, do we access its variables? #this
+### How in a class, do we access its variables? #this
 
 - [ ] the operator `:`
 - [ ] the keyword `new`
 - [x] the keyword `this`
 - [ ] the operator `.`
 
-#### How to concatenate two strings of characters? #string
+### How to concatenate two strings of characters? #string
 
 - [x] "string 1"+"string 2"
 - [ ] "string 1".."string 2"
-- [x] "string 1"&&"string 2"
+- [ ] "string 1"&&"string 2"
 - [ ] "string 1"."string 2"
 
 > [!note] 
 > &&也可以连接字符串 
 
-#### Which class should your unit test extend to make it a JUnit test? #junite
+### Which class should your unit test extend to make it a JUnit test? #junite
 
 - [x] JUnitTest
 - [ ] UnitTest
 - [ ] JUnitCase
 - [ ] TestCase
 
-#### `--` is used for #operator 
+### `--` is used for #operator 
 
 - [ ] Remark
 - [x] Decrement
@@ -225,27 +219,27 @@ private int nb_questions;
 > [!note] 
 >  Decrement -- Substraction - Negation !
 
-#### What is “AssertEquals” used for in a Java Unit test? #junite 
+### What is “AssertEquals” used for in a Java Unit test? #junite 
 
-- [x] It allows you to compare two objects
+- [ ] It allows you to compare two objects
 - [ ] It allows to differentiate two objects of the same type
-- [ ] It allows you to check that an object as a parameter is equal to the second parameter
+- [x] It allows you to check that an object as a parameter is equal to the second parameter
 
-#### Which of the following annotations can you use in your JUnit test class? #junite 
+### Which of the following annotations can you use in your JUnit test class? #junite 
 
 - [ ] @Before, @After, @Test
 - [x] @BeforeTest, @AfterTest
 - [ ] @TestTest, @TestThis
 - [ ] @TestClass, @TestMethod
 
-#### What is the order of the variables in Enum? #enum 
+### What is the order of the variables in Enum? #enum 
 
 - [ ] Descending order
 - [ ] Ascending
 - [ ] Random order
 - [x] Depends on sort() method
 
-#### Which of the following statements applies to methods of an interface in Java? #interface 
+### Which of the following statements applies to methods of an interface in Java? #interface 
 
 - [ ] An interface can only contain abstract methods.
 - [x] You can define a method in an interface
@@ -255,29 +249,28 @@ private int nb_questions;
 > [!note] 
 > 不能有 protected 方法 
 
-#### Is a "HashMap" ordered? #hashmap 
+### Is a "HashMap" ordered? #hashmap 
 
 - [ ] Yes
 - [x] No
 
-#### How to instantiate a new variable of type "integer"? #integer
+### How to instantiate a new variable of type "integer"? #integer
 
-- [x] int a = new Integer(3);
+- [ ] int a = new Integer(3);
 - [ ] int a = new int();
 - [ ] int a = 4;
-- [ ] Integer a = new int(5);
+- [x] Integer a = new int(5);
 
 > [!note] 
 >  int a = new Integer(3);过期了
 >  int a = 4; 没有自动装箱，Integer i = 1 才是自动装箱
 
-#### Does an ArrayList allow you to insert duplicate elements? #arraylist
-
+### Does an ArrayList allow you to insert duplicate elements? #arraylist
 
 - [x] Yes
 - [ ] No
 
-#### Given this code, What is displayed by the console? #string #stringbuilder
+### Given this code, What is displayed by the console? #string #stringbuilder
 
 ```java
 public static void main(String[] args) {
@@ -294,59 +287,32 @@ public static void main(String[] args) {
 - [ ] the memory address of "str 2"
 - [ ] A mistake
 
-
-https://welovedevs.com/app/fr/test-session/-NTnpbl2tiF-EC_poSYQ/results
-
-Au vu de cette interface, choisissez un nom plus approprié que "InterfaceANommer" :
+### Au vu de cette interface, choisissez un nom plus approprié que "InterfaceANommer" :
 
 ![](https://process.filestackapi.com/output=quality:100/no_metadata/auto_image/compress/ZjMwUXIJSGiks6Vtsfn8)
 
-TemperatureChangedBeanInfo
+- [ ] TemperatureChangedBeanInfo
+- [ ] TemperatureChangedHelper
+- [x] TemperatureChangedListener
+- [ ] TemperatureChangedFactory
 
-TemperatureChangedHelper
+### Parmi ces classes, laquelle est la plus appropriée pour composer une chaîne de caractère à partir de plusieurs éléments concaténés les uns aux autres ?
 
-TemperatureChangedListener
+- [ ] char[]
+- [ ] StringTokenizer
+- [ ] byte[]
+- [x] StringBuilder
 
-TemperatureChangedFactory
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1832 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6N-YKp5Y_j4Zwb4/)
-
-0
-
-Aucun commentaire de la communauté, évaluez la question pour être le premier !
-
-5
-
-.
-
-Parmi ces classes, laquelle est la plus appropriée pour composer une chaîne de caractère à partir de plusieurs éléments concaténés les uns aux autres ?
-
-char[]
-
-StringTokenizer
-
-byte[]
-
-StringBuilder
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1842 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6NFTG2D8FlyCYuy/)
-
-1
-
-Evaluations de la communauté
-
-8
-
-.
-
-Regardez la méthode suivante :
+### Regardez la méthode suivante, Combien d'instances d'Integer ne peuvent pas être libérées de la mémoire ?
 
 ```java
-private static Integer[] myCompute(int a) {  int i = 0;  Integer[] result = new Integer[2];  result[i++] = new Integer(a);  result[i] = new Integer(-a);  result[1 - i] = result[i];  return result;
+private static Integer[] myCompute(int a) {
+	int i = 0;  
+	Integer[] result = new Integer[2];  
+	result[i++] = new Integer(a);  
+	result[i] = new Integer(-a);  
+	result[1 - i] = result[i];  
+	return result;
 }
 
 ```
@@ -357,27 +323,10 @@ Après l'appel:
 Integer[] call = myCompute(3);
 ```
 
-Combien d'instances d'Integer ne peuvent pas être libérées de la mémoire ?
-
-0
-
-1
-
-2
-
-3
-
-Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1775 fois
-
-Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/questions/-M4PV6NIo53nR94h8sek/)
-
-1
-
-Evaluations de la communauté
-
-9
-
-.
+- [ ] 0
+- [ ] 1
+- [ ] 2
+- [ ] 3
 
 Au sujet des Thread, qu'est-il usuel de faire ?
 
@@ -532,7 +481,7 @@ Modifier [Lien direct](https://welovedevs.com/app/fr/tests/-M4-8q311sNrl8ekEsrx/
 
 Aucun commentaire de la communauté, évaluez la question pour être le premier !
 
-#### Réponses incorrectes
+### Réponses incorrectes
 
 1
 

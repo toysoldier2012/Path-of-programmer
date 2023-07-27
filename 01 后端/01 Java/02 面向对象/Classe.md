@@ -10,7 +10,7 @@
 2. Constructeur
 	- en format CamelCase
 	
-3. [[Methode]]
+3. [[Méthode]]
 	- en format camelCase
 	
 4. block
@@ -90,7 +90,9 @@ public class Main {
 - [[Programmation orientée objet#^a41d5a|Les modificateurs d'accès]] 
 
 - `static` #static 
-	Elle ne sont définies qu'une seule fois, quel que soit le nombre d'objet instanciés de la class
+
+Elle ne sont définies qu'une seule fois, quel que soit le nombre d'objet instanciés de la class
+Non-static entity ne peut pas être utilisé dans static méthode
 
 - `final` #final
 	只能在构造器，初始化块，声明时赋值
