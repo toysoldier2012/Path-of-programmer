@@ -1,4 +1,3 @@
-#arraylist 
 
 # 特点
 
@@ -54,6 +53,7 @@ for(String str : arrays){
 ## `List` 转数组
 
 1. `toArray` 方法
+
 ```Java
 String[] array1 = list.toArray(new String[0]);
 String[] array3 = list.toArray(new String[list.size()]);

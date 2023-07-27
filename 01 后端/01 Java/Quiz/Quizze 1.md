@@ -1,7 +1,7 @@
 
 https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/java-quiz.md
 
-#### Q1. Given the string "strawberries" saved in a variable called fruit, what would `fruit.substring(2, 5)` return? #string 
+### Q1. Given the string "strawberries" saved in a variable called fruit, what would `fruit.substring(2, 5)` return? #string 
 
 - [ ] rawb
 - [x] raw
@@ -9,7 +9,7 @@ https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/j
 - [ ] traw
 
 
-#### Q2. How can you achieve runtime polymorphism in Java? #polymorphism
+### Q2. How can you achieve runtime polymorphism in Java? #polymorphism
 
 - [ ] method overloading
 - [ ] method overrunning
@@ -17,7 +17,7 @@ https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/j
 - [ ] method calling
 
 
-#### Q3. Given the following definitions, which of these expression will **NOT** evaluate to true? #operator 
+### Q3. Given the following definitions, which of these expression will **NOT** evaluate to true? #operator 
 
 `boolean b 1 = true, b 2 = false; int i 1 = 1, i 2 = 2;`
 - [ ] `(i1 | i2) == 3`
@@ -26,7 +26,7 @@ https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/j
 - [ ] `(i1 ^ i2) < 4`
 
 
-#### Q4. What is the output of this code? #array 
+### Q4. What is the output of this code? #array 
 
 ```java
 1: class Main {
@@ -57,7 +57,7 @@ https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/j
 > `collection.size()`
 
 
-#### Q5. Which of the following can replace the CODE SNIPPET to make the code below print "Hello World"? #interface
+### Q5. Which of the following can replace the CODE SNIPPET to make the code below print "Hello World"? #interface
 
 ```java
 
@@ -91,7 +91,7 @@ interface Interface2 {
 - [x] `Interface1.print(); Interface2.print();`
 
 
-#### Q6. What does the following code print? #string 
+### Q6. What does the following code print? #string 
 
 ```java
 
@@ -113,7 +113,7 @@ System.out.println(str);
 - [x] abcde
 
 
-#### Q7. What is the result of this code? #exception 
+### Q7. What is the result of this code? #exception 
 
 ```java
 class Main {
@@ -136,7 +136,7 @@ class Main {
 - [ ] It will not compile.
 
 
-#### Q8. Which class can compile given these declarations? #interface 
+### Q8. Which class can compile given these declarations? #interface 
 
 ```java
 interface One {
@@ -193,7 +193,7 @@ class Three implements One, Two {
 >  interface.super.method()
 
 
-#### Q9. What is the output of this code? #arraylist 
+### Q9. What is the output of this code? #arraylist 
 
 ```java
 class Main {
@@ -213,7 +213,7 @@ class Main {
 - [ ] falsetrue
 
 
-#### Q10. Given the following two classes, what will be the output of the Main class #package 
+### Q10. Given the following two classes, what will be the output of the Main class #package 
 
 ```java
 
@@ -272,7 +272,7 @@ class Main {
 > **Explanation:** The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class, because the import statements of the form
 
 
-#### Q 11. What is the result of this code?
+### Q 11. What is the result of this code?
 
 ```java
 1: class MainClass {
@@ -298,7 +298,7 @@ class Main {
 - [ ] "World!"
 
 
-#### Q 12. Given this code, which command will output "2"? #compiler 
+### Q 12. Given this code, which command will output "2"? #compiler 
 
 ```java
 
@@ -324,7 +324,7 @@ class Main {
 java MyProgram 1 "2" "2" 5
 
 
-#### Q13. What is the output of this code? #primitivedatatype  
+### Q13. What is the output of this code? #primitivedatatype  
 
 ```java
 class Main {
@@ -349,7 +349,7 @@ class Main {
 > int 32 位，大概 10 位数
 
 
-#### Q 14. What is the output of this code? #string 
+### Q 14. What is the output of this code? #string 
 
 ```java
 
@@ -377,7 +377,7 @@ class Main {
 - [ ] "world!world!"
 
 
-#### Q15. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase? #arraylist 
+### Q15. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase? #arraylist 
 
 - [x] `for (Pencil pencil : pencilCase) {}`
 - [ ] `for (pencilCase.next()) {}`
@@ -385,7 +385,7 @@ class Main {
 - [ ] `for (pencil in pencilCase) {}`
 
 
-#### Q 16. What does this code print? #comparable
+### Q 16. What does this code print? #comparable
 
 ```java
 
@@ -399,7 +399,7 @@ System.out.print("apple".compareTo("banana"));
 - [ ] compilation error
 
 
-#### Q 17. You have an ArrayList of names that you want to sort alphabetically. Which approach would **NOT** work? #list
+### Q 17. You have an ArrayList of names that you want to sort alphabetically. Which approach would **NOT** work? #list
 
 - [ ] `names.sort(Comparator.comparing(String::toString))`
 - [ ] `Collections.sort(names)`
@@ -410,7 +410,7 @@ System.out.print("apple".compareTo("banana"));
 >  详见 list 比较方式
 
 
-#### Q 18. By implementing encapsulation, you cannot directly access the class's \_ properties unless you are writing code inside the class itself. #encapsulation
+### Q 18. By implementing encapsulation, you cannot directly access the class's \_ properties unless you are writing code inside the class itself. #encapsulation
 
 - [x] private
 - [ ] protected
@@ -418,7 +418,7 @@ System.out.print("apple".compareTo("banana"));
 - [ ] public
 
 
-#### Q 19. Which is the most up-to-date way to instantiate the current date? #date
+### Q 19. Which is the most up-to-date way to instantiate the current date? #date
 
 - [ ] `new SimpleDateFormat("yyyy-MM-dd").format(new Date())`
 - [ ] `new Date(System.currentTimeMillis())`
@@ -426,7 +426,7 @@ System.out.print("apple".compareTo("banana"));
 - [ ] `Calendar.getInstance().getTime()`
 
 
-#### Q 20. Fill in the blank to create a piece of code that will tell whether `int 0` is divisible by `5`:
+### Q 20. Fill in the blank to create a piece of code that will tell whether `int 0` is divisible by `5`:
 
 `boolean isDivisibleBy5 = _____`
 
@@ -436,7 +436,7 @@ System.out.print("apple".compareTo("banana"));
 - [ ] `Math.isDivisible(int0, 5)`
 
 
-#### Q 21. How many times will this code print "Hello World!"? #operator 
+### Q 21. How many times will this code print "Hello World!"? #operator 
 
 ```java
 
@@ -464,7 +464,7 @@ class Main {
 - [ ] infinite number of times
 
 
-#### Q 22. The runtime system starts your program by calling which function first? #class  
+### Q 22. The runtime system starts your program by calling which function first? #class  
 
 - [ ] print
 - [ ] iterative
@@ -472,7 +472,7 @@ class Main {
 - [x] main
 
 
-#### Q 23. What code would you use in Constructor A to call Constructor B? #class
+### Q 23. What code would you use in Constructor A to call Constructor B? #class
 
 ```java
 
@@ -497,7 +497,7 @@ public class Jedi {
 - [ ] super(name, species, false)
 
 
-#### Q 24. Which statement is **NOT** true? #anonymousclass
+### Q 24. Which statement is **NOT** true? #anonymousclass
 
 - [ ] An anonymous class may specify an abstract base class as its base type.
 - [ ] An anonymous class does not require a zero-argument constructor.
@@ -508,7 +508,7 @@ public class Jedi {
 >  An anonymous class does not require a zero-argument constructor. is true
 
 
-#### Q 25. What will this program print out to the console when executed? #linkedlist
+### Q 25. What will this program print out to the console when executed? #linkedlist
 
 ```java
 
@@ -541,7 +541,7 @@ public class Main {
 - [ ] [10, 1, 5]
 
 
-#### Q 26. What is the output of this code? #exception 
+### Q 26. What is the output of this code? #exception 
 
 ```java
 
@@ -569,7 +569,7 @@ class Main {
 - [ ] "ello"
 
 
-#### Q 27. Object-oriented programming is a style of programming where you organize your program around \_ and data, rather than \_ and logic. #oop 
+### Q 27. Object-oriented programming is a style of programming where you organize your program around \_ and data, rather than \_ and logic. #oop 
 
 - [ ] functions; actions
 - [x] objects; actions
@@ -577,7 +577,7 @@ class Main {
 - [ ] actions; objects
 
 
-#### Q 28. What statement returns true if "nifty" is of type String? #string 
+### Q 28. What statement returns true if "nifty" is of type String? #string 
 
 - [ ] `"nifty".getType().equals("String")`
 - [ ] `"nifty".getType() == String`
@@ -585,7 +585,7 @@ class Main {
 - [x] `"nifty" instanceof String`
 
 
-#### Q 29. What is the output of this code? #list #primitivedatatype 
+### Q 29. What is the output of this code? #list #primitivedatatype 
 
 ```java
 
@@ -619,7 +619,7 @@ class Main {
 - [x] 3 true
 
 
-#### Q 30. What is the result of this code? #class 
+### Q 30. What is the result of this code? #class 
 
 ```java
 
@@ -659,7 +659,7 @@ class Main {
 - [ ] It will not compile because of line 11.
 
 
-#### Q 31. What method can be used to create a new instance of an object? #class 
+### Q 31. What method can be used to create a new instance of an object? #class 
 
 - [ ] another instance
 - [ ] field
@@ -667,7 +667,7 @@ class Main {
 - [ ] private method
 
 
-#### Q 32. Which is the most reliable expression for testing whether the values of two string variables are the same? #string 
+### Q 32. Which is the most reliable expression for testing whether the values of two string variables are the same? #string 
 
 - [ ] string 1 == string 2
 - [ ] string 1 = string 2
@@ -675,7 +675,7 @@ class Main {
 - [x] string 1.equals(string 2)
 
 
-#### Q 33. Which letters will print when this code is run? #error
+### Q 33. Which letters will print when this code is run? #error
 
 ```java
 
@@ -718,7 +718,7 @@ public static void badMethod() {
 >  Error 不继承 Exception，二者共同继承于 Throwable 
 
 
-#### Q 34. What is the output of this code? #class 
+### Q 34. What is the output of this code? #class 
 
 ```java
 
@@ -754,7 +754,7 @@ class Main {
 - [ ] It will run forever.
 
 
-#### Q 35. What is the output of this code? #list 
+### Q 35. What is the output of this code? #list 
 
 ```java
 
@@ -780,7 +780,7 @@ class Main {
 > 不同类型不能排序，字符串排序先数字再字母，一位一位相比较
 
 
-#### Q 36. What is the output of this code? #class 
+### Q 36. What is the output of this code? #class 
 
 ```java
 
@@ -816,7 +816,7 @@ class Main {
 - [ ] Hello HelloWorld!
 
 
-#### Q 37. What is displayed when this code is compiled and executed? #class 
+### Q 37. What is displayed when this code is compiled and executed? #class 
 
 ```java
 
@@ -842,7 +842,7 @@ public class Main {
 - [ ] 5
 
 
-#### Q 38. Which approach ====cannot==== be used to iterate over a List named _theList_? #loop
+### Q 38. Which approach ====cannot==== be used to iterate over a List named _theList_? #loop
 
 
 - [ ] A
@@ -880,7 +880,7 @@ theList.forEach(System.out::println);
 > **Explanation:** `for (it.hasNext())` should be `while (it.hasNext())`. 
 
 
-#### Q 39. What method signature will work with this code? #class 
+### Q 39. What method signature will work with this code? #class 
 
 ``` java
 boolean healthyOrNot = isHealthy("avocado");
@@ -892,7 +892,7 @@ boolean healthyOrNot = isHealthy("avocado");
 - [ ] private String isHealthy(String food)
 
 
-#### Q 40. Which are valid keywords in a Java module descriptor (module-info.java)? #module 
+### Q 40. Which are valid keywords in a Java module descriptor (module-info.java)? #module 
 
 - [ ] provides, employs
 - [ ] imports, exports
@@ -902,7 +902,7 @@ boolean healthyOrNot = isHealthy("avocado");
 > [!note] 
 >  module 常见关键字
 
-#### Q 41. Which type of variable keeps a constant value once it is assigned? #class 
+### Q 41. Which type of variable keeps a constant value once it is assigned? #class 
 
 - [ ] non-static
 - [ ] static
@@ -910,7 +910,7 @@ boolean healthyOrNot = isHealthy("avocado");
 - [ ] private
 
 
-#### Q 42. How does the keyword `volatile` affect how a variable is handled? #keyword
+### Q 42. How does the keyword `volatile` affect how a variable is handled? #keyword
 
 - [ ] It will be read by only one thread at a time.
 - [ ] It will be stored on the hard drive.
@@ -918,7 +918,7 @@ boolean healthyOrNot = isHealthy("avocado");
 - [ ] It will be preferentially garbage collected.
 
 
-#### Q 43. What is the result of this code? #variable
+### Q 43. What is the result of this code? #variable
 
 ```java
 char smooch = 'x';
@@ -931,7 +931,7 @@ System.out.println((int) smooch);
 - [ ] a ClassCastException
 
 
-#### Q 44. You get a `NullPointerException`. What is the most likely cause? #exception 
+### Q 44. You get a `NullPointerException`. What is the most likely cause? #exception 
 
 - [ ] A file that needs to be opened cannot be found. `FileNotFoundException`
 - [ ] A network connection has been lost in the middle of communications. `IOException`
@@ -939,7 +939,7 @@ System.out.println((int) smooch);
 - [x] The object you are using has not been instantiated. 
 
 
-#### Q 45. How would you fix this code so that it compiles? #class 
+### Q 45. How would you fix this code so that it compiles? #class 
 
 ```java
 
@@ -963,7 +963,7 @@ public class Nosey {
 - [ ] Initialize age to a number.
 
 
-#### Q 46. Add a Duck called "Waddles" to the `ArrayList` **ducks**. #arraylist 
+### Q 46. Add a Duck called "Waddles" to the `ArrayList` **ducks**. #arraylist 
 
 ```java
 
@@ -985,7 +985,7 @@ public class Duck {
 - [ ] `ducks.add(new Waddles());`
 
 
-#### Q 47. If you encounter `UnsupportedClassVersionError` it means the code was `___` on a newer version of Java than the JRE `___` it. #exception 
+### Q 47. If you encounter `UnsupportedClassVersionError` it means the code was `___` on a newer version of Java than the JRE `___` it. #exception 
 
 - [ ] executed; interpreting
 - [ ] executed; compiling
@@ -993,7 +993,7 @@ public class Duck {
 - [ ] compiled, translating
 
 
-#### Q 48. Given this class, how would you make the code compile? #keyword
+### Q 48. Given this class, how would you make the code compile? #keyword
 
 ```java
 
@@ -1060,7 +1060,7 @@ public TheClass() {
 ```
 
 
-#### Q 49. How many times f will be printed? #loop 
+### Q 49. How many times f will be printed? #loop 
 
 ```java
 
@@ -1086,7 +1086,7 @@ public class Solution {
 - [ ] A Runtime exception will be thrown
 
 
-#### Q 50. Which statements about `abstract` classes are true? #class 
+### Q 50. Which statements about `abstract` classes are true? #class 
 
 ```
 
