@@ -2,27 +2,22 @@
 
 # 特点
 
-- 双向链表(JDK1.6 之前为循环链表，JDK1.7 取消了循环)
-- 双向链表，增删效率高
-- 通过添加Node，保存内容
+- Une ensemble de [[Node]]
+- Contient trois élément important Node head, Node tail, et length
 
 # 常用方法
 
 ## 增
 
 ```Java
-
+public void append(int value)
 ```
-
-Inserting takes **O(1)** time
 
 ## 删
 
 ```Java
 
 ```
-
-Deleting takes **O(1)** time
 
 ## 改
 
@@ -36,4 +31,9 @@ Deleting takes **O(1)** time
 
 ```
 
-Random access takes **O(n)** time
+
+# Complexité
+
+| Prefix | Insert | Suffix | Remove first | Remove | Remove last | Search by index | Search by value |
+| ------ | ------ | ------ | ------------ | ------ | ----------- | --------------- | --------------- |
+| O(1)   | O(n)   | O(1)   | O(1)         | O(n)   | O(n)        | O(n)            | O(n)            | 

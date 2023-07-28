@@ -7,6 +7,6 @@
 用于将对象转换成二进制信息，用于网络传输
 
 # transient
-#transient ^c1a24f
+#transient 
 
 用于标识不需要序列化的数据

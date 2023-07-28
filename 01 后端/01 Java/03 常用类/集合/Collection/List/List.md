@@ -21,7 +21,7 @@
 
 1. [[Stream]] 
 2. Iterator #iterator
-3. boucle
+3. Boucle
 
 ## Ordonner
 
@@ -38,7 +38,7 @@ Collections.sort(arrayList, (o 1, o 2) -> o 2.compareTo(o 1));
 Collections.sort(arrayList, Comparator.reverseOrder());
 ```
 
-2. 从 Java 8开始，`List` 接口提供了一个默认方法 `sort()`，可以直接在列表上进行排序。这种方法要求列表的元素类型实现了 `Comparable` 接口或传入一个自定义的 `Comparator` 对象来定义排序规则。 #comparable #comparator 
+2. 从 Java 8 开始，`List` 接口提供了一个默认方法 `sort()`，可以直接在列表上进行排序。这种方法要求列表的元素类型实现了 `Comparable` 接口或传入一个自定义的 `Comparator` 对象来定义排序规则。 #comparable #comparator 
 
 ```java
 unsortedList.sort(null)

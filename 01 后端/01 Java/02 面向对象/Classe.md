@@ -49,40 +49,9 @@ Elle a qu'une seule méthode abstraite
 
 ## 内部类 `
 
+[Java内部类详解_weixin_30578677的博客-CSDN博客](https://blog.csdn.net/weixin_30578677/article/details/99659725?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-99659725-blog-78625320.235%5Ev38%5Epc_relevant_sort&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-99659725-blog-78625320.235%5Ev38%5Epc_relevant_sort&utm_relevant_index=2)
+
 - 匿名内部类 #anonymousclass 
-
-``` java
-abstract class Animal {
-    abstract void makeSound();
-}
-
-interface Jumpable {
-    void jump();
-}
-
-public class Main {
-    public static void main(String[] args) {
-        // Creating an anonymous class that extends the Animal class and implements the Jumpable interface
-        Animal animal = new Animal() {
-            @Override
-            void makeSound() {
-                System.out.println("Meow");
-            }
-        };
-        
-        Jumpable jumper = new Jumpable() {
-            @Override
-            public void jump() {
-                System.out.println("Jumping high!");
-            }
-        };
-        
-        // Calling methods on the anonymous classes
-        animal.makeSound();  // Output: Meow
-        jumper.jump();  // Output: Jumping high!
-    }
-}
-```
 
 # Les Mots clés
 #keyword

@@ -1,0 +1,2 @@
+| Prefix | Insert | Suffix | Remove first | Remove | Remove last | Search by index | Search by value | 
+| ------ | ------ | ------ | ------------ | ------ | ----------- | --------------- | --------------- |

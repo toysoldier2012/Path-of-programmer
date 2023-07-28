@@ -1,11 +1,12 @@
+
 #string 
 
 # 特点
 
 - 类特性
 	- 不可被继承
-	- Comparable接口
-	- Serializable接口
+	- Comparable 接口
+	- Serializable 接口
 
 - 对象特性
 	- 不可变
@@ -50,11 +51,11 @@ substring()
 	- String --> 基本，`xxx.parceXxx()`
 	- 基本 --> String，`String.valueOf()`
 
-- 与char类型
+- 与 char 类型
 	- `toCharArray()`
 	- `String(char[])`
 
-- 与byte类型
+- 与 byte 类型
 	- `getBytes()`
 	- `String(byte[])`
 
@@ -76,4 +77,5 @@ System.out.println(ass1[0] == ass2[0]);//false
 
 # 比较
 
-对于[[Classe#`equals()`|equals()]]，正常来说只要 new 了，就不是一个对象，equals 就返回 false，但是 String 重写了 equals 方法，只比较内容
+对于 [[Classe#`equals()`|equals()]]，正常来说只要 new 了，就不是一个对象，equals 就返回 false
+但是 String 重写了 equals 方法，只比较内容

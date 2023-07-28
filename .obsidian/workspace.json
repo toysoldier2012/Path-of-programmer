@@ -4,28 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "a287d92d91311e5f",
+        "id": "f0f19d15a93bf38a",
         "type": "tabs",
         "children": [
           {
-            "id": "e82e4b13e85f90ce",
+            "id": "e49902c94a965b3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
+                "file": "01 后端/01 Java/02 面向对象/Classe.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "a7475156882ee97f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -42,12 +34,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "30ad5320b3f66082",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
             "id": "de25684b297de1b0",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#transient",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,23 +64,6 @@
             "state": {
               "type": "bookmarks",
               "state": {}
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "d989d6cab33b3588",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "30ad5320b3f66082",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
             }
           }
         ]
@@ -109,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md"
+                "file": "01 后端/01 Java/02 面向对象/Classe.md"
               }
             }
           },
@@ -119,9 +104,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
+                "file": "01 后端/01 Java/02 面向对象/Classe.md",
                 "collapseAll": true,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -136,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
+                "file": "01 后端/01 Java/02 面向对象/Classe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,14 +137,6 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "35ac54aa5da71fa2",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
           }
         ]
       },
@@ -174,12 +151,21 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "c9b14f9950c4d7f2",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 312.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,36 +179,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "e82e4b13e85f90ce",
+  "active": "e49902c94a965b3a",
   "lastOpenFiles": [
-    "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Queue.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Set/TreeSet.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
+    "Template/Collection Detail.md",
+    "Template/Collection Complexity.md",
+    "01 后端/01 Java/03 常用类/集合/Collections.md",
+    "01 后端/01 Java/03 常用类/Node.md",
+    "01 后端/01 Java/03 常用类/集合/ListIterator.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/List.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
-    "Excalidraw/Drawing 2023-07-21 16.00.38.excalidraw.md",
-    "01 后端/01 Java/Quiz/Quizze String.md",
-    "01 后端/01 Java/02 面向对象/Méthode.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
-    "Excalidraw",
-    "01 后端/01 Java/03 常用类/集合/Collections.md",
-    "01 后端/01 Java/03 常用类/集合/Iterator.md",
-    "01 后端/01 Java/02 面向对象/Programmation orientée objet.md",
-    "01 后端/01 Java/02 面向对象/Module.md",
-    "01 后端/01 Java/02 面向对象/Methode.md",
-    "01 后端/01 Java/02 面向对象/Classe.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
+    "04 模式与思想/TDD.md",
+    "04 模式与思想/SOLID.md",
+    "04 模式与思想/MVC.md",
+    "04 模式与思想/Microservice.md",
+    "04 模式与思想/Design Patterns.md",
+    "03 数据结构与算法/Kadane's Algorithm.md",
+    "01 后端/01 Java/04 进阶/Stream/Functional interface.md",
+    "01 后端/01 Java/03 常用类/常用类.md",
+    "01 后端/01 Java/03 常用类/IO流.md",
     "01 后端/01 Java/03 常用类/字符串/String.md",
-    "01 后端/01 Java/04 进阶/Multi-thread.md",
-    "01 后端/01 Java/01 通用语法/Variable.md",
+    "01 后端/01 Java/03 常用类/Serilizable.md",
     "01 后端/01 Java/01 通用语法/Hello Java.md",
-    "01 后端/01 Java/04 进阶/Stream/Stream.md",
-    "01 后端/01 Java/新特性/Java 8.md",
-    "01 后端/01 Java/Quiz/Quizze 1.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/Vector.md",
-    "01 后端/01 Java/Quiz/Questions ouvertes.md",
+    "01 后端/01 Java/01 通用语法/Variable.md",
+    "Attachment/Pasted image 20230223225441.png",
+    "01 后端/01 Java/Quiz/Quizze String.md",
+    "Excalidraw/Drawing 2023-07-21 16.00.38.excalidraw.md",
+    "Excalidraw",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/TreeSet.md",
     "Attachment/Pasted image 20230720170411.png",
-    "01 后端/04 框架/02 Mybatis/进阶/动态SQL.md",
-    "01 后端/04 框架/02 Mybatis/进阶/Mybatis Generator.md",
     "04 模式与思想",
     "03 数据结构与算法",
     "01 后端/04 框架/03 Spring Framework/Spring/AOP",
@@ -239,7 +226,6 @@
     "Attachment/Pasted image 20230419214403.png",
     "Attachment/Pasted image 20230306232237.png",
     "Attachment/Pasted image 20230304205719.png",
-    "Attachment/Pasted image 20230304010809.png",
-    "Attachment/Pasted image 20230223231641.png"
+    "Attachment/Pasted image 20230304010809.png"
   ]
 }

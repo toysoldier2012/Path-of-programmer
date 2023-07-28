@@ -36,4 +36,3 @@ public class Main{
 - [ ] B 2
 - [ ] C 13
 - [ ] D 11
-
