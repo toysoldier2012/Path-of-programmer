@@ -78,25 +78,20 @@ Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dern
 ### List
 
 > [!question] 
-> Quelle sont les classes d'implémentation principaux dans `List` et ses caractères principaux #list 
-> / Différence `ArrayList` et `LinkedList` ? #arraylist #linkedlist 
+> Quelle sont les classes d'implémentation principaux dans `List` et ses caractères principaux 
+> / Différence `ArrayList` et `LinkedList` ? #list #arraylist #linkedlist 
 > 
 `ArrayList`, il est réalisé par un array d'objet, plus efficace pour la recherche
 >  `LinkedList`, réalisé par la liste doublement chainée, plus efficace pour l'insertion et la suppression
 >  `Vector`, thread-safe
 >  Ils sont ordonnés, accepte les éléments doublons et null
 
-| List       | get  | add  | contains | insert/remove |
-| ---------- | ---- | ---- | -------- | ------------- |
-| ArrayList  | O(1) | O(1) | O(n)     | O(n)          |
-| LinkedList | O(n) | O(1) | O(n)     | O(1)          |
-
 ### Set
 
 > [!question] 
-> Quelle sont les classes d'implémentation principaux dans `Set` et ses caractères principaux #set 
-> / Les différences entre `HashSet`, `LinkedHashSet`et `TreeSet` #hashset #linkedhashset #treeset 
-> / `HashSet` vous voyez a quoi ça sert ? #hashset 
+> Quelle sont les classes d'implémentation principaux dans `Set` et ses caractères principaux 
+> / Les différences entre `HashSet`, `LinkedHashSet`et `TreeSet`
+> / `HashSet` vous voyez a quoi ça sert ? #set #hashset #linkedhashset #treeset 
 > 
 > `HashSet`, réalisé par `HashMap`, accepte null
 > `LinkedHashSet`, réalisé par `LinkedHashMap`, il est ordonné en FIFO

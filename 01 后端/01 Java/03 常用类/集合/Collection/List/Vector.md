@@ -2,9 +2,9 @@
 
 # 特点
 
-- `Object[]`, 
-- thread safe
-- Il est possible de préciser une capacité initiale(10 par défaut) et aussi une taille d'incrémentation(2 fois par défaut)
+- Réaliser par `Object[]`
+- Thread safe
+- Il est possible de préciser une capacité initiale (10 par défaut) et aussi une taille d'incrémentation (2 fois par défaut)
 
 # 常用方法
 

@@ -265,7 +265,7 @@ private int nb_questions;
 >  int a = new Integer(3);过期了
 >  int a = 4; 没有自动装箱，Integer i = 1 才是自动装箱
 
-### Does an ArrayList allow you to insert duplicate elements? #arraylist
+### Does an `ArrayList` allow you to insert duplicate elements? #arraylist
 
 - [x] Yes
 - [ ] No
