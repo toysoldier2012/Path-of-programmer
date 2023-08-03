@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 数据结构与算法/Top 150.md",
+                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 数据结构与算法/Top 150.md"
+                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 数据结构与算法/Top 150.md",
+                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 数据结构与算法/Top 150.md",
+                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,10 +189,14 @@
   },
   "active": "76f2a7b8a12dcdc7",
   "lastOpenFiles": [
+    "Template/Collection Complexity.md",
+    "Template/Collection Detail.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/Vector.md",
+    "03 数据结构与算法/Top 150.md",
     "Attachment/Pasted image 20230803163811.png",
     "Attachment/Pasted image 20230803163620.png",
     "03 数据结构与算法/Kadane's Algorithm.md",
-    "03 数据结构与算法/Top 150.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/List.md",
     "01 后端/01 Java/03 常用类/集合/Collection/Set/Set.md",
     "01 后端/01 Java/03 常用类/集合/Collection/Set/LinkedHashSet.md",
@@ -200,9 +204,7 @@
     "01 后端/01 Java/03 常用类/集合/Collection/Set/TreeSet.md",
     "01 后端/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
     "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/Vector.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
     "01 后端/01 Java/Quiz/Quizze ？.md",
     "01 后端/01 Java/03 常用类/集合/Collections.md",
     "面试/SG.md",
@@ -215,7 +217,6 @@
     "01 后端/01 Java/04 进阶/Stream/Stream.md",
     "01 后端/01 Java/04 进阶/Stream/Functional interface.md",
     "04 模式与思想/MVC.md",
-    "01 后端/01 Java/新特性/Java 8.md",
     "Attachment/Pasted image 20230223225441.png",
     "Excalidraw",
     "Attachment/Pasted image 20230720170411.png",
@@ -233,7 +234,6 @@
     "Attachment/Pasted image 20230105002447.png",
     "Attachment/Pasted image 20230618224915.png",
     "Attachment/Pasted image 20230419214403.png",
-    "Attachment/Pasted image 20230306232237.png",
-    "Attachment/Pasted image 20230304205719.png"
+    "Attachment/Pasted image 20230306232237.png"
   ]
 }

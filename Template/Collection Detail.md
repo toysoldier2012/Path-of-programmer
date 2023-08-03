@@ -1,30 +1,34 @@
 
-# 特点
+# Critères
 
 - 
 
-# 常用方法
+# Constructeur et méthodes
 
-## 增
+## Constructeur
 
-```Java
-
-```
-
-## 删
-
-```Java
+```java
 
 ```
 
-## 改
+## Méthode
 
-```Java
+```java
+//Ajouter
 
 ```
 
-## 查
+```java
+//Supprimer
 
-```Java
+```
+
+```java
+//Modifier
+
+```
+
+```java
+//Consulter
 
 ```

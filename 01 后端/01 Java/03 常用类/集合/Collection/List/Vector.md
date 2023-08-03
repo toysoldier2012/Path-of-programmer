@@ -8,7 +8,7 @@
 
 # 常用方法
 
-Il y a de ce fait plusieurs méthodes redondantes
+Il y a plusieurs méthodes redondantes
 
 ## 增
 
