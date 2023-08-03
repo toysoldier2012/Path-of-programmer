@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
+                "file": "01 后端/01 Java/03 常用类/集合/Collections.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md"
+                "file": "01 后端/01 Java/03 常用类/集合/Collections.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
+                "file": "01 后端/01 Java/03 常用类/集合/Collections.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
+                "file": "01 后端/01 Java/03 常用类/集合/Collections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,9 +189,9 @@
   },
   "active": "76f2a7b8a12dcdc7",
   "lastOpenFiles": [
+    "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
     "Template/Collection Complexity.md",
     "Template/Collection Detail.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/Vector.md",
     "03 数据结构与算法/Top 150.md",
     "Attachment/Pasted image 20230803163811.png",
