@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Collections.md",
+                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2e2729b08c6a0f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/List.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -102,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Collections.md"
+                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md"
               }
             }
           },
@@ -112,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Collections.md",
+                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/集合/Collections.md",
+                "file": "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,36 +190,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "graph:Ouvrir la vue graphique": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "obsidian-file-cleaner:Clean files": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "76f2a7b8a12dcdc7",
+  "active": "30ad5320b3f66082",
   "lastOpenFiles": [
+    "01 后端/01 Java/03 常用类/集合/Collection/List/List.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
+    "01 后端/01 Java/03 常用类/集合/Collections.md",
+    "01 后端/01 Java/03 常用类/集合/Iterator.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/Vector.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/Set.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/TreeSet.md",
+    "01 后端/01 Java/03 常用类/集合/Map/Hashtable.md",
     "Template/Collection Complexity.md",
     "Template/Collection Detail.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/Vector.md",
     "03 数据结构与算法/Top 150.md",
     "Attachment/Pasted image 20230803163811.png",
     "Attachment/Pasted image 20230803163620.png",
     "03 数据结构与算法/Kadane's Algorithm.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/List.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Set/Set.md",
     "01 后端/01 Java/03 常用类/集合/Collection/Set/LinkedHashSet.md",
     "01 后端/01 Java/Quiz/Questions ouvertes.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Set/TreeSet.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
     "01 后端/01 Java/Quiz/Quizze ？.md",
-    "01 后端/01 Java/03 常用类/集合/Collections.md",
     "面试/SG.md",
     "01 后端/01 Java/03 常用类/字符串/StringBuilder.md",
     "01 后端/01 Java/03 常用类/字符串/StringBuffer.md",
@@ -215,8 +230,6 @@
     "01 后端/01 Java/04 进阶/Exception.md",
     "01 后端/01 Java/03 常用类/IO流.md",
     "01 后端/01 Java/04 进阶/Stream/Stream.md",
-    "01 后端/01 Java/04 进阶/Stream/Functional interface.md",
-    "04 模式与思想/MVC.md",
     "Attachment/Pasted image 20230223225441.png",
     "Excalidraw",
     "Attachment/Pasted image 20230720170411.png",

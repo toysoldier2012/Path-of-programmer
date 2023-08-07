@@ -1,6 +1,6 @@
 #hashset
 
-# 特点
+# Critères
 
 - `HashSet` (无序，唯一): 基于 `HashMap` 实现的，底层采用 `HashMap` 来保存元素
 - 按照添加内容的 hash 值排序
@@ -8,4 +8,36 @@
 - 可以储存 null 值
 - 初始长度为 16
 - 线程不安全
-- 底层为 HashMap
+
+# Constructeur et méthodes
+
+## Constructeur
+
+```java
+HashSet()
+HashSet(Collection c)
+HashSet(int initialCapacity)
+HashSet(int initialCapacity, float loadFactor)
+```
+
+## Méthode
+
+```java
+//Ajouter
+
+```
+
+```java
+//Supprimer
+
+```
+
+```java
+//Modifier
+
+```
+
+```java
+//Consulter
+
+```

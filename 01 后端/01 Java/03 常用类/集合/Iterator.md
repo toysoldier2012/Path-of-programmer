@@ -15,5 +15,4 @@ Quelque exceptions les plus vues:
 - `NoSuchElementException`
 - `IllegalStateException`
 
-
 [[ListIterator]]

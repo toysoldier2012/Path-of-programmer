@@ -3,6 +3,8 @@
 # Critères
 
 - Réaliser par `Object[]`
+- Non thread-safe
+- `null` est autorisé
 - La capacité initiale est 10
 - La taille de incrémentation est 1.5 (2 avant Java 8) #java8
 
@@ -18,39 +20,30 @@ ArrayList(int initialCapacity)
 
 ## Méthode
 
+[[List#^8575d1]]
 ```java
 //Ajouter
-boolean add(Object o); //O(1)
-boolean addAll(Collection c);
-boolean addAll(int index, Collection c);
+
 ```
 
+[[List#^cffe35]]
 ```java
 //Supprimer
-void clear();
-
-Object remove(int index); //O(n)
 void removeRange(int start, int end) //O(n)
 ```
 
+[[List#^c73e1c]]
 ```java
 //Modifier
 void ensureCapacity(int size);
 
-Object set(int index, Object o); //O(n)
-
 void trimToSize();
 ```
 
+[[List#^8e0314]]
 ```java
 //Consulter
-Object get(int index); //O(1)
 
-int indexOf(Object o); //O(n)
-int lastIndexOf(Object o); //O(n)
-
-boolean isEmpty();
-int size();
 ```
 
 # Complexité
