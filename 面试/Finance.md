@@ -1,7 +1,3 @@
-### Introduction
-
-Il s'agit d'une mission de développeur Java au backend, construire l'application Bacardi c'est un outil interne Société Générale qui a pour calculer les risques de marché sur les produits actions et ces dérivés et de produire les différents indicateurs de risques (Value-at-risk, sensibilités, P&L). C'est une mission de longue durée (3 ans) pour travailler en mode agile. 
-
 #### Le rôle d'une banque d'investissement (corporate & investment banking)
 
 SGCIG est une banque d'investissement, qui fournit les services financiers aux clients, comme des opérations de financements, gestion de risque, aussi d'investissement
@@ -33,7 +29,3 @@ La perte maximale potentielle que le portefeuille pourrait subir dans un certain
 #### Greeks / sensibilités
 
 Ils sont pour mesurer la sensibilité du prix d'une option à différents facteurs comme la volatilité, le temp, le prix, le taux d'intérêt
-
-
-### Conclusion
-Cette mission est très intéressante pour moi car je vais pouvoir continuer à progresser sur le développement Java backend et monter en compétences sur la partie finance de marché, produits dérivés et risques, dans un contexte international, en mode agile, mission de longue durée

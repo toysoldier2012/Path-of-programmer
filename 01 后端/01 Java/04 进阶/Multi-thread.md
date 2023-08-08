@@ -1,4 +1,5 @@
 #thread 
+
 #todo 翻译
 
 # 基本概念
@@ -24,19 +25,26 @@ Java中至少有三个线程:
 - TERMINATED
 
 
-# 线程安全
+# Thread safe
 
 ## 解决方式
 
-- 同步
-	- 同步代码块synchronized(lock){}
-	- 同步方法public synchronized void a(){}
+- `synchronized`
+#synchronized 
 
-- Lock
-	- ReentrantLock lock = new ReentrantLock();
-	- lock.lock();
-	- lock.unlock();
-		- 这里lock就是monitor
+```java
+synchronized(lock){}
+public synchronized void a(){}
+```
+
+- `lock`
+#lock
+
+```java
+ReentrantLock lock = new ReentrantLock();
+lock.lock();
+lock.unlock();
+```
 
 ## 特殊案例
 

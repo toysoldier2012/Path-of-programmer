@@ -4,34 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "7e3fe4c9fda138fd",
+        "id": "facb591848a319bd",
         "type": "tabs",
         "children": [
           {
-            "id": "a2e2729b08c6a0f1",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "e586806740bb2799",
+            "id": "b5654eb6e09be09b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 模式与思想/Design Patterns.md",
+                "file": "01 后端/04 框架/03 Spring Framework/Spring/AOP/Hello AOP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -43,7 +32,7 @@
       {
         "id": "899c39b9e8b05f3c",
         "type": "tabs",
-        "dimension": 53.69261477045908,
+        "dimension": 48.218829516539444,
         "children": [
           {
             "id": "de25684b297de1b0",
@@ -51,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#oop",
+                "query": "tag:#synchronized",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +62,7 @@
       {
         "id": "9c1d15a4dfea48b7",
         "type": "tabs",
-        "dimension": 46.30738522954092,
+        "dimension": 51.781170483460556,
         "children": [
           {
             "id": "30ad5320b3f66082",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 模式与思想/Design Patterns.md"
+                "file": "01 后端/04 框架/03 Spring Framework/Spring/AOP/Hello AOP.md"
               }
             }
           },
@@ -123,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 模式与思想/Design Patterns.md",
+                "file": "01 后端/04 框架/03 Spring Framework/Spring/AOP/Hello AOP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 模式与思想/Design Patterns.md",
+                "file": "01 后端/04 框架/03 Spring Framework/Spring/AOP/Hello AOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +141,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true
               }
             }
@@ -198,38 +187,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f3c3386f218d6c07",
+  "active": "b5654eb6e09be09b",
   "lastOpenFiles": [
-    "01 后端/01 Java/02 面向对象/Programmation orientée objet.md",
-    "01 后端/01 Java/02 面向对象/Classe.md",
-    "01 后端/01 Java/02 面向对象/Méthode.md",
-    "01 后端/01 Java/Quiz/Questions ouvertes.md",
-    "01 后端/01 Java/05 JVM/JVM.md",
-    "01 后端/01 Java/05 JVM/内存解析.md",
-    "01 后端/01 Java/01 通用语法/Variable.md",
-    "04 模式与思想/Design Patterns.md",
-    "04 模式与思想/Microservice.md",
-    "01 后端/01 Java/01 通用语法/Hello Java.md",
-    "01 后端/01 Java/03 常用类/集合/Map/HashMap.md",
-    "01 后端/01 Java/03 常用类/字符串/String.md",
-    "01 后端/01 Java/03 常用类/Serilizable.md",
-    "01 后端/01 Java/Quiz/Quizze ？.md",
+    "01 后端/01 Java/04 进阶/Reflection.md",
     "01 后端/01 Java/04 进阶/Multi-thread.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Set/LinkedHashSet.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Set/Set.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Set/TreeSet.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
-    "Attachment/Pasted image 20230808122537.png",
-    "01 后端/01 Java/03 常用类/集合/Map/Map.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/List.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
+    "01 后端/01 Java/02 面向对象/Classe.md",
+    "面试/面试.md",
+    "面试/Finance.md",
+    "面试/Crédit Agricole.md",
+    "01 后端/04 框架/03 Spring Framework/Spring Boot/Hello Spring.md",
+    "01 后端/04 框架/03 Spring Framework/Spring/Hello Spring.md",
+    "00 Inbox/Easy Typing.md",
+    "面试/BNP.md",
     "01 后端/01 Java/03 常用类/集合/Collection/List/ArrayList.md",
-    "01 后端/01 Java/03 常用类/集合/Collection/List/Vector.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/List.md",
+    "Attachment/Pasted image 20230808122537.png",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/LinkedList.md",
+    "01 后端/01 Java/03 常用类/集合/Collections.md",
     "01 后端/01 Java/03 常用类/集合/Iterator.md",
-    "images",
+    "01 后端/01 Java/03 常用类/集合/Collection/List/Vector.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/Set.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/TreeSet.md",
+    "01 后端/01 Java/03 常用类/集合/Map/Hashtable.md",
+    "Template/Collection Complexity.md",
+    "Template/Collection Detail.md",
+    "03 数据结构与算法/Top 150.md",
     "Attachment/Pasted image 20230803163811.png",
     "Attachment/Pasted image 20230803163620.png",
+    "03 数据结构与算法/Kadane's Algorithm.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/LinkedHashSet.md",
     "Attachment/Pasted image 20230223225441.png",
     "Excalidraw",
     "Attachment/Pasted image 20230720170411.png",
@@ -241,6 +229,7 @@
     "01 后端/04 框架/03 Spring Framework/Spring",
     "01 后端/04 框架/02 Mybatis/进阶",
     "01 后端/04 框架/02 Mybatis/基础操作",
+    "01 后端/04 框架/Vuejs",
     "Attachment/Pasted image 20230712152402.png",
     "Attachment/Pasted image 20230622161652.png",
     "Attachment/Pasted image 20230105002447.png",
