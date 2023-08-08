@@ -2,9 +2,12 @@
 # [[内存解析]]
 
 # Garbage Collected
+#gabagecollecter
 
 1. `System.gc()`
 2. Set object to null
+
+## Les algorithmes pour GC
 
 Mark-and-Sweep
 Copying

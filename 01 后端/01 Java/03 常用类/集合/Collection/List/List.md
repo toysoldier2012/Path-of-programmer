@@ -60,7 +60,7 @@ List<E> subList(int fromIndex, int toIndex)
 [[Collection#^65180d]]
 ```java
 //Consulter
-E get(int index) //O(1)
+E get(int index) //O(1) pour ArrayList, O(n) pour LinkedList
 
 int indexOf(Object o) //O(n)
 int lastIndexOf(Object o) //O(n)

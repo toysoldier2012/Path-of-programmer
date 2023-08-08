@@ -80,6 +80,7 @@ Arrays.stream(arr).forEach(System.out::println)
 ## 4. Objet
 
 ### 引用类别
+#reference #gabagecollecter
 
 #### 强引用
 
@@ -131,7 +132,7 @@ System.gc();
 - char 与 int 之间的转换
 需要注意的是，当将一个较大的整数赋值给`char`时，可能会发生截断。因为`char`是16位的，它只能表示0到65535范围内的整数值。如果赋值的整数超出了这个范围，将会发生截断，只保留低16位的值。
 
-# Autoboxing/unboxing
+# Autoboxing/unboxing/Wrapper
 
 ## Integer 
 #integer 

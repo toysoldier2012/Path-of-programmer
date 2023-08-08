@@ -6,6 +6,8 @@
 | [[TreeSet]]              | EnumSet                | ConcurrentSkipListSet         |
 | [[LinkedHashSet]]        |                        |                               |
 
+![[Pasted image 20230808122537.png]]
+
 # Critères
 
 - L'ordre et null accept selon l'implémentation

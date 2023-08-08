@@ -81,7 +81,6 @@ int forestCount = forestSpecies.size();
 
 #### Q 105. What is a problem with this code?
 
-
 ```java
 
 import java.util.ArrayList;

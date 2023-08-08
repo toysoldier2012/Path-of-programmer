@@ -24,7 +24,7 @@
 
 > [!question] Différence héritage et composition ? #heritage #composition 
 > - L'héritage est un relation is-a
-> - La composition est un relation has-a 
+> - La composition est un relation has-some
 
 > [!question] Peut-on Faire un override sur une méthode static ? #override #static 
 Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dernière appartient une classe mais pas un objet 
@@ -165,20 +165,4 @@ Gestion de la mémoire (les différents espaces mémoire …) le fonctionnement 
 
 La mémoire est géré automatiquement par JVM, l'allocation, l'utilisation et la libération par garbage collector. Il a plusieurs zone de mémoire, stack, heap, et method area
 
-### Stack
 
-- Chaque thread a un stack
-- Stack est pour sauvegarder les références, les variables locales, les valeurs retour, les paramètres de type primitif
-- Si le taille de stack est trop petit pour le besoin de traitement, alors une exception de type `StackOverflowError` apparait, comme qu'on a dans le N factoriel avec récursion.
-- Si JVM ne permet pas l'allocation de stack, alors une exception de type `OutOfMemoryError` apparait
-
-### Heap
-
-- Cette zone partage entre tous les threads
-- Elle stocke toutes les instances des objets, ainsi que les tableaux
-- Le garbage collector travaille dans cette zone, lors d'une objet avec aucune référence, GC va libérer son mémoire
-
-### Method area
-
-- Cette zone partage entre tous les threads
-- Elle stocke tous les éléments appartient à la classe.
