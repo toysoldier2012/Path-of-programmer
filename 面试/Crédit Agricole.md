@@ -8,3 +8,8 @@ Il est pour centraliser les différents processus dans une plateforme Big Data, 
 
 Un outil de gestion des données
 
+# Questions
+
+1. Frontend
+2. Agile
+3. Framework du Backend
