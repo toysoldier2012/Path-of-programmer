@@ -7,14 +7,16 @@
 ## 1. Type élémentaire/primitif
 #primitivedatatype
 
--  `byte`：1字节（8位），范围：-128 到 127 valeur par défaut 0
--  `short`：2字节（16位），范围：-32,768 到 32,767 valeur par défaut 0
--  `int`：4字节（32位），范围：-2,147,483,648 到 2,147,483,647, valeur par défaut 0
--  `long`：8字节（64位），范围：-9,223,372,036,854,775,808 到 9,223,372,036,854,775,807, valeur par défaut 0
--  `float`：4字节（32位），范围：IEEE 754单精度浮点数格式，可表示大约 ±1.4 x 10^-45 到 ±3.4 x 10^38 的值, valeur par défaut 0.0
-- `double`：8字节（64位），范围：IEEE 754双精度浮点数格式，可表示大约 ±4.9 x 10^-324 到 ±1.8 x 10^308 的值, valeur par défaut 0.0
--  `char`：2字节（16位），范围：Unicode 字符（0 到 65,535）, valeur par défaut  `\u000`
-- `boolean`：不定，通常被映射为1字节，可以表示 `true` 或 `false` 值，valeur par défaut `false`
+| Type    | Désignation                                   | Longueur | Valeurs                                    | Commentaires                                                           |
+| ------- | --------------------------------------------- | -------- | ------------------------------------------ | ---------------------------------------------------------------------- |
+| boolean | valeur logique : true ou false                | 1 bit    | true ou false                              | pas de conversion possible vers un autre type, valeur par défaut false |
+| byte    | octet signé                                   | 8 bits   | -128 à 127                                 |                                                                        |
+| short   | entier court signé                            | 16 bits  | -32768 à 32767                             |                                                                        |
+| char    | caractère Unicode                             | 16 bits  | `\u0000` à `\uFFFF`                        | entouré de cotes simples dans du code Java, valeur par défaut `\u0000` |
+| int     | entier signé                                  | 32 bits  | -2147483648 à 2147483647                   |                                                                        |
+| float   | virgule flottante simple précision (IEEE 754) | 32 bits  | 1.401e-045 à 3.40282e+038                  | avec un suffix f, par exemple 2f                                     |
+| double  | virgule flottante double précision (IEEE 754) | 64 bits  | 2.22507e-308 à 1.79769e+308                | avec un suffix d, par exemple 2d                                     | 
+| long    | entier long                                   | 64 bits  | -9223372036854775808 à 9223372036854775807 |                                                                        |
 
 > [!question] 
 > 请注意，这些长度是 Java 规范中定义的标准长度，但具体的实现可能会有所不同。此外，还有其他与平台相关的整数类型（如 `char` 的无符号版本 `char`）和大数字类型（如 `BigInteger` 和 `BigDecimal`），它们的长度可以根据具体的库和需求而变化。 
@@ -85,11 +87,11 @@ Arrays.stream(arr).forEach(System.out::println)
 #### 强引用
 
 平时创建的引用类型皆为强引用
-回收方式：当没有任何引用指向对象时，Garbage Collected（System.gc）会调用finalize方法
+回收方式：当没有任何引用指向对象时，Garbage Collected（System. Gc）会调用 finalize 方法
 
 #### 软引用
 
-通过SoftReference类包装
+通过 SoftReference 类包装
 
 ```Java
 SoftReference<byte[]> softReference = new SoftReference<>(new byte[1024 * 1024 * 10]);
@@ -101,7 +103,7 @@ softReference.get();
 
 #### 弱引用
 
-通过WeakReference类包装
+通过 WeakReference 类包装
 
 ```java
 WeakReference<Person> personWeakReference = new WeakReference<>(new Person());  
@@ -113,7 +115,7 @@ System.gc();
 
 #### 虚引用
 
-通过PhantomReference包装
+通过 PhantomReference 包装
 无法获取被包装对象
 堆外内存
 
@@ -129,8 +131,8 @@ System.gc();
 
 - [[String#^0e4978|基本类型与String的转换]]
 - [[List#^d57335|数组与List的转换]]
-- char 与 int 之间的转换
-需要注意的是，当将一个较大的整数赋值给`char`时，可能会发生截断。因为`char`是16位的，它只能表示0到65535范围内的整数值。如果赋值的整数超出了这个范围，将会发生截断，只保留低16位的值。
+- Char 与 int 之间的转换
+需要注意的是，当将一个较大的整数赋值给 `char` 时，可能会发生截断。因为 `char` 是 16 位的，它只能表示 0 到 65535 范围内的整数值。如果赋值的整数超出了这个范围，将会发生截断，只保留低 16 位的值。
 
 # Autoboxing/unboxing/Wrapper
 
@@ -142,5 +144,5 @@ System.gc();
 ## `BigDecimal` / `BigInteger`
 
 - La classe `BigDecimal` permet de réaliser de tels calculs du type numérique flottant, en permettant d'avoir le contrôle sur la précision
-- il est préférable d'utiliser le constructeur attendant en paramètre la valeur sous forme de chaîne de caractères.
+- Il est préférable d'utiliser le constructeur attendant en paramètre la valeur sous forme de chaîne de caractères.
 

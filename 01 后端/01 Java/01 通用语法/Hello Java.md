@@ -16,14 +16,16 @@
 # Les identifiants
 #identifier
 
-Les identifiants sont utilisés pour nommer des éléments du code source de Java, notamment les variables, les classes, les méthodes, les paramètres, les packages, les interfaces, les modules, les énumérations, les étiquettes. Ils sont sensibles à la casse.
+Les identifiants sont utilisés pour nommer des éléments du code source de Java, notamment les variables, les classes, les méthodes, les paramètres, les packages, les interfaces, les modules, les énumérations, les étiquettes. 
+
+**Ils sont sensibles à la casse.**
 
 ## Des normes de nommage
 
-- 类：首字母大写CamelCase
-- 方法：首字母小写camelCase
-- 变量名：小写camelcase
-- 包名：小写 com.package.name
+- MaClasse : est le nom d'une classe
+- main : est le nom d'une méthode
+- args : est le nom d'un paramètre
+- valeur : est le nom d'une variable locale
 
 ## Les mots réservés
 #keyword 
@@ -56,21 +58,6 @@ Les identifiants sont utilisés pour nommer des éléments du code source de Jav
 | uses                                         |         |         |         |
 | with                                         |         |         |         |
 
-## Les identifiants restreints
-
-| Java 9     | Java 10 | Java 13 | Java 16 |
-| ---------- | ------- | ------- | ------- |
-| exports    | var     | yield   | record  | 
-| module     |         |         |         |
-| open       |         |         |         |
-| opens      |         |         |         |
-| provides   |         |         |         |
-| requires   |         |         |         |
-| to         |         |         |         |
-| transitive |         |         |         |
-| uses       |         |         |         |
-| with       |         |         |        
-
 # Les commentaires
 #comment 
 
@@ -89,9 +76,7 @@ Les identifiants sont utilisés pour nommer des éléments du code source de Jav
 expr++ //incrément
 expr-- //Decrement
 ++expr --expr +expr -expr !expr
-*  /  %
-+ 
-- //Substraction
++ - *  /  %
 
 =  +=  -=  *=  /=  %=  ^=  |=  <<=  >>=  >>>= ->
 ```
@@ -118,7 +103,8 @@ expr-- //Decrement
 ```
 
 > [!attention] 
-> Lors d'une opération sur les opérandes de type différents, le compilateur détermine le type du résultat en prenant le type le plus précis des opérands.
+> Lors d'une opération sur les opérandes de type différents, le compilateur détermine le type du résultat en prenant le type le plus précis des opérandes.
+> Ex: int b = 5; short c = 1; int a = b + c;
 > 
 
 # Les structures de contrôles
@@ -129,7 +115,7 @@ expr-- //Decrement
 - if
 - switch
 	- la chaine de caractère ne soit pas null
-	- Si une instruction case ne contient pas de break, alors les traitements associées au case suivant sont exécutés
+	- **Si une instruction case ne contient pas de break, alors les traitements associées au case suivant sont exécutés. Cela permet d'exécuter les mêmes instructions pour plusieurs valeurs.**
 - l'opération ternaire
 
 ## Les boucles
@@ -140,12 +126,17 @@ expr-- //Decrement
 
 - for
 - while
-- foreach (for évoluée)
+- for-each (for évoluée)
 
 Les débranchement
+
 - break
 - continue
 
 # Syntactic sugar
 
+#todo 
+
 # 进制
+
+#todo 
