@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 后端/01 Java/01 通用语法/Hello Java.md",
+                "file": "01 后端/01 Java/01 通用语法/Variable.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 后端/01 Java/01 通用语法/Hello Java.md"
+                "file": "01 后端/01 Java/01 通用语法/Variable.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 后端/01 Java/01 通用语法/Hello Java.md",
+                "file": "01 后端/01 Java/01 通用语法/Variable.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 后端/01 Java/01 通用语法/Hello Java.md",
+                "file": "01 后端/01 Java/01 通用语法/Variable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,11 +186,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bb5e105dbe7fc22e",
+  "active": "f3c3386f218d6c07",
   "lastOpenFiles": [
+    "01 后端/01 Java/03 常用类/字符串/String.md",
     "01 后端/01 Java/01 通用语法/Variable.md",
     "01 后端/01 Java/01 通用语法/Hello Java.md",
-    "01 后端/01 Java/03 常用类/字符串/String.md",
     "01 后端/04 框架/03 Spring Framework/SpringBoot/Hello SpringBoot.md",
     "01 后端/04 框架/03 Spring Framework/SpringBoot",
     "01 后端/01 Java/02 面向对象/Classe.md",

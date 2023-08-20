@@ -87,11 +87,11 @@ Arrays.stream(arr).forEach(System.out::println)
 #### 强引用
 
 平时创建的引用类型皆为强引用
-回收方式：当没有任何引用指向对象时，Garbage Collected（System. Gc）会调用 finalize 方法
+回收方式：当没有任何引用指向对象时，Garbage Collected（`System.gc`）会调用 finalize 方法
 
 #### 软引用
 
-通过 SoftReference 类包装
+通过 `SoftReference` 类包装
 
 ```Java
 SoftReference<byte[]> softReference = new SoftReference<>(new byte[1024 * 1024 * 10]);
@@ -103,7 +103,7 @@ softReference.get();
 
 #### 弱引用
 
-通过 WeakReference 类包装
+通过 `WeakReference` 类包装
 
 ```java
 WeakReference<Person> personWeakReference = new WeakReference<>(new Person());  
@@ -115,7 +115,7 @@ System.gc();
 
 #### 虚引用
 
-通过 PhantomReference 包装
+通过 `PhantomReference` 包装
 无法获取被包装对象
 堆外内存
 
@@ -127,7 +127,12 @@ System.gc();
 
 ![[Pasted image 20230223220916.png]]
 
-# 转换
+# Comparaison
+
+对于 [[Classe#`equals()`|equals()]]，正常来说只要 new 了，就不是一个对象，equals 就返回 false
+但是 String 重写了 equals 方法，只比较内容
+
+# Transformer
 
 - [[String#^0e4978|基本类型与String的转换]]
 - [[List#^d57335|数组与List的转换]]

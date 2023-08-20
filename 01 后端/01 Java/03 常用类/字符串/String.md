@@ -73,9 +73,3 @@ String[] ass3 = ss3.split(" ");
 // 由于ss1 ss2 ss3是不同的字符串，ass1 ass2 ass3数组中的abc也引用不一样，不能用==对比
 System.out.println(ass1[0] == ass2[0]);//false
 ```
-
-
-# 比较
-
-对于 [[Classe#`equals()`|equals()]]，正常来说只要 new 了，就不是一个对象，equals 就返回 false
-但是 String 重写了 equals 方法，只比较内容
