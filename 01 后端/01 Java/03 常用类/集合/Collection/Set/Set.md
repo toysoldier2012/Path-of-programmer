@@ -48,3 +48,5 @@ boolean isEmpty()
 Iterator iterator()
 
 ```
+
+[[Conversion#^o0Jw6Izq]]

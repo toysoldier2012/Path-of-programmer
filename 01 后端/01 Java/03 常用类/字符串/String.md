@@ -1,5 +1,4 @@
-
-#string 
+#string
 
 # 特点
 
@@ -44,20 +43,7 @@ charAt()
 substring()
 ```
 
-# 转换
-^0e4978
-
-- 与基本数据类型，包装类的转换
-	- String --> 基本，`xxx.parceXxx()`
-	- 基本 --> String，`String.valueOf()`
-
-- 与 char 类型
-	- `toCharArray()`
-	- `String(char[])`
-
-- 与 byte 类型
-	- `getBytes()`
-	- `String(byte[])`
+## [[Conversion#^syNSg3FJ||Conversion]]
 
 # 特殊情况
 

@@ -107,21 +107,20 @@ unsortedList.sort(Comparator.comparing(String::toString))
 stream : unsortedList.stream().sorted((s1, s2) -> 	s1.compareTo(s2)).collect(Collectors.toList())
 ```
 
-## Transformer
-^d57335
+## Conversion
 
 ### 数组转 `List`
 
 1. 使用 `Arrays.asList()`
 
 ```Java
-ArrayList<T> arrayList = new ArrayList<T>(Arrays.asList(arrays));
+ArrayList<T> arrayList = new ArrayList<T>(Arrays.asList(array));
 ```
 
 不要只用
 
 ```Java
-List<T> list = Arrays.asList(arrays);
+List<T> list = Arrays.asList(array);
 ```
 
 因为 `asList()` 返回的列表的大小是固定的。事实上，返回的列表不是 `java.util.ArrayList`，而是定义在 `java.util.Arrays` 中一个私有静态类。我们知道 `ArrayList` 的实现本质上是一个数组，而 `asList()` 返回的列表是由原始数组支持的固定大小的列表。这种情况下，如果添加 ` add() ` 或删除 ` delete() ` 列表中的元素，程序会抛出异常 `UnsupportedOperationException`。
