@@ -27,15 +27,23 @@ Java中至少有三个线程:
 
 # Thread safe
 
-## 解决方式
+## Solution
 
-- `synchronized`
+- Le Mot clé `synchronized`
 #synchronized 
+
+Il permet de gérer l'accès concurrent aux variables et méthodes
 
 ```java
 synchronized(lock){}
 public synchronized void a(){}
 ```
+
+- `volatile` 
+#volatile 
+
+Il précise que la variable peut être changé par un périphérique ou de manière asynchrone.
+
 
 - `lock`
 #lock
@@ -131,9 +139,6 @@ lock.unlock();
 - es.submit 可以有返回值的执行任务，传入Callable实现类
 
 ### 优势
-
-
-
 
 
 

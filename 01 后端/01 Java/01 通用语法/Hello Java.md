@@ -22,10 +22,9 @@ Les identifiants sont utilisés pour nommer des éléments du code source de Jav
 
 ## Des normes de nommage
 
-- MaClasse : est le nom d'une classe
-- main : est le nom d'une méthode
-- args : est le nom d'un paramètre
-- valeur : est le nom d'une variable locale
+- `NameOfClass` : est le nom d'une classe
+- `nameOfMain` : est le nom d'une méthode
+- `nameOfValeur` : est le nom d'une variable locale
 
 ## Les mots réservés
 #keyword 

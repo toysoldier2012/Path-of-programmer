@@ -7,13 +7,17 @@ Définition des variables locales et du bloc d'instructions
 modificateurs type_retourné nom_méthode ( arg1, ... ) {... } 
 ```
 
-Les arguments sont passés par valeur : la méthode fait une copie de la variable qui lui est locale
+Si un objet o transmet sa variable d'instance v en paramètre à une méthode m, deux situations sont possibles :
 
-Lorsqu'un objet est transmis comme argument à une méthode, ce dernière reçoit une référence qui désigne l'emplacement mémoire d'origine et qui est une copie de la variable
+- Si v est une variable primitive alors elle est passée par valeur : il est impossible de la modifier dans m pour que v en retour contienne cette nouvelle valeur.
+- Si v est un objet alors m pourra modifier l'objet en utilisant une méthode de l'objet passé en paramètre.
 
-# Varargs(Les arguments variable)
+# Varargs (Les arguments variable)
+#varargs
 
-Elle utilise un notation `...` pour préciser une répétition d'un type d'argument, permet le passage d'un nombre indéfini de paramètres du type précisé, tous les paramètres passés sont traités comme un tableau
+Elle utilise un notation `...` pour préciser une répétition d'un type d'argument, permet le passage d'un nombre indéfini de paramètres du type précisé.
+
+Tous les paramètres passés sont traités comme un tableau.
 
 # Constructeur
 #constructor
