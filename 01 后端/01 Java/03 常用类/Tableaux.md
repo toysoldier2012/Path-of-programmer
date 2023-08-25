@@ -34,3 +34,13 @@ Arrays.stream(arr).forEach(System.out::println)
 ```
 
 - [[Hello Java#^6c83db|Boucle]]
+
+# [[Conversion#^Ll6DJAsT||Conversion]]
+
+## 1. Tableau à Stream
+
+```java
+Arrays.stream(array)
+```
+
+Que pour les types de `int[]`, `long[]`, `double[]`, ou `T extends Object[]` contenir les types boxed
