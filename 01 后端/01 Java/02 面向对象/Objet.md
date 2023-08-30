@@ -1,6 +1,4 @@
-
 #object
-
 
 # 引用类别
 #reference #gabagecollecter

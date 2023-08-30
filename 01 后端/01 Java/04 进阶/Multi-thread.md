@@ -44,7 +44,6 @@ public synchronized void a(){}
 
 Il précise que la variable peut être changé par un périphérique ou de manière asynchrone.
 
-
 - `lock`
 #lock
 
@@ -60,7 +59,6 @@ lock.unlock();
 #deadlock 
 
 - 线程安全单例模式
-
 
 # 线程通信
 

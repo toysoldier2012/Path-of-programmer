@@ -23,7 +23,7 @@ Les identifiants sont utilisés pour nommer des éléments du code source de Jav
 ## Des normes de nommage
 
 - `NameOfClass` : est le nom d'une classe
-- `nameOfMain` : est le nom d'une méthode
+- `nameOfMethod` : est le nom d'une méthode
 - `nameOfValeur` : est le nom d'une variable locale
 
 ## Les mots réservés

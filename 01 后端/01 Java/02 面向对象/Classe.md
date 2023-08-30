@@ -1,7 +1,5 @@
 #class 
 
-#todo 翻译
-
 # Sections
 
 1. Déclaration de donnée
@@ -12,7 +10,7 @@
 # Les Mots clés
 #keyword
 
-- [[Programmation orientée objet#^a41d5a|Les modificateurs d'accès]] 
+- [[Programmation orientée objet#1.1 Les modificateurs d'accès|Les modificateurs d'accès]] 
 
 - #static 
 
@@ -45,28 +43,13 @@ Une méthode native est une méthode implémenté en C++, il a la limite de la p
 
 # Comparaison
 
-## `==`
-
-- 对于基本数据类型来说，`==` 比较的是值。
-- 对于引用数据类型来说，`==` 比较的是对象的内存地址。
-
-## `equals()` 
+## `==` et `equals()` 
 #equals 
-
-- **类没有重写 `equals()` 方法** ：通过 `equals()` 比较该类的两个对象时，等价于通过 `==` 比较这两个对象，使用的默认是 `Object` 类 `equals()` 方法。
-- **类重写了 `equals()` 方法** ：一般我们都重写 `equals()` 方法来比较两个对象中的属性是否相等；若它们的属性相等，则返回 `true` (即，认为这两个对象相等)。
-- String 重写了 `equals()` 方法
 
 ## `hashCode()`
 #hashcode
 
-``` Java
-public native int hashCode();
-```
-
-相同的对象 `hashCode` 一定相同，反之不然，所以在将对象加入 `hashSet` 中时，先对比 `hashCode`，如果一致，再调用 `equals()` ，以确定对象是否真的一致
-
-如果重写 `equals()` 时没有重写 `hashCode()` 方法的话就可能会导致 `equals` 方法判断是相等的两个对象，`hashCode` 值却不相等。
+如果重写 `equals()` 时没有重写 `hashCode()` 方法的话，就可能会导致相等的两个对象，`hashCode` 值却不相等。
 
 # Classe spécifique
 
