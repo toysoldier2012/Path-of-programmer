@@ -33,14 +33,48 @@ int[] i1 = new int[]{1,2,3,4,5,7,8};
 Arrays.stream(arr).forEach(System.out::println)
 ```
 
-- [[Hello Java#^6c83db|Boucle]]
+- Foreach
 
 # [[Conversion#^Ll6DJAsT||Conversion]]
 
-## 1. Tableau à Stream
+## A stream
 
 ```java
 Arrays.stream(array)
 ```
 
-Que pour les types de `int[]`, `long[]`, `double[]`, ou `T extends Object[]` contenir les types boxed
+Que pour les types de `int[]`, `long[]`, `double[]`, ou `T extends Object[]`, aussi les types boxed
+
+## A list
+
+1. 使用 `Arrays.asList()`
+
+```Java
+ArrayList<T> arrayList = new ArrayList<T>(Arrays.asList(array));
+```
+
+不要只用
+
+```Java
+List<T> list = Arrays.asList(array);
+```
+
+因为 `asList()` 返回的列表的大小是固定的。事实上，返回的列表不是 `java.util.ArrayList`，而是定义在 `java.util.Arrays` 中一个私有静态类。我们知道 `ArrayList` 的实现本质上是一个数组，而 `asList()` 返回的列表是由原始数组支持的固定大小的列表。这种情况下，如果添加 ` add() ` 或删除 ` delete() ` 列表中的元素，程序会抛出异常 `UnsupportedOperationException`。
+
+2. 使用 `Collections.addAll()`
+
+```Java
+List<String> list2 = new ArrayList<String>(arrays.length);
+Collections.addAll(list2, arrays);
+```
+
+4. 使用 `for` 循环
+
+```Java
+String[] arrays = new String[]{"aa","bb","cc"};
+List<String> list = new ArrayList<String>();
+
+for(String str : arrays){
+	list.add(str);
+}
+```

@@ -1,6 +1,6 @@
 #java
 
-# [[Hello Java]]
+# [[Identifiant]]
 
 # [[Programmation orientée objet]]
 

@@ -47,6 +47,9 @@ substring()
 
 ## [[Conversion#^syNSg3FJ||Conversion]]
 
+### Type primitif
+
+`Xxxx.parseXxxx` n'existe pas dans `Character`
 # 特殊情况
 
 ``` Java
