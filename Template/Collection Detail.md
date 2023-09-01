@@ -13,22 +13,30 @@
 
 ## Méthode
 
+### Ajouter
+
 ```java
-//Ajouter
+
 
 ```
 
+### Supprimer
+
 ```java
-//Supprimer
+
 
 ```
 
+### Modifier
+
 ```java
-//Modifier
+
 
 ```
 
+### Consulter
+
 ```java
-//Consulter
+
 
 ```

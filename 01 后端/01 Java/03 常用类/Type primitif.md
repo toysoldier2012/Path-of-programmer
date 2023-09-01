@@ -8,18 +8,15 @@
 | char    | 16 bits  | `\u0000` à `\uFFFF`      | entouré de cotes simples dans du code Java, valeur par défaut `\u0000` |
 | int     | 32 bits  | -2147483648 à 2147483647 |                                                                        |
 | float   | 32 bits  |                          | avec un suffix F/f                                                     |
-| double  | 64 bits  |                          | sans suffix ou avec un suffix D/d                                      |
+| double*  | 64 bits  |                          | sans suffix ou avec un suffix D/d                                      |
 | long    | 64 bits  |                          | avec un suffix L/l                                                     |
 
-Trois valeur spéciaux:
-
+\* Trois valeur spéciaux:
 ```java
 Double.POSITIVE_INFINITY
 Double.NEGATIVE_INFINITY
 Double.NaN
 ```
-
-0/0 et `Math.sqrt(-1)` est `Double.NaN`
 
 ### Java 7
 
@@ -39,8 +36,24 @@ int maValeur = 0b1001110_10001011_01001101_01000101;
 long maxLong = 0x7fff_ffff_ffff_ffffL;
 ```
 
-# [[Conversion#^IgCnnw6f|Conversion]]
+# [[Conversion#^Q7jWSIwf|Conversion]]
 
+## Entre les types primitives
+
+La direction ne perd pas la précision
+
+`byte` -> `short` -> `int` -> `long`
+`char` -> `int`
+`int` -> `double`
+`float` -> `double`
+
+La direction peut-être perd la précision
+
+`int` -> `float`
+`long` -> `float`
+`long` -> `double`
+
+Dans l'autre direction, il faut un cast pour le conversion, et le précision va perdre, dans certains cas le résultat sera complement différent, ex. `(byte)300` est 44
 ## A String
 
 `String.valueOf()` accepte `boolean`, `char`, `double`, `float`, `int`, `long` et `Object`, pour `Object`, la valeur `Object.toString()` sera retourné.

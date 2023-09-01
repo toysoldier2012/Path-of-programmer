@@ -29,7 +29,7 @@
 | with                                         |         |         |         |
 
 
-### 1.1 Les modificateurs d'accès
+# Les modificateurs d'accès
 #visibility
 
 | Modifier           | Visibility                                       |
@@ -39,37 +39,41 @@
 | `protected`        | Classes dans la même package et les sous-classes |
 | `public`           | Partout                                          | 
 
-# Les Mots clés
-#keyword
-
-- [[Programmation orientée objet#1.1 Les modificateurs d'accès|Les modificateurs d'accès]] 
-
-- #static 
+- static 
 
 Elle ne sont définies qu'une seule fois, quel que soit le nombre d'objet instanciés de la class Non-static entity ne peut pas être utilisé dans static méthode
 
-- #final
+# `final`
 
-S'appliquer aux variable, les méthodes ou les classes
-- Le référence de variable ne peut plus être changé, mais pour les collections, les contenus est toujours modifiable, si on veut un collection unmodifiable, voir [[Collections#^a35227||Collections]]
-- Méthode ne peut plus réécrit
-- La sous classe est interdit pour une classe finale
+Les entités ne peuvent pas être changés
 
-- #instanceof 
+## Classe
+
+La sous classe est interdit pour une classe finale
+
+## Variable
+
+Le référence de variable ne peut plus être changé, mais pour les collections, les contenus est toujours modifiable, si on veut un collection unmodifiable, voir [[Collections#^a35227||Collections]]
+
+## Méthode
+
+Méthode ne peut plus réécrit
+
+# `instanceof` 
 
 Pour déterminer la classe d'un objet, voir aussi [[Variable#Conversion]] 
 
-- #this 
+- this 
 
 This est un instance d'un objet dans lequel il est utilisé
 	
-- #super
+- super
 
-- #synchronized 
+- synchronized 
 
-- #volatile 
+- volatile 
 
-- #native
+- native
 
 Une méthode native est une méthode implémenté en C++, il a la limite de la portabilité, mais avec une vitesse d'exécution plus rapide 
 

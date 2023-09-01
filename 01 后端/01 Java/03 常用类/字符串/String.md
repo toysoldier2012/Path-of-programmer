@@ -2,15 +2,8 @@
 
 # 特点
 
-- 类特性
-	- 不可被继承
-	- Comparable 接口
-	- Serializable 接口
-
-- 对象特性
-	- 不可变
-
-- String 重写了 `equals()` 方法，用于对比 String 的内容
+- String est immutable, mais partagé entre les threads 
+- La littérale de `String` est partagé, mais pas les strings obtenu par `+` et `substring`
 
 # 常用方法
 
@@ -20,19 +13,6 @@
 String.intern()
 ```
 
-## 删
-
-```Java
-
-```
-
-## 改
-
-```Java
-toUpperCase()
-toLowerCase()
-```
-
 ## 查
 
 ```Java
@@ -40,16 +20,41 @@ compareTo()
 // a value 0 if the argument string is equal to this string; 
 // a value less than 0 if this string is lexicographically less than the string argument; 
 // a value greater than 0 if this string is lexicographically greater than the string argument.
+
 length()
-charAt()
-substring()
+
+isEmpty()
+isBlank()
+
+equals()
+equalsIgnoreCase()
+
+startWith()
+endWith()
+
+indexOf()
+lastIndexOf()
 ```
 
 ## [[Conversion#^syNSg3FJ||Conversion]]
 
-### Type primitif
+```Java
+toUpperCase()
+toLowerCase()
+
+substring()
+charAt()
+replace()
+strip()
+
+join()
+repeat()
+```
+
+### Conversion entre les types primitives
 
 `Xxxx.parseXxxx` n'existe pas dans `Character`
+Avec un opération `+`, tous les autres types des opérantes vont convenir en `String`
 # 特殊情况
 
 ``` Java

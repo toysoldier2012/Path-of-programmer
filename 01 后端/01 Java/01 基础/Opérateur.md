@@ -1,19 +1,27 @@
 #operator 
 
-- Lors d'une opération sur les opérandes de type différents, le compilateur détermine le type du résultat en prenant le type le plus précis des opérandes. Ex: int b = 5; short c = 1; int a = b + c;
-- 
+- Lors d'une opération sur les opérandes des types différents, le compilateur détermine le type du résultat en prenant le type le plus précis des opérandes.
 
 # Types
 
 ## Les opérateurs arithmétiques
 
 ``` java
-expr++ //incrément
-expr-- //Decrement
-++expr --expr +expr -expr !expr
+expr++ ++expr //incrément
+expr-- --expr //Decrement
++expr -expr !expr
 + - *  /  %
 
-=  +=  -=  *=  /=  %=  ^=  |=  <<=  >>=  >>>= ->
+// Ex.
+int/0 //rapporte une exception
+0/0 
+Math.sqrt(-1) // = Double.NaN
+0.0/0 // = Double.POSITIVE_INFINITY
+
+=  +=  -=  *=  /=  %=  ^=  |=  <<=  >>=  >>>= 
+// Si le type de résultat d'un expression est différent que l'opérant, la cast se produit
+
+->
 ```
 
 ## Les opérateurs de bits
@@ -33,6 +41,44 @@ expr-- //Decrement
 
 ```java
 <  >  <=  >=  instanceof == !=
-&& ||
+&& || !
 ? :
+```
+
+## Switch
+
+- Le type de case doit être `int`, `String`, `Enum`
+- Le case ne soit pas null
+- Si une instruction case ne contient pas de break, alors les traitements associées au case suivant sont exécutés. Cela permet d'exécuter les mêmes instructions pour plusieurs valeurs.
+
+### Java 14
+
+```java
+switch(seasonCode) {
+	case 0 -> "Spring";
+	case 1 -> "Summer";
+	case 2 -> "Fall";
+	case 3 -> "Winter";
+	default -> "???";
+}
+```
+## [[Math]]
+
+# Le priorité des opérateurs
+
+```java
+[] . () //l'appel de méthode
+! ~ ++ -- +/*一元运算*/ -/*一元运算*/ ()/*cast*/ new
+* / %
++ -
+<< >> >>>
+< <= > >= instanceof
+== !=
+&
+^
+|
+&&
+||
+?:
+= += -= *= /= %= &= |= ^= <<= >>= >>>=
 ```
