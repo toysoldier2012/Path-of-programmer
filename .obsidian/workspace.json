@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/字符串/String block.md",
+                "file": "01 后端/01 Java/Quiz/Quizze 1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
       {
         "id": "2bbe0a8ab3625de1",
         "type": "tabs",
-        "dimension": 29.432878679109837,
+        "dimension": 29.43287867910984,
         "children": [
           {
             "id": "f3c3386f218d6c07",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/字符串/String block.md"
+                "file": "01 后端/01 Java/Quiz/Quizze 1.md"
               }
             }
           },
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/字符串/String block.md",
+                "file": "01 后端/01 Java/Quiz/Quizze 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 后端/01 Java/03 常用类/字符串/String block.md",
+                "file": "01 后端/01 Java/Quiz/Quizze 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +220,20 @@
   },
   "active": "d1553ff5ee7a62a0",
   "lastOpenFiles": [
+    "01 后端/01 Java/Quiz/Questions ouvertes.md",
+    "03 数据结构与算法/Top 150.md",
+    "03 数据结构与算法/Search.md",
+    "03 数据结构与算法/Algorithme.md",
+    "03 数据结构与算法/Sort/Sort.md",
+    "03 数据结构与算法/Sort/Bucket Sort.md",
+    "03 数据结构与算法/Data structure.md",
+    "03 数据结构与算法/Sort",
+    "03 数据结构与算法/Euclidean algorithm.md",
+    "03 数据结构与算法/Kadane's Algorithm.md",
+    "01 后端/01 Java/01 基础/Mot clé.md",
+    "01 后端/01 Java/03 常用类/Tableaux.md",
     "01 后端/01 Java/03 常用类/字符串/String.md",
+    "01 后端/01 Java/03 常用类/IO流.md",
     "01 后端/01 Java/03 常用类/字符串/String block.md",
     "01 后端/01 Java/03 常用类/字符串/StringBuilder.md",
     "Template/Collection Detail.md",
@@ -232,20 +245,8 @@
     "01 后端/01 Java/01 基础/Les structures de contrôles.md",
     "01 后端/01 Java/03 常用类/Type primitif.md",
     "01 后端/01 Java/03 常用类/Math.md",
-    "01 后端/01 Java/01 基础/Mot clé.md",
     "01 后端/01 Java/03 常用类/集合/Collections.md",
     "01 后端/01 Java/02 面向对象/Programmation orientée objet.md",
-    "01 后端/01 Java/01 基础/Identifiant.md",
-    "01 后端/01 Java/01 基础/Commentaire.md",
-    "01 后端/01 Java/02 面向对象/面向对象.md",
-    "01 后端/04 框架/02 Mybatis/基础操作/处理查询结果.md",
-    "01 后端/01 Java/Quiz/Quizze ？.md",
-    "01 后端/01 Java/02 面向对象/Module.md",
-    "01 后端/01 Java/04 进阶/Enumération.md",
-    "00 Inbox/Enumération.md",
-    "01 后端/01 Java/03 常用类/Tableaux.md",
-    "01 后端/04 框架/03 Spring Framework/Spring/Hello Spring.md",
-    "01 后端/01 Java/02 面向对象/Interface.md",
     "Sans titre 1.canvas",
     "01 后端/01 Java/02 面向对象/面向对象.canvas",
     "01 后端/01 Java/01 通用语法/Sans titre.canvas",
@@ -263,7 +264,6 @@
     "01 后端/04 框架/03 Spring Framework/Spring Boot",
     "01 后端/04 框架/03 Spring Framework/Spring",
     "01 后端/04 框架/02 Mybatis/进阶",
-    "01 后端/04 框架/02 Mybatis/基础操作",
     "Attachment/Pasted image 20230712152402.png",
     "Attachment/Pasted image 20230622161652.png",
     "Attachment/Pasted image 20230105002447.png",
