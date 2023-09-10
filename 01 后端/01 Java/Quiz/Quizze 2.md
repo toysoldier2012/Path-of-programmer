@@ -262,14 +262,9 @@ groucyButton.addActionListener(new ActionListener() {
 #### Q 67. What is a valid use of the hashCode() method?
 
 - [ ] encrypting user passwords
-- [x] deciding if two instances of a class are equal
-- [ ] enabling HashMap to find matches faster
+- [ ] deciding if two instances of a class are equal
+- [x] enabling HashMap to find matches faster
 - [ ] moving objects from a List to a HashMap
-
- 
-[Reference](https://www.baeldung.com/java-hashcode)
-> [!note] 
->  ?????????
 
 #### Q 68. What kind of relationship does "extends" denote?
 
@@ -555,7 +550,7 @@ class Main {
 ```
 
 - [x] It will not compile.
-- [ ] "HelloWorld!"
+- [ ] "Hello World!"
 - [ ] "hello"
 - [ ] ????
 
@@ -778,8 +773,8 @@ class Lambo extends Car {
 ```
 
 - [ ] neither
-- [x] both
-- [ ] overloading
+- [ ] both
+- [x] overloading
 - [ ] overriding
 > [!note] 
 >  
