@@ -13,10 +13,9 @@ expr-- --expr //Decrement
 + - *  /  %
 
 // Ex.
-int/0 //rapporte une exception
-0/0 
+int/0 //rapporte ArithmeticException
 Math.sqrt(-1) // = Double.NaN
-0.0/0 // = Double.POSITIVE_INFINITY
+0.0/0 //  = Double.NaN
 
 =  +=  -=  *=  /=  %=  ^=  |=  <<=  >>=  >>>= 
 // Si le type de résultat d'un expression est différent que l'opérant, la cast se produit

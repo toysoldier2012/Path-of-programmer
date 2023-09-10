@@ -61,36 +61,6 @@ https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/j
 - [x] double pi = 3.141;
 - [ ] float pi = 3.141;
 
-> [!note] 
-> **Reasoning:**
-> 
-The default Java type which Java will be using for a float variable will be double.
-So, even if you declare any variable as float, what the compiler has to actually do is to assign a double value to a float variable,
-which is not possible. So, to tell the compiler to treat this value as a float, that 'F' is used. 
-
-```java
-
-public class TestReal {
-
-    public static void main (String[] argv)
-
-    {
-
-      double pi = 3.14159265;       //accuracy up to 15 digits
-
-      float pi 2 = 3.141 F;           //accuracy up to 6-7 digits
-
-
-      System.out.println ("Pi=" + pi);
-
-      System.out.println ("Pi 2=" + pi 2);
-
-    }
-
-  }
-
-```
-
 
 #### Q 57. Use the magic power to cast a spell
 
@@ -151,8 +121,6 @@ static void swapsies(int a, int b) {
 - [ ] 10 5
 - [ ] 5 5
 
-> [!note] 
->  
 
 #### Q 60. What is the result of this code?
 
@@ -201,9 +169,6 @@ try {
 - [ ] `DIV`
 
 
-[Reference](http://www.cs.ukzn.ac.za/~hughm/java/intro/week2/21.html)
-
-
 #### Q 63. Which choice is a disadvantage of inheritance?
 
 - [ ] Overridden methods of the parent class cannot be reused.
@@ -211,7 +176,6 @@ try {
 - [ ] Classes related by inheritance are tightly coupled to each other.
 - [ ] The internal state of the parent class is accessible to its children.
 
-[Reference](http://erpbasic.blogspot.com/2012/01/inheritance-advantages-and.html#:~:text=Main%20disadvantage%20of%20using%20inheritance,used%20independent%20of%20each%20other.&text=4.,case%20of%20using%20that%20method.)
 
 #### Q 64. How would you declare and initialize an array of 10 ints?
 
@@ -246,9 +210,6 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] `groucyButton.addActionListener(() -> System.out.println("Press me one more time..."));`
 
 
-[Reference](https://www.codejava.net/java-core/the-java-language/java-8-lambda-listener-example)
-
-
 #### Q 66. Which functional interfaces does Java provide to serve as data types for lambda expressions?
 
 - [ ] Observer, Observable
@@ -274,9 +235,6 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] was-a
 
 
-[Reference](https://www.c-sharpcorner.com/UploadFile/3614a6/is-a-and-has-a-relationship-in-java/)
-
-
 #### Q 69. How do you force an object to be garbage collected?
 
 - [ ] Set object to null and call Runtime.gc()
@@ -285,19 +243,12 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] There is no way to force an object to be garbage collected
 
 
-[Reference](https://sematext.com/blog/java-garbage-collection/)
-
-
 #### Q 70. Java programmers commonly use design patterns. Some examples are the **\_**, which helps create instances of a class, the **\_**, which ensures that only one instance of a class can be created; and the **\_**, which allows for a group of algorithms to be interchangeable. #pattern
 
 - [x] static factory method; singleton; strategy pattern
 - [ ] strategy pattern; static factory method; singleton
 - [ ] creation pattern; singleton; prototype pattern
 - [ ] singleton; strategy pattern; static factory method
-
-> [!note] 
-> 复习一下其他设计模式
-> 
 
 
 #### Q 71. Using Java's Reflection API, you can use \_ to get the name of a class and \_ to retrieve an array of its methods.
@@ -315,8 +266,7 @@ groucyButton.addActionListener(new ActionListener() {
 - [x] `String a -> false;`
 - [ ] `(String a) -> false;`
 
-> [!note] 
->  
+
 #### Q 73. Which access modifier makes variables and methods visible only in the class where they are declared?
 
 - [ ] public
@@ -380,9 +330,6 @@ public class Duck {
 - [ ] `-`
 
 
-[Reference](https://www.techiedelight.com/concatenate-two-strings-java/)
-
-
 #### Q 79. What is the value of myCharacter after line 3 is run?
 
 
@@ -405,6 +352,7 @@ public class Duck {
 - [x] e
 - [ ] i
 
+
 #### Q 80. When should you use a static method?
 
 - [ ] when your method is related to the object's characteristics
@@ -420,8 +368,6 @@ public class Duck {
 - [x] pass by value
 - [ ] API call
 
-> [!note] 
->  
 
 #### Q 82. In Java, what is the scope of a method's argument or parameter?
 
@@ -517,8 +463,6 @@ class Main {
 - [ ] falsetrue
 - [ ] truefalse
 
-> [!note] 
->  
 
 #### Q 86. Which code snippet is valid?
 
@@ -672,9 +616,6 @@ public class Main {
 - [x] `employees.stream().map(Employee::getName).collect(Collectors.toList());`
 - [ ] `employees.stream().collect((e) -> e.getName());`
 
-> [!note] 
-> 
-
 
 #### Q 96. This code does not compile. What needs to be changed so that it does?
 
@@ -776,8 +717,7 @@ class Lambo extends Car {
 - [ ] both
 - [x] overloading
 - [ ] overriding
-> [!note] 
->  
+
 
 #### Q 100. Which choice is the best data type for working with money in Java?
 
@@ -786,5 +726,3 @@ class Lambo extends Car {
 - [ ] double
 - [x] BigDecimal
 
-
-[Reference](https://www.scaler.com/topics/java/primitive-data-types/#types-of-primitive-data-types-in-java)
