@@ -345,9 +345,6 @@ class Main {
 - [ ] a negative integer value
 - [ ] "12345100000"
 
-> [!note] 
-> int 32 位，大概 10 位数
-
 
 ### Q 14. What is the output of this code? #string 
 
@@ -500,12 +497,9 @@ public class Jedi {
 ### Q 24. Which statement is **NOT** true? #anonymousclass
 
 - [ ] An anonymous class may specify an abstract base class as its base type.
-- [ ] An anonymous class does not require a zero-argument constructor.
+- [x] An anonymous class requires a zero-argument constructor.
 - [ ] An anonymous class may specify an interface as its base type.
 - [ ] An anonymous class may specify both an abstract class and interface as base types.
-
-> [!note] 
->  An anonymous class does not require a zero-argument constructor. is true
 
 
 ### Q 25. What will this program print out to the console when executed? #linkedlist
