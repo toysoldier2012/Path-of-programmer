@@ -73,10 +73,12 @@ ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig
 	@Controller("xxx")
 	@Service("xxx")
 	@Repository("xxx")  
-	
+
+@Lazy
 @Scope
 ```
 
+- `@Scope` a deux options `ConfigurableBeanFactory.SCOPE_SINGLETON` et `ConfigurableBeanFactory.SCOPE_PROTOTYPE`
 ### Pour DI
 
 ``` java
@@ -90,7 +92,6 @@ ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig
 - `@Autowired` réalise DI par `byType
 - `@Autowired` peut être sur paramètres, setter, constructeur, 形参
 - 如果只有一个有参构造函数，可以不加 `@Autowired`
-- `@Qualifier` utilise l'ID d'un Bean spécifique pour DI dans le Bean actuel
 
 ```java
 @Reasouce
@@ -108,4 +109,3 @@ ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig
 >```@Bean```
 >- Définir le bean tier
 Créer un méthode qui renvoie le bean, puis ajouter annotation 
-

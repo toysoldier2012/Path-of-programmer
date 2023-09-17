@@ -6,11 +6,11 @@
 
 **Dependency injection**, c'est un relation entre les Beans
 
-# [[DI par XML]]
+~~# [[DI par XML]]~~
 
-# [[Autowiring]]
+~~# [[Autowiring]]~~
 
-# Lifecycle
+# Life cycle
 
 Implémenter l'interface `InitializingBean` et `DisposableBean` pour l'initialisation et la destruction.
 Ordre est suivante:

@@ -1,7 +1,7 @@
 
 # 基本步骤
 
-1. 引入父包
+~~1. 引入父包 (non néssensaire)~~
 
 ```xml
 <parent>  
@@ -68,6 +68,10 @@ public class HelloController {
 }
 ```
 
+Ou
+
+Créer un projet par Spring Initializr
+
 # 基本特性
 
 ## 1. 简化整合
@@ -79,6 +83,7 @@ public class HelloController {
 集中管理配置文件
 `reasources/application.properties`
 配置基本都有默认值
+[[properties]]
 
 ## 3. 简化开发
 
