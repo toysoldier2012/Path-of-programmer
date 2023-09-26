@@ -11,7 +11,7 @@ Il est important de fournir une formation et un accompagnement pour aider le nou
 
 1. **Explication des concepts de base :** Commencez par expliquer les concepts de base de Git, notamment ce qu'est un système de contrôle de version, ce qu'est un dépôt (repository), ce qu'est un commit, et comment fonctionne la gestion des versions avec Git.
     
-2. **Installation de Git :** Assurez-vous que le nouveau développeur a Git installé sur son ordinateur. Vous pouvez fournir des instructions détaillées pour l'installation, en fonction du système d'exploitation qu'il utilise.
+2. **Installation de Git :** Assurez vous que le nouveau développeur a Git installé sur son ordinateur. Vous pouvez fournir des instructions détaillées pour l'installation, en fonction du système d'exploitation qu'il utilise.
     
 3. **Configuration initiale :** Aidez le développeur à configurer son nom d'utilisateur et son adresse e-mail dans Git en utilisant les commandes `git config`.
     
@@ -23,19 +23,11 @@ Il est important de fournir une formation et un accompagnement pour aider le nou
     
 7. **Gestion des branches :** Introduisez le concept de branches en expliquant comment créer, basculer entre, fusionner et supprimer des branches avec Git.
     
-8. **Utilisation de GitHub (ou autre plateforme Git) :** Si votre équipe utilise une plateforme Git comme GitHub, GitLab ou Bitbucket, expliquez comment créer un dépôt distant, le lier au dépôt local et pousser les commits vers le dépôt distant.
-    
 9. **Résolution de conflits :** Montrez comment résoudre les conflits de fusion (merge conflicts) qui peuvent survenir lorsque plusieurs développeurs travaillent sur le même fichier en même temps.
     
 10. **Collaboration :** Expliquez comment collaborer avec d'autres membres de l'équipe en utilisant Git. Cela peut inclure la clonage de dépôts existants, la récupération des mises à jour depuis le dépôt distant (pull), et l'envoi des mises à jour (push).
-    
-11. **Utilisation d'outils Git :** Introduisez des outils graphiques Git (comme GitKraken, Sourcetree, etc.) qui peuvent faciliter l'utilisation de Git, en particulier pour les débutants.
-    
+
 12. **Exemples pratiques :** Fournissez des exemples pratiques et des exercices pour que le nouveau développeur puisse appliquer ce qu'il a appris.
-    
-13. **Soutien continu :** Assurez-vous que le nouveau développeur sait qu'il peut poser des questions et demander de l'aide à tout moment. Encouragez la pratique et la compréhension continue de Git.
-    
-14. **Révision régulière :** Planifiez des révisions régulières pour vous assurer que le développeur progresse et maîtrise Git au fil du temps.
 
 ### Qu’est ce qui te plait dans le dev ?
 
