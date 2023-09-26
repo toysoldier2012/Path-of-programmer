@@ -11,10 +11,12 @@
             "id": "6727dcc820522bb0",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "03 数据结构与算法/Sort/Sort.md",
-                "staged": true
+                "file": "面试/面试.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -99,7 +101,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "面试/面试.md"
+              }
             }
           },
           {
@@ -108,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "面试/面试.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "面试/面试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,6 +200,13 @@
   },
   "active": "6727dcc820522bb0",
   "lastOpenFiles": [
+    "01 后端/01 Java/Quiz/Questions ouvertes.md",
+    "面试/面试.md",
+    "面试/Finance.md",
+    "04 模式与思想/TDD.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/Set.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
+    "01 后端/01 Java/03 常用类/集合/Collection/Set/HashSet.md",
     "01 后端/01 Java/02 面向对象/Conversion.md",
     "01 后端/01 Java/03 常用类/Type primitif.md",
     "01 后端/01 Java/03 常用类/集合/Collections.md",
@@ -214,13 +227,6 @@
     "01 后端/01 Java/02 面向对象/面向对象.md",
     "01 后端/01 Java/02 面向对象/Variable.md",
     "01 后端/01 Java/02 面向对象/Package.md",
-    "01 后端/01 Java/02 面向对象/Interface.md",
-    "01 后端/01 Java/01 基础/Opérateur.md",
-    "01 后端/01 Java/01 基础/Mot clé.md",
-    "01 后端/01 Java/01 基础/Les structures de contrôles.md",
-    "01 后端/01 Java/01 基础/JDK.md",
-    "01 后端/01 Java/01 基础/La compilation et l'exécution.md",
-    "01 后端/01 Java/01 基础/Commentaire.md",
     "01 后端/01 Java/01 基础",
     "Type élémentaire",
     "Sans titre.canvas",
