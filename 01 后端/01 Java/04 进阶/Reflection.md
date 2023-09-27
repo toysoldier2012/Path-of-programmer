@@ -100,4 +100,4 @@ public Package getPackage()
 # 动态代理
 #proxy 
 
-[[Hello AOP]]
+[[AOP]]
