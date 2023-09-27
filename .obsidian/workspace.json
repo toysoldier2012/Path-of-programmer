@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试.md",
+                "file": "01 后端/04 框架/03 Spring Framework/SpringBoot/Hello SpringBoot.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7886d7c4fe38bdd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Inbox/Sans titre.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/面试.md"
+                "file": "00 Inbox/Sans titre.md"
               }
             }
           },
@@ -112,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/面试.md",
+                "file": "00 Inbox/Sans titre.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/面试.md",
+                "file": "00 Inbox/Sans titre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,11 +212,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6727dcc820522bb0",
+  "active": "7886d7c4fe38bdd2",
   "lastOpenFiles": [
-    "01 后端/01 Java/Quiz/Questions ouvertes.md",
+    "01 后端/01 Java/04 进阶/Stream/Stream.md",
+    "00 Inbox/Sans titre.md",
+    "01 后端/04 框架/03 Spring Framework/SpringBoot/Hello SpringBoot.md",
+    "01 后端/04 框架/03 Spring Framework/Spring/Spring.md",
+    "01 后端/04 框架/03 Spring Framework/Spring/Hello Spring.md",
+    "01 后端/04 框架/03 Spring Framework/Spring/Bean/DI par XML.md",
+    "01 后端/04 框架/03 Spring Framework/Spring/Bean/Bean.md",
+    "01 后端/04 框架/03 Spring Framework/Spring/Bean/Autowiring.md",
+    "01 后端/04 框架/03 Spring Framework/Spring/AOP/Hello AOP.md",
+    "01 后端/04 框架/Framework.md",
+    "01 后端/04 框架/Questions ouvertes.md",
     "面试/面试.md",
     "面试/Finance.md",
+    "01 后端/01 Java/Quiz/Questions ouvertes.md",
     "04 模式与思想/TDD.md",
     "01 后端/01 Java/03 常用类/集合/Collection/Set/Set.md",
     "01 后端/01 Java/03 常用类/集合/Collection/Collection.md",
@@ -215,18 +240,7 @@
     "01 后端/01 Java/03 常用类/集合/Map/HashMap.md",
     "01 后端/01 Java/03 常用类/集合/Map/Map.md",
     "03 数据结构与算法/Sort/Sort.md",
-    "03 数据结构与算法/Algorithme.md",
-    "03 数据结构与算法/Data structure.md",
-    "03 数据结构与算法/Search.md",
-    "03 数据结构与算法/Kadane's Algorithm.md",
-    "03 数据结构与算法/Euclidean algorithm.md",
-    "03 数据结构与算法/Sort/Bucket Sort.md",
     "03 数据结构与算法/Sort",
-    "01 后端/01 Java/03 常用类/Objet.md",
-    "01 后端/01 Java/03 常用类/Math.md",
-    "01 后端/01 Java/02 面向对象/面向对象.md",
-    "01 后端/01 Java/02 面向对象/Variable.md",
-    "01 后端/01 Java/02 面向对象/Package.md",
     "01 后端/01 Java/01 基础",
     "Type élémentaire",
     "Sans titre.canvas",
