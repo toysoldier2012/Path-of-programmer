@@ -39,4 +39,12 @@ assertTimeoutPreemptively();
 @TestMethodOrder(MethodOrderer.MethodName.class)
 //DisplayName, Methodname, Random, OrderAnnotation
 @Order
+
+@Disabled
+@EnabledOnOs
+//OS.WINDOWS, OS.LINUX, OS.MAC
+@EnabledOnJre(JRE.JAVA_17)
+@EnabledForJreRange(min=JRE.JAVA_13, max=JRE.JAVA_17)
+@EnabledIfSystemProperty(name="", match="")
+@EnabledIfEnvironmentVariable(name="", match="")
 ```
