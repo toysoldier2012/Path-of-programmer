@@ -1,9 +1,5 @@
-Test
-Mockito  
 
-Tests de Non Régression
-Test end to end
-Test fonctionel
+Mockito  
 
 Spring framework
 Spring boot
