@@ -1,7 +1,7 @@
 Test
-Mockito 
-Spy 
+Mockito  
 JUnit 
+
 Tests de Non Régression
 Test end to end
 Test fonctionel

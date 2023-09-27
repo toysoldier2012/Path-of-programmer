@@ -74,5 +74,45 @@ mvn archetype:generate
 ```
 
 # [[核心概念]]
+## POM
+#pom 
+
+Project Object Model，项目对象模型
+
+## 项目生命周期
+
+- Clean
+	- Pre-clean
+	- Clean
+	- Post-clean
+- Site
+	- Pre-site
+	- Site
+	- Post-site
+	- Deploy-site	
+- Default
+	- Validate
+	- Generate-sources
+	- Process-sources
+	- Generate-resources
+	- Process-resources
+	- Compile
+	- Generate-test-sources
+	- Process-test-sources
+	- Generate-test-resources
+	- Process-test-resources
+	- Test-compile
+	- Process-test-classes
+	- Test
+	- Prepare-package
+	- Package
+	- Pre-integration-test
+	- Integration-test
+	- Verify
+	- Install
+	- Deploy
+
+## 聚合工程
+#todo 
 
 # [[单一架构案例]]

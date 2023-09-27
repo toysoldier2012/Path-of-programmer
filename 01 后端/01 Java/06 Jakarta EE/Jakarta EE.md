@@ -4,12 +4,15 @@
 Jakarta EE (Java EE ou J2EE) 是一种技术规范的总和
 包含JDBC, JNDI, Spring(EJB), RMI, AJAX(JSP), Servlet, XML, JMS, Java IDL, JTS, JTA, JavaMail, JAF
 
-# 1. [[JDBC]]
+# [[JDBC]]
+#jdbc
 
-# 2. [[Servlet]]
+# [[Servlet]]
+#servlet
 
-# 3. [[Filter]]
+Une norme de Java pour développer le web dynamique  
+C'est une interface
 
-# 4. [[Listener]]
+## [[Filter]]
 
-~~# 5. [[JSP]]~~（这是个过时的技术）
+## [[Listener]]

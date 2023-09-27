@@ -1,6 +1,6 @@
 #junite 
 
-`assertEquals` 是一个 JUnit 中的方法，用于比较两个值是否相等。它的语法如下：
+`assertEquals`
 
 ``` java
 assertEquals(expected, actual);

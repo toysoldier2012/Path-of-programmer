@@ -1,6 +1,10 @@
 
 # [[Maven]]
+#maven
 
+- Maven permet de mieux **structurer** le projet Java dans son life-cycle, **développer, complir, tester, deployer** etc.
+- L'ensemble du projet est géré à partir d'un seul fichier : le pom.xml, qui représente **toutes les informations liées au projet** (le nom, l'auteur, la version du projet etc.) et aussi les « **dépendances** » du projet.
+- Maven peut aussi télécharger et mettre à jours ces dépendances Jars à partir du son répertoire
 # [[Mybatis]]
 
 # [[Spring]]
@@ -58,3 +62,8 @@ FATAL > ERROR > WARN > INFO > DEBUG
 
 # [[Vuejs]]
 
+
+
+Thymeleaf
+
+Log
