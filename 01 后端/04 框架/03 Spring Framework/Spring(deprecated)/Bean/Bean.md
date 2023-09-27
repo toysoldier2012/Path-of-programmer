@@ -6,9 +6,9 @@
 
 **Dependency injection**, c'est un relation entre les Beans
 
-~~# [[DI par XML]]~~
+~~# [[01 后端/04 框架/03 Spring Framework/Spring(deprecated)/Bean/DI par XML]]~~
 
-~~# [[Autowiring]]~~
+~~# [[01 后端/04 框架/03 Spring Framework/Spring(deprecated)/Bean/Autowiring]]~~
 
 
 # Factory mode

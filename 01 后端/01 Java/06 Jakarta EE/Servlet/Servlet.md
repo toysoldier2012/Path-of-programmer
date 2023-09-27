@@ -1,9 +1,4 @@
-
-> [!question] 
-> **Q: C'est quoi Servlet** #D1 
-> 
-> Une norme de Java pour développer le web dynamique
-> C'est une interface 
+#servlet 
 
 # Hello Servlet
 
