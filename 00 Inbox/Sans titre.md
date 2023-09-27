@@ -1,6 +1,5 @@
 Test
 Mockito  
-JUnit 
 
 Tests de Non Régression
 Test end to end

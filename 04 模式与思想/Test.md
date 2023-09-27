@@ -16,6 +16,14 @@ Une test automatiquement qui pour vérifier les différents composant d'un syst�
 # Test fonctionnel
 #featuretest
 
+Qui se concentre sur la validation du comportement fonctionnel d'une application ou d'un système informatique.
+
+Selenum/TestComplete
+
+# Test de non régression
+
+Pour but de s’assurer que les modifications et évolutions effectuées par les développeurs lors du dernier sprint n’ont pas entrainé d’effet de bord, en altérant les parties du code non modifiées. Ils doivent être lancés à chaque livraison.
+
 # Test end to end
 #e2etest
 
