@@ -7,7 +7,15 @@
 - Maven peut aussi télécharger et mettre à jours ces dépendances Jars à partir du son répertoire
 # [[Mybatis]]
 
-# [[Spring]]
+# Spring frameworks
+
+## Spring Core
+
+### [[Dependency injection]]
+
+### [[Inversion of Control]]
+
+## Spring Boot
 
 # Log4j
 

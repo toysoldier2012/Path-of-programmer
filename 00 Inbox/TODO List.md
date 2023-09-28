@@ -14,3 +14,5 @@ Oauth 2
 
 Jenkins
 Sonar
+
+Kafka

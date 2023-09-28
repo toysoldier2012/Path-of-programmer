@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6727dcc820522bb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 后端/04 框架/Spring Framework/SpringBoot/Hello SpringBoot.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7886d7c4fe38bdd2",
             "type": "leaf",
             "state": {
@@ -30,6 +17,17 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "1c0d96b1234d8992",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "00 Inbox/Plugins settings/Easy typing.md",
+                "staged": false
               }
             }
           }
@@ -115,9 +113,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "01 后端/04 框架/Spring Framework/SpringBoot/Hello SpringBoot.md"
-              }
+              "state": {}
             }
           },
           {
@@ -126,7 +122,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 后端/04 框架/Spring Framework/SpringBoot/Hello SpringBoot.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +138,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 后端/04 框架/Spring Framework/SpringBoot/Hello SpringBoot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,8 +206,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f3c3386f218d6c07",
+  "active": "1c0d96b1234d8992",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "01 后端/04 框架/Spring Framework/SpringBoot/Hello SpringBoot.md",
+    "面试/Question ouverte.md",
+    "Attachment/Pasted image 20230926205129.png",
+    "02 前端/Vuejs/Vuejs.md",
+    "02 前端/Vuejs",
+    "01 后端/04 框架/Hibernate/Hibernate.md",
+    "01 后端/04 框架/Hibernate",
+    "01 后端/04 框架/03 Spring Framework/SpringBoot/Hello SpringBoot.md",
+    "01 后端/04 框架/03 Spring Framework/Spring Core/Inversion of Control.md",
+    "01 后端/04 框架/03 Spring Framework/Spring Core/Dependency injection.md",
+    "01 后端/04 框架/03 Spring Framework/Spring Core/Bean.md",
+    "01 后端/04 框架/03 Spring Framework/Spring Core/AOP.md",
+    "01 后端/04 框架/03 Spring Framework/SpringBoot",
+    "01 后端/04 框架/03 Spring Framework/Spring Core",
+    "01 后端/04 框架/03 Spring Framework",
+    "01 后端/01 Java/04 进阶/JPA/JPA.md",
+    "01 后端/01 Java/04 进阶/JPA",
+    "01 后端/01 Java/03 常用类/集合/Map/HashTable.md",
+    "00 Inbox/Plugins settings/Style settings.md",
+    "00 Inbox/Plugins settings/Easy typing.md",
+    "00 Inbox/Plugins settings",
     "04 模式与思想/TDD.md",
     "04 模式与思想/Test.md",
     "01 后端/04 框架/JUnit.md",
@@ -226,40 +242,18 @@
     "01 后端/01 Java/06 Jakarta EE/Servlet/Servlet.md",
     "01 后端/01 Java/06 Jakarta EE/Servlet/Filter.md",
     "01 后端/01 Java/06 Jakarta EE/Servlet/Listener.md",
-    "面试/面试.md",
-    "01 后端/01 Java/06 Jakarta EE/JSP.md",
-    "面试/Finance.md",
-    "01 后端/01 Java/03 常用类/Type primitif.md",
-    "面试/Crédit Agricole.md",
-    "01 后端/04 框架/Questions ouvertes.md",
-    "00 Inbox/TestNG/TestNG.md",
-    "00 Inbox/Easy Typing.md",
-    "01 后端/04 框架/Vuejs.md",
-    "01 后端/04 框架/Mybatis/Mybatis.md",
-    "01 后端/04 框架/Maven.md",
-    "01 后端/04 框架/01 Maven/单一架构案例.md",
-    "01 后端/04 框架/01 Maven/核心概念.md",
-    "01 后端/04 框架/Mockito.md",
     "03 数据结构与算法/Sort",
     "01 后端/01 Java/01 基础",
     "Type élémentaire",
     "Sans titre.canvas",
     "Attachment/Pasted image 20230808122537.png",
-    "images",
     "Attachment/Pasted image 20230803163811.png",
     "Attachment/Pasted image 20230803163620.png",
     "Attachment/Pasted image 20230223225441.png",
-    "Excalidraw",
     "Attachment/Pasted image 20230720170411.png",
-    "04 模式与思想",
-    "03 数据结构与算法",
-    "01 后端/04 框架/Spring Framework/Spring/AOP",
-    "01 后端/04 框架/Spring Framework/Spring/Bean",
-    "01 后端/04 框架/Spring Framework/SpringBoot",
     "Attachment/Pasted image 20230712152402.png",
     "Attachment/Pasted image 20230622161652.png",
     "Attachment/Pasted image 20230105002447.png",
-    "Attachment/Pasted image 20230618224915.png",
-    "Attachment/Pasted image 20230419214403.png"
+    "Attachment/Pasted image 20230618224915.png"
   ]
 }
