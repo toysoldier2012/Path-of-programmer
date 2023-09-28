@@ -73,7 +73,7 @@ mvn archetype:generate
 </project>
 ```
 
-# [[核心概念]]
+# 核心概念
 ## POM
 #pom 
 
@@ -114,5 +114,3 @@ Project Object Model，项目对象模型
 
 ## 聚合工程
 #todo 
-
-# [[单一架构案例]]
