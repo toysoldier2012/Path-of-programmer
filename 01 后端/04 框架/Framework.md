@@ -15,6 +15,8 @@
 
 ### [[Inversion of Control]]
 
+[[AOP]]
+
 ## Spring Boot
 
 # Log4j
