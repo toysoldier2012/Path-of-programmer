@@ -96,6 +96,8 @@ lock.unlock();
 - `stop()`
 - `sleep()`
 - `isAlive()`
+- `wait()`
+- `notify/notifyAll()`
 
 ## 2. Runnable接口
 
