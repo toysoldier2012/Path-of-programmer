@@ -24,6 +24,21 @@ Java中至少有三个线程:
 - TIMED_WAITING
 - TERMINATED
 
+# Deamon
+#deamon
+
+# Priorité
+
+- 时间片（同优先级）
+- 抢占式
+	- 优先级设置
+		优先级只代表抢占概率
+- 常量
+	- MAX_PRIORITY
+	- MIN_PRIORITY
+	- NORMAL_PRIORITY
+- `setPriority()/getPriority(int p)`
+
 
 # Thread safe
 
@@ -65,17 +80,7 @@ lock.unlock();
 - wait()与notify/notifyAll()方法
 	- 通过 monitor 控制阻塞/释放
 
-# 线程调度
 
-- 时间片（同优先级）
-- 抢占式
-	- 优先级设置
-		优先级只代表抢占概率
-- 常量
-	- MAX_PRIORITY
-	- MIN_PRIORITY
-	- NORMAL_PRIORITY
-- `setPriority()/getPriority(int p)`
 
 # 创建
 
