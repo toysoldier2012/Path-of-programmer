@@ -24,6 +24,6 @@ L'interface qui avec qu'une seul méthode abstract est functional interface
 
 没有输入，在方法中创建对象并返回
 
-5. Operatiors
+## 5. Operator
 # 常用函数式接口的默认方法
 
