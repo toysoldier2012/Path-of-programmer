@@ -1,5 +1,7 @@
 #functionalinterface
 
+L'interface qui avec qu'une seul méthode abstract est functional interface
+
 # 常用函数式接口
 
 ## 1. Consumer 消费接口
@@ -22,5 +24,6 @@
 
 没有输入，在方法中创建对象并返回
 
+5. Operatiors
 # 常用函数式接口的默认方法
 
