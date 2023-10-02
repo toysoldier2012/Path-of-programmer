@@ -2,18 +2,74 @@
 
 #todo 翻译
 
-# 基本概念
+# Base
 
-#todo 程序，进程与线程
+Program, Process, Thread
 
 Java中至少有三个线程: 
 
 - main线程
 - gc线程
 - 异常处理线程
- 
-#todo 并行与并发
 
+# Création
+
+## 1. Thread 类
+
+1. 继承 Thread
+2. 重写 run 方法
+3. Lancer la méthode start
+
+## 2. `Runnable` 接口
+
+1. 实现接口
+2. 重写 run 方法
+3. 创建实现类对象
+4. 创建 Thread 实例，传入实现类实例
+5. Lancer la méthode start
+
+## 3. `Callable` 接口
+
+1. 实现接口
+2. 重写 call 方法
+3. 创建 Callable 实现类对象
+4. 创建 FutureTask 对象，传入 Callable 实现类对象
+5. 创建 Thread 实例，传入 FutureTask 对象
+
+### 优势
+
+- 每个线程都可以有返回值
+- 可以抛出异常
+- 支持泛型
+
+## 4. 线程池
+
+1. 创建线程池 `ExecutorService es = Executors.newFixedThreadPool(10)`
+
+- `Executors` 是一个生成不同线程池的工具类
+- `newFixedThreadPool` 固定数量线程的线程池
+- `newCachedThreadPool` 根据需要创建线程的线程池
+- `newScheduledThreadPool` 延迟/定期执行现成的线程池
+- `newSingleThreadExecutor` 只有一个线程的线程池
+
+2. 创建 `public Class Thread1 implements Runnable`
+
+3. 执行
+
+- Es.Execute (new Thread 1 ());
+- Es. Submit 可以有返回值的执行任务，传入 Callable 实现类
+
+## 常用方法
+
+- `start()`
+- `run()`
+- `currentThread()`
+- `getName` / `setName()`
+- `yield()`  让权，不是阻塞
+- `join()`  阻塞
+- `stop()`
+- `sleep()`
+- `isAlive()`
 
 ## 线程生命周期
 
@@ -24,10 +80,10 @@ Java中至少有三个线程:
 - TIMED_WAITING
 - TERMINATED
 
-# Deamon
-#deamon
+## Daemon
+#daemon
 
-# Priorité
+## Priorité
 
 - 时间片（同优先级）
 - 抢占式
@@ -38,7 +94,6 @@ Java中至少有三个线程:
 	- MIN_PRIORITY
 	- NORMAL_PRIORITY
 - `setPriority()/getPriority(int p)`
-
 
 # Thread safe
 
@@ -79,74 +134,5 @@ lock.unlock();
 
 - wait()与notify/notifyAll()方法
 	- 通过 monitor 控制阻塞/释放
-
-
-
-# 创建
-
-## 1. Thread类
-
-1. 继承Thread
-2. 重写run方法
-3. Lancer la méthode start
-
-### 常用方法
-
-- `start()`
-- `run()`
-- `currentThread()`
-- `getName`/`setName()`
-- `yield()`  让权，不是阻塞
-- `join()`  阻塞
-- `stop()`
-- `sleep()`
-- `isAlive()`
 - `wait()`
 - `notify/notifyAll()`
-
-## 2. Runnable接口
-
-1. 实现接口
-2. 重写run方法
-3. 创建实现类对象
-4. 创建Thread实例，传入实现类实例
-5. Lancer la méthode start
-
-## 3. Callable接口
-
-1. 实现接口
-2. 重写call方法
-3. 创建Callable实现类对象
-4. 创建FutureTask对象，传入Callable实现类对象
-5. 创建Thread实例，传入FutureTask对象
-
-### 优势
-
-- 每个线程都可以有返回值
-- 可以抛出异常
-- 支持泛型
-
-## 4. 线程池
-
-1. 创建线程池`ExecutorService es = Executors.newFixedThreadPool(10)`
-
-- `Executors` 是一个生成不同线程池的工具类
-- `newFixedThreadPool` 固定数量线程的线程池
-- `newCachedThreadPool` 根据需要创建线程的线程池
-- `newScheduledThreadPool` 延迟/定期执行现成的线程池
-- `newSingleThreadExecutor` 只有一个线程的线程池
-
-2. 创建`public Class Thread1 implements Runnable`
-
-3. 执行
-
-- es.execute(new Thread1());
-- es.submit 可以有返回值的执行任务，传入Callable实现类
-
-### 优势
-
-
-
-
-
-
