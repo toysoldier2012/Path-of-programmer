@@ -298,4 +298,153 @@ public class Owner {
 
 为了解决这个问题，你可以使用 `@JsonManagedReference` 和 `@JsonBackReference` 注解
 
+# @JsonIdentityInfo
 
+`@JsonIdentityInfo` 是 Jackson 库中的一个注解，用于处理 JSON 序列化和反序列化过程中的循环引用问题。在实体关系中，如果两个或多个对象相互引用，并且你试图将它们序列化为 JSON，则会导致无限循环和 `StackOverflowError`。`@JsonIdentityInfo` 通过在生成的 JSON 中引入一个 ID 来避免这个问题，这样，当对象再次被引用时，Jackson 只序列化对象的 ID，而不是整个对象。
+
+## 示例
+
+让我们通过一个简单的示例来看看 `@JsonIdentityInfo` 的实际应用。
+
+假设你有两个相互引用的实体类：`Person` 和 `Car`。
+
+```java
+@JsonIdentityInfo(
+    generator = ObjectIdGenerators.PropertyGenerator.class, 
+    property  = "id"
+)
+public class Person {
+    private Long id;
+    private String name;
+    private Car car;
+    // getters and setters
+}
+
+@JsonIdentityInfo(
+    generator = ObjectIdGenerators.PropertyGenerator.class, 
+    property  = "id"
+)
+public class Car {
+    private Long id;
+    private String model;
+    private Person owner;
+    // getters and setters
+}
+```
+
+- `generator`: 定义了 ID 的生成策略。常用的生成器有 `PropertyGenerator`（使用实体的一个属性作为 ID）和 `IntSequenceGenerator`（使用一个整数序列作为 ID）。
+- `property`: 如果你使用 `PropertyGenerator`，你需要通过 `property` 属性指定哪个实体属性应该用作 ID。
+
+在这个例子中，每个 `Person` 对象都引用一个 `Car` 对象，并且每个 `Car` 对象都反过来引用一个 `Person` 对象。如果没有 `@JsonIdentityInfo`，当你尝试将一个 `Person` 或 `Car` 对象序列化为 JSON 时，你会得到一个 `StackOverflowError`，因为 Jackson 会不断在两个对象之间来回跳转。通过使用 `@JsonIdentityInfo`，Jackson 将只序列化每个对象一次，并在后续的引用中只序列化其 ID。
+
+### 示例输出
+
+假设你尝试序列化一个 `Person` 对象，其 `Car` 对象也引用该 `Person` 对象。不使用 `@JsonIdentityInfo`，序列化将无限循环。使用 `@JsonIdentityInfo`，输出的 JSON 可能看起来像这样：
+
+```java
+{
+    "id": 1,
+    "name": "John",
+    "car": {
+        "id": 123,
+        "model": "Toyota",
+        "owner": 1
+    }
+}
+```
+
+请注意 `owner` 字段只包含一个 ID 值而不是整个 `Person` 对象。这就是 `@JsonIdentityInfo` 避免无限循环的方式。
+
+## 使用注意
+
+- 如果你使用 Spring Data REST 或某些其他框架，可能需要其他或附加的配置来确保 `@JsonIdentityInfo` 正常工作。
+- 在前端，你需要确保你的代码能够理解和处理这种形式的 JSON，可能需要额外的逻辑来根据 ID 重新构建对象引用。
+
+# @JsonView
+
+`@JsonView` 是 Jackson 库中的一个注解，它允许你定义 JSON 序列化过程中的视图，从而能够定制你想要输出的 JSON 结构。通过使用视图，你可以控制哪些属性应该在特定的序列化场景中被包括，从而提供一种方法来灵活地控制你的 JSON 输出。
+
+## 基本概念
+
+### 定义视图
+
+视图本质上只是一个或多个标记接口，它们不包含任何方法。例如：
+
+```java
+public class Views {
+    public static class Public {}
+    public static class Internal extends Public {}
+}
+```
+
+在这个例子中，我们定义了两个视图：`Public` 和 `Internal`。`Internal` 视图继承自 `Public` 视图，意味着任何标记为 `Public` 视图的属性也会被包括在 `Internal` 视图中。
+
+### 使用视图
+
+使用定义的视图来标记你的模型类的属性：
+
+```java
+public class Item {
+    @JsonView(Views.Public.class)
+    public int id;
+    
+    @JsonView(Views.Public.class)
+    public String itemName;
+    
+    @JsonView(Views.Internal.class)
+    public String ownerName;
+}
+```
+
+在这个例子中，`id` 和 `itemName` 属性将会在 `Public` 视图中被序列化，而 `ownerName` 属性只会在 `Internal` 视图中被序列化。
+
+### 使用 `@JsonView` 进行序列化
+
+在序列化过程中使用视图：
+
+```java
+ObjectMapper mapper = new ObjectMapper();
+Item item = new Item();
+// fill item data
+
+// Serialize using the public view
+String publicViewJson = mapper
+        .writerWithView(Views.Public.class)
+        .writeValueAsString(item);
+        
+// Serialize using the internal view
+String internalViewJson = mapper
+        .writerWithView(Views.Internal.class)
+        .writeValueAsString(item);
+```
+
+在第一个例子中，`publicViewJson` 只包含 `id` 和 `itemName` 属性。在第二个例子中，`internalViewJson` 包含 `id`、`itemName` 和 `ownerName` 属性。
+
+### 在 Spring MVC 中使用 `@JsonView`
+
+如果你使用 Spring MVC，你可以在你的控制器方法上使用 `@JsonView` 来定义一个视图：
+
+```java
+@RestController
+public class MyController {
+    
+    @GetMapping("/items/public-view")
+    @JsonView(Views.Public.class)
+    public Item getPublicItem() {
+        // return your item
+    }
+
+    @GetMapping("/items/internal-view")
+    @JsonView(Views.Internal.class)
+    public Item getInternalItem() {
+        // return your item
+    }
+}
+```
+
+这些方法将返回的 `Item` 对象序列化为 JSON，同时考虑到 `@JsonView` 定义的视图。
+
+### 注意事项
+
+- 使用 `@JsonView` 能够使你的 JSON 输出更加灵活，但请确保在复杂的序列化逻辑中不要过度使用它，以避免代码的可读性和可维护性降低。
+- 在设计 API 时，始终要关注安全性。不要在公共视图中暴露敏感数据。
