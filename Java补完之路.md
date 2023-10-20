@@ -31,7 +31,7 @@
 
 ## 2. [[MVC]]
 
-## 3. [[Design Patterns]]
+## 3. [[Creational pattern]]
 
 ## 4. [[SOLID]] 
 
