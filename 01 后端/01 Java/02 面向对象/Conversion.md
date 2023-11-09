@@ -1096,8 +1096,8 @@ Type primitif ^Q7jWSIwf
 		},
 		{
 			"type": "arrow",
-			"version": 6497,
-			"versionNonce": 1516730233,
+			"version": 6503,
+			"versionNonce": 426723609,
 			"isDeleted": false,
 			"id": "74AMopwI5PW41iCwAa9Y1",
 			"fillStyle": "hachure",
@@ -1124,18 +1124,18 @@ Type primitif ^Q7jWSIwf
 					"id": "dzjDxUEe"
 				}
 			],
-			"updated": 1699518425805,
+			"updated": 1699563266735,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "2UnRn4k4qJJNz3SRA-VPy",
-				"gap": 13.843261019927468,
-				"focus": -0.2903106252047
+				"focus": -0.29053624886217494,
+				"gap": 13.843261019927468
 			},
 			"endBinding": {
 				"elementId": "o1smCBm-AtI8xFrRkEnWp",
-				"gap": 28.057819708098236,
-				"focus": 0.2700514136076438
+				"focus": 0.2700514136076436,
+				"gap": 28.05781970809818
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
