@@ -673,3 +673,19 @@ Constraints:
 ![[Pasted image 20231111215818.png]]
 ### 41
 ![[Pasted image 20231111215838.png]]
+### 42
+![[Pasted image 20231111221928.png]]
+### 43
+![[Pasted image 20231111222016.png]]
+### 44
+![[Pasted image 20231111222032.png]]
+### 45
+![[Pasted image 20231111222045.png]]
+### 46
+![[Pasted image 20231111222106.png]]
+### 47
+![[Pasted image 20231111222122.png]]
+![[Pasted image 20231111222154.png]]
+### 48
+![[Pasted image 20231111222238.png]] ![[Pasted image 20231111222248.png]]
+### 49
