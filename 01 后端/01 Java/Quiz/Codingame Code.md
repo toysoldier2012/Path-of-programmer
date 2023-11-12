@@ -45,14 +45,21 @@
 ### Calculating a bounding rectangle
 
 ### Check a sudoku grid (and output the first error)
+#middle
+
+Trouver la relation entre i, j et les coordonnées
 
 ![[Pasted image 20231112112505.png]]
 
 ### Check a sudoku grid (simple)
+#middle
 
 跟上面的差不多，不用返回 invalide 的情况
 
 ### Check digit computation
+#easy 
+
+Char to int, '3' - '0'
 
 ![[Pasted image 20231112112546.png]]
 
@@ -61,6 +68,7 @@
 ### Combination options in a tournament
 
 ### Compute the "size on disk" of a file
+#easy 
 
 You may have noticed that files have two sizes. The "file size" and the "size on disk", which is always greater or equal than the file size. Storage media are divided into "clusters". A file can occupy many clusters, but a cluster can only be allocated to one single file. The "size on disk" corresponds to the total size of all the clusters allocated to that file. Given the cluster size of a disk and a file size, compute its size on disk. 
 Example 
@@ -69,50 +77,8 @@ Example
 • 2 clusters (512^ * 2 = 1024brtes ) would not be enough to store this file. 4 clusters (2048 bytes) would be too much, one of the cluster would be empty. 
 The correct number of clusters is 3. 
 • The total size of these clusters is (512^ * 3 = 1536bytes ), which is the size on disk of this file.
-
-```java
-public class FileSizeCalculator {
-    
-    /**
-     * Calcule la taille sur le disque d'un fichier.
-     *
-     * @param fileSize la taille du fichier en octets
-     * @param clusterSize la taille d'un cluster en octets
-     * @return la taille sur le disque en octets
-     */
-    public static int calculateDiskSize(int fileSize, int clusterSize) {
-        // Calculer le nombre de clusters nécessaires pour stocker le fichier
-        int clustersNeeded = (fileSize + clusterSize - 1) / clusterSize;
-        
-        // Calculer et retourner la taille sur le disque
-        return clustersNeeded * clusterSize;
-    }
-    
-    public static void main(String[] args) {
-        int clusterSize = 512;  // en octets
-        int fileSize = 1500;  // en octets
-        
-        int diskSize = calculateDiskSize(fileSize, clusterSize);
-        
-        System.out.println("Taille du fichier : " + fileSize + " octets");
-        System.out.println("Taille du cluster : " + clusterSize + " octets");
-        System.out.println("Taille sur le disque : " + diskSize + " octets");
-    }
-}
-```
-
 ### Convert bytes to Kibibytes or Mebibytes
-
-```java
-public class ByteConverter {  
-    public static String compute(int bytes) {  
-       if(bytes <= 1024 ) return bytes + " octets";  
-       else if (bytes <= 1024 * 1024) return bytes / 1024 + " KiB";  
-       else return bytes/1024/1024 +  " MiB";  
-    }  
-}
-```
-
+#easy 
 ### Count-quarium
 
 ### Counter synchronization
@@ -122,10 +88,14 @@ public class ByteConverter {
 ### Different digits
 
 ### Duodigits
+#easy 
+
+Considérer les chiffres négatifs
 
 ![[Pasted image 20231112114220.png]]
 
 ### Duplicates removal
+
 
 ![[Pasted image 20231112114251.png]]
 
