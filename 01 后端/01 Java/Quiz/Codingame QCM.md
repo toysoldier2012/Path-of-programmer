@@ -1,9 +1,16 @@
 
-### 1 . Which options contain a **valid** Java 12+ switch expression?
+### Which **annotation** can be used to ensure that an interface is functional?
+
+- [ ] @Functional
+- [ ] @lambda
+- [ ] @FunctionalInterface
+- [ ] @abstract
+
+### Which options contain a **valid** Java 12+ switch expression?
 
 _Multiple answers expected._
 
-- 
+- [ ]  
 ```java
     int state = switch (month) {
         case JANUARY  -> 0;
@@ -17,7 +24,7 @@ _Multiple answers expected._
     };
     ```
     
-- 
+- [ ] 
 ```java
     int number = switch (state) {
         case "UP": 
@@ -30,7 +37,7 @@ _Multiple answers expected._
     };
     ```
     
-- 
+- [ ] 
 ```java
     int number = switch (state) {
         case "UP": 
@@ -43,7 +50,7 @@ _Multiple answers expected._
     };
     ```
     
-- 
+- [ ] 
 ```java
     int state = switch (month) {
         case JANUARY  -> 0;
@@ -57,7 +64,7 @@ _Multiple answers expected._
     };
     ```
     
-- 
+- [ ] 
 ```java
     int number = switch (state) {
         case "UP": 
@@ -70,7 +77,7 @@ _Multiple answers expected._
     };
     ```
 
-### 2. Assuming you are working with Java 11+, select the **best** method to remove leading and trailing whitespace.
+### Assuming you are working with Java 11+, select the **best** method to remove leading and trailing whitespace.
 
 Example:
 
@@ -78,13 +85,13 @@ Example:
 String str = "    Hello world.    ";
 ```
 
-- `str.trim()`
-- `str.strip()`
-- `str.removeTrailingWhitespace()`
-- `str.trimWhitespace()`
-- `str.stripLeading().stripTrailing()`
+- [ ] `str.trim()`
+- [ ] `str.strip()`
+- [ ] `str.removeTrailingWhitespace()`
+- [ ] `str.trimWhitespace()`
+- [ ] `str.stripLeading().stripTrailing()`
 
-### 3. Consider the code below:
+### Consider the code below:
 
 ```java
 public abstract class Shape {
@@ -125,11 +132,11 @@ int mySurface = squareShape.getSurface();
 
 What will be the value of the variable `mySurface`?
 
-- 10
-- Indeterminate value
-- 0
+- [ ] 10
+- [ ] Indeterminate value
+- [ ] 0
 
-### 4. Consider the code below:
+### Consider the code below:
 
 ```java
 public static void main(String[] args) throws CloneNotSupportedException {
@@ -158,50 +165,45 @@ public static void main(String[] args) throws CloneNotSupportedException {
 
 A list of players has been created, together with a copy of that list. What type of **copying method** has been implemented? 
 
-- Shallow copy
-- Deep copy
+- [ ] Shallow copy
+- [ ] Deep copy
 
-### 5. What will happen if a **synchronized method** is called by two threads on different object instances simultaneously?
+### What will happen if a **synchronized method** is called by two threads on different object instances simultaneously?
 
-- **Only one thread** **at a time** will access the method
-- **Both threads** may access the method at the same time
-- **Neither thread** will access the method and an exception will be thrown
+- [ ] **Only one thread** **at a time** will access the method
+- [ ] **Both threads** may access the method at the same time
+- [ ] **Neither thread** will access the method and an exception will be thrown
 
-### 6. In Java 11+, which API is the **best** one to make HTTP calls?
+### In Java 11+, which API is the **best** one to make HTTP calls?
 
 _Select the best answer._
 
-- Classes in `java.net.http.*` such as `HttpClient`
-- `java.net.HttpURLConnection`
-- Third party APIs such as Apache HttpClient
+- [ ] Classes in `java.net.http.*` such as `HttpClient`
+- [ ] `java.net.HttpURLConnection`
+- [ ] Third party APIs such as Apache HttpClient
 
-### 7. Which **annotation** can be used to ensure that an interface is functional?
 
-- @Functional
-- @lambda
-- @FunctionalInterface
-- @abstract
 
-### 8. What is the result of `2 >> 1` ?
+### What is the result of `2 >> 1` ?
 
-- 0
-- 1
-- 2
-- 3
-- 4
+- [ ] 0
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
 
-### 9. In a base 2 system (binary), what is the value of `0001 & 0001` ?
+### In a base 2 system (binary), what is the value of `0001 & 0001` ?
 
-- `0010`
-- `0000`
-- `0001`
+- [ ] `0010`
+- [ ] `0000`
+- [ ] `0001`
 
-### 10. The garbage collector ensures that there is enough memory to run a Java program.
+### The garbage collector ensures that there is enough memory to run a Java program.
 
-- True
-- False
+- [ ] True
+- [ ] False
 
-### 11. Among these two solutions, which one do you prefer?  
+### Among these two solutions, which one do you prefer?  
   
 Solution #1:
 
@@ -222,32 +224,32 @@ abstract class AirPlane {
 abstract class Bird extends AirPlane {}​
 ```
 
-- Solution #1
-- Solution #2
+- [ ] Solution #1
+- [ ] Solution #2
 
-### 12. Select the correct way of defining a **lambda function** in Java?
+### Select the correct way of defining a **lambda function** in Java?
 
-- 
+- [ ] 
 ```java
     ExampleInterface test = () -> 9;
     ```
     
-- 
+- [ ] 
 ```java
     ExampleInterface test = () => 9;
     ```
     
-- 
+- [ ] 
 ```java
     ExampleInterface test = () #> 9;
     ```
     
-- 
+- [ ] 
 ```java
     ExampleInterface test = () >> 9;
     ```
 
-### 13. 
+###  
 ```java
 int i1 = 5;
 int i2 = 2;
@@ -256,32 +258,32 @@ int i3 = i1 / i2;
 
 What is the value of `i3`?
 
-- 3
-- 2.5
-- 2
-- NaN
+- [ ] 3
+- [ ] 2.5
+- [ ] 2
+- [ ] NaN
 
-### 14. You are implementing a library. Among these options, which one do you select to manage an unexpected behavior?
+### You are implementing a library. Among these options, which one do you select to manage an unexpected behavior?
 
-- `throw new UnexpectedBehaviorException()`
-- `System.exit(-1)`
-- `System.err.println("Error: unexpected behavior")`
-- `return false`
+- [ ] `throw new UnexpectedBehaviorException()`
+- [ ] `System.exit(-1)`
+- [ ] `System.err.println("Error: unexpected behavior")`
+- [ ] `return false`
 
-### 15. Which method is called when a thread is executed?
+### Which method is called when a thread is executed?
 
-- do
-- run
-- exec
-- execute
-- Play
+- [ ] do
+- [ ] run
+- [ ] exec
+- [ ] execute
+- [ ] Play
 
-### 16. Privates attributes are visible from subclasses. 
+### Privates attributes are visible from subclasses. 
 
-- True
-- False
+- [ ] True
+- [ ] False
 
-### 17. In Java 8, interfaces can contain concrete methods.
+### In Java 8, interfaces can contain concrete methods.
 
-- True
-- False
+- [ ] True
+- [ ] False
