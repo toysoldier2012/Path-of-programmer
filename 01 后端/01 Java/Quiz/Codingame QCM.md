@@ -287,3 +287,9 @@ What is the value of `i3`?
 
 - [ ] True
 - [ ] False
+
+Parmi les expressions Lambda suivantes, quelle est celle qui évaluera correctement une instance de `Supplier<String>` ? 
+1. (s) -> s s.substring(1) 
+2. ()->" john " 
+3. 0 \to {return "Helen"; } 
+Une seule réponse acceptée.

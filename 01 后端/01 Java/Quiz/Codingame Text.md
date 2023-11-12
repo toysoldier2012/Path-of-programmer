@@ -1,4 +1,4 @@
-
+You are writing an application aiming at making cocktails. A cocktail contains several ingredients (according to the customer's order) and it can quickly become complex to prepare. However, the different steps in the preparation process remain the same: adding an alcohol, adding a syrup, etc. If you know a design pattern that would be appropriate to prepare these cocktails, type its name in the text field (1 word only).
 ### 18. Which method of `Stream` can be used to **check whether a certain predicate matches at least one element in the stream**?
 
 _Write the name of the **most efficient** method to do so_
