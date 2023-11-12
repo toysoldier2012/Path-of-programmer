@@ -50,8 +50,7 @@
 
 ### Check a sudoku grid (simple)
 
-跟上面的差不多，不用检测 invalide 的情况
-
+跟上面的差不多，不用返回 invalide 的情况
 
 ### Check digit computation
 
