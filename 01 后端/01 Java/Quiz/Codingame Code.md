@@ -1,343 +1,4 @@
 
-### 1 . Which options contain a **valid** Java 12+ switch expression?
-
-_Multiple answers expected._
-
-- 
-```java
-    int state = switch (month) {
-        case JANUARY  -> 0;
-        case FEBRUARY -> 1;
-        case MARCH    -> 2;
-        default       -> {
-            int l = logic(month);
-            l *= 9;
-            yield l;
-        }
-    };
-    ```
-    
-- 
-```java
-    int number = switch (state) {
-        case "UP": 
-            yield 5;
-        case "DOWN":
-            yield 7;
-        default:
-            System.out.println("Illegal state");
-            yield -1;
-    };
-    ```
-    
-- 
-```java
-    int number = switch (state) {
-        case "UP": 
-            break 5;
-        case "DOWN":
-            break 7;
-        default:
-            System.out.println("Illegal state");
-            break -1;
-    };
-    ```
-    
-- 
-```java
-    int state = switch (month) {
-        case JANUARY  -> 0;
-        case FEBRUARY -> 1;
-        case MARCH    -> 2;
-        default       -> {
-            int l = logic(month);
-            l *= 9;
-            return l;
-        }
-    };
-    ```
-    
-- 
-```java
-    int number = switch (state) {
-        case "UP": 
-            return 5;
-        case "DOWN":
-            return 7;
-        default:
-            System.out.println("Illegal state");
-            return -1;
-    };
-    ```
-
-### 2. Assuming you are working with Java 11+, select the **best** method to remove leading and trailing whitespace.
-
-Example:
-
-```java
-String str = "    Hello world.    ";
-```
-
-- `str.trim()`
-- `str.strip()`
-- `str.removeTrailingWhitespace()`
-- `str.trimWhitespace()`
-- `str.stripLeading().stripTrailing()`
-
-### 3. Consider the code below:
-
-```java
-public abstract class Shape {
-
-    private int surface;
-
-    public Shape() {
-        this.surface = computeSurface();
-    }
-
-    protected abstract int computeSurface();
-
-    public int getSurface() {
-        return surface;
-    }
-}
-
-public class SquareShape extends Shape {
-    private final int size;
-
-    public SquareShape(int size) {
-        this.size = size;
-    }
-
-    @Override
-    protected int computeSurface() {
-        return size * size;
-    }
-}
-```
-
-Then, the following code is executed, which uses the classes defined above:
-
-```java
-SquareShape squareShape = new SquareShape(10);
-int mySurface = squareShape.getSurface();
-```
-
-What will be the value of the variable `mySurface`?
-
-- 10
-- Indeterminate value
-- 0
-
-### 4. Consider the code below:
-
-```java
-public static void main(String[] args) throws CloneNotSupportedException {
-
-        LinkedList<Player> players1 = new LinkedList<>();
-        Player p1 = new Player();
-        p1.setBattingAverage(46.7 f);
-        p1.setWorldRank(4);
-
-        Player p2 = new Player();
-        p2.setBattingAverage(56.9 f);
-        p2.setWorldRank(1);
-
-        players1.add(p1);
-        players1.add(p2);
-
-        LinkedList<Player> players2 = new LinkedList<>();
-        for (Player p : players1) {
-            players2.add(p);
-        }
-        
-        players2.get(0).setWorldRank(5);
-
-    }
-```
-
-A list of players has been created, together with a copy of that list. What type of **copying method** has been implemented? 
-
-- Shallow copy
-- Deep copy
-
-### 5. What will happen if a **synchronized method** is called by two threads on different object instances simultaneously?
-
-- **Only one thread** **at a time** will access the method
-- **Both threads** may access the method at the same time
-- **Neither thread** will access the method and an exception will be thrown
-
-### 6. In Java 11+, which API is the **best** one to make HTTP calls?
-
-_Select the best answer._
-
-- Classes in `java.net.http.*` such as `HttpClient`
-- `java.net.HttpURLConnection`
-- Third party APIs such as Apache HttpClient
-
-### 7. Which **annotation** can be used to ensure that an interface is functional?
-
-- @Functional
-- @lambda
-- @FunctionalInterface
-- @abstract
-
-### 8. What is the result of `2 >> 1` ?
-
-- 0
-- 1
-- 2
-- 3
-- 4
-
-### 9. In a base 2 system (binary), what is the value of `0001 & 0001` ?
-
-- `0010`
-- `0000`
-- `0001`
-
-### 10. The garbage collector ensures that there is enough memory to run a Java program.
-
-- True
-- False
-
-### 11. Among these two solutions, which one do you prefer?  
-  
-Solution #1:
-
-```java
-interface FlyAble {
-    void fly();
-}
-abstract class AirPlane implements FlyAble {}
-abstract class Bird implements FlyAble {}​
-```
-  
-Solution #2:  
-
-```java
-abstract class AirPlane {
-    abstract void fly();
-}
-abstract class Bird extends AirPlane {}​
-```
-
-- Solution #1
-- Solution #2
-
-### 12. Select the correct way of defining a **lambda function** in Java?
-
-- 
-```java
-    ExampleInterface test = () -> 9;
-    ```
-    
-- 
-```java
-    ExampleInterface test = () => 9;
-    ```
-    
-- 
-```java
-    ExampleInterface test = () #> 9;
-    ```
-    
-- 
-```java
-    ExampleInterface test = () >> 9;
-    ```
-
-### 13. 
-```java
-int i1 = 5;
-int i2 = 2;
-int i3 = i1 / i2;
-```
-
-What is the value of `i3`?
-
-- 3
-- 2.5
-- 2
-- NaN
-
-### 14. You are implementing a library. Among these options, which one do you select to manage an unexpected behavior?
-
-- `throw new UnexpectedBehaviorException()`
-- `System.exit(-1)`
-- `System.err.println("Error: unexpected behavior")`
-- `return false`
-
-### 15. Which method is called when a thread is executed?
-
-- do
-- run
-- exec
-- execute
-- Play
-
-### 16. Privates attributes are visible from subclasses. 
-
-- True
-- False
-
-### 17. In Java 8, interfaces can contain concrete methods.
-
-- True
-- False
-
-# Text
-
-### 18. Which method of `Stream` can be used to **check whether a certain predicate matches at least one element in the stream**?
-
-_Write the name of the **most efficient** method to do so_
-
-### 19. 
-What is the name of the method in the `java.lang.String` class that will test if the strings below **are empty or have only whitespace characters**?
-
-```java
-String str1 = "";               // yes
-String str1 = "     ";          // yes
-String str1 = "Hello world.";   // no
-```
-
-The expected method must be one that has existed since **Java version 11**.
-
-### 20. Type the name of a class belonging to the package java. Lang which allows to concatenate efficiently strings of characters.
-
-### 21. Which class can be used to store **thread-specific values**?
-
-_Write only the name of the class_
-
-### 22. 
-```java
-public class A {
-
-    private A() {}
-
-    private static class AHolder {
-        private static final A INSTANCE = new A();
-    }
-
-    public static A getInstance() {
-        return AHolder.INSTANCE; 
-    }
-}
-```
-
-What is the name of the design pattern used in this piece of code?
-
-_Answer with 1 word only._
-
-### 23. 
-What method in `java.lang.String` would you use to split the string below into an array or collection of strings based on new lines?
-
-```java
-String str = "This is a string\nThis is the next line.\nHello world.";
-```
-
-# Code
-
 ### 24. 
 You don’t remember where you saved the file `universe-formula`. The only thing you remember about this file is you put it somewhere in a sub-folder of `/tmp/documents`.  
   
@@ -379,7 +40,7 @@ _A simple network example_
 
 Implement method `findNetworkEndpoint(startNodeId, fromIds, toIds)` which should return the last node id of the network found when starting from the node with id `startNodeId` and following the links of the network.
 
-In the above example, the endpoint node when starting from node #2 (or any other node) is node #5.
+In the above example, the endpoint node when starting from node #2 (or any other node) is node #5 .
 
 `fromIds` and `toIds` are two arrays of the same length which describe the one-way links of the network (`fromIds[i]` is linked to `toIds[i]`). In the example above, `fromIds` is:
 
@@ -478,7 +139,7 @@ Implement the method `computeFinalPosition(width, height, position, portalA, po
     - 0 < `width` < 20
     - 0 < `height` < 20
     - 0 <= number of characters in `moves` <= 255
-- and returns the final position of your avatar as an array of two integers.
+- And returns the final position of your avatar as an array of two integers.
 
 ### Example
 
@@ -507,19 +168,19 @@ Constraints :
 
 **PlainText**
 
-aabaa
+Aabaa
 
 **EncodedText**
 
-2a1b2a
+2 a 1 b 2 a
 
 **PlainText**
 
-aaaabcccaaa
+Aaaabcccaaa
 
 **EncodedText**
 
-4a1b3c3a
+4 a 1 b 3 c 3 a
 
 ### 30.
 
@@ -553,8 +214,8 @@ Examples:
 
 |**Call**|**Returned String**|
 |---|---|
-|reshape(3, "abc de fghij")|abc<br>def<br>ghi<br>j|
-|reshape(2, "1 23 456")|12<br>34<br>56|
+|reshape (3, "abc de fghij")|abc<br>def<br>ghi<br>j|
+|reshape (2, "1 23 456")|12<br>34<br>56|
   
 **Write the body of the `reshape(n, str)` method.**
 
@@ -594,7 +255,7 @@ The length of `identificationNumber` can vary from 1 to 12 characters.
 ### 33
 ### Objective
 
-Javanais, also known as "_Langue de feu_" (fire language), is a slang coding process that was used in the late 19th century by some criminals to encrypt their conversations. Write a program that returns the Javanais translation of a sentence.
+Javanais, also known as "_Langue de feu_" (fire language), is a slang coding process that was used in the late 19 th century by some criminals to encrypt their conversations. Write a program that returns the Javanais translation of a sentence.
 
 ### How it works
 
@@ -606,7 +267,7 @@ Javanais, also known as "_Langue de feu_" (fire language), is a slang coding pro
 Implement the method `translate(text)` which:
 
 - takes as input `text`, a string of fewer than 255 characters ;
-- returns the Javanais translation as a string.
+- Returns the Javanais translation as a string.
 
 For simplicity, the inputs contain only lowercase letters.
 
