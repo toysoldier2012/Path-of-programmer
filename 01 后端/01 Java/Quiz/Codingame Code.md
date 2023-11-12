@@ -4,16 +4,19 @@
 ![[Pasted image 20231112112008.png]]
 
 ### A mysterious diary
+#easy
 
 ![[Pasted image 20231112112117.png]]
 
 ### Abstraction
+#easy
 
 ![[Pasted image 20231112112139.png]]
 
 ### Add some drama to a string
 
 ### Anagrams
+#easy
 
 ![[Pasted image 20231112112240.png]]
 
