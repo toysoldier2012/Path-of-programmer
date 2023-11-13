@@ -3,6 +3,14 @@
 无状态
 无法记录之前的用户状态
 
+
+| Operation | API Endpoint      | HTTP Method | Response Status |
+| --------- | ----------------- | ----------- | --------------- |
+| Create    | `/cashcards`      | `POST`      | 201 (CREATED)   |
+| Read      | `/cashcards/{id}` | `GET`       | 200 (OK)        |
+| Update    | `/cashcards/{id}` | `PUT`       | 204 (NO DATA)   |
+| Delete    | `/cashcards/{id}` | `DELETE`    | 204 (NO DATA)   |
+
 # Restful API
 #restful
 
