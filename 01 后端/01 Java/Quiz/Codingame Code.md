@@ -132,10 +132,12 @@ Kadane's algorithm
 ![[Pasted image 20231112114448.png]]
 
 ### FizzBuzz
+#easy 
 
-网上貌似有
+Fizz buzz is a group word game for children to teach them about division.Players take turns to count incrementally, replacing any number divisible by three with the word "fizz", and any number divisible by five with the word "buzz", and any number divisible by both 3 and 5 with the word "fizzbuzz".
 
 ### Follow the path on a 2D grid
+#todo 
 
 ???????????????
 
@@ -210,6 +212,9 @@ Public class Main {
 ```
 
 ### From the fruit we know the tree
+#middle 
+
+Recursion et iteration
 
 ### Function parsing
 
