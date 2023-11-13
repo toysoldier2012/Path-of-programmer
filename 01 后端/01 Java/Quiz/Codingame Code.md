@@ -219,6 +219,7 @@ Recursion et iteration
 ### Function parsing
 
 ### Giving change
+#middle 
 
 ![[Pasted image 20231112115857.png]]
 
@@ -229,6 +230,7 @@ Recursion et iteration
 ### Hack PayPaul!
 
 ### Hello World
+#easy 
 
 ```bash
 console> java Echo Hello you ! 
