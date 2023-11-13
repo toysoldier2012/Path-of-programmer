@@ -272,6 +272,9 @@ Public class Echo {
 ![[Pasted image 20231112120304.png]]
 
 ### Javanais
+#middle 
+
+考虑多个元音相连的情况
 
 ![[Pasted image 20231112120326.png]]
 
@@ -282,6 +285,7 @@ Public class Echo {
 ### Kid addition check
 
 ### Largest wins from chaos
+#easy 
 
 ![[Pasted image 20231112120421.png]]
 
