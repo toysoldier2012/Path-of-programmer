@@ -21,10 +21,12 @@
 ![[Pasted image 20231112112240.png]]
 
 ### Approximation of π
+#todo 
 
 ![[Pasted image 20231112112301.png]]
 
 ### ASCII Art
+#todo 
 
 ![[Pasted image 20231112112322.png]]
 
@@ -224,6 +226,7 @@ Recursion et iteration
 ![[Pasted image 20231112115857.png]]
 
 ### Group bytes by chunks, then calculate the checksums
+#todo 
 
 貌似有
 
@@ -257,12 +260,14 @@ Public class Echo {
 ### Immutable object using a Date
 
 ### Inheritance - Use of the "extends" keyword
+#easy 
 
 ![[Pasted image 20231112120232.png]]
 
 ### Inner matrix
 
 ### Intervals
+#easy 
 
 ![[Pasted image 20231112120304.png]]
 
