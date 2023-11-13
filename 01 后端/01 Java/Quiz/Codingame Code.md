@@ -102,6 +102,7 @@ Considérer les chiffres négatifs
 ### Eat what you can. Pay what you want.
 
 ### Enchanted land of Evenaria
+#easy
 
 Dans le pays enchanté d'Evenaria, une elfe nommé Codelia était à la recherche des mystérieuses "Pierres paires", qui maintenaient l'équilibre et l'harmonie. 
 Un jour, elle découvrit un parchemin ancien contenant une liste de numéros représentant leurs emplacements. 
@@ -112,51 +113,9 @@ Implémentation Fonction Implémenter la méthode spell.
 Paramètres 
 numbers (`List<Integer>`): Une liste de nombre entiers 
 Valeur de retour enchantedNumbers (`List<Integer>`): La liste inversée, avec uniquement les nombres pairs 
-Contraintes length(numbers) <= 200 Mémoire RAM disponible: 512 Mo 
-Exemple Paramètres ` > (18) [4, 2, 28, `
-Valeur de retour `> (8) [2, 26, 32, 1 28, -1`
-
-```java
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Collections;
-
-public class EvenariaMagic {
-
-    /**
-     * Inverse la liste donnée et filtre les nombres pairs.
-     * 
-     * @param numbers une liste d'entiers
-     * @return une liste d'entiers inversée contenant uniquement des nombres pairs
-     */
-    public List<Integer> spell(List<Integer> numbers) {
-        List<Integer> enchantedNumbers = new ArrayList<>();
-        
-        for (int number : numbers) {
-            if (number % 2 == 0) {  // Check if the number is even
-                enchantedNumbers.add(number);
-            }
-        }
-        
-        Collections.reverse(enchantedNumbers);  // Reverse the list
-        
-        return enchantedNumbers;
-    }
-
-    public static void main(String[] args) {
-        EvenariaMagic magic = new EvenariaMagic();
-        
-        List<Integer> numbers = List.of(4, 2, 28, 32, 1, 28, -1);
-        
-        List<Integer> enchantedNumbers = magic.spell(numbers);
-        
-        System.out.println(enchantedNumbers);
-    }
-}
-```
-
 
 ### Exception
+#easy 
 
 ![[Pasted image 20231112114409.png]]
 
