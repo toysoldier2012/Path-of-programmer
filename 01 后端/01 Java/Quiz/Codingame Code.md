@@ -125,6 +125,9 @@ Valeur de retour enchantedNumbers (`List<Integer>`): La liste inversée, avec un
 ![[Pasted image 20231112114430.png]]
 
 ### Finding The Largest Profit
+#hard 
+
+Kadane's algorithm
 
 ![[Pasted image 20231112114448.png]]
 
