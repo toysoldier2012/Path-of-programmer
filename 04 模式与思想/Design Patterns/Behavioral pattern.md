@@ -1,4 +1,7 @@
 #pattern 
+
+## Template
+
 ## 策略模式 Strategy
 #strategy
 
