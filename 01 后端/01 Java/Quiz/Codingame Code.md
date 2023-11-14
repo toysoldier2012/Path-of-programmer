@@ -359,10 +359,12 @@ Refacto le message par "XxxxXxxx"
 ### Secret messages confiscated from your pupils
 
 ### Secure closure of an I/O stream
+#easy 
 
 ![[Pasted image 20231112121150.png]]
 
 ### Simple boolean expression
+#easy 
 
 ![[Pasted image 20231112121209.png]]
 
