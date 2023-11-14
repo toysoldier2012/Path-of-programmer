@@ -291,6 +291,7 @@ Public class Echo {
 ![[Pasted image 20231112120421.png]]
 
 ### Loop detection
+#todo 
 
 ![[Pasted image 20231112120457.png]]
 
@@ -299,10 +300,12 @@ Public class Echo {
 ### Memory leak on a stack
 
 ### Move towards zero
+#easy 
 
 ![[Pasted image 20231112120540.png]]
 
 ### Multiply ingredient quantities of a recipe
+#easy 
 
 You have the ingredient list of a one-person recipe. 
 You want to cook it for many persons (defined by nbPersons). 
@@ -321,22 +324,29 @@ Example You want to cook a cake for 3 persons. Here is the initial ingredient li
 ### Packing Suitcases
 
 ### Portals
+#todo 
 
 ### Pyramid
+#easy 
 
-????????
+给了几个盒子，摞起来
 
 ### Range Sum
 
 ### Rebuilding a message
+#easy 
 
-???????????
+Refacto le message par "XxxxXxxx"
 
 ### Red envelopes
+#todo 
 
 ![[Pasted image 20231112121019.png]]
 
 ### Reshape String
+#middle 
+
+注意结尾不需要换行符
 
 ![[Pasted image 20231112121039.png]]
 
