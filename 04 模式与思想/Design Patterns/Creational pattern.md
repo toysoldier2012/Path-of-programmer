@@ -1,31 +1,34 @@
 #pattern
 
-## 1. Singleton
+## Singleton
 #singleton
 
 1. 懒汉式
 2. 饿汉式
+3. 枚举类
 
-## 2. Simple Factory
+线程安全，双重确认
+
+## Simple Factory
 #simplefactory
 
 ![[Pasted image 20231020182506.png]]
-## 3. Factory
+## Factory
 #factory
 
 ![[Pasted image 20231020182618.png]]
 
-## 4. Abstract factory
+## Abstract factory
 #abstractfactory
 
 ![[Pasted image 20231020182609.png]]
 
-## 5. Prototype
+## Prototype
 #prototype
 
 ![[Pasted image 20230220224859.png]]
 
-## 6. Builder
+## Builder
 #builder 
 
 ![[Pasted image 20231020182746.png]]
