@@ -432,12 +432,9 @@ Is foo?
 
 ![[Pasted image 20231112121728.png]]
 
+### Moving atoms on a grid
 
-# Achieve
-
-### Déplacer un atome sur une grille à l'aide d'actions prédéfinies. 
-
-✓ Règles Vous avez découvert d'anciens procédés alchimiques permettant de transmuter la matière. Vous pouvez ajouter ou retirer des protons et des neutrons à un atome. Votre atome est placé dans l'aire de jeu. L'axe des abscisses représente le nombres de protons et l'axe des ordonnées le nombre de neutrons. Vous devez lister les actions à effectuer afin que l'atome atteigne le nombre attendu de protons et de neutrons. Vous disposez des 3 actions prédéfinies suivantes : PROTON: ajoute un proton à l'atome. Dans l'aire de jeu, cela équivaut à le déplacer d'une case vers la droite. NEUTRON : ajoute un neutron, déplace l'atome d'une case vers le bas. ALPHA]: retire deux protons et deux neutrons par désintégration alpha, déplace l'atome de deux cases en diagonale vers la gauche et le haut. Vous devez renvoyer une liste de chaîne de caractère correspondant aux actions à effectuer. Par exemple, si vous renvoyez une liste contenant les mots ALPHA", "PROTON PROTON" PROTON, Fatome perdra deux protons et deux neutrons, puis regagnera 3 protons. Au final, il se déplacera de deux cases vers le haut et une case vers la droite. L'ordre des actions n'a pas d'importance. Il n'est pas obligatoire de minimiser le nombre d'actions. Votre atome peut être déplacé en dehors de la grille, y compris vers le haut et vers la gauche. Implémentation Implémentez la méthode solve (protonsStart, neutronsStart, protonsTarget, neutronsTarget)] Cette méthode doit retourner une liste de chaînes de caractères : les actions successives à effectuer pour passer de l'atome fourni à l'atome cible. La méthode prend 4 paramètres d'entrée: protonsStart et neutronsStart représentent le nombre de protons et de neutrons de T'atome initial. protonsTarget et neutronsTarget représentent le nombre de protons et de neutrons de l'atome souhaité. Conditions de Victoire Votre liste d'actions déplace correctement l'atome, jusqu'au nombre souhaité de protons et de neutrons. Conditions de Défalte • Votre programme indique une action invalide. ⚫ La liste d'actions retournée par votre méthode ne déplace pas fatome au bon endroit. Votre liste dépasse 1000 actions.
+![[Pasted image 20231114203405.png]]
 
 ```java
 Import java. Util. ArrayList;
