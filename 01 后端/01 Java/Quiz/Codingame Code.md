@@ -279,6 +279,7 @@ Public class Echo {
 ![[Pasted image 20231112120326.png]]
 
 ### Joining point
+#easy 
 
 ![[Pasted image 20231112120349.png]]
 
