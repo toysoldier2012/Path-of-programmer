@@ -373,10 +373,12 @@ Refacto le message par "XxxxXxxx"
 ![[Pasted image 20231112121231.png]]
 
 ### Simple fix
+#easy 
 
 ![[Pasted image 20231112121257.png]]
 
 ### Stock Prices
+#middle 
 
 ![[Pasted image 20231112121325.png]]
 
