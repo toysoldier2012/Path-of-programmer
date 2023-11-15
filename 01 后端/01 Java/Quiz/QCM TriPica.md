@@ -82,30 +82,6 @@
 
 
 
-**27.Quelle interface est utilisée pour implémenter le comportement de comparaison d'objets en Java ?**
-
-- [ ] Comparator
-
-- [x] Comparable
-
-- [ ] Equals
-
-- [ ] Comparer
-
-
-
-28.Quelle est la méthode utilisée pour ajouter un élément à une liste (List) en Java ?
-
-- [x] add()
-
-- [ ] insert()
-
-- [ ] push()
-
-- [ ] append()
-
-
-
 29.Quelle classe est utilisée pour représenter une connexion à une base de données en  
 Java ?
 
@@ -116,43 +92,6 @@ Java ?
 - [ ] Database
 
 - [x] Connection
-
-
-
-30.Quelle est la méthode utilisée pour vérifier si un objet est de type spécifique en  
-Java ?
-
-- [ ] isType()
-
-- [ ] typeOf()
-
-- [x] instanceOf
-
-- [ ] checkType()
-
-
-
-31.Quelle est la différence entre une ArrayList et un LinkedList en Java ?
-
-- [x] Une ArrayList est plus efficace en termes d'accès aléatoire, tandis qu'un LinkedList est plus efficace en termes d'insertion et de suppression en milieu de liste.
-
-- [ ] Une ArrayList a une taille fixe, tandis qu'un LinkedList peut changer de taille dynamiquement
-
-- [ ] Une ArrayList est une liste chaînée, tandis qu'un LinkedList est une liste contiguë.
-
-- [ ] Il n'y a pas de différence, les deux font la même chose.
-
-
-
-32.Quelle est l'utilisation principale des génériques en Java ?
-
-- [x] Permettre la manipulation de différents types de données dans une classe ou une méthode.
-
-- [ ] Permettre l'encapsulation des données et des méthodes dans une classe.
-
-- [ ] Permettre la génération automatique de code source.
-
-- [ ] Permettre la création de méthodes statiques.
 
 
 
