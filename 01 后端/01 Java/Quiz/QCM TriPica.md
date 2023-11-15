@@ -1,75 +1,3 @@
-Quel niveau considérez-vous avoir en Java ? (du plus faible au plus fort)
-
-- [ ] Mr. Anderson
-
-- [x] Morpheus
-
-- [ ] Agent Smith
-
-- [ ] Néo
-
-
-
-3.Qu'est-ce que Java ?
-
-- [ ] Un framework de développement web.
-
-- [x] Un langage de programmation orienté objet.
-
-- [ ] Une boisson chaude très populaire.
-
-- [ ] Une île située en Indonésie.
-
-
-
-4.Quelle est la sortie de code de l'instruction suivante : System.out.println(10 > 5 && 8 < 2); ?
-
-- [ ] 10
-
-- [x] false
-
-- [ ] 5
-
-- [ ] true
-
-
-
-5.Quelle est la différence entre equals() et == en Java ?
-
-- [ ] equals() compare la référence, tandis que == compare les valeurs.
-
-- [ ] equals() est utilisé pour les types primitifs, tandis que == est utilisé pour les objets.
-
-- [x] equals() compare les valeurs, tandis que == compare les références.
-
-- [ ] Il n'y a pas de différence, les deux font la même chose.
-
-
-
-6.Quelle est la classe de base de toutes les classes Java ?
-
-- [ ] Main
-
-- [x] Object
-
-- [ ] Class
-
-- [ ] Base
-
-
-
-7.Quelle est la valeur de la variable x après l'exécution de ce code : int x = 5; x++; ?
-
-- [x] 6
-
-- [ ] 4
-
-- [ ] 0
-
-- [ ] 5
-
-
-
 8.Quelle est la sortie de code de l'instruction suivante : System.out.println("Hello, World!".substring(7)); ?
 
 - [ ] Hello, World!
@@ -94,54 +22,6 @@ Quel niveau considérez-vous avoir en Java ? (du plus faible au plus fort)
 
 
 
-10.Comment déclarer une variable constante en Java ?
-
-- [x] final int x = 5;
-
-- [ ] constant int x = 5;
-
-- [ ] static final int x = 5;
-
-- [ ] const int x = 5;
-
-
-
-11.Quelle est la sortie de code de l'instruction suivante : System.out.println(Math.pow(2, 3)); ?
-
-- [ ] 6
-
-- [x] 8
-
-- [ ] 2
-
-- [ ] 3
-
-
-
-12.Quelle est la méthode utilisée pour démarrer l'exécution d'un programme Java ?
-
-- [ ] run()
-
-- [ ] start()
-
-- [ ] execute()
-
-- [x] main()
-
-
-
-13.Quelle est la différence entre une boucle for et une boucle while en Java ?
-
-- [ ] Une boucle for est utilisée pour les itérations dont le nombre est inconnu, tandis qu'une boucle while est utilisée pour les itérations connues à l'avance.
-
-- [ ] Une boucle for est plus performante qu'une boucle while
-
-- [x] Une boucle for est utilisée pour les itérations connues à l'avance, tandis qu'une boucle while est utilisée pour les itérations dont le nombre est inconnu.
-
-- [ ] Il n'y a pas de différence, les deux font la même chose.
-
-
-
 14.Quelle est la méthode utilisée pour lire une entrée utilisateur depuis la console en Java ?
 
 - [ ] [System.in.read](http://system.in.read/) ()
@@ -154,54 +34,6 @@ Quel niveau considérez-vous avoir en Java ? (du plus faible au plus fort)
 
 
 
-15.Quelle est la différence entre une ArrayList et un tableau (array) en Java ?
-
-- [ ] Un tableau peut contenir des éléments de différents types, tandis qu'une ArrayList ne peut contenir qu'un seul type.
-
-- [x] Une ArrayList est une structure de données dynamique, tandis qu'un tableau a une taille fixe.
-
-- [ ] Un tableau est plus efficace en termes de mémoire que l'utilisation d'une ArrayList
-
-- [ ] Une ArrayList est une classe, tandis qu'un tableau est un type de données primitif.
-
-
-
-16.Quelle est la sortie de code de l'instruction suivante : System.out.println("Java".charAt(2)); ?
-
-- [ ] c
-
-- [ ] a
-
-- [x] v
-
-- [ ] J
-
-
-
-17.Quelle est la méthode utilisée pour convertir une chaîne de caractères en un entier (int) en Java ?
-
-- [ ] convertToInt()
-
-- [x] parseInt()
-
-- [ ] castToInt()
-
-- [ ] toInteger()
-
-
-
-18.Quelle est la sortie de code de l'instruction suivante : System.out.println(10 / 3); ?
-
-- [ ] 3.0
-
-- [x] 3
-
-- [ ] 3.33
-
-- [ ] 3.3333333333333335
-
-
-
 19.Quelle est la méthode utilisée pour arrêter l'exécution d'un programme Java ?
 
 - [ ] break()
@@ -211,18 +43,6 @@ Quel niveau considérez-vous avoir en Java ? (du plus faible au plus fort)
 - [ ] terminate()
 
 - [ ] stop()
-
-
-
-20.Quelle est la sortie de code de l'instruction suivante : System.out.println("Java".toUpperCase()); ?
-
-- [ ] J
-
-- [ ] Java
-
-- [ ] java
-
-- [x] **JAVA**
 
 
 
@@ -247,42 +67,6 @@ Quel niveau considérez-vous avoir en Java ? (du plus faible au plus fort)
 - [ ] Une erreur est un problème qui peut être géré, tandis qu'une exception est un problème critique.
 
 - [ ] Une erreur arrête l'exécution du programme, tandis qu'une exception peut-être capturée et traitée
-
-
-
-23.Quelle est la différence entre l'héritage (inheritance) et la composition en Java ?
-
-- [x] L'héritage permet à une classe d'hériter les attributs et les méthodes d'une autre classe, tandis que la composition permet à une classe de contenir des objets d'autres classes.
-
-- [ ] L'héritage est plus flexible que la composition.
-
-- [ ] Il n'y a pas de différence, les deux font la même chose.
-
-- [ ] L'héritage ne peut être utilisé qu'entre les classes de même hiérarchie, tandis que la composition peut être utilisée entre des classes de hiérarchies différentes.
-
-
-
-24.Quelle interface est utilisée pour implémenter le mécanisme de threads en Java ?
-
-- [x] Runnable
-
-- [ ] Threadable
-
-- [ ] Concurrent
-
-- [ ] Executor
-
-
-
-25.Quelle est la méthode utilisée pour trier un tableau d'objets en Java ?
-
-- [ ] sortArray()
-
-- [ ] arrange()
-
-- [x] sort()
-
-- [ ] order()
 
 
 
