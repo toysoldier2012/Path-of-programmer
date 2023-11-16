@@ -1,13 +1,6 @@
 
 https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/java-quiz.md
 
-### Q1. Given the string "strawberries" saved in a variable called fruit, what would `fruit.substring(2, 5)` return? #string 
-
-- [ ] rawb
-- [x] raw
-- [ ] awb
-- [ ] traw
-
 
 ### Q2. How can you achieve runtime polymorphism in Java? #polymorphism
 
@@ -24,37 +17,6 @@ https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/j
 - [x] `i2 && b1`
 - [ ] `b1 || !b2`
 - [ ] `(i1 ^ i2) < 4`
-
-
-### Q4. What is the output of this code? #array 
-
-```java
-1: class Main {
-
-2:   public static void main (String[] args) {
-
-3:     int array[] = {1, 2, 3, 4};
-
-4:     for (int i = 0; i < array.size(); i++) {
-
-5:        System.out.print(array[i]);
-
-6:     }
-
-7:   }
-
-8: }
-```
-
-- [x] It will not compile because of line 4.
-- [ ] It will not compile because of line 3.
-- [ ] 123
-- [ ] 1234
-
-> [!note] 
-> `array.length`
-> `string.length()`
-> `collection.size()`
 
 
 ### Q5. Which of the following can replace the CODE SNIPPET to make the code below print "Hello World"? #interface
