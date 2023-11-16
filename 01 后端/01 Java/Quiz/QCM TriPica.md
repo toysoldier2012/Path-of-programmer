@@ -10,18 +10,6 @@
 
 
 
-**9.Quelle est la différence entre une interface et une classe abstraite en Java ?**  
-
-- [ ] Une interface ne peut pas être implémentée, tandis qu'une classe abstraite peut.
-
-- [ ] Une classe abstraite peut être instanciée, tandis qu'une interface ne peut pas
-
-- [x] Une classe abstraite peut hériter d'une autre classe, tandis qu'une interface ne peut pas.
-
-- [ ] Une interface ne peut pas contenir de méthodes, tandis qu'une classe abstraite peut.
-
-
-
 14.Quelle est la méthode utilisée pour lire une entrée utilisateur depuis la console en Java ?
 
 - [ ] [System.in.read](http://system.in.read/) ()
