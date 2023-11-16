@@ -22,18 +22,6 @@
 
 
 
-19.Quelle est la méthode utilisée pour arrêter l'exécution d'un programme Java ?
-
-- [ ] break()
-
-- [x] exit()
-
-- [ ] terminate()
-
-- [ ] stop()
-
-
-
 21.Quelle interface est utilisée pour lire des données à partir du clavier en Java?
 
 - [x] Scanner
@@ -120,18 +108,6 @@ spécifique en Java ?
 
 
 
-36.Quelle classe est utilisée pour créer et démarrer un nouveau thread en Java ?
-
-- [ ] Runnable
-
-- [ ] Timer
-
-- [x] Thread
-
-- [ ] Executor
-
-
-
 37.Quelle est la différence entre une exception vérifiée (checked exception) et une  
 exception non vérifiée (unchecked exception) en Java ?
 
@@ -142,19 +118,6 @@ exception non vérifiée (unchecked exception) en Java ?
 - [x] Une exception vérifiée doit être déclarée dans la signature de la méthode ou gérée avec un bloc try-catch, tandis qu'une exception non vérifiée n'est pas obligatoire.
 
 - [ ] Une exception vérifiée est toujours une sous-classe d'Exception, tandis qu'une exception non vérifiée peut être une sous-classe d'Error ou d'Exception.
-
-
-
-38.Quelle annotation est utilisée pour indiquer qu'une méthode ou une classe est obsolète  
-et ne doit plus être utilisée en Java ?
-
-- [ ] @DeprecatedMethod
-
-- [x] @Deprecated
-
-- [ ] @Obsolete
-
-- [ ] @ObsoleteMethod
 
 
 
