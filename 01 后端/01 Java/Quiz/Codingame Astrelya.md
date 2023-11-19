@@ -36,18 +36,51 @@
 ![[Pasted image 20231119210321.png]]
 ![[Pasted image 20231119210347.png]]
 
+![[Pasted image 20231119212120.png]]
 
+![[Pasted image 20231119213241.png]]
+![[Pasted image 20231119213255.png]]
 
+![[Pasted image 20231119213306.png]]
 
+![[Pasted image 20231119213314.png]]
+
+![[Pasted image 20231119213339.png]]
 
 
 ![[Pasted image 20231119202134.png]]
 
-![[Pasted image 20231119202145.png]]
+![[Pasted image 20231119213451.png]]
+![[Pasted image 20231119213500.png]]
 
-![[Pasted image 20231119202804.png]]
+![[Pasted image 20231119213538.png]]
+![[Pasted image 20231119213544.png]]
+
+![[Pasted image 20231119213605.png]]
+![[Pasted image 20231119213612.png]]
 
 ![[Pasted image 20231119203205.png]]
 
-![[Pasted image 20231119204620.png]]
+
+
+
+
+![[Pasted image 20231119213625.png]]
+![[Pasted image 20231119213637.png]]
+
+
+![[Pasted image 20231119213648.png]]
+![[Pasted image 20231119213655.png]]
+
+![[Pasted image 20231119213722.png]]
+
+![[Pasted image 20231119213731.png]]
+
+![[Pasted image 20231119213737.png]]
+
+![[Pasted image 20231119213743.png]]
+
+![[Pasted image 20231119213749.png]]
+
+
 
