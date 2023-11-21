@@ -3,7 +3,6 @@ Mission SODEXO, construction et maintenance de portail Web responsif, de Back of
   
 Participation au développement des différents modules  
 - Création/suppression des concepts de configuration dans les modules 
-
 - Refactory des concepts de configuration  
 - Création des bases de données SQL server  
 - Développement des interfaces de configuration du module  
