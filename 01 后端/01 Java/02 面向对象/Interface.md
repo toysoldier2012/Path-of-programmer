@@ -3,7 +3,6 @@
 - L'interface est une abstraction d'un comportement spécifique.
 - Les seules variables que l'on peut définir dans une interface sont des variables de la classe qui doivent être constantes 
 - Toute classe qui implémente cette interface, doit au moins posséder les méthodes qui sont déclarées dans l'interface
-
 - Java 9 之后，方法可以为 `private` 或者 `private static`
 
 ### La `default` méthode
