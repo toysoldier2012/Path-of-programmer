@@ -15,3 +15,10 @@ JobLauncher
 JobBuilderFactory
 StepBuilderFactroy
 
+Job
+Step
+Tasklet
+
+JobInstance
+JobExecution
+JobParameters
