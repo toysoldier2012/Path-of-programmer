@@ -1,3 +1,7 @@
+#springbatch
+
+
+
 ![[Pasted image 20231125095149.png]]
 
 - `JobLauncher` 作业调度器
@@ -23,5 +27,25 @@ JobInstance
 JobExecution
 JobParameters
 
+参数获取
+
+chunkContext
 @StepScope
 @Value
+
+参数校验
+
+JobParameterValidator
+DefaultJobParametersValidator
+CompositeJobParametersValidator
+
+增量参数
+
+JobParametersIncrementer
+DailyTimestampParamIncrementer
+
+作业监听
+
+JobExecutionListener
+@beforeJob
+@afterJob
