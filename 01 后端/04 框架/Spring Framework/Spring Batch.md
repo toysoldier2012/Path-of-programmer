@@ -22,3 +22,6 @@ Tasklet
 JobInstance
 JobExecution
 JobParameters
+
+@StepScope
+@Value
