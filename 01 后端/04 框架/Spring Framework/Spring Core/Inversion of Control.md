@@ -9,8 +9,8 @@ Dans Spring, c'est par container IoC, il gère les objets comme des [[Bean]], qu
 @Configuration
 @Import
 
-@[[Bean]]("[[Bean]]Id")
-@[[Bean]](name = "", initMethod = "", destroyMethod = "", autowireCandidate = false)
+@Bean("BeanId")
+@Bean(name = "", initMethod = "", destroyMethod = "", autowireCandidate = false)
 
 @Component("xxx")
 	@Controller("xxx")

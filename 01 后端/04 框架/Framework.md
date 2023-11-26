@@ -1,27 +1,51 @@
 
 # [[Maven]]
-#maven
 
 - Maven permet de mieux **structurer** le projet Java dans son life-cycle, **développer, complir, tester, deployer** etc.
 - L'ensemble du projet est géré à partir d'un seul fichier : le pom.xml, qui représente **toutes les informations liées au projet** (le nom, l'auteur, la version du projet etc.) et aussi les « **dépendances** » du projet.
 - Maven peut aussi télécharger et mettre à jours ces dépendances Jars à partir du son répertoire
-# [[Mybatis]]
-
-# [[Lombok]]
 
 # Spring frameworks
 
 ## Spring Core
 
-### [[Dependency injection]]
+### 核心内容
 
-### [[Inversion of Control]]
+#### [[Bean]]
 
-[[AOP]]
+#### [[Dependency injection]]
+
+#### [[Inversion of Control]]
+
+#### [[AOP]]
+
+### 扩展内容
+
+#### [[Aware]]
+
+#### [[Multi thread]]
 
 ## Spring Boot
 
-# Log4j
+# ORM
+
+## [[Hibernate]]
+
+## [[Mybatis]]
+
+# Test
+
+## Test unitaire
+
+### [[JUnit]]
+
+### [[Mockito]]
+
+# Autre
+
+## [[Lombok]]
+
+## Log4j
 
 - 添加依赖到pow.xml
 
@@ -61,7 +85,7 @@
 
 FATAL > ERROR > WARN > INFO > DEBUG
 
-# Druid
+## Druid
 
 ``` xml
 <dependency>  
@@ -70,12 +94,3 @@ FATAL > ERROR > WARN > INFO > DEBUG
     <version>1.2.16</version>  
 </dependency>
 ```
-
-
-# [[Vuejs]]
-
-
-
-Thymeleaf
-
-Log
