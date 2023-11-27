@@ -29,6 +29,33 @@
 > [!question] Peut-on Faire un override sur une méthode static ? #override #static 
 Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dernière appartient une classe mais pas un objet 
 
+> [!question] 子类的实现的抽象方法是在何时可以使用的？
+> 
+> 在 Java 中，子类实现父类的抽象方法可以在子类构造器执行完毕之后使用。这是因为在 Java 的对象创建过程中，构造器的执行是有顺序的，先执行父类的构造器，然后才执行子类的构造器。
+> 当创建一个子类的实例时，以下顺序被遵循：
+> 1. 分配对象内存空间。
+> 2. 将对象内存空间初始化为零值（这就是为什么整型字段的默认值是 `0`）。
+> 3. 设置对象的隐藏引用（即 Java 中的 `this`）。
+> 4. 调用父类构造器。在这一步中，如果父类构造器调用了任何被子类覆盖的方法，那么将会执行子类中的版本。但是，如果这些方法依赖于子类构造器中初始化的任何状态，那么可能会导致问题，因为子类的成员变量尚未初始化。
+> 5. 初始化子类成员变量和实例块（如果有的话）。
+> 6. 执行子类构造器的其余部分。
+> 
+> 正因为此，在父类构造器中调用抽象方法是危险的，因为子类尚未完全构造好，调用的抽象方法可能会使用尚未初始化的变量，这可能会导致程序出现逻辑错误或运行时异常。
+> 
+> 因此，在子类的构造器完成之后，子类的方法（包括实现了父类抽象方法的那些方法）才可以被安全地使用，这时候可以保证所有的成员变量都已经被正确初始化。在代码中的最佳实践是避免在构造器中调用可以被覆盖的方法（非 `final` 方法），这样可以防止可能的错误或安全漏洞。
+
+> [!question] 既然先执行父类的构造器，然后才执行子类的构造器，子类实现父类的抽象方法可以在子类构造器执行完毕之后使用，那么为什么在父类构造器中可以调用子类实现的抽象方法
+> 
+> 在 Java 中，即使是在父类构造器中，也可以调用子类实现的抽象方法。这是因为 Java 的动态绑定机制允许在运行时调用实际对象类型的方法。即便是在构造器中，如果一个方法是被子类覆盖的，那么无论它被父类构造器调用还是子类构造器调用，都会执行子类中的方法实现。
+> 
+> 然而，这是一个非常容易出错的操作，因为在父类构造器执行时，子类的成员变量还没有被初始化。如果覆盖的方法依赖于子类的状态（即依赖于子类的成员变量），这时这些成员变量可能还没有被赋予合适的初始值。
+> 
+> 这种设计可能会导致以下问题：
+> - **方法依赖未初始化的状态**：如果子类覆盖的方法依赖于子类的成员变量，而这些变量还没有在子类的构造器中被初始化，那么方法可能会访问到错误的状态。
+> - **违反封装原则**：构造器中调用可以被覆盖的方法可能会导致子类的实现细节泄露到父类中。
+> 
+> 尽管可以在父类构造器中调用被子类实现的方法，但这种做法通常是不推荐的。因为这违背了 Java 编程中的安全构造器实践。正确的做法是，构造器应该避免调用可以被覆盖的方法（也就是非 `final` 的方法），特别是在抽象类的构造器中，这样做可以避免在子类构造器执行之前，访问未初始化的状态。 
+
 # Base de Java
 
 > [!question] Les différences entre `String`, `StringBuffer`, `StringBuilder` #string #stringbuffer #stringbuilder 
@@ -39,6 +66,9 @@ Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dern
 
 > [!question] C'est quoi une énumération ? #enum 
 > C'est une variable spécifique, elle contient un ou plusieurs valeurs constantes
+
+> [!question] 
+> une enumeration Java peut elle apporter de traitement métier si oui comment. 
 
 ## Exception
 
@@ -157,6 +187,10 @@ Non, on peut pas réaliser le polymorphisme sur la méthode statique, cette dern
 > [!question] thread pool (à quoi ça sert…)
 
 > [!question] mot clé volatile… #volatile 
+
+> [!question] Concurentmodificationexception 解决办法 
+> 
+> ![[Pasted image 20231127220539.png]]
 
 ## JVM
 #jvm 

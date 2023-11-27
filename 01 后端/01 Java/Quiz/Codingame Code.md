@@ -1,7 +1,3 @@
-![[Pasted image 20231112111844.png]]
-![[Pasted image 20231112111914.png]]
-![[Pasted image 20231112111950.png]]
-![[Pasted image 20231112112008.png]]
 
 ### A mysterious diary
 #easy
@@ -229,6 +225,47 @@ Recursion et iteration
 #todo 
 
 貌似有
+
+```java
+import java. util. zip. CRC 32;
+import java. util. ArrayList;
+import java. util. List;
+
+public class ChecksumCalculator {
+
+    // Method to calculate checksums for chunks of bytes
+    public static List<Long> calculateChecksums(byte[] data, int chunkSize) {
+        List<Long> checksums = new ArrayList<>();
+        CRC32 crc = new CRC32();
+
+        for (int i = 0; i < data.length; i += chunkSize) {
+            crc.reset(); // Reset CRC32 for each chunk
+
+            // Determine the end of the current chunk
+            int end = Math.min(data.length, i + chunkSize);
+
+            // Update the CRC32 checksum for this chunk
+            crc.update(data, i, end - i);
+
+            // Add the checksum to the list
+            checksums.add(crc.getValue());
+        }
+
+        return checksums;
+    }
+
+    public static void main(String[] args) {
+        byte[] data = ... // your data here
+        int chunkSize = 1024; // Define your chunk size (for example 1024 bytes)
+        List<Long> checksumList = calculateChecksums(data, chunkSize);
+
+        // Print out the checksums for each chunk
+        for (Long checksum : checksumList) {
+            System.out.println("Checksum: " + checksum);
+        }
+    }
+}
+```
 
 ### Hack PayPaul!
 
@@ -519,6 +556,5 @@ const result = isTwin('Romain', 'Marion');
 console.log(result); // true
 ```
 
-
-
-
+### tree node*
+![[Pasted image 20231127213657.png]]
