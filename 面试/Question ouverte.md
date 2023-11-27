@@ -1,3 +1,5 @@
+### Communication
+
 ### Comment analyser le besoin
 
 1. Comprendre et préciser le besoin avec les prenantes
