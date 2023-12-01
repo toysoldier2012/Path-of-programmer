@@ -1,7 +1,6 @@
 
 https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/java/java-quiz.md
 
-
 ### Q2. How can you achieve runtime polymorphism in Java? #polymorphism
 
 - [ ] method overloading

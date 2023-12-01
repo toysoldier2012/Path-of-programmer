@@ -497,7 +497,6 @@ Oui, c'est java.lang.Number.
 
 Byte hérite de Short qui hérite de Integer qui hérite de Long, mais BigDecimal ne partage pas de superclasses communes avec ces types.
 
-VOIR LA CORRECTION ![🔐](https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f510.svg)
 
 Auteur·ice: Thomas De verdièreStatut : PubliéeQuestion passée 1795 fois
 
