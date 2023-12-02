@@ -72,9 +72,9 @@ You may have noticed that files have two sizes. The "file size" and the "size on
 Example 
 • A disk has a cluster size of 512 bytes. 
 • A file has a size of 1500 bytes. 
-• 2 clusters (512^ * 2 = 1024brtes ) would not be enough to store this file. 4 clusters (2048 bytes) would be too much, one of the cluster would be empty. 
+• 2 clusters (512^ * 2 = 1024 brtes ) would not be enough to store this file. 4 clusters (2048 bytes) would be too much, one of the cluster would be empty. 
 The correct number of clusters is 3. 
-• The total size of these clusters is (512^ * 3 = 1536bytes ), which is the size on disk of this file.
+• The total size of these clusters is (512^ * 3 = 1536 bytes ), which is the size on disk of this file.
 ### Convert bytes to Kibibytes or Mebibytes
 #easy 
 ### Count-quarium
@@ -132,9 +132,9 @@ Kadane's algorithm
 ### FizzBuzz
 #easy 
 
-Fizz buzz is a group word game for children to teach them about division.Players take turns to count incrementally, replacing any number divisible by three with the word "fizz", and any number divisible by five with the word "buzz", and any number divisible by both 3 and 5 with the word "fizzbuzz".
+Fizz buzz is a group word game for children to teach them about division. Players take turns to count incrementally, replacing any number divisible by three with the word "fizz", and any number divisible by five with the word "buzz", and any number divisible by both 3 and 5 with the word "fizzbuzz".
 
-### Follow the path on a 2D grid
+### Follow the path on a 2 D grid
 #todo 
 
 ???????????????
@@ -356,7 +356,7 @@ You do not have to take care of the singular/plural of the words defining the pr
 These words may contain some numbers, you must not modify them. 
 The order of the lines must be preserved. 
 
-Example You want to cook a cake for 3 persons. Here is the initial ingredient list for one person: 2 eggs 200 grams of flour 150 grams of sugar 1 liter(s) of milk You must output this list: 6 eggs 688 grams of flour 450 grams of sugar 3 liter(s) of milk
+Example You want to cook a cake for 3 persons. Here is the initial ingredient list for one person: 2 eggs 200 grams of flour 150 grams of sugar 1 liter (s) of milk You must output this list: 6 eggs 688 grams of flour 450 grams of sugar 3 liter (s) of milk
 
 ### Packing Suitcases
 
@@ -534,7 +534,7 @@ Public class AtomMover {
 
 ### IsTwin
 
-Complétez la méthode isTwin(a, b) dont a et b sont deux valeurs string, retourne True si a et b auront les mêmes caractères sans compter l'ordre. Exemple 'Romain' et 'Marion' => true in javascript
+Complétez la méthode isTwin (a, b) dont a et b sont deux valeurs string, retourne True si a et b auront les mêmes caractères sans compter l'ordre. Exemple 'Romain' et 'Marion' => true in javascript
 
 ```java
 function isTwin(a, b) {
@@ -558,3 +558,4 @@ console.log(result); // true
 
 ### tree node*
 ![[Pasted image 20231127213657.png]]
+

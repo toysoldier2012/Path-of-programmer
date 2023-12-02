@@ -1,4 +1,6 @@
 
+# QCM
+
 ### Which **annotation** can be used to ensure that an interface is functional?
 
 - [ ] @Functional
@@ -204,74 +206,74 @@ A list of players has been created, together with a copy of that list. What type
 
 ### Which options contain a **valid** Java 12+ switch expression?
 
-_Multiple answers expected._
+*Multiple answers expected.*
 
 - [ ]  
 ```java
-    int state = switch (month) {
-        case JANUARY  -> 0;
-        case FEBRUARY -> 1;
-        case MARCH    -> 2;
-        default       -> {
-            int l = logic(month);
-            l *= 9;
-            yield l;
-        }
-    };
-    ```
-    
+int state = switch (month) {
+	case JANUARY  -> 0;
+	case FEBRUARY -> 1;
+	case MARCH    -> 2;
+	default       -> {
+		int l = logic(month);
+		l *= 9;
+		yield l;
+	}
+};
+```
+
 - [ ] 
 ```java
-    int number = switch (state) {
-        case "UP": 
-            yield 5;
-        case "DOWN":
-            yield 7;
-        default:
-            System.out.println("Illegal state");
-            yield -1;
-    };
-    ```
-    
+int number = switch (state) {
+	case "UP": 
+		yield 5;
+	case "DOWN":
+		yield 7;
+	default:
+		System.out.println("Illegal state");
+		yield -1;
+};
+```
+
 - [ ] 
 ```java
-    int number = switch (state) {
-        case "UP": 
-            break 5;
-        case "DOWN":
-            break 7;
-        default:
-            System.out.println("Illegal state");
-            break -1;
-    };
-    ```
-    
+int number = switch (state) {
+	case "UP": 
+		break 5;
+	case "DOWN":
+		break 7;
+	default:
+		System.out.println("Illegal state");
+		break -1;
+};
+```
+
 - [ ] 
 ```java
-    int state = switch (month) {
-        case JANUARY  -> 0;
-        case FEBRUARY -> 1;
-        case MARCH    -> 2;
-        default       -> {
-            int l = logic(month);
-            l *= 9;
-            return l;
-        }
-    };
-    ```
-    
+int state = switch (month) {
+	case JANUARY  -> 0;
+	case FEBRUARY -> 1;
+	case MARCH    -> 2;
+	default       -> {
+		int l = logic(month);
+		l *= 9;
+		return l;
+	}
+};
+```
+
 - [ ] 
 ```java
-    int number = switch (state) {
-        case "UP": 
-            return 5;
-        case "DOWN":
-            return 7;
-        default:
-            System.out.println("Illegal state");
-            return -1;
-    };
-    ```
+int number = switch (state) {
+	case "UP": 
+		return 5;
+	case "DOWN":
+		return 7;
+	default:
+		System.out.println("Illegal state");
+		return -1;
+};
+```
 
 ### You are implementing a library. Among these options, which one do you select to manage an unexpected behavior?
 
@@ -330,3 +332,67 @@ Plusieurs réponses acceptées.
 - [ ] à l'exécution, il est possible de savoir quel est le thread courant
 - [ ] sur une machine multi-coeurs, tous les threads s'executent dans un seul processus et donc dans un seul coeur
 - [ ] pour faire des traitements asynchrones il est nécessaire d'utiliser directement ou indi- rectement des threads.
+
+# Text
+
+### Design pattern 01
+
+```java
+public class A {
+
+    private A() {}
+
+    private static class AHolder {
+        private static final A INSTANCE = new A();
+    }
+
+    public static A getInstance() {
+        return AHolder.INSTANCE; 
+    }
+}
+```
+
+What is the name of the design pattern used in this piece of code?
+
+_Answer with 1 word only._
+
+### Design pattern
+
+You are writing an application aiming at making cocktails. A cocktail contains several ingredients (according to the customer's order) and it can quickly become complex to prepare. However, the different steps in the preparation process remain the same: adding an alcohol, adding a syrup, etc. If you know a design pattern that would be appropriate to prepare these cocktails, type its name in the text field (1 word only).
+
+### java. lang. String. lines ()
+
+What method in `java.lang.String` would you use to split the string below into an array or collection of strings based on new lines?
+
+```java
+String str = "This is a string\nThis is the next line.\nHello world.";
+```
+
+### Stream anyMatch () method
+
+Which method of `Stream` can be used to **check whether a certain predicate matches at least one element in the stream**?
+
+_Write the name of the **most efficient** method to do so_
+
+### String buffers
+
+Type the name of a class belonging to the package java. Lang which allows to concatenate efficiently strings of characters.
+
+### String.isBlank ()
+
+What is the name of the method in the `java.lang.String` class that will test if the strings below **are empty or have only whitespace characters**?
+
+```java
+String str1 = "";               // yes
+String str1 = "     ";          // yes
+String str1 = "Hello world.";   // no
+```
+
+The expected method must be one that has existed since **Java version 11**.
+
+### ThreadLocal use
+
+Which class can be used to store **thread-specific values**?
+
+_Write only the name of the class_
+
