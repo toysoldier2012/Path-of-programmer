@@ -32,6 +32,8 @@ I'm excited to be here today and to meet you. Thank you for taking the time to l
 
 ### Communication
 
+
+
 ### Comment analyser le besoin
 
 1. Comprendre et préciser le besoin avec les prenantes
@@ -105,18 +107,6 @@ Il est important de fournir une formation et un accompagnement pour aider le nou
 1. **Tests unitaires :** Les tests unitaires se concentrent sur la validation du comportement d'une petite unité de code, généralement une fonction ou une méthode, de manière isolée. Ils visent à s'assurer que chaque composant individuel de l'application fonctionne correctement.
     
 2. **Tests d'intégration :** Les tests d'intégration vérifient la manière dont différentes unités ou modules interagissent les uns avec les autres. Ils s'assurent que ces interactions fonctionnent correctement et que l'intégration globale de l'application est cohérente.
-    
-3. **Tests fonctionnels :** Les tests fonctionnels évaluent si l'application remplit correctement ses fonctionnalités, en se concentrant sur les comportements observables par les utilisateurs. Ils sont axés sur les spécifications fonctionnelles de l'application.
-    
-4. **Tests d'acceptation :** Les tests d'acceptation, également appelés tests de validation, vérifient si l'application répond aux critères d'acceptation convenus avec les parties prenantes. Ils sont généralement effectués en collaboration avec les utilisateurs finaux ou les clients.
-    
-5. **Tests de régression :** Les tests de régression sont effectués pour s'assurer que les modifications récentes du code n'ont pas introduit de nouveaux bugs et n'ont pas affecté les fonctionnalités existantes. Ils garantissent la stabilité de l'application au fil du temps.
-    
-6. **Tests de performance :** Les tests de performance évaluent les performances de l'application, notamment sa vitesse, sa montée en charge, sa capacité à gérer un grand nombre d'utilisateurs, etc.
-    
-7. **Tests de sécurité :** Les tests de sécurité sont conçus pour identifier et corriger les vulnérabilités et les failles de sécurité de l'application. Ils visent à garantir que l'application est robuste contre les attaques.
-
-8. **Tests exploratoires :** Les tests exploratoires consistent à explorer l'application sans scénario de test préétabli, en utilisant l'expérience et l'intuition du testeur pour découvrir des bugs ou des problèmes.
 
 ### Comment identifier un bug sur une application ?
 
