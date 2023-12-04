@@ -50,6 +50,7 @@ A la fin, je rédige souvent un compte-rendu qui contient les détails des besoi
 
 > [!question] 
 > 如果对方问，你遇到的最大的问题/挑战是什么
+> 刚开始一个新项目的时候，
 
 
 
