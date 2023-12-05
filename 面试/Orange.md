@@ -7,7 +7,7 @@ Orange est un leader mondial dans le secteur des Télécommunication et des serv
 
 **Intitulé**: Développeur Full Stack Java / Javascript
 
-**Projet**: VIGIE HYPERVISION - Une application web pour la supervision en temps réel de l'activité des centres clients Orange. 
+**Projet**: VIGIE HYPERVISION - Une application web pour la supervision en temps réel de l'activité des centres clients Orange. 客服
 
 **Rôles**:
 
@@ -35,19 +35,7 @@ Tâches:
     - Préparation et support pendant le déploiement en préproduction et production.
     - Livrables: Packing de l’application, scripts de déploiement, validation technique.
 
-> [!question] 
-> Quelle type de activité? Comment réaliser la supervision? 
-> Quelle est le métier, entité d'Orange
-
 Vous êtes en train de chercher un développeur Full stack Java / Javascript, tech lead au futur, avec les compétences dans tous les cycles de développement.
-
-> [!question] 
-> Quel type de candidat à chercher, développeur ou tech lead
-> 
-
-> [!warning] 
-> 不要明说四个部分
->
 
 ## Conception:
 
@@ -72,6 +60,13 @@ A la fin, je rédige souvent un compte-rendu qui contient les détails des besoi
 > 刚开始一个新项目的时候
 
 
+Yannick Gelhaar - Chef de projet
+3 externe
 
 
+客户先介绍
+我再介绍
 
+Coding live
+Voir comment la personne code + Gestion des priorités
+Pair programming
