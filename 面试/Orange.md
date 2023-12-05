@@ -5,7 +5,35 @@ Orange est un leader mondial dans le secteur des Télécommunication et des serv
 
 # Projet
 
-VIGIE HYPERVISION - Une application web pour la supervision en temps réel de l'activité des centres clients Orange (téléphonie et messaging), par les rapports graphiques ou tabulaires personnalisables sont mis à disposition des utilisateurs.
+**Intitulé**: Développeur Full Stack Java / Javascript
+
+**Projet**: VIGIE HYPERVISION - Une application web pour la supervision en temps réel de l'activité des centres clients Orange. 
+
+**Rôles**:
+
+- Enrichir et maintenir l'application en collaboration avec les équipes métiers et les développeurs.
+- Traduire les besoins business et techniques en solutions techniques.
+- Diagnostiquer et résoudre les incidents de production.
+
+**Challenges**:
+
+- Contribuer à plusieurs projets métiers.
+- Migration vers React, Typescript, Spring Boot, et cloud.
+
+Tâches:
+
+1. **Conception**:
+    - Concevoir des solutions techniques basées sur les besoins métiers.
+    - Livrables: Propositions de solution et estimations de charge.
+2. **Développement**:
+    - Développement de solutions validées en respectant les délais.
+    - Livrables: Documentation mise à jour, code source, tests automatisés, validation technique.
+3. **Validation fonctionnelle**:
+    - Livraison pour validation fonctionnelle et correction des anomalies.
+    - Livrables: Code source de l'application.
+4. **Déploiement**:
+    - Préparation et support pendant le déploiement en préproduction et production.
+    - Livrables: Packing de l’application, scripts de déploiement, validation technique.
 
 > [!question] 
 > Quelle type de activité? Comment réaliser la supervision? 
@@ -17,18 +45,9 @@ Vous êtes en train de chercher un développeur Full stack Java / Javascript, te
 > Quel type de candidat à chercher, développeur ou tech lead
 > 
 
-Incluant:
-
-1. **Conception**
-2. **Développement**
-3. **Validation fonctionnelle**
-4. **Déploiement**
-
 > [!warning] 
 > 不要明说四个部分
 >
-
-Je voudrais vous présenter mes capacités sur ces étapes selon mon profil
 
 ## Conception:
 
@@ -50,7 +69,7 @@ A la fin, je rédige souvent un compte-rendu qui contient les détails des besoi
 
 > [!question] 
 > 如果对方问，你遇到的最大的问题/挑战是什么
-> 刚开始一个新项目的时候，
+> 刚开始一个新项目的时候
 
 
 
