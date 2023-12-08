@@ -192,19 +192,23 @@ Which command should you use?
 - `docker get nginx:latest`
 - `docker download nginx:latest`
 
+# Text
 
+### Docker container: Auto remove when exit
 
+You need the docker daemon to automatically clean up the container and **remove the file system** when the container exits.
 
+Which command line option would you need to provide when creating the container?
 
+### Dockerfile: Set environment variable
 
+Which **Dockerfile instruction** can you use to set an **environment variable** in the container running from the image resulting from the Dockerfile?
 
+### System maintenance: Docker default root directory
 
+What is the docker store **default root directory** on a Linux system?
 
-
-
-
-
-
+_Type the full path of the directory._
 
 
 

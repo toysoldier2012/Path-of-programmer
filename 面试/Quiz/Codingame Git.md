@@ -112,4 +112,41 @@ Which file is used to show the project summary/documentation at the root of your
 
 # Text
 
+### Reset hard
+
+Refer to the image below regarding `git status` output:  
+  
+![](https://static.codingame.com/work/servlet/fileservlet?id=15874295958102)  
+  
+Which command should be executed to remove all files from the staging area and also modify the working directory to match the most recent commit?
+
+### git merge
+
+You have been assigned bug #33 . You create a new branch `bugfix33` and commit the needed changes on that branch.  
+  
+Refer to the image below:  
+  
+![](https://static.codingame.com/work/servlet/fileservlet?id=15822281606349)  
+  
+Read through all the git commands that are executed. Write the next command to merge those changes into the `master` branch (assuming `master` branch is up-to-date).
+
+### git clone
+
+A remote repository is present at ** https://github.com/hellogit/hello.git**.  
+  
+Write the command to create a copy locally in your current directory.
+
+### git push
+
+Which Git command will you use to send changes committed in your local repository to a remote repository?  
+Your answer should have the format `git xxxxx`.
+
+### git status #1
+
+Which command would you execute to get the list of locally modified files before committing anything to the repository?
+
+
+
+
+
 # Code

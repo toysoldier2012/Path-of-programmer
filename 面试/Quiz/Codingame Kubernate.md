@@ -195,4 +195,22 @@ Which of the following is **not a required field** while creating a Kubernetes
 
 # Text
 
+### get-contexts
+
+Which `kubectl` sub-command should be used to view **all available contexts** in the Kubernetes config file (kubeconfig)?
+
+### Top command
+
+Which `kubectl` sub-command could be used to quickly see the current **memory and CPU usage** of a Kubernetes node?
+
+_Type one word only._
+
+### Kubelet
+
+Which worker node component is responsible for the **communication** with the Kubernetes master node?
+
+### kube-system namespace
+
+In which **namespace** does Kubernetes create its internal objects?
+
 # Code

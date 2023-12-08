@@ -248,6 +248,145 @@ When a request object leaves the client, its first stop when it enters into a Sp
 
 # Text
 
+### [Core] Conditional bean
+
+Consider the following two classes: one that implements a custom condition check:  
+  
+![model condition](https://static.codingame.com/work/servlet/fileservlet?id=18031252805060)  
+  
+and another that defines a bean:  
+  
+![bean conditional](https://static.codingame.com/work/servlet/fileservlet?id=18031273590564)  
+  
+You want the `ModelProcessor` bean to be created only if the environmental variable `MODEL` exists. To do so, using the `ModelExistsCondition` class, with what annotation would you replace the `XXX` placeholder?  
+  
+_Write down the full annotation._
+
+### [Data] findAllByGivenName
+
+Given the `User` entity and `UserRepository` below:
+
+```java
+@Entity
+public class User {
+
+    @Id
+    private Long id;
+    private String givenName;
+
+    // ... getters and setters
+}
+```
+
+What method name should you write instead of `XXX` in the `UserRepository` below to make use of Spring Data naming conventions to automatically create a database operation that finds all users with a specified `givenName` without requiring a custom query?
+
+```java
+@Repository
+public interface UserRepository extends JpaRepository<Long, User> {
+    public Collection<User> XXX(String givenName);
+}
+```
+
+### [Web] PathVariable
+
+An endpoint in Spring is defined as the following:
+
+```java
+@RequestMapping("/hello/{type}")
+```
+
+The `type` attribute in the above URL can be used in the following way:
+
+```java
+public void getType(@XXX("type") String type) { ... }
+```
+
+What annotation should you write instead of `XXX`?
+
+### [Web] STOMP
+
+What is the name of the text-based protocol used by Spring to send messages on top of Websockets?
+
+### [Cloud] EnableFeignClients
+
+To use Feign with Spring, which annotation should you write instead of `XXX`? 
+
+```java
+@SpringBootApplication
+@XXX
+public class MyApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MyApplication.class, args);
+	}
+
+	@FeignClient("hello")
+	static interface WaveService {
+		@RequestMapping("/hello")
+		public String getWave();
+	}
+}
+```
+
+### [Security] @EnableWebSecurity
+
+What Spring annotation must be added to the class below (replacing `// XXX`) to enable the web security configuration specified?
+
+```java
+@Configuration
+// XXX
+public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
+
+      protected void configure(HttpSecurity http) throws Exception {
+         http
+               .authorizeRequests()
+               .anyRequest().authenticated()
+               .and()
+               .logout()
+               .permitAll();
+      }
+}
+```
+
+### [Rest] RestTemplate
+
+What ReST client class does Spring provide to make calls to external APIs?
+
+### [Boot] Running a project
+
+To run a Spring Boot project from the command line, we can use the `mvnw` command, as shown below:
+
+```bash
+./mvnw package spring-boot:XXX
+```
+
+What should you write instead of `XXX`?
+
+### [Core] Beans
+
+What do you call the objects that are instantiated, managed and destroyed by Spring IoC containers?
+
+### [Validation] Validator
+
+What is the name of Spring interface implemented here, used to validate a business model across multiple Spring modules?  
+  
+![](https://static.codingame.com/work/servlet/fileservlet?id=18219046008370)
+
+### [Data] find by Id
+
+You have a `User` entity and you have a `UserRepository` interface extending `CrudRepository` for accessing it from a database.  
+  
+![](https://static.codingame.com/work/servlet/fileservlet?id=18217103126443)  
+  
+What method should you define to be able to retrieve a `User` object by its id?  
+  
+_Type the name of the method._
+
+
+
+
+
+
 # Code
 
 

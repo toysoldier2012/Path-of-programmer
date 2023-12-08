@@ -155,4 +155,20 @@ dispatch({ type: 'PUSH_FOO', foo: 6 });
 
 # Text
 
+### React context to pass data
+
+What would you use to pass data through the component tree without having to pass props manually to each level?
+
+### [Redux] Actions
+
+What's the name of the objects that are used to send data payloads to redux stores in order to update them?
+
+### React props
+
+In React, what is the object used to pass data from parent to child?
+
+
+
+
+
 # Code

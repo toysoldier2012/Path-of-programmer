@@ -172,3 +172,34 @@ How will you fix this issue?
 - Check your SQL username and password
 - Check the SQL server name
 - Add the `public` tag to your Azure SQL database
+
+# Text
+
+### Azure SPN - Permissions
+
+You create an SPN (Service Principal Name) and you need to give the following permission: `https://graph.microsoft.com/User.Read`.
+
+What needs to be modified at the SPN level?
+
+_Write the option name as displayed in the following screenshot._
+
+  
+![](https://static.codingame.com/work/servlet/fileservlet?id=37708392003426)
+
+### Azure Machine Learning
+
+Which Azure service can be used to build predictive models?
+
+
+
+
+
+
+
+
+
+
+
+
+
+

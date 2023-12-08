@@ -208,4 +208,12 @@ What is the correct syntax for handling **user navigation** when using **Vue 
 
 # Text
 
+### Else-if condition in Vue.js
+
+Which directive is used for "**else** **if**" conditions in Vue.js?
+
+### Two-way binding directive
+
+Which Vue.js directive is used for **two-way data binding**?
+
 # Code

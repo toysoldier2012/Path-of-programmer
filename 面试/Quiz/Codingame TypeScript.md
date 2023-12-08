@@ -371,4 +371,46 @@ Which of the following **access modifier** IS NOT present in TypeScript?
 
 # Text
 
+### Dilemma with "this"
+
+```typescript
+const objOne = {
+	firstName: "Martin",
+	surName: "Piyal",
+	getFullName(): string {
+		return this.firstName + this.surName;
+	},
+};
+```
+
+If you want `this` to refer to the global object, and not to `objOne`, what type of function should you use to convert the current `getFullName`?
+
+### Finding an optional property in an interface
+
+```typescript
+interface Info {
+	name: string;
+	age?: number;
+	profession?: string;
+	isStudent: boolean;
+	isNative?: boolean;
+}
+```
+
+Write the name of an optional property of `Info`.
+
+There may be multiple optional properties. If this is the case, any of them is a valid answer, but you must write ONLY ONE of them.
+
+### TypeScript VOID type
+
+What return type should be given to a function that **returns nothing**?
+
+```typescript
+function process(): any {
+    return;
+}
+```
+
+_Type the keyword to replace `any` so that the function has its correct data return type._
+
 # Code

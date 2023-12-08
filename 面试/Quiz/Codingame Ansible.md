@@ -130,3 +130,47 @@ Which **templating** solution is used by Ansible?
 - html
 - jinja2
 - jade
+
+# Text
+
+### Inventory file children
+
+What **keyword** goes in the inventory file below to make the `prod_mysql` and `prod_http` groups a subset of the `prod` group?
+
+```yaml
+[prod:your_keyword_goes_here]
+prod_mysql
+prod_http
+
+[prod_http]
+server1
+
+[prod_mysql]
+server2
+```
+
+### Prompt module
+
+Which module or section in Ansible can be used to **prompt** the user for input?
+
+### Setup module
+
+Which ansible **module** is used to **gather facts** about remote hosts?
+
+### Notify handler
+
+Which **directive** in an Ansible task is used to call a **handler**?
+
+
+
+
+
+
+
+
+
+
+
+
+
+

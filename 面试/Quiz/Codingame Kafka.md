@@ -214,4 +214,10 @@ What is the recommended number of Zookeeper nodes to be used in a cluster?
 
 # Text
 
+### [Kafka Core] Maximum number of consumers
+
+In a cluster of **3 brokers**, a topic is created with **10 partitions**. How many **consumers** can be active at a time in **a consumer group**?
+
+_Write a number_
+
 # Code

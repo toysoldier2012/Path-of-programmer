@@ -407,31 +407,24 @@ You are working with the following table, called `ratings`: 
 
 Which querie(s) return the number of rows with non-null rating ? (7 rows in that example).
 
-- 
 ```sql
 SELECT COUNT(rating)
 FROM ratings
 ```
-
-- 
 ```sql
 SELECT COUNT(*)
 FROM ratings
 ```
-
-- 
 ```sql
 SELECT SUM(
 	CASE WHEN rating IS NULL THEN 0
 	ELSE 1 END)
 FROM ratings
 ```
-
-- 
 ```sql
 SELECT SUM(rating)
 FROM ratings
-    ```
+```
 
 ### SQL - Foreign key #1
 Design (20 pts)
@@ -467,4 +460,133 @@ Which SQL command would you use to add a row in a table of a database?
 
 # Text
 
+### WHERE clause with EXISTS keyword
+
+You are working with the following tables: 
+
+![](https://www.codingame.com/work/servlet/fileservlet?id=57161896349644)
+
+In the following query, what should you replace `XXX` with, to retrieve the products that have been ordered at least once?
+
+```sql
+SELECT p.name
+FROM product p
+WHERE XXX ( -- Replace XXX 
+    SELECT op.product_id
+    FROM order_product op 
+    WHERE p.product_id = op.product_id
+)
+```
+
 # Code
+
+### Pivoting columns to rows
+
+#### Data model
+
+ ![](https://static.codingame.com/work/servlet/fileservlet?id=50500557623035)
+
+#### Goal
+
+For data analysis purposes, you want the type of alcohol to appear in rows, not columns.
+
+In other words, instead of three columns (`beer_consumption`, `spirit_consumption`, `wine_consumption`), you want to display two columns: `alcohol` (equal to 'beer', 'spirit' or 'wine') and `alcohol_consumption`. 
+
+#### Requirements
+
+- Expected columns: `country`, `alcohol`, `alcohol_consumption`, in that order.
+    
+- Sort the rows by `alcohol_consumption` descending, then by `country` ascending. 
+
+#### Example:
+
+| COUNTRY | ALCOHOL | ALCOHOL_CONSUMPTION |
+| ------- | ------- | ------------------- |
+| Grenada | spirit  | 438                 |
+| Namibia | beer    | 376                 |
+| Belarus | spirit  | 373                 |
+| France  | wine    | 370                 |
+
+### SQL - GROUP BY
+
+![](https://www.codingame.com/work/servlet/fileservlet?id=57161896349644)
+
+Modify the query to list the number of products per product category.
+ 
+Product categories with **no products** are not to be listed.  
+  
+**Only output the CATEGORY_NAME (product_category.name) and PRODUCT_COUNT columns in that order.**  
+ 
+Example of output:
+
+| CATEGORY_NAME | PRODUCT_COUNT |
+| ------------- | ------------- |
+| Books         | 3             |
+| Automotive    | 2             |
+| High-tech     | 8             |
+
+### Exclusions in the JOIN
+
+#### Data model
+
+![](https://static.codingame.com/work/servlet/fileservlet?id=50490099572396)
+
+_`gold`, `silver`, and `bronze` contain the names of athletes who have won medals in the event._ 
+
+#### Goal
+
+Write a query that returns the number of gold medals per swimmer, for swimmers who received **only** gold medals. This means that the swimmer's name will appear in the `gold` column of the `events` table, but not in the `silver` or `bronze` columns.
+
+#### Requirements
+
+- Expected columns: `name`, `total`, in that order.
+- Sort the rows by `name` ascending.
+- Example:
+
+| NAME           | TOTAL |
+| -------------- | ----- |
+| Matthew Mccray | 1     |
+| Nicole Goldman | 2     |
+| Thomas Baker   | 11    |
+
+### Simple WHERE condition (with AND)
+
+#### Data model
+
+![](https://static.codingame.com/work/servlet/fileservlet?id=50338639038339)
+
+#### Goal
+
+Write a query that returns the top _all-around_ baseball hitters. We define a top _all-around_ baseball hitter as someone whose batting average (`ba`) is 0.300 or higher, and whose number of home runs hit (`hr`) is 30 or higher.
+
+#### Requirements
+
+- Expected columns: `first_name`, `last_name`, in that order.
+- Sort the rows by `last_name` in alphabetical order. 
+- Example:
+
+| FIRST_NAME | LAST_NAME |
+| ---------- | --------- |
+| Chad       | Adkinson  |
+| Vernon     | Giroux    |
+| Lewis      | Winters   |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

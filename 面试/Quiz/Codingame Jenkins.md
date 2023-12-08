@@ -153,4 +153,15 @@ Which of the following is **not a valid** coordinate?
 
 # Text
 
+### [Jenkins] JENKINS_HOME
+
+What is the **environment variable** containing the path of Jenkins' **main folder**?
+
+### [Jenkins] Jenkinsfile
+
+Jenkins Pipelines can be described directly into the Web UI, but they can also be written to files.
+
+What is the **name of the file** that **describes a Pipeline**?
+
+
 # Code

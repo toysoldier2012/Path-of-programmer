@@ -188,3 +188,23 @@ What does CSS stand for?
 - Cascading Style Sheets
 - Common Sheet Styles
 
+# Text
+
+### [CSS] Prefixes
+
+In CSS, what symbol is used as a prefix to select an element by **id**?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

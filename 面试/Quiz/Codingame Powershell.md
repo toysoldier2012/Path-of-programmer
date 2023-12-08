@@ -203,4 +203,91 @@ Select the common parameters provided by PowerShell. 
 
 # Text
 
+### Scopes
+
+What would be the output of calling the following `parent` function? 
+
+```powershell
+$location = "main"
+
+function child  
+{  
+    write-host $location
+}  
+function parent
+{  
+    $Private:location = "parent" 
+    child
+}
+```
+
+### Select-Object cmdlet
+
+You run `Get-ADUser PlayerOne` and get the following result:
+
+```powershell
+DistinguishedName : CN=PlayerOne,CN=Users,DC=codingame,DC=com
+Enabled           : False
+GivenName         : 
+Name              : PlayerOne
+ObjectClass       : user
+ObjectGUID        : 220b4457-7ccf-4a83-82d9-81b6a54247ba
+SamAccountName    : PlayerOne
+SID               : S-1-5-21-2166328887-3569676566-1304806903-1108
+Surname           : 
+UserPrincipalName :
+```
+
+You want to get the following output:
+
+```powershell
+Name      Enabled
+----      -------
+PlayerOne   False
+```
+
+ What should you write instead of `XXX`?
+
+```powershell
+Get-ADUser PlayerOne | XXX | Format-Table
+```
+
+### Using operators (-contains)
+
+You created a variable `$users` with the following code:
+
+```powershell
+$users = Get-ADuser -Filter * | select -ExpandProperty name 
+```
+
+You want to check if the user `PlayerOne` is in the list. What logical operator should replace `XXX`?
+
+```powershell
+$users XXX "PlayerOne"
+```
+
+### -WhatIf switch
+
+You want to add a new record to your DNS zone with the following command:
+
+```powershell
+add-DnsServerResourceRecordA -AllowUpdateAny -ZoneName "codingame.com" -Name "gamer" `
+-IPv4Address "192.168.1.99" -ComputerName localhost
+```
+
+Before actually executing this code, you want to simulate its execution to see what changes would be made to which objects.
+
+What switch would you use to achieve this?
+
+### Getting the history of executed cmdlets
+
+What command would you write to list all the commands executed in the current session?
+
+
+
+
+
+
+
+
 # Code

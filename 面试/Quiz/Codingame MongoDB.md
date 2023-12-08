@@ -417,4 +417,75 @@ Which of the following statement is **false** regarding replica sets in MongoD
 
 # Text
 
+### Index count
+
+You have the following documents in a collection:
+
+```javascript
+[
+  {
+    "_id": 5,
+    "name": "Stiles",
+    "subjects": ["history", "math"]
+  },
+  {
+    "_id": 6,
+    "name": "Malia",
+    "age": 17,
+    "subjects": ["history", "science"],
+    "dob": ISODate("2003-09-01")
+  },
+  {
+    "_id": 7,
+    "name": "Alisson",
+    "age": 21,
+    "code": "0092830",
+    "dob": ISODate("1999-09-02")
+  }
+]
+```
+
+Suppose you have created a single index, on the `code` field. How many indexes now exist on this collection? 
+
+_Answer with an integer._
+
+### Create a capped collection
+
+To create a capped collection in MongoDB, we can use the following command:
+
+```bash
+db.createCollection("profilelogs", { XXX: true, size: 4096 });
+```
+
+What attribute should be written instead of `XXX`?
+
+### cursor.pretty()
+
+Which method should replace `XXX` to display results in a formatted way in the MongoDB shell?
+
+```javascript
+> db.games.find({"author": "Coding Escape"}).XXX()
+```
+
+```javascript
+{
+    "_id" : ObjectId("52c542d5449b55922b54ed8d"),
+    "title" : "Back to the '80s",
+    "authorship" : "Coding Escape"
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Code

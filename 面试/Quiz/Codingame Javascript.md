@@ -279,6 +279,72 @@ var myNumber = 2;
 
 # Text
 
+### Suitable Array Method
+
+While conducting a scientific experiment, Michelle comes up with an array of results:
+
+```javascript
+[0.1, 2.3, 5.6, 7.8, 10.9]
+```
+
+The professor however wants the results to be integers, not floating-point values, and suggests using `Math.floor`. 
+
+The professor wants the **original values to be preserved as well.**
+
+Which **array method** would you recommend her to use to come up with the integer array? 
+
+_Answer in one word._
+
+### [JS] Parameters
+
+In JavaScript, which keyword is used to access the array of arguments of a function?
+
+### [JS] Design pattern 01
+
+```javascript
+var patternClass = (function () {
+    var instance;
+ 
+    function createInstance() {
+        var object = new Object("This is the instance");
+        return object;
+    }
+ 
+    return {
+        getInstance: function () {
+            if (!instance) {
+                instance = createInstance();
+            }
+            return instance;
+        }
+    };
+})();
+ 
+```
+
+If you know the design pattern used in this piece of code, type its name in the text field (1 word only).
+
+### [JS] Loop steps
+
+In JavaScript, what keyword is used to skip the current step of a loop and move on to the next one ?
+
+### Type of args
+
+```javascript
+function log(...args) {
+  // Do something with args
+}
+
+log(1, 2, 3, 4);
+```
+
+What is the expected value of `typeof args` inside the `log` function?
+
+_Answer in one word._
+
+
+
+
 # Code
 
 

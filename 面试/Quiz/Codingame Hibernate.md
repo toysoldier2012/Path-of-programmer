@@ -339,4 +339,39 @@ What is the difference between JPA and Hibernate?
 
 # Text
 
+### Number of tables
+
+Consider the following two Hibernate entities:
+
+```java
+@Entity
+public class Vehicle {
+    @Id
+    private Long id;
+    
+    @ManyToMany
+    private List<Driver> drivers;
+
+    // getters and setters
+}
+```
+
+```java
+@Entity
+public class Driver {
+    @Id
+    private Long id;
+    
+    @ManyToMany
+    private List<Vehicle> vehiclesDriven;
+
+    // getters and setters
+}
+```
+
+How many tables would you expect Hibernate to generate for these two entities when used with a relational database?
+
+_Answer with a number._
+
+
 # Code
