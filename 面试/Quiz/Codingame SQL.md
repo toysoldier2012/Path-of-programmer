@@ -571,22 +571,273 @@ Write a query that returns the top _all-around_ baseball hitters. We define a 
 | Vernon     | Giroux    |
 | Lewis      | Winters   |
 
+### DENSE_RANK function
 
+#### Data model
 
+![](https://www.codingame.com/work/servlet/fileservlet?id=57161896349644)
 
+#### Goal
 
+Customers make some purchase orders, each one having a date, and containing one or more products.
 
+List each customer and each purchased product, along with the rank of the order it was in (1 for the order with the oldest date, 2 for the second order, etc.).
 
+#### Requirements
 
+- Expected columns: `customer_id`, `product_name`, `order_number`, in that order.
+- Sort the rows by `customer_id` and by `order_number` ascending.
 
+#### Example:
 
+| CUSTOMER_ID | PRODUCT_NAME | ORDER_NUMBER |
+| ----------- | ------------ | ------------ |
+| 0           | Kindle Fire 7                           | 1            |
+| 0           | HC-SR04                                 | 1            |
+| 0           | DuroStar DS4000S                        | 2            |
+| 0           | GreenWorks 25022                        | 2            |
+| 1           | Ab Wheel                                | 1            |
+| 1           | Leap motion                             | 2            |
+| 1           | California: A Novel                     | 2            |
+| 1           | Electrical PVC Insulation Adhesive Tape | 3            |
+| 1           | The Orphan Master's Son: A Novel        | 4            |
+| 3           | ProForm 6.0 RT                          | 1            |
 
+### Data transformation
 
+#### Data model
 
+![](https://static.codingame.com/work/servlet/fileservlet?id=50495735002069)
 
+#### Goal
 
+For each employee, return a code containing the following elements separated by a `-`:
 
+- First letter of the `first_name` together with the first and last letter of the `last_name`, in capital letters.
+- `satisfaction` (keeping only two digits after the decimal point).
+- The character "x" if the employee's seniority (`num_years`) is greater than or equal to 3 years. 
 
+#### Requirements
 
+- Expected column: `employee_code`.
+- Sort the rows by `satisfaction` descending. 
 
+#### Exemple:
 
+| employee_code |
+| ------------- |
+| BHS-0.99-x    |
+| TAL-0.98      |
+| JMY-0.97-x    |
+
+### HAVING with a calculated field and OR condition
+
+#### Data model
+
+![](https://static.codingame.com/work/servlet/fileservlet?id=50494591661391)
+
+#### Goal
+
+Write a query that returns all students whose average test score (`avg_score`) on humanities tests (i.e. `test_name` as 'English Test' or 'History Test') is 0.9 or higher.
+
+#### Requirements
+
+- Expected columns: `first_name`, `last_name`, `avg_score`, in that order.
+- Round the average score up to keep only two decimals.
+- Sort the rows by average test score (not rounded) in descending order.
+- Example:
+
+| FIRST_NAME | LAST_NAME | AVG_SCORE |
+| ---------- | --------- | --------- |
+| Joann      | Stroik    | 0.99      |
+| Teddy      | Bryant    | 0.91      |
+| Rebecca    | Coffee    | 0.91      |
+
+### [Vehicle Data Model] SQL - HAVING
+
+#### Data model
+
+![](https://www.codingame.com/work/servlet/fileservlet?id=57161997823606)
+
+#### Goal
+
+List the number of vehicles per vehicle make. List only those vehicle makes for which the number of vehicles is equal to or greater than two.
+
+#### Requirements
+
+- Expected columns: `make`, `vehicle_make_count`, in that order.
+- Example:
+
+| MAKE | VEHICLE_MAKE_COUNT |
+| ---- | ------------------ |
+| Ford   | 8                  |
+| Toyota | 2                  |
+
+### [Vehicle Data Model] SQL - LIKE
+
+#### Data model
+
+![](https://www.codingame.com/work/servlet/fileservlet?id=57161997823606)
+
+#### Goal
+
+Extract the vehicles having their name (`vehicle_name`) starting with 'G'.
+
+#### Requirements
+
+- Expected columns: `make`, `model`, in that order.
+- Sort the rows alphabetically by `make` then `model`.
+- Example:
+
+| MAKE   | MODEL  |
+| ------ | ------ |
+| Ford   | F150   |
+| Toyota | Tercel |
+
+### [Vehicle Data Model] SQL - NOT EXISTS
+
+#### Data model
+
+![](https://www.codingame.com/work/servlet/fileservlet?id=57161997823606)
+
+#### Goal
+
+Extract the vehicles with no associated vehicle parts.  
+  
+
+#### Requirements
+
+- Expected column: `vehicle_id`.
+    
+- Example:
+
+| VEHICLE_ID |
+| ---------- |
+| 8          |
+| 5          |
+
+### [Vehicle Data Model] SQL - NOT NULL
+
+#### Data model
+
+![](https://www.codingame.com/work/servlet/fileservlet?id=57161997823606)
+
+#### Goal
+
+Extract the `vehicle_part_location` rows that have a `location_id` equal to 3, 6, or 12 and have a `left_timestamp` defined.
+
+#### Requirements
+
+- Expected columns: `vehicle_part_id`, `arrived_timestamp`, in that order.
+- Example:
+
+| VEHICLE_PART_ID | ARRIVED_TIMESTAMP           |
+| --------------- | --------------------------- |
+| 4               | 2019-08-18T20:30:20.0000000 |
+| 6               | 2019-12-21T04:33:32.0000000 |
+| 7               | NULL                        |
+
+### SQL - NOT EXISTS
+
+![](https://www.codingame.com/work/servlet/fileservlet?id=57161896349644)
+
+Modify the query to select only the customers with no associated purchase orders.  
+  
+**Only output the CUSTOMER_ID column**.
+
+Example of output:
+
+| CUSTOMER_ID |
+| ----------- |
+| 8           |
+| 5           |
+
+### [Vehicle Data Model] SQL - DISTINCT
+
+#### Data model
+
+![](https://www.codingame.com/work/servlet/fileservlet?id=57161997823606)
+
+#### Goal
+
+Extract the list of states or provinces in the `location` table.
+
+#### Requirements
+
+- Expected column: `state_province`.
+    
+- Sort the rows alphabetically. 
+- Do not display duplicates. 
+- Example:
+
+| STATE_PROVINCE |
+|-----------------|
+| Arkansas       |
+| New York       |
+| Texas          |
+
+### BETWEEN in WHERE clause
+
+#### Data model
+
+![](https://static.codingame.com/work/servlet/fileservlet?id=50495735002069)
+
+#### Goal
+
+Extract employees with `last_name` between "Hall" and "Reed" (inclusive) in alphabetical order.
+
+#### Requirements
+
+- Expected columns: `first_name`, `last_name`, in that order.
+    
+- Sort the rows by `last_name` ascending. 
+- Example:
+
+| FIRST_NAME | LAST_NAME |
+| ---------- | --------- |
+| Helen      | Hall      |
+| Kristin    | Hanson    |
+| Jeff       | Harmon    |
+| Elsie      | Mcgowan   |
+| Evelyn     | Mirando   |
+| George     | Moss      |
+
+### SQL - DISTINCT
+
+![](https://www.codingame.com/work/servlet/fileservlet?id=57161896349644)
+
+Modify the query to get the list of customers' cities. The list should contain no duplicates and should be sorted alphabetically.
+
+  
+**Only output the CITY column.**  
+ 
+
+Example of output:
+
+| CITY        |
+| ----------- |
+| Istanbul    |
+| Montpellier |
+| Tokyo       |
+
+### Simple WHERE condition (equality)
+
+#### Data model
+
+#### ![](https://static.codingame.com/work/servlet/fileservlet?id=50500557623035)
+
+#### Goal
+
+Write a query that returns all countries whose annual average alcohol consumption per person is 0 liters (i.e. `total_consumption` is 0).
+
+#### Requirements
+
+- Expected column: `country`.
+- Sort the rows by `country` ascending.
+- Example:
+
+| COUNTRY     |
+| ----------- |
+| Afghanistan |
+| Kuwait      |
+| Somalia     |

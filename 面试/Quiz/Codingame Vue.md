@@ -217,3 +217,62 @@ Which directive is used for "**else** **if**" conditions in Vue.js?
 Which Vue.js directive is used for **two-way data binding**?
 
 # Code
+
+### Password validator
+
+#### PURPOSE
+
+Your task is to create a simple Vue.js password validator component named `PasswordField`. It should contain an `<input>` field, and a message in a `<p>` paragraph.
+
+#### REQUIREMENTS
+
+To be valid, a password must:
+
+- be at least 8 characters long,
+- AND contain at least one letter and one number.
+
+Depending on whether a given password meets these conditions or not: 
+
+- display "Password valid" in green (color set as "green") if both conditions are met,
+- display "Password invalid" in red (color set as "red") otherwise.
+
+The message must always be displayed and updated as soon as the field value changes.
+
+![[Pasted image 20231208150027.png]]
+
+### Named slots with fallback values
+
+Your task is to create a Vue.js component that displays some content using **slots**.
+
+Your component should match the following requirements:
+
+- There should be two named slots, "header" and "footer", that displays content inside of the tags `<header id="header">` and `<footer id="footer">`, respectively.
+
+- In between the named slots, there should be an unnamed slot that displays content inside of `<div id="body">`.
+
+- All the slots should have fallback values, in the form of a paragraph with their id inside of it. If no slot content was passed, the component would be rendered like this:
+
+```html
+<div>
+    <header id="header">
+        <p>header</p>
+    </header>
+    <div id="body">
+        <p>body</p>
+    </div>
+    <footer id="footer">
+        <p>footer</p>
+    </footer>
+</div>
+```
+
+### Conditional message
+
+Your task is to create a simple Vue.js component named `Message` rendered as a `<p>`.
+
+The component should take **three props** and display the right message**:**
+
+- the boolean `condition`,
+- and two strings, `message1` and `message2`.
+
+![](https://static.codingame.com/work/servlet/fileservlet?id=37164655864301)
