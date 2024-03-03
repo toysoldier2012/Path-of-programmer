@@ -1,43 +1,58 @@
 #http
 
-无状态
-无法记录之前的用户状态
+HyperText Transfer Protocol, un protocole de la couche application, permet de transmettre les données entre le client et le serveur, il a trois caractères principaux:
+
+- Stateless. Bien que HTTP/1.1 apporte le cookies pour gérer l'état, le protocole lui-même est sans  état
+- Extensible. HTTP permet de transmettre des objets variés, spécifiés par le champ d'entête Content-Type
+- En modèle requête-réponse. Le modèle d'interaction définit une série de méthodes 
+
+# Version de HTTP
+
+## HTTP/1.0
+
+## HTTP/1.1
+
+## HTTP/2
+
+Ce protocole contient principalement deux partie: la requête et la réponse
+
+# 请求
+
+请求包含请求行，请求头，请求体三个部分组成
+
+## 请求行
+
+是HTTP请求的第一行，包含三个重要信息
+
+- 请求方法
+- 请求[[URI]]
+- HTTP协议版本
+
+一般格式如下
+
+```bash
+GET /index.html HTTP/1.1
+```
+
+常见的请求方法为GET，POST，PUT，DELETE，HEAD，OPTION，PATCH，CONNECT，TRACE
+
+### 协议版本
+
+HTTP/1.0，HTTP/1.1，HTTP/2
+
+## Header
 
 
-| Operation | API Endpoint      | HTTP Method | Response Status |
-| --------- | ----------------- | ----------- | --------------- |
-| Create    | `/cashcards`      | `POST`      | 201 (CREATED)   |
-| Read      | `/cashcards/{id}` | `GET`       | 200 (OK)        |
-| Update    | `/cashcards/{id}` | `PUT`       | 204 (NO DATA)   |
-| Delete    | `/cashcards/{id}` | `DELETE`    | 204 (NO DATA)   |
 
-# Restful API
-#restful
+## Body
 
-Representation state transfer API
 
-## GET requests
-#get
 
-Pour récupérer les inforamations
+# 响应
 
-## POST requests
-#post
+Après avoir traité le requête du client par le serveur, le serveur renverra une réponse HTTP. La réponse contient 3 parties principaux: 
 
-Création
-
-## DELETE requests
-#delete
-
-Suppression
-
-## PUT/PATCH requests
-#put #patch
-
-PUT est pour modifier le resource, ou créer un nouveau resource s'il n'est pas exist
-PATCH est pour modifier partiellement
-
-# Status codes
+## Status codes
 
 200+ les codes réussi
 
