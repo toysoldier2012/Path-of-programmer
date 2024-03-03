@@ -16,9 +16,9 @@ HyperText Transfer Protocol, un protocole de la couche application, permet de tr
 
 Ce protocole contient principalement deux partie: la requête et la réponse
 
-# 请求
+# Requête
 
-请求包含请求行，请求头，请求体三个部分组成
+Une requête contient trois parties:
 
 ## 请求行
 
