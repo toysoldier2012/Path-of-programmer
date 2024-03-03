@@ -1,8 +1,3 @@
-# [[Tomcat]]
-
-
-> [!question] 
-> **Q: A quoi sert Tomcat** #D1 
 
 Web 容器
 	封装 Http 协议，简化操作

@@ -6,14 +6,6 @@ HyperText Transfer Protocol, un protocole de la couche application, permet de tr
 - Extensible. HTTP permet de transmettre des objets variés, spécifiés par le champ d'entête Content-Type
 - En modèle requête-réponse. Le modèle d'interaction définit une série de méthodes 
 
-# Version de HTTP
-
-## HTTP/1.0
-
-## HTTP/1.1
-
-## HTTP/2
-
 Ce protocole contient principalement deux partie: la requête et la réponse
 
 # Requête
@@ -34,7 +26,7 @@ Une requête contient trois parties:
 GET /index.html HTTP/1.1
 ```
 
-常见的请求方法为GET，POST，PUT，DELETE，HEAD，OPTION，PATCH，CONNECT，TRACE
+常见的请求方法为GET，[[POST]]，PUT，DELETE，HEAD，OPTION，PATCH，CONNECT，TRACE
 
 ### 协议版本
 
@@ -48,23 +40,24 @@ HTTP/1.0，HTTP/1.1，HTTP/2
 
 
 
-# 响应
+# Réponse
 
 Après avoir traité le requête du client par le serveur, le serveur renverra une réponse HTTP. La réponse contient 3 parties principaux: 
 
 ## Status codes
 
 200+ les codes réussi
-
 300+ redirect
-
 400+ Client error
 - 400 bad request
 - 401 unauthorized
 - 403 forbidden
 - 404 not found
 - 405 method not allowed
-
 500+ Server error
 
 ![[Pasted image 20230926205129.png]]
+
+# Réaliser
+
+A voir [[Apache HTTP]]
