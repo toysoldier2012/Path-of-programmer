@@ -1,4 +1,3 @@
-## Java
 
 #### Q 1. Given the string "strawberries" saved in a variable called fruit, what would `fruit.substring(2, 5)` return?
 
@@ -2554,3 +2553,7 @@ class abc
 - [ ] has-a
 - [ ] was-a
 - [ ] uses-a
+
+#### Q174. What's the different between parameter argument and variable
+#parameter #argument #variable 
+

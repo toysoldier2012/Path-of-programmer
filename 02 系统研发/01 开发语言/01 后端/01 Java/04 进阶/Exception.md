@@ -6,6 +6,8 @@
 
 ## Runtime Exception
 
+
+
 `ArithmeticException` (算术错误）
 `ClassCastException` (类型转换错误）
 `FileNotFoundException`

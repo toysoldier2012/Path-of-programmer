@@ -3,11 +3,9 @@
 ## Singleton
 #singleton
 
-1. 懒汉式
-2. 饿汉式
-3. 枚举类
+Pour assurer qu'un seul instance exist.
 
-线程安全，双重确认
+
 
 ## Simple Factory
 #simplefactory
