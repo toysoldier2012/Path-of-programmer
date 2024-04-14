@@ -5,6 +5,7 @@
 
 Pour assurer qu'un seul instance exist.
 
+Exemple: lire le fichier de configuration; gestion de l'état de système; compteur d'application dans single JVM
 
 
 ## Simple Factory
