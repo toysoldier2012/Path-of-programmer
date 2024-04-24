@@ -2,8 +2,8 @@
   "obsidian-markdown-formatting-assistant-plugin",
   "obsidian-git",
   "obsidian-style-settings",
-  "obsidian-file-cleaner",
   "obsidian-excalidraw-plugin",
   "mousewheel-image-zoom",
-  "editor-width-slider"
+  "editor-width-slider",
+  "file-cleaner-redux"
 ]
