@@ -13,4 +13,5 @@ Au début de 2019, j'ai commencé ma dernière expérience chez Sodexo. Mon trav
 为什么选择LCL
 
 1. LCL CA groupe，是一个非常大的平台，
-2. 
+2. 新技术
+3. 同事关系
