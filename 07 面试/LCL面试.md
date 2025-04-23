@@ -15,3 +15,5 @@ Au début de 2019, j'ai commencé ma dernière expérience chez Sodexo. Mon trav
 1. LCL CA groupe，是一个非常大的平台，
 2. 新技术
 3. 同事关系
+
+4 mois 1 fois renou
