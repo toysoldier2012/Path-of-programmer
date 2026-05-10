@@ -27,11 +27,34 @@ Ceci permet de trouver le but exact, parfois le solution n'est pas développer u
 C'est quasiment pas possible, en général, pendant le développement, 25% de besoins va être changé.
 On peut pas l'évider, mais on peut réduire les impacts négatives:
 
-- 
+- Evaluer les besoins via le checklist
+- Tous les partenaires dois savoir les coûts de changement.
+- Etablir un système de changement de besoin.
+- Utiliser le methode de développement bien adapter aux changements
+- Abonndonner le projet.
 
 ## Planification de construction
-## Conception de haut niveau
-## Conception de détail
+### Conception de haut niveau
+
+Les éléments essenciels :
+- L'organisation de programme
+- Les classes principaux
+- Design de data, détailler la raison des choix
+- Les métiers et ses constructions correspondants
+- Design d'interface
+- Sécurité
+- Performance
+- Evolutivité
+- L'interopérabilité
+- I18n et L10n
+- I/O
+- Exception
+	- Corriger ou juste déterminer les exceptions?
+	- Initiative ou passivité
+	- 
+- 
+
+### Conception de détail
 
 # Développement
 
