@@ -33,8 +33,6 @@ On peut pas l'évider, mais on peut réduire les impacts négatives:
 - Etablir un système de changement de besoin.
 - Utiliser le methode de développement bien adapter aux changements
 - Abonndonner le projet.
-<<<<<<< HEAD
-=======
 
 ## Planification de construction
 ### Conception de haut niveau
@@ -63,30 +61,10 @@ Les éléments essentiels :
 - Tolérance aux fautes
 
 ### Conception de détail
->>>>>>> FETCH_HEAD
 
 ## Planification de construction
-### Conception de haut niveau
-
-Les éléments essenciels :
-- L'organisation de programme
-- Les classes principaux
-- Design de data, détailler la raison des choix
-- Les métiers et ses constructions correspondants
-- Design d'interface
-- Sécurité
-- Performance
-- Evolutivité
-- L'interopérabilité
-- I18n et L10n
-- I/O
-- Exception
-	- Corriger ou juste déterminer les exceptions?
-	- Initiative ou passivité
-	- 
-- 
-
-### Conception de détail
+## Conception de haut niveau
+## Conception de détail
 
 # Développement
 
