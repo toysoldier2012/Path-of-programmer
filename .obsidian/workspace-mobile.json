@@ -157,6 +157,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "file-cleaner-redux:Clean files": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -170,6 +171,9 @@
   "active": "d5803a1a6d0bc043",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-05-15 12.26.27.excalidraw.md",
+    "05 常见套件/框架/后端/Test/Mock/Easymock.md",
+    "05 常见套件/框架/后端/Test/Behavior/Concordion.md",
+    "00 Inbox/Plugins settings/Easy typing.md",
     "00 Inbox/未命名.md"
   ]
 }
