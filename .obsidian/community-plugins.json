@@ -5,5 +5,7 @@
   "obsidian-excalidraw-plugin",
   "mousewheel-image-zoom",
   "editor-width-slider",
-  "file-cleaner-redux"
+  "file-cleaner-redux",
+  "colored-text",
+  "nldates-obsidian"
 ]

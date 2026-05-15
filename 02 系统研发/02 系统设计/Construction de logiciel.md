@@ -24,6 +24,7 @@ Ceci permet de trouver le but exact, parfois le solution n'est pas développer u
 
 ### Evider les changements de besoin?
 
+
 C'est quasiment pas possible, en général, pendant le développement, 25% de besoins va être changé.
 On peut pas l'évider, mais on peut réduire les impacts négatives:
 
@@ -32,6 +33,37 @@ On peut pas l'évider, mais on peut réduire les impacts négatives:
 - Etablir un système de changement de besoin.
 - Utiliser le methode de développement bien adapter aux changements
 - Abonndonner le projet.
+<<<<<<< HEAD
+=======
+
+## Planification de construction
+### Conception de haut niveau
+
+Les éléments essentiels :
+
+- L'organisation de programme
+- Les classes principaux
+- Design de data, détailler la raison des choix
+- Les métiers et ses constructions correspondants
+- Design d'interface
+- Sécurité
+- Performance
+- Evolutivité
+- L'interopérabilité
+- I18n et L10n
+- I/O
+- Exception
+	- Corriger ou juste déterminer les exceptions?
+	- Le traitement active ou passif
+	- La propagation d'exception
+	- L'accord de traitement d'exception
+	- Ou traiter les exceptions
+	- Ou valider les données entrées
+	- Utiliser les traitements intégrés de matrix ou construire des nouveaux
+- Tolérance aux fautes
+
+### Conception de détail
+>>>>>>> FETCH_HEAD
 
 ## Planification de construction
 ### Conception de haut niveau
